@@ -1,0 +1,20 @@
+{
+  "java.configuation.runtimes": [
+    {
+      "name": "java8",
+      "version": "1.8.0_291",
+      "path": "/usr/lib/jvm/java-8-openjdk"
+    },
+    {
+      "name":" java11",
+      "version": "11.0.13",
+      "path": "/usr/lib/jvm/java-11-openjdk",
+      "default": true
+    },
+    {
+      "name": "java6",
+      "version": "1.6.0_45",
+      "path": "/usr/lib/jvm/java-6-openjdk"
+    }
+  ]
+}
