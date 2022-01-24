@@ -24,7 +24,7 @@ set ignorecase
 " set smartcase
 " fold/expand setting
 set foldenable
-set foldmethod=indent 
+"set foldmethod=indent 
 set fdm=syntax
 set showcmd
 " set autochdir 
@@ -41,8 +41,6 @@ set nobackup
 set noswapfile
 " needtree setting
 noremap <leader>tt :NERDTreeToggle<cr>
-" set esc binding
-inoremap jk <Esc>
 nnoremap R :Reload<cr>
 " reload setting command
 command! Reload :source $MYVIMRC<cr>
@@ -50,15 +48,28 @@ command! Reload :source $MYVIMRC<cr>
 " intent line setting
 let g:indent_guides_guide_size=1 " line size
 let g:intent_guides_start_level=2 " show line from level 2
-
+let g:indentLine_enabled = 0 " default off
+let g:indentLine_fileType = ['python']
 " rainbow
 let g:rainbow_active=1
 
 " tagbar file structure
-nnoremap <leader>fs :TagbarToggle<cr>
+nnoremap <leader>fs :TagbarToggle<cr><c-w>l
 " nerdcommenter setting
 let g:NERDSpaceDelims=1
 " ultisnips setting
 let g:UltiSnipsExpandTrigger=""
 " vim fcitx setting
-let g:fcitx5_remote="fcitx5_remote"
+let g:fcitx5_remote="fcitx5-remote"
+" window split setting
+nnoremap \wsl :split<cr>
+nnoremap \wsb :vsplit<cr>
+nnoremap \wl <c-w>l
+nnoremap \wh <c-w>h
+nnoremap \wj <c-w>j
+nnoremap \wk <c-w>k
+
+" command mode up down mapping 
+cmap <c-j> <down>
+cmap <c-K> <up>
+

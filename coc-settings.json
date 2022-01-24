@@ -6,7 +6,7 @@
       "path": "/usr/lib/jvm/java-8-openjdk"
     },
     {
-      "name":" java11",
+      "name": " java11",
       "version": "11.0.13",
       "path": "/usr/lib/jvm/java-11-openjdk",
       "default": true
@@ -16,5 +16,75 @@
       "version": "1.6.0_45",
       "path": "/usr/lib/jvm/java-6-openjdk"
     }
-  ]
+  ],
+  "java.autobuild.enabled": true,
+  "java.trace.server": "verbose",
+  "java.referencesCodelens.enabled": true,
+  "java.implementationsCodelens.enabled": true,
+  "java.import.maven.enabled": true,
+  "java.codeGeneration.generateComments": true,
+  // lombok,hibernate jpamodelgen
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar -Xmx2G",
+  // coc settings
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "json",
+    "css",
+    "less",
+    "sass",
+    "scss",
+    "html"
+  ],
+  "coc.preferences.snippetStatusText": "Ⓢ ",
+  "codeLens.enabled": true,
+  "suggest.echodocSupport": true,
+  "suggest.completionItemKindLabels": {
+    "class": "\uf0e8",
+    "color": "\ue22b",
+    "constant": "\uf8fe",
+    "default": "\uf29c",
+    "enum": "\uf435",
+    "enumMember": "\uf02b",
+    "event": "\ufacd",
+    "field": "\uf93d",
+    "file": "\uf723",
+    "folder": "\uf115",
+    "function": "\u0192",
+    "interface": "\uf417",
+    "keyword": "\uf1de",
+    "method": "\uf6a6",
+    "module": "\uf40d",
+    "operator": "\uf915",
+    "property": "\ue624",
+    "reference": "\ufa46",
+    "snippet": "\ue60b",
+    "struct": "\ufb44",
+    "text": "\ue612",
+    "typeParameter": "\uf728",
+    "unit": "\uf475",
+    "value": "\uf89f",
+    "variable": "\ue71b"
+  },
+  "diagnostic.signOffset": 1,
+  "diagnostic.errorSign": "\uf467",
+  "diagnostic.warningSign": "\uf071",
+  "diagnostic.infoSign": "\uf129",
+  "diagnostic.hintSign": "\uf864",
+  // eslint settings
+  "eslint.enabled": true,
+  "eslint.probe": [
+    "javascript",
+    "typescript",
+    "json",
+    "css",
+    "less",
+    "sass",
+    "scss",
+    "html",
+    "vue",
+    "markdown"
+  ],
+  "eslint.autoFixOnSave": true,
+  "eslint.format.enable": true
 }
