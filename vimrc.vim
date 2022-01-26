@@ -12,7 +12,8 @@ set shiftwidth=2
 set softtabstop=2
 set smarttab
 "line number
-" set number
+set number
+set relativenumber
 set autoread
 " indent
 set autoindent
@@ -21,6 +22,9 @@ set smartindent
 set hlsearch
 set incsearch
 set ignorecase
+exec "nohlsearch"
+nmap n nzz
+nmap N Nzz
 " set smartcase
 " fold/expand setting
 set foldenable
