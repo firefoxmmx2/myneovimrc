@@ -1,3 +1,6 @@
+" leader key mapping
+let g:mapleader=","
+
 set nocompatible
 
 filetype on
@@ -66,14 +69,16 @@ let g:UltiSnipsExpandTrigger="<leader><tab>"
 " vim fcitx setting
 let g:fcitx5_remote="fcitx5-remote"
 " window split setting
-nnoremap \wsl :split<cr>
-nnoremap \wsb :vsplit<cr>
-nnoremap \wl <c-w>l
-nnoremap \wh <c-w>h
-nnoremap \wj <c-w>j
-nnoremap \wk <c-w>k
+nnoremap <leader>wsl :split<cr>
+nnoremap <leader>wsb :vsplit<cr>
+nnoremap <leader>wl <c-w>l
+nnoremap <leader>wh <c-w>h
+nnoremap <leader>wj <c-w>j
+nnoremap <leader>wk <c-w>k
 
 " command mode up down mapping 
 cmap <c-j> <down>
 cmap <c-K> <up>
 
+" save
+nmap S :w<cr>
