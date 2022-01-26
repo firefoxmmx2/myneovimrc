@@ -30,6 +30,7 @@ source ~/.config/nvim/copilot.vim
 source ~/.config/nvim/fzf.vim
 source ~/.config/nvim/dashboard.vim
 source ~/.config/nvim/translator.vim
+source ~/.config/nvim/table-mode.vim
 
 autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
 " color scheme
