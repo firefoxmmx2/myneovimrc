@@ -19,6 +19,8 @@ Plug 'joshdick/onedark.vim'
 Plug 'lilydjwg/fcitx.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'glepnir/dashboard-nvim'
+Plug 'dhruvasagar/vim-table-mode'
+Plug 'puremourning/vimspector'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim
@@ -27,6 +29,7 @@ source ~/.config/nvim/coc.vim
 source ~/.config/nvim/copilot.vim
 source ~/.config/nvim/fzf.vim
 source ~/.config/nvim/dashboard.vim
+source ~/.config/nvim/translator.vim
 
 autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
 " color scheme
