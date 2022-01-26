@@ -58,7 +58,7 @@ nnoremap <leader>fs :TagbarToggle<cr><c-w>l
 " nerdcommenter setting
 let g:NERDSpaceDelims=1
 " ultisnips setting
-let g:UltiSnipsExpandTrigger=""
+let g:UltiSnipsExpandTrigger="<leader><tab>"
 " vim fcitx setting
 let g:fcitx5_remote="fcitx5-remote"
 " window split setting
