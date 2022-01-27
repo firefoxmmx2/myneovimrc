@@ -82,3 +82,5 @@ cmap <c-K> <up>
 
 " save
 nmap S :w<cr>
+" quit without save
+nmap Q :q<cr>
