@@ -30,7 +30,7 @@ nmap n nzz
 nmap N Nzz
 " set smartcase
 " fold/expand setting
-set foldenable
+set nofoldenable
 "set foldmethod=indent 
 set fdm=syntax
 set showcmd
@@ -56,7 +56,7 @@ command! Reload :source $MYVIMRC<cr>
 let g:indent_guides_guide_size=1 " line size
 let g:intent_guides_start_level=2 " show line from level 2
 let g:indentLine_enabled = 0 " default off
-let g:indentLine_fileType = ['python']
+let g:indentLine_fileType = ['python','java','javascript','vue','html']
 " rainbow
 let g:rainbow_active=1
 
@@ -82,5 +82,15 @@ cmap <c-K> <up>
 
 " save
 nmap S :w<cr>
-" quit without save
-nmap Q :q<cr>
+" quit or close buffer mapping 
+nmap Q :call QuitOrCloseBuffer()<cr>
+
+" quit or close buffer
+function! QuitOrCloseBuffer()
+  let buflen=len(getbufinfo({'buflisted':1}))
+  if buflen <= 1
+    quit
+  else
+    bdelete
+  endif
+endfunction
