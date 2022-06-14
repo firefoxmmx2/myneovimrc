@@ -21,6 +21,12 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'glepnir/dashboard-nvim'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'puremourning/vimspector'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'skywind3000/asynctasks.vim'
+Plug 'skywind3000/asyncrun.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim
@@ -32,6 +38,7 @@ source ~/.config/nvim/dashboard.vim
 source ~/.config/nvim/translator.vim
 source ~/.config/nvim/table-mode.vim
 source ~/.config/nvim/treesitter.vim
+source ~/.config/nvim/floaterm.vim
 " color scheme
 colorscheme onedark
 " transparent bg

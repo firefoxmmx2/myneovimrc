@@ -15,7 +15,7 @@ set cmdheight=2
 
 " coc settings
 " coc extenstions list
-let g:coc_global_extensions = ['coc-yank', 'coc-yaml', 'coc-json', 'coc-html', 'coc-css','coc-vetur', 'coc-git', 'coc-pairs', 'coc-snippets', 'coc-tsserver', 'coc-java', 'coc-eslint', 'coc-translator', 'coc-explorer', 'coc-xml']
+let g:coc_global_extensions = ['coc-yank', 'coc-yaml', 'coc-json', 'coc-html', 'coc-css','coc-vetur', 'coc-git', 'coc-pairs', 'coc-snippets', 'coc-tsserver', 'coc-java', 'coc-eslint', 'coc-translator', 'coc-explorer', 'coc-xml', 'coc-tasks']
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by

@@ -64,6 +64,7 @@ let g:rainbow_active=1
 nnoremap <leader>fs :TagbarToggle<cr><c-w>l
 " nerdcommenter setting
 let g:NERDSpaceDelims=1
+nmap <leader>cc <plug>NERDCommenterToggle<cr>
 " ultisnips setting
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 " vim fcitx setting
