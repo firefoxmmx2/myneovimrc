@@ -1,26 +1,23 @@
 {
-  "java.configuation.runtimes": [
+  "java.configuration.runtimes": [
     {
-      "name": "java8",
-      "version": "1.8.0_291",
-      "path": "/usr/lib/jvm/java-8-openjdk"
+      "name": "JavaSE-1.8",
+      "path": "/usr/lib/jvm/java-8-jdk"
     },
     {
-      "name": " java11",
-      "version": "11.0.13",
+      "name": "JavaSE-11",
       "path": "/usr/lib/jvm/java-11-openjdk",
       "default": true
     },
     {
-      "name": "java6",
-      "version": "1.6.0_45",
+      "name": "JavaSE-1.6",
       "path": "/usr/lib/jvm/java-6-openjdk"
     }
   ],
   "java.autobuild.enabled": true,
   "java.trace.server": "verbose",
-  "java.referencesCodelens.enabled": true,
-  "java.implementationsCodelens.enabled": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
   "java.import.maven.enabled": true,
   "java.codeGeneration.generateComments": true,
   // lombok,hibernate jpamodelgen

@@ -27,6 +27,7 @@ Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'voldikss/vim-floaterm'
+Plug 'martinda/Jenkinsfile-vim-syntax'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim

@@ -55,8 +55,8 @@ command! Reload :source $MYVIMRC<cr>
 " intent line setting
 let g:indent_guides_guide_size=1 " line size
 let g:intent_guides_start_level=2 " show line from level 2
-let g:indentLine_enabled = 0 " default off
-let g:indentLine_fileType = ['python','java','javascript','vue','html']
+let g:indentLine_enabled = 1 " default off
+let g:indentLine_fileType = ['python']
 " rainbow
 let g:rainbow_active=1
 
@@ -76,7 +76,10 @@ nnoremap <leader>wl <c-w>l
 nnoremap <leader>wh <c-w>h
 nnoremap <leader>wj <c-w>j
 nnoremap <leader>wk <c-w>k
-
+nnoremap <leader>wy 3<c-w>>
+nnoremap <leader>wo 3<c-w><
+nnoremap <leader>wu 3<c-w>+
+nnoremap <leader>wi 3<c-w>-
 " command mode up down mapping 
 cmap <c-j> <down>
 cmap <c-K> <up>
@@ -95,3 +98,7 @@ function! QuitOrCloseBuffer()
     bdelete
   endif
 endfunction
+
+
+" open file in last poisition
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
