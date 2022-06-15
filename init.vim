@@ -28,6 +28,7 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'voldikss/vim-floaterm'
 Plug 'martinda/Jenkinsfile-vim-syntax'
+Plug 'chenillen/jad.vim'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim
@@ -40,6 +41,7 @@ source ~/.config/nvim/translator.vim
 source ~/.config/nvim/table-mode.vim
 source ~/.config/nvim/treesitter.vim
 source ~/.config/nvim/floaterm.vim
+source ~/.vim/plugged/jad.vim/jad.vim
 " color scheme
 colorscheme onedark
 " transparent bg
