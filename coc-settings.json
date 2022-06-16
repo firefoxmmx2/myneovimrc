@@ -11,7 +11,7 @@
     },
     {
       "name": "JavaSE-1.6",
-      "path": "/usr/lib/jvm/java-6-openjdk"
+      "path": "/usr/lib/jvm/java-6-jdk"
     }
   ],
   "java.autobuild.enabled": true,
