@@ -35,7 +35,7 @@ command! Reload :source $MYVIMRC
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/copilot.vim
 source ~/.config/nvim/fzf.vim
-" source ~/.config/nvim/dashboard.vim
+source ~/.config/nvim/dashboard.vim
 source ~/.config/nvim/translator.vim
 source ~/.config/nvim/table-mode.vim
 source ~/.config/nvim/treesitter.vim
