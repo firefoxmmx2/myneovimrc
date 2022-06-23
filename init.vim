@@ -42,6 +42,7 @@ source ~/.config/nvim/table-mode.vim
 source ~/.config/nvim/treesitter.vim
 source ~/.config/nvim/floaterm.vim
 source ~/.vim/plugged/jad.vim/jad.vim
+lua require('dashboard-setting')
 " color scheme
 colorscheme onedark
 " transparent bg
