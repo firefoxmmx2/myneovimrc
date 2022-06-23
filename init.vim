@@ -10,7 +10,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'github/copilot.vim'
 Plug 'posva/vim-vue'
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
@@ -29,6 +28,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'voldikss/vim-floaterm'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'chenillen/jad.vim'
+Plug 'cuducos/yaml.nvim'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim
