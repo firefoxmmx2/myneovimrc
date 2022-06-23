@@ -22,7 +22,7 @@ db.custom_header = {
 
 db.custom_center = {
  {icon = '  ',
-      desc = 'Recently latest session                  ',
+      desc = 'Recently latest session                 ',
       shortcut = 'SPC s l',
       action ='SessionLoad'},
       {icon = '  ',
