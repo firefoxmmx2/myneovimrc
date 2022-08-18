@@ -29,6 +29,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'chenillen/jad.vim'
 Plug 'cuducos/yaml.nvim'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim

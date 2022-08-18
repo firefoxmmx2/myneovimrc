@@ -38,8 +38,7 @@
     "html"
   ],
   "coc.preferences.snippetStatusText": "Ⓢ ",
-  "codeLens.enabled": true,
-  "suggest.echodocSupport": true,
+  "codeLens.enable": true,
   "suggest.completionItemKindLabels": {
     "class": "\uf0e8",
     "color": "\ue22b",
@@ -67,13 +66,13 @@
     "value": "\uf89f",
     "variable": "\ue71b"
   },
-  "diagnostic.signOffset": 1,
+  "diagnostic.enable": true,
   "diagnostic.errorSign": "\uf467",
   "diagnostic.warningSign": "\uf071",
   "diagnostic.infoSign": "\uf129",
   "diagnostic.hintSign": "\uf864",
   // eslint settings
-  "eslint.enabled": true,
+  "eslint.enable": true,
   "eslint.probe": [
     "javascript",
     "typescript",
