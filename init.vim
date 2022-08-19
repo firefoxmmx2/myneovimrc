@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'gcmt/wildfire.vim'
 Plug 'tpope/vim-surround'
 Plug 'yggdroot/indentline'
-Plug 'neoclide/coc.nvim',{'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'luochen1990/rainbow'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'scrooloose/nerdcommenter'
@@ -29,6 +29,8 @@ Plug 'voldikss/vim-floaterm'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'chenillen/jad.vim'
 Plug 'cuducos/yaml.nvim'
+Plug 'APZelos/blamer.nvim'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim
@@ -42,6 +44,7 @@ source ~/.config/nvim/table-mode.vim
 source ~/.config/nvim/treesitter.vim
 source ~/.config/nvim/floaterm.vim
 source ~/.vim/plugged/jad.vim/jad.vim
+source ~/.config/nvim/blamer.vim
 lua require('dashboard-setting')
 " color scheme
 colorscheme onedark

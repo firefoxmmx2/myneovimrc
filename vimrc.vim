@@ -64,7 +64,7 @@ let g:rainbow_active=1
 nnoremap <leader>fs :TagbarToggle<cr><c-w>l
 " nerdcommenter setting
 let g:NERDSpaceDelims=1
-nmap <leader>cc <plug>NERDCommenterToggle<cr>
+nmap <leader>cc <plug>NERDCommenterToggle
 " ultisnips setting
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 " vim fcitx setting
@@ -102,3 +102,7 @@ endfunction
 
 " open file in last poisition
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+" diff setting
+nmap dp dp]c
+nmap do do]c
