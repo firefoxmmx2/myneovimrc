@@ -45,6 +45,7 @@ source ~/.config/nvim/treesitter.vim
 source ~/.config/nvim/floaterm.vim
 source ~/.vim/plugged/jad.vim/jad.vim
 source ~/.config/nvim/blamer.vim
+source ~/.config/nvim/wildfire.vim
 lua require('dashboard-setting')
 " color scheme
 colorscheme onedark
