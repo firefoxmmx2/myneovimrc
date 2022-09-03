@@ -106,3 +106,5 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 " diff setting
 nmap dp dp]c
 nmap do do]c
+" page up
+nmap <c-e> <c-u>
