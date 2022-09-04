@@ -86,5 +86,7 @@
     "markdown"
   ],
   "eslint.autoFixOnSave": true,
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "sqlfluff.dialect": "mysql",
+  "sqlfluff.linter.ignoreParsing": true
 }
