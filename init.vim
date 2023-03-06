@@ -31,6 +31,7 @@ Plug 'chenillen/jad.vim'
 Plug 'cuducos/yaml.nvim'
 Plug 'APZelos/blamer.nvim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'Exafunction/codeium.vim'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim
