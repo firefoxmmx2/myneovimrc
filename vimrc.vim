@@ -46,6 +46,8 @@ set showmatch
 " no backup file
 set nobackup
 set noswapfile
+" colipboard
+set clipboard+=unnamed
 " needtree setting
 noremap <leader>tt :NERDTreeToggle<cr>
 nnoremap R :Reload<cr>
