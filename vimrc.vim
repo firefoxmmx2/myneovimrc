@@ -86,6 +86,8 @@ cmap <c-K> <up>
 
 " save
 nmap S :w<cr>
+" clipboard copy
+set clipboard=unnamedplus
 " quit or close buffer mapping 
 nmap Q :call QuitOrCloseBuffer()<cr>
 
