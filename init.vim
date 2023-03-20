@@ -38,7 +38,7 @@ call plug#end()
 source ~/.config/nvim/vimrc.vim
 command! Reload :source $MYVIMRC
 source ~/.config/nvim/coc.vim
-source ~/.config/nvim/copilot.vim
+" source ~/.config/nvim/copilot.vim
 source ~/.config/nvim/fzf.vim
 source ~/.config/nvim/dashboard.vim
 source ~/.config/nvim/translator.vim
@@ -48,6 +48,7 @@ source ~/.config/nvim/floaterm.vim
 source ~/.vim/plugged/jad.vim/jad.vim
 source ~/.config/nvim/blamer.vim
 source ~/.config/nvim/wildfire.vim
+source ~/.config/nvim/codeium.vim
 lua require('dashboard-setting')
 " color scheme
 colorscheme onedark

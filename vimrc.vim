@@ -85,9 +85,9 @@ nnoremap <leader>wi 3<c-w>-
 " command mode up down mapping 
 cmap <c-j> <down>
 cmap <c-K> <up>
+imap <c-j> <down>
+imap <c-k> <up>
 
-" save
-nmap S :w<cr>
 " clipboard copy
 set clipboard=unnamedplus
 " quit or close buffer mapping 
