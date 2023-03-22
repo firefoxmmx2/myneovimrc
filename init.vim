@@ -33,6 +33,7 @@ Plug 'APZelos/blamer.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Exafunction/codeium.vim'
 Plug 'skanehira/docker-compose.vim'
+Plug 'ggandor/leap.nvim'
 call plug#end()
 
 source ~/.config/nvim/vimrc.vim
@@ -50,6 +51,7 @@ source ~/.config/nvim/blamer.vim
 source ~/.config/nvim/wildfire.vim
 source ~/.config/nvim/codeium.vim
 lua require('dashboard-setting')
+lua require('leap').add_default_mappings()
 " color scheme
 colorscheme onedark
 " transparent bg
