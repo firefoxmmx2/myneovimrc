@@ -84,8 +84,9 @@ nnoremap <leader>wu 3<c-w>+
 nnoremap <leader>wi 3<c-w>-
 " command mode up down mapping 
 cmap <c-j> <down>
-cmap <c-K> <up>
-
+cmap <c-k> <up>
+imap <c-j> <down>
+imap <c-k> <up> 
 " save
 nmap S :w<cr>
 " clipboard copy
