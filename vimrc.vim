@@ -87,11 +87,6 @@ cmap <c-j> <down>
 cmap <c-k> <up>
 imap <c-j> <down>
 imap <c-k> <up> 
-" save
-nmap S :w<cr>
-cmap <c-K> <up>
-imap <c-j> <down>
-imap <c-k> <up>
 
 " clipboard copy
 set clipboard=unnamedplus
