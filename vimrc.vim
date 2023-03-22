@@ -89,6 +89,10 @@ imap <c-j> <down>
 imap <c-k> <up> 
 " save
 nmap S :w<cr>
+cmap <c-K> <up>
+imap <c-j> <down>
+imap <c-k> <up>
+
 " clipboard copy
 set clipboard=unnamedplus
 " quit or close buffer mapping 
