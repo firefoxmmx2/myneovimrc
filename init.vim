@@ -1,7 +1,6 @@
 " packer plugin manager
 lua require('plugins')
 lua require('vimrc')
-lua require('coc')
 command! Reload :source $MYVIMRC
 source ~/.vim/plugged/jad.vim/jad.vim
 source ~/.config/nvim/blamer.vim

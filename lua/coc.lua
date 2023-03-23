@@ -17,24 +17,26 @@ vim.o.cmdheight = 2
 -- coc extenstions list
 vim.g.coc_global_extensions = {'coc-yank', 'coc-yaml', 'coc-json', 'coc-html', 'coc-css','coc-vetur', 'coc-git', 'coc-pairs', 'coc-snippets', 'coc-tsserver', 'coc-java', 'coc-eslint', 'coc-translator', 'coc-explorer', 'coc-xml', 'coc-tasks', 'coc-lua'}
 
+-- Autocomplete
+function _G.check_back_space()
+    local col = vim.fn.col('.') - 1
+    return col == 0 or vim.fn.getline('.'):sub(col, col):match('%s') ~= nil
+end
+
 -- Use tab for trigger completion with characters ahead and navigate.
 -- NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 -- other plugin before putting this into your config.
-vim.api.nvim_set_keymap('i', '<TAB>', 'pumvisible() ? "<C-n>" : <SID>check_back_space() ? "<TAB>" : coc#refresh()', {expr = true})
-vim.api.nvim_set_keymap('i', '<TAB>', 'coc#pum#visible() ? coc#pum#next(1) : CheckBackspace() ? "<Tab>" : coc#refresh()', {expr = true})
-vim.api.nvim_set_keymap('i', '<S-TAB>', 'coc#pum#visible() ? coc#pum#prev(1) : "<C-h>"', {expr = true})
 
-function CheckBackspace()
-  local col = vim.fn.col('.') - 1
-  return col == 0 or vim.fn.getline('.')[col]  ==# ' '
-end
-
+local keyset = vim.keymap.set
+local opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
+keyset("i", "<TAB>", 'coc#pum#visible() ? coc#pum#next(1) : v:lua.check_back_space() ? "<TAB>" : coc#refresh()', opts)
+keyset("i", "<S-TAB>", [[coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"]], opts)
 -- Use <c-space> to trigger completion.
-vim.api.nvim_set_keymap('i', '<c-space>', 'coc#refresh()', {expr = true})
+keyset("i", "<c-space>", "coc#refresh()", {silent = true, expr = true})
 
 -- Make <CR> to accept selected completion item or notify coc.nvim to format
 -- <C-g>u breaks current undo, please make your own choice
-vim.api.nvim_set_keymap('i', '<CR>', 'coc#pum#visible()?coc#pum#confirm():<C-g>u<CR><c-r> =coc#on_enter()<CR>', {expr = true})
+keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
 
 -- Highlight the symbol and its references when holding the cursor.
 vim.api.nvim_command('autocmd CursorHold * silent call CocActionAsync("highlight")')
@@ -47,14 +49,41 @@ vim.api.nvim_set_keymap('x', '<leader>f', '<Plug>(coc-format-selected)', {})
 vim.api.nvim_set_keymap('n', '<leader>f', '<Plug>(coc-format-selected)', {})
 vim.api.nvim_set_keymap('n', '<leader>gf', ':Format<cr>', {silent = true})
 
-vim.api.nvim_command('augroup mygroup')
-vim.api.nvim_command('autocmd!')
--- Setup formatexpr specified filetype(s).
-vim.api.nvim_command('autocmd FileType typescript,json setl formatexpr=CocAction("formatSelected")')
--- Update signature help on jump placeholder.
-vim.api.nvim_command('autocmd User CocJumpPlaceholder call CocActionAsync("showSignatureHelp")')
-vim.api.nvim_command('augroup end')
+-- Use K to show documentation in preview window
+function _G.show_docs()
+    local cw = vim.fn.expand('<cword>')
+    if vim.fn.index({'vim', 'help'}, vim.bo.filetype) >= 0 then
+        vim.api.nvim_command('h ' .. cw)
+    elseif vim.api.nvim_eval('coc#rpc#ready()') then
+        vim.fn.CocActionAsync('doHover')
+    else
+        vim.api.nvim_command('!' .. vim.o.keywordprg .. ' ' .. cw)
+    end
+end
+keyset("n", "K", '<CMD>lua _G.show_docs()<CR>', {silent = true})
 
+-- Highlight the symbol and its references on a CursorHold event(cursor is idle)
+vim.api.nvim_create_augroup("CocGroup", {})
+vim.api.nvim_create_autocmd("CursorHold", {
+    group = "CocGroup",
+    command = "silent call CocActionAsync('highlight')",
+    desc = "Highlight symbol under cursor on CursorHold"
+})
+-- Update signature help on jump placeholder
+vim.api.nvim_create_autocmd("User", {
+    group = "CocGroup",
+    pattern = "CocJumpPlaceholder",
+    command = "call CocActionAsync('showSignatureHelp')",
+    desc = "Update signature help on jump placeholder"
+})
+
+-- Setup formatexpr specified filetype(s)
+vim.api.nvim_create_autocmd("FileType", {
+    group = "CocGroup",
+    pattern = "typescript,json",
+    command = "setl formatexpr=CocAction('formatSelected')",
+    desc = "Setup formatexpr specified filetype(s)."
+})
 -- Applying codeAction to the selected region.
 -- Example: `<leader>aap` for current paragraph
 vim.api.nvim_set_keymap('x', '<leader>a', '<Plug>(coc-codeaction-selected)', {})
