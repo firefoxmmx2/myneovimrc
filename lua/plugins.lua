@@ -3,7 +3,6 @@ vim.cmd([[packadd packer.nvim]])
 return  require('packer').startup(function()
   use 'gcmt/wildfire.vim'
   use 'tpope/vim-surround'
-  use 'yggdroot/indentline'
   use {'neoclide/coc.nvim', branch = 'release'}
   use 'luochen1990/rainbow'
   use 'xuyuanp/nerdtree-git-plugin'
@@ -37,4 +36,15 @@ return  require('packer').startup(function()
   use 'ggandor/leap.nvim'
   use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
   use 'echasnovski/mini.nvim'
+  use {
+    'gelguy/wilder.nvim',
+    config = function()
+      -- config goes here
+      local wilder = require('wilder')
+      wilder.setup({modes = {':', '/', '?'}})
+    end,
+  }
+  use 'nixprime/cpsm'
+  use 'romgrk/fzy-lua-native'
+  use 'lambdalisue/nerdfont.vim'
 end)
