@@ -79,8 +79,8 @@ vim.api.nvim_set_keymap('n', '<leader>wi', '3<c-w>-', {noremap = true})
 -- command mode up down mapping 
 vim.api.nvim_set_keymap('c', '<c-j>', '<down>', {noremap = true})
 vim.api.nvim_set_keymap('c', '<c-k>', '<up>', {noremap = true})
-vim.api.nvim_set_keymap('i', '<c-j>', '<down>', {noremap = true})
-vim.api.nvim_set_keymap('i', '<c-k>', '<up>', {noremap = true})
+vim.api.nvim_set_keymap('i', '<c-j>', '<down>', {noremap = false})
+vim.api.nvim_set_keymap('i', '<c-k>', '<up>', {noremap = false})
 
 -- clipboard copy
 vim.opt.clipboard = "unnamedplus"
