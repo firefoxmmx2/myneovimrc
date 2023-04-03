@@ -1,6 +1,18 @@
 vim.cmd([[packadd packer.nvim]])
 
-return  require('packer').startup(function()
+local packer = require('packer')
+packer.init({
+  git = {
+    default_url_format = 'git@github.com:%s'
+  },
+  display = {
+    open_fn = function()
+      return require('packer.util').float({border = 'single'})
+    end
+  }
+})
+
+return  packer.startup(function()
   use 'gcmt/wildfire.vim'
   use 'tpope/vim-surround'
   use {'neoclide/coc.nvim', branch = 'release'}
@@ -48,3 +60,4 @@ return  require('packer').startup(function()
   use 'romgrk/fzy-lua-native'
   use 'lambdalisue/nerdfont.vim'
 end)
+
