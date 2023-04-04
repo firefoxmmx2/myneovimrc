@@ -5,11 +5,11 @@ packer.init({
   git = {
     default_url_format = 'git@github.com:%s'
   },
-  display = {
-    open_fn = function()
-      return require('packer.util').float({border = 'single'})
-    end
-  }
+  -- display = {
+    -- open_fn = function()
+      -- return require('packer.util').float({border = 'single'})
+    -- end
+  -- }
 })
 
 return  packer.startup(function()
@@ -31,7 +31,7 @@ return  packer.startup(function()
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   use 'glepnir/dashboard-nvim'
   use 'dhruvasagar/vim-table-mode'
-  use 'puremourning/vimspector'
+  -- use 'puremourning/vimspector'
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
   use 'skywind3000/asynctasks.vim'

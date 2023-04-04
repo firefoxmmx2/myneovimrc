@@ -2,7 +2,7 @@
 lua require('plugins')
 lua require('vimrc')
 command! Reload :source $MYVIMRC
-source ~/.vim/plugged/jad.vim/jad.vim
+source /usr/share/vim/vimfiles/plugin/jad.vim
 lua require('dashboard-setting')
 lua require('coc')
 lua require('fzf')
