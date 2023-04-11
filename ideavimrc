@@ -1,0 +1,45 @@
+"" Source your .vimrc
+"source ~/.vimrc
+source ~/.config/nvim/vimrc.vim
+Plugin 'preservim/nerdtree'
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+set NERDTree
+set surround
+Plug 'terryma/vim-multiple-cursors'
+Plug 'vim-scripts/argtextobj.vim'
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+"set scrolloff=5
+
+" Do incremental searching.
+"set incsearch
+
+nmap fa <action>(GotoAction)
+nmap Q <c-4>
+nmap <leader>b <action>(RecentFiles)
+nmap <leader>fr <action>(FindInPath)
+nmap <leader>ff <action>(GotoFile)
+nmap <leader>n <action>(GotoClass)
+nmap s <plug>(easymotion-f2)
+nmap S <plug>(easymotion-F2)
+nmap ia <action>(ShowIntentionActions)
+xmap ia <action>(ShowIntentionActions)
+xmap <leader>f <action>(ReformatCode)
+nmap <leader>gf <action>(ReformatCode)
+nmap <leader>ac <action>(Generate)
+nmap <leader>rn <action>(RenameElement)
+nmap ]g <action>(GotoNextError)
+nmap ]g <action>(GotoPreviousError)
+nmap go <action>(OptimizeImports)
+nmap <leader>c<space> <action>(CommentByLineComment)
+xmap <leader>c<space> <action>(CommentByLineComment)
+nmap <c-=> <action>(EditorIncreaseFontSizeGlobal)
+nmap <c--> <action>(EditorDecreaseFontSizeGlobal)
+nmap gi <action>(GotoImplementation)
+nmap gd <action>(GotoDeclaration)
+nmap <c-i> <action>(Forward)
+nmap <c-o> <action>(Back)
+nmap <leader>db <action>(Debug)
+nmap <leader>jdb <action>(JrebelDebug)
