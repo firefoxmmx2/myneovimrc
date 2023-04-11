@@ -8,6 +8,9 @@ set NERDTree
 set surround
 Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-scripts/argtextobj.vim'
+set exchange
+"argtextobj 扩展参数操作使用a , dia , via, caa 等最后最后一个字符是a"
+set argtextobj
 "" -- Suggested options --
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
@@ -33,6 +36,7 @@ nmap <leader>rn <action>(RenameElement)
 nmap ]g <action>(GotoNextError)
 nmap ]g <action>(GotoPreviousError)
 nmap go <action>(OptimizeImports)
+nmap gr <action>(GotoReference)
 nmap <leader>c<space> <action>(CommentByLineComment)
 xmap <leader>c<space> <action>(CommentByLineComment)
 nmap <c-=> <action>(EditorIncreaseFontSizeGlobal)
@@ -43,3 +47,12 @@ nmap <c-i> <action>(Forward)
 nmap <c-o> <action>(Back)
 nmap <leader>db <action>(Debug)
 nmap <leader>jdb <action>(JrebelDebug)
+"比较跳转"
+nmap ]c <action>(NextDiff)
+nmap [c <action>(PreviousDiff)
+"普通模式下关闭输入法"
+set keep-english-in-normal
+"跳转到对应项目文件"
+nmap <leader>fl <action>(SelectInProjectView)
+nmap R <action>(IdeaVim.ReloadVimRc.reload)
+nmap im <action>(ImplementMethods)
