@@ -107,3 +107,4 @@ vim.api.nvim_set_keymap('n', 'dp', 'dp]c', {noremap = true})
 vim.api.nvim_set_keymap('n', 'do', 'do]c', {noremap = true})
 -- page up
 vim.api.nvim_set_keymap('n', '<c-e>', '<c-u>', {noremap = true})
+vim.api.nvim_set_keymap('n', ';', ':', {noremap = true})

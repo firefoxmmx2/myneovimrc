@@ -112,3 +112,4 @@ nmap dp dp]c
 nmap do do]c
 " page up
 nmap <c-e> <c-u>
+nmap ; :
