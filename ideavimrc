@@ -20,6 +20,7 @@ set argtextobj
 "set incsearch
 
 nmap fa <action>(GotoAction)
+vmap fa <action>(GotoAction)
 nmap Q <c-4>
 nmap <leader>b <action>(RecentFiles)
 nmap <leader>fr <action>(FindInPath)
