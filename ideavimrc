@@ -68,6 +68,5 @@ iunmap <c-j>
 iunmap <c-k>
 unmap <c-k>
 imap <c-k> <up>
-nmap <c-j> <c-d>
-nmap <c-k> <c-u>
 nmap gu <action>(ShowUsages)
+nmap fs <action>(FileStructurePopup)
