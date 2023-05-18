@@ -79,5 +79,6 @@
   "eslint.autoFixOnSave": true,
   "eslint.format.enable": true,
   "sqlfluff.dialect": "mysql",
-  "sqlfluff.linter.ignoreParsing": true
+  "sqlfluff.linter.ignoreParsing": true,
+  "snippets.ultisnips.pythonPrompt": false
 }

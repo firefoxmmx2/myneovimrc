@@ -60,5 +60,13 @@ nmap <leader>fl <action>(SelectInProjectView)
 nmap R <action>(IdeaVim.ReloadVimRc.reload)
 nmap im <action>(ImplementMethods)
 nmap <leader>cs <action>(ChangeSignature)
-nmap <c-w> <action>(EditorSelectWord)
-vmap <c-w> <action>(EditorSelectWord)
+nmap <cr> <action>(EditorSelectWord)
+vmap <cr> <action>(EditorSelectWord)
+nmap <bs> <action>(EditorUnSelectWord)
+vmap <bs> <action>(EditorUnSelectWord)
+iunmap <c-j>
+iunmap <c-k>
+unmap <c-k>
+imap <c-k> <up>
+nmap gu <action>(ShowUsages)
+nmap fs <action>(FileStructurePopup)
