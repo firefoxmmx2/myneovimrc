@@ -57,7 +57,7 @@ vim.g.indent_guides_guide_size = 1
 vim.g.rainbow_active=1
 
 -- tagbar file structure
-vim.api.nvim_set_keymap('n', '<leader>fs', ':TagbarToggle<cr><c-w>l', {noremap = true})
+vim.api.nvim_set_keymap('n', 'fs', ':TagbarToggle<cr><c-w>l', {noremap = true})
 -- nerdcommenter setting
 vim.g.NERDSpaceDelims=1
 vim.api.nvim_set_keymap('n', '<leader>cc', '<plug>NERDCommenterToggle', {noremap = true})
