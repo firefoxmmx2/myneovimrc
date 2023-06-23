@@ -70,3 +70,5 @@ unmap <c-k>
 imap <c-k> <up>
 nmap gu <action>(ShowUsages)
 nmap fs <action>(FileStructurePopup)
+nmap gs <action>(GotoSuperMethod)
+nmap io <action>(OverrideMethods)
