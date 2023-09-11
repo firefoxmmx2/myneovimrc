@@ -11,6 +11,7 @@ Plug 'vim-scripts/argtextobj.vim'
 set exchange
 "argtextobj 扩展参数操作使用a , dia , via, caa 等最后最后一个字符是a"
 set argtextobj
+set clipboard=unnamed
 "" -- Suggested options --
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
@@ -72,3 +73,5 @@ nmap gu <action>(ShowUsages)
 nmap fs <action>(FileStructurePopup)
 nmap gs <action>(GotoSuperMethod)
 nmap io <action>(OverrideMethods)
+nmap <leader>tr <action>(TranslationPopupMenu)
+vmap <leader>tr <action>(TranslationPopupMenu)
