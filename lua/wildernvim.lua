@@ -2,6 +2,11 @@ local wilder = require('wilder')
 wilder.setup({modes = {':', '/', '?'}})
 wilder.set_option('pipeline', {
   wilder.branch(
+    wilder.python_file_finder_pipeline({
+      file_command = {'fd', '-tf'},
+      dir_command = {'fd', '-td'},
+      filters = {'fuzzy_filter', 'difflib_sorter'},
+    }),
     wilder.cmdline_pipeline({
       -- sets the language to use, 'vim' and 'python' are supported
       language = 'python',
