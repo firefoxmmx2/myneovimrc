@@ -5,11 +5,6 @@ packer.init({
   git = {
     default_url_format = 'git@github.com:%s'
   },
-  -- display = {
-    -- open_fn = function()
-      -- return require('packer.util').float({border = 'single'})
-    -- end
-  -- }
 })
 
 return  packer.startup(function()
@@ -48,14 +43,7 @@ return  packer.startup(function()
   use 'ggandor/leap.nvim'
   use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
   use 'echasnovski/mini.nvim'
-  use {
-    'gelguy/wilder.nvim',
-    config = function()
-      -- config goes here
-      local wilder = require('wilder')
-      wilder.setup({modes = {':', '/', '?'}})
-    end,
-  }
+  use 'gelguy/wilder.nvim'
   use 'nixprime/cpsm'
   use 'romgrk/fzy-lua-native'
   use 'lambdalisue/nerdfont.vim'

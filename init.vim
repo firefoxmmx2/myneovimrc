@@ -14,7 +14,7 @@ lua require('codeium')
 lua require('wildfire')
 " lua require('mini-nvim')
 lua require('easymotion')
-source ~/.config/nvim/wilder.vim
+lua require('wildernvim')
 " color scheme
 colorscheme onedark
 " transparent bg
