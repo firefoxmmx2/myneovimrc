@@ -5,8 +5,17 @@
       "path": "/usr/lib/jvm/java-8-jdk"
     },
     {
-      "name": "JavaSE-20",
-      "path": "/usr/lib/jvm/java-20-openjdk"
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/java-11-openjdk"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk",
+      "default": true
+    },
+    {
+      "name": "JavaSE-21",
+      "path": "/usr/lib/jvm/java-21-openjdk"
     }
   ],
   "java.autobuild.enabled": true,
@@ -16,7 +25,7 @@
   "java.import.maven.enabled": true,
   "java.codeGeneration.generateComments": true,
   // lombok,hibernate jpamodelgen
-  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar -Xmx2G",
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok-1.18.30.jar -Xmx2G",
   // coc settings
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
