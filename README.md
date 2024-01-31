@@ -1,2 +1,2 @@
 # myneovimrc
-my neovim settings
+my neovim settings with lua
