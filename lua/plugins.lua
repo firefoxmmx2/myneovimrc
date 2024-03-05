@@ -46,5 +46,13 @@ return  packer.startup(function()
   use 'nixprime/cpsm'
   use 'romgrk/fzy-lua-native'
   use 'lambdalisue/nerdfont.vim'
+  -- nvim v0.7.2
+  use({
+    "kdheepak/lazygit.nvim",
+    -- optional for floating window border decoration
+    requires = {
+      "nvim-lua/plenary.nvim",
+    },
+  })
 end)
 
