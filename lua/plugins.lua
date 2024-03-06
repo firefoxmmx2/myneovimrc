@@ -40,12 +40,19 @@ return  packer.startup(function()
   use 'ryanoasis/vim-devicons'
   use 'Exafunction/codeium.vim'
   use 'skanehira/docker-compose.vim'
-  use 'ggandor/leap.nvim'
+  -- use 'ggandor/leap.nvim'
   use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
-  use 'echasnovski/mini.nvim'
   use 'gelguy/wilder.nvim'
   use 'nixprime/cpsm'
   use 'romgrk/fzy-lua-native'
   use 'lambdalisue/nerdfont.vim'
+  -- nvim v0.7.2
+  use({
+    "kdheepak/lazygit.nvim",
+    -- optional for floating window border decoration
+    requires = {
+      "nvim-lua/plenary.nvim",
+    },
+  })
 end)
 

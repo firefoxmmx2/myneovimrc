@@ -12,7 +12,6 @@ lua require('treesitter')
 lua require('floaterm')
 lua require('codeium')
 lua require('wildfire')
-" lua require('mini-nvim')
 lua require('easymotion')
 lua require('wildernvim')
 " color scheme
