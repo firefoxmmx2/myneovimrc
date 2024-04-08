@@ -36,11 +36,12 @@ xmap ia <action>(ShowIntentionActions)
 xmap <leader>f <action>(ReformatCode)
 nmap <leader>gf <action>(ReformatCode)
 nmap <leader>ac <action>(Generate)
+#nmap <leader>ac <a-inc>
 nmap <leader>rn <action>(RenameElement)
 nmap ]g <action>(GotoNextError)
 nmap [g <action>(GotoPreviousError)
 nmap go <action>(OptimizeImports)
-nmap gr <action>(GotoReference)
+nmap gr <action>(ShowUsages)
 nmap <leader>c<space> <action>(CommentByLineComment)
 xmap <leader>c<space> <action>(CommentByLineComment)
 nmap <c-=> <action>(EditorIncreaseFontSizeGlobal)
@@ -69,7 +70,6 @@ iunmap <c-j>
 iunmap <c-k>
 unmap <c-k>
 imap <c-k> <up>
-nmap gu <action>(ShowUsages)
 nmap fs <action>(FileStructurePopup)
 nmap gs <action>(GotoSuperMethod)
 nmap io <action>(OverrideMethods)
