@@ -14,8 +14,8 @@
       "default": true
     },
     {
-      "name": "JavaSE-21",
-      "path": "/usr/lib/jvm/java-21-openjdk"
+      "name": "JavaSE-22",
+      "path": "/usr/lib/jvm/java-22-openjdk"
     }
   ],
   "java.autobuild.enabled": true,
@@ -72,7 +72,6 @@
   "diagnostic.infoSign": "\uf129",
   "diagnostic.hintSign": "\uf864",
   // eslint settings
-  "eslint.enable": true,
   "eslint.probe": [
     "javascript",
     "typescript",
@@ -89,5 +88,5 @@
   "eslint.format.enable": true,
   "sqlfluff.dialect": "mysql",
   "sqlfluff.linter.ignoreParsing": true,
-  "snippets.ultisnips.pythonPrompt": false
+  "snippets.ultisnips.pythonPrompt": true
 }
