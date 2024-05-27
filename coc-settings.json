@@ -14,8 +14,8 @@
       "default": true
     },
     {
-      "name": "JavaSE-21",
-      "path": "/usr/lib/jvm/java-21-openjdk"
+      "name": "JavaSE-22",
+      "path": "/usr/lib/jvm/java-22-openjdk"
     }
   ],
   "java.autobuild.enabled": true,
