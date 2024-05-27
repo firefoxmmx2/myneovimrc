@@ -54,5 +54,7 @@ return  packer.startup(function()
       "nvim-lua/plenary.nvim",
     },
   })
+  use 'vim-scripts/argtextobj.vim'
+  use 'simnalamburt/vim-mundo'
 end)
 
