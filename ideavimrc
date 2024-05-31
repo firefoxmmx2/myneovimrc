@@ -19,6 +19,34 @@ set clipboard=unnamed
 
 " Do incremental searching.
 "set incsearch
+let g:mapleader = ','
+nmap n nzz
+nmap N Nzz
+set smarttab
+set relativenumber
+" indent
+set autoindent
+set smartindent
+" tagbar file structure
+nmap fs :TagbarToggle<cr><c-w>l
+" nerdcommenter setting
+let g:NERDSpaceDelims=1
+nmap <leader>cc <plug>NERDCommenterToggle
+" ultisnips setting
+let g:UltiSnipsExpandTrigger="<leader><tab>"
+" vim fcitx setting
+let g:fcitx5_remote="fcitx5-remote"
+" window split setting
+nmap <leader>wsl :split<cr>
+nmap <leader>wsb :vsplit<cr>
+nmap <leader>wl <c-w>l
+nmap <leader>wh <c-w>h
+nmap <leader>wj <c-w>j
+nmap <leader>wk <c-w>k
+nmap <leader>wy 3<c-w>>
+nmap <leader>wo 3<c-w><
+nmap <leader>wu 3<c-w>+
+nmap <leader>wi 3<c-w>-
 
 nmap fa <action>(GotoAction)
 vmap fa <action>(GotoAction)
@@ -75,3 +103,12 @@ nmap gs <action>(GotoSuperMethod)
 nmap io <action>(OverrideMethods)
 nmap <leader>tr <action>(TranslationPopupMenu)
 vmap <leader>tr <action>(TranslationPopupMenu)
+" diff setting
+nmap dp dp]c
+nmap do do]c
+" page up
+nmap <c-e> <c-u>
+nmap ; :
+vmap ; :
+nmap ! :!<space>
+nmap <leader>tt <action>(ActivateProjectToolWindow)
