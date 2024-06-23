@@ -17,7 +17,6 @@ return  packer.startup(function()
   use 'majutsushi/tagbar'
   use 'sirver/ultisnips'
   use 'honza/vim-snippets'
-  use 'posva/vim-vue'
   use 'junegunn/fzf.vim'
   use 'mattn/emmet-vim'
   use 'juneedahamed/vc.vim'
