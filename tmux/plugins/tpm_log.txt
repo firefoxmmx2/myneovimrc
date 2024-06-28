@@ -1,0 +1,60 @@
+[2024-06-28 23:13:13.975]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum tmux-plugins/tmux-yank tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-sensible tmux-plugins/tmux-pain-control
+[2024-06-28 23:13:14.012]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-06-28 23:13:14.104]	 Installing "tmux-copycat"
+[2024-06-28 23:13:14.106]	 Installing "tmux-cpu"
+[2024-06-28 23:13:14.111]	 Already installed "tmux-prefix-highlight"
+[2024-06-28 23:13:14.113]	 Installing "tmux-continuum"
+[2024-06-28 23:13:14.117]	 Already installed "tmux-pain-control"
+[2024-06-28 23:13:14.120]	 Already installed "tmux-sensible"
+[2024-06-28 23:13:14.121]	 Already installed "tmux-yank"
+[2024-06-28 23:15:28.354]	   "tmux-cpu" download fail
+[2024-06-28 23:15:28.354]	   "tmux-copycat" download fail
+[2024-06-28 23:15:28.354]	   "tmux-continuum" download fail
+[2024-06-28 23:15:28.408]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-06-28 23:15:28.428]	 Updating all plugins!
+[2024-06-28 23:15:28.428]	 
+[2024-06-28 23:15:29.749]	   "tmux-pain-control" update success
+[2024-06-28 23:15:29.749]	   "tmux-prefix-highlight" update success
+[2024-06-28 23:15:29.751]	     | 已经是最新的。
+[2024-06-28 23:15:29.751]	     | 已经是最新的。
+[2024-06-28 23:15:30.734]	   "tmux-yank" update success
+[2024-06-28 23:15:30.741]	     | 已经是最新的。
+[2024-06-28 23:15:49.221]	   "tmux-sensible" update success
+[2024-06-28 23:15:49.228]	     | 已经是最新的。
+[2024-06-28 23:15:49.271]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-06-28 23:15:49.305]	 Removing "tmux-resurrect"
+[2024-06-28 23:15:49.312]	   "tmux-resurrect" clean success
+[2024-06-28 23:15:49.335]	 Done.
+
+[2024-06-28 23:19:15.724]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-06-28 23:19:15.741]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-06-28 23:19:15.778]	 Installing "tmux-copycat"
+[2024-06-28 23:19:15.778]	 Installing "tmux-cpu"
+[2024-06-28 23:19:15.778]	 Installing "tmux-resurrect"
+[2024-06-28 23:19:15.779]	 Installing "tmux-continuum"
+[2024-06-28 23:19:17.600]	   "tmux-copycat" download success
+[2024-06-28 23:19:17.603]	   "tmux-continuum" download success
+[2024-06-28 23:19:17.620]	   "tmux-cpu" download success
+[2024-06-28 23:19:19.670]	   "tmux-resurrect" download success
+[2024-06-28 23:19:19.717]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-06-28 23:19:19.736]	 Updating all plugins!
+[2024-06-28 23:19:19.736]	 
+[2024-06-28 23:19:20.935]	   "tmux-continuum" update success
+[2024-06-28 23:19:20.937]	     | 已经是最新的。
+[2024-06-28 23:19:20.938]	   "tmux-cpu" update success
+[2024-06-28 23:19:20.940]	     | 已经是最新的。
+[2024-06-28 23:19:21.100]	   "tmux-resurrect" update success
+[2024-06-28 23:19:21.102]	     | 已经是最新的。
+[2024-06-28 23:19:21.106]	   "tmux-copycat" update success
+[2024-06-28 23:19:21.108]	     | 已经是最新的。
+[2024-06-28 23:19:21.124]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-06-28 23:19:21.157]	 Removing "tmux-pain-control"
+[2024-06-28 23:19:21.167]	   "tmux-pain-control" clean success
+[2024-06-28 23:19:21.169]	 Removing "tmux-prefix-highlight"
+[2024-06-28 23:19:21.171]	   "tmux-prefix-highlight" clean success
+[2024-06-28 23:19:21.175]	 Removing "tmux-sensible"
+[2024-06-28 23:19:21.178]	   "tmux-sensible" clean success
+[2024-06-28 23:19:21.180]	 Removing "tmux-yank"
+[2024-06-28 23:19:21.185]	   "tmux-yank" clean success
+[2024-06-28 23:19:21.205]	 Done.
+
