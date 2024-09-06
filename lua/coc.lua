@@ -15,7 +15,7 @@ vim.o.cmdheight = 2
 
 -- coc settings
 -- coc extenstions list
-vim.g.coc_global_extensions = {'coc-yank', 'coc-yaml', 'coc-json', 'coc-html', 'coc-css','coc-vetur', 'coc-git', 'coc-pairs', 'coc-snippets', 'coc-tsserver', 'coc-java', 'coc-eslint', 'coc-translator', 'coc-explorer', 'coc-xml', 'coc-tasks', 'coc-lua'}
+vim.g.coc_global_extensions = {'coc-yank', 'coc-yaml', 'coc-json', 'coc-html', 'coc-css', 'coc-git', 'coc-pairs', 'coc-snippets', 'coc-tsserver', 'coc-java', 'coc-eslint', 'coc-translator', 'coc-explorer', 'coc-xml', 'coc-tasks', 'coc-lua'}
 
 -- Autocomplete
 function _G.check_back_space()

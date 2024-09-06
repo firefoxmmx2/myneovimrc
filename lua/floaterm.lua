@@ -8,3 +8,5 @@ vim.g.floaterm_keymap_kill='<leader>fk'
 -- window setting
 vim.g.floaterm_width=0.8
 vim.g.floaterm_height=0.8
+
+vim.cmd[[au User FloatermOpen hi FloatermBorder guibg=NONE]]

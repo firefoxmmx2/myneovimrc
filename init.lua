@@ -15,3 +15,5 @@ require('wildfire')
 require('easymotion')
 require('wildernvim')
 require('vimundo')
+
+vim.cmd[[colorscheme onedark]]
