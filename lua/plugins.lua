@@ -56,5 +56,6 @@ return  packer.startup(function()
   use 'vim-scripts/argtextobj.vim'
   use 'simnalamburt/vim-mundo'
   use {"ellisonleao/glow.nvim", config = function() require("glow").setup() end}
+  use 'github/copilot.vim'
 end)
 
