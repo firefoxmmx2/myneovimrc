@@ -15,5 +15,6 @@ require('wildfire')
 require('easymotion')
 require('wildernvim')
 require('vimundo')
+require('confcopilot')
 
 vim.cmd[[colorscheme onedark]]

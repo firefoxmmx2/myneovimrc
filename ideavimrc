@@ -1,7 +1,7 @@
 "" Source your .vimrc
 "source ~/.vimrc
 source ~/.config/nvim/vimrc.vim
-Plugin 'preservim/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 set NERDTree
@@ -20,6 +20,9 @@ set clipboard=unnamed
 " Do incremental searching.
 "set incsearch
 let g:mapleader = ','
+" ignore search case
+set ignorecase
+set smartcase
 nmap n nzz
 nmap N Nzz
 set smarttab
@@ -31,7 +34,8 @@ set smartindent
 nmap fs :TagbarToggle<cr><c-w>l
 " nerdcommenter setting
 let g:NERDSpaceDelims=1
-nmap <leader>cc <plug>NERDCommenterToggle
+nmap <leader>cc <action>(CommentByLineComment)
+vmap <leader>cc <action>(CommentByLineComment)
 " ultisnips setting
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 " vim fcitx setting
@@ -55,10 +59,10 @@ nmap <leader>b <action>(RecentFiles)
 nmap <leader>fr <action>(FindInPath)
 nmap <leader>ff <action>(GotoFile)
 nmap <leader>n <action>(GotoClass)
-nmap s <plug>(easymotion-f2)
-nmap S <plug>(easymotion-F2)
-vmap s <plug>(easymotion-f2)
-vmap S <plug>(easymotion-F2)
+nmap s <plug>(easymotion-s)
+" nmap S <plug>(easymotion-F2)
+vmap s <plug>(easymotion-s)
+" vmap S <plug>(easymotion-F2)
 nmap ia <action>(ShowIntentionActions)
 xmap ia <action>(ShowIntentionActions)
 xmap <leader>f <action>(ReformatCode)
