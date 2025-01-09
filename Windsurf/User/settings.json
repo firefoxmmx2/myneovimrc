@@ -1,0 +1,102 @@
+{
+    "terminal.integrated.fontSize": 13,
+    "editor.fontFamily": "'FiraCode Nerd Font', 'monospace', monospace",
+    "editor.fontSize": 16,
+    "redhat.telemetry.enabled": true,
+    "vim.easymotion": true,
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote -n",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -c {im}",
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "/usr/bin/fcitx5-remote -c ",
+    "workbench.externalBrowser": "firefox",
+    "git.autofetch": true,
+    "firefox.profile": "default-release",
+    "vim.camelCaseMotion.enable": true,
+    "vim.smartRelativeLine": true,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-[>": false
+    },
+    "vim.insertModeKeyBindings": [],
+    "git.openRepositoryInParentFolders": "always",
+    "vim.leader": ",",
+    "vim.normalModeKeyBindings": [
+        { 
+            "before" : ["<leader>","t","t"],
+            "commands": [
+                {
+                    "command": "workbench.view.explorer"
+                }
+            ]
+        },
+        {
+            "before": ["<leader>", "b"],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen"
+                }
+            ]
+        },
+        {
+            "before": ["<c-j>"],
+            "commands": [
+                {
+                    "command": "cursorDown"
+                }
+            ]
+        },
+        {
+            "before": ["<c-k>"],
+            "commands": [
+                {
+                    "command": "cursorUp"
+                }
+            ]
+        },
+        {
+            "before": ["s"],
+            "after": ["<leader>","<leader>","s"]
+        },
+        {
+            "before": [",","f","t"],
+            "commands": [
+                {
+                    "command": "workbench.action.terminal.toggleTerminal"
+                }
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<c-j>"],
+            "commands": [
+                {
+                    "command": "cursorDown"
+                }
+            ]
+        },
+        {
+            "before": ["<c-k>"],
+            "commands": [
+                {
+                    "command": "cursorUp"
+                }
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["s"],
+            "after": ["<leader>","<leader>","s"]
+        }
+    ],
+    "files.autoSave": "afterDelay",
+    "git.suggestSmartCommit": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "maven.terminal.customEnv": [
+
+    ]
+}
