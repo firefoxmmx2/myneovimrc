@@ -33,5 +33,14 @@
     "command": "extension.vim_escape",
     "when": "editorTextFocus && vim.active"
   },
-
+  {
+    "key": "ctrl+j",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
+  }
 ]
