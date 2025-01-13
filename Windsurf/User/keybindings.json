@@ -35,6 +35,16 @@
   },
   {
     "key": "ctrl+j",
+    "command": "list.focusDown",
+    "when": "listFocus || suggestWidgetVisible || quickFixWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "list.focusUp",
+    "when": "listFocus || suggestWidgetVisible || quickFixWidgetVisible"
+  },
+  {
+    "key": "ctrl+j",
     "command": "selectNextCodeAction",
     "when": "codeActionMenuVisible"
   },
