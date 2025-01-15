@@ -42,5 +42,35 @@
     "key": "ctrl+k",
     "command": "selectPrevCodeAction",
     "when": "codeActionMenuVisible"
-  }
+  },
+  {
+    // 在文件资源管理器中创建新文件
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    // 在文件资源管理器中创建新文件夹
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    // 版本管理界面聚焦时，按a键添加改变
+    "key": "a",
+    "command": "git.stagechange",
+    "when": "workbench.scm.focus"
+  },
+  {
+    // 版本管理界面聚焦时，按d键放弃改变
+    "key": "d",
+    "command": "git.discardchange",
+    "when": "workbench.scm.focus"
+  },
+  {
+    // 版本管理界面聚焦时，按i键添加文件到忽略列表
+    "key": "i",
+    "command": "git.ignore",
+    "when": "workbench.scm.focus"
+  },
 ]
