@@ -23,22 +23,19 @@
   "vim.leader": ",",
   "vim.normalModeKeyBindings": [
     {
-      "before": [
-        "<leader>",
-        "t",
-        "t"
-      ],
-      "commands": [
-        {
-          "command": "workbench.view.explorer"
-        }
-      ]
+      "before": ["<leader>", "g", "f"],
+      "commands": [{ "command": "editor.action.formatDocument" }]
     },
     {
-      "before": [
-        "<leader>",
-        "b"
-      ],
+      "before": ["g", "r"],
+      "commands": [{ "command": "editor.action.goToReferences" }]
+    },
+    {
+      "before": ["<leader>", "t", "t"],
+      "commands": [{ "command": "workbench.view.explorer" }]
+    },
+    {
+      "before": ["<leader>", "b"],
       "commands": [
         {
           "command": "workbench.action.quickOpen"
@@ -46,9 +43,7 @@
       ]
     },
     {
-      "before": [
-        "<c-j>"
-      ],
+      "before": ["<c-j>"],
       "commands": [
         {
           "command": "cursorDown"
@@ -56,9 +51,7 @@
       ]
     },
     {
-      "before": [
-        "<c-k>"
-      ],
+      "before": ["<c-k>"],
       "commands": [
         {
           "command": "cursorUp"
@@ -66,21 +59,11 @@
       ]
     },
     {
-      "before": [
-        "s"
-      ],
-      "after": [
-        "<leader>",
-        "<leader>",
-        "s"
-      ]
+      "before": ["s"],
+      "after": ["<leader>", "<leader>", "s"]
     },
     {
-      "before": [
-        ",",
-        "f",
-        "t"
-      ],
+      "before": [",", "f", "t"],
       "commands": [
         {
           "command": "workbench.action.terminal.toggleTerminal"
@@ -88,10 +71,7 @@
       ]
     },
     {
-      "before": [
-        "i",
-        "a"
-      ],
+      "before": ["i", "a"],
       "commands": [
         {
           "command": "editor.action.quickFix"
@@ -101,9 +81,7 @@
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<c-j>"
-      ],
+      "before": ["<c-j>"],
       "commands": [
         {
           "command": "cursorDown"
@@ -111,9 +89,7 @@
       ]
     },
     {
-      "before": [
-        "<c-k>"
-      ],
+      "before": ["<c-k>"],
       "commands": [
         {
           "command": "cursorUp"
@@ -123,14 +99,8 @@
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "s"
-      ],
-      "after": [
-        "<leader>",
-        "<leader>",
-        "s"
-      ]
+      "before": ["s"],
+      "after": ["<leader>", "<leader>", "s"]
     }
   ],
   "files.autoSave": "afterDelay",
@@ -146,5 +116,9 @@
     "git log",
     "git diff",
     "git show"
-  ]
+  ],
+  "scm.alwaysShowActions": false,
+  "scm.autoReveal": true,
+  "workbench.list.defaultFindMatchType": "fuzzy",
+  "workbench.list.typeNavigationMode": "trigger"
 }

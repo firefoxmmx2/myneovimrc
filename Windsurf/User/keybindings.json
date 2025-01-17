@@ -78,11 +78,8 @@
   {
     // 版本管理界面聚焦时，按a键添加改变
     "key": "a",
-    "command": "git.stageChange",
-    "when": "workbench.scm.focus",
-    "args": {
-      "filterOnType": false
-    }
+    "command": "git.stage",
+    "when": "workbench.scm.focus"
   },
   {
     // 版本管理界面聚焦时，按d键放弃改变
