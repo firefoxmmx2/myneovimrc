@@ -1,3 +1,4 @@
 svn.vim
 plugin/packer_compiled.lua
 tmux/plugins/tpm_log.txt
+.vim/coc-settings.json
