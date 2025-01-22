@@ -27,83 +27,65 @@
       "commands": [{ "command": "editor.action.formatDocument" }]
     },
     {
-      "before": ["g", "r"],
-      "commands": [{ "command": "editor.action.goToReferences" }]
-    },
-    {
       "before": ["<leader>", "t", "t"],
       "commands": [{ "command": "workbench.view.explorer" }]
     },
     {
       "before": ["<leader>", "b"],
-      "commands": [
-        {
-          "command": "workbench.action.quickOpen"
-        }
-      ]
+      "commands": [ { "command": "workbench.action.quickOpen" } ]
     },
     {
       "before": ["<c-j>"],
-      "commands": [
-        {
-          "command": "cursorDown"
-        }
-      ]
+      "commands": [ { "command": "cursorDown" } ]
     },
     {
       "before": ["<c-k>"],
-      "commands": [
-        {
-          "command": "cursorUp"
-        }
-      ]
+      "commands": [ { "command": "cursorUp" } ]
     },
     {
-      "before": ["s"],
-      "after": ["<leader>", "<leader>", "s"]
+      "before": [ "s" ], 
+      "after": [ "<leader>", "<leader>", "s" ]
     },
     {
-      "before": [",", "f", "t"],
-      "commands": [
-        {
-          "command": "workbench.action.terminal.toggleTerminal"
-        }
-      ]
+      "before": [ "<leader>", "f", "t" ],
+      "commands": [ { "command": "workbench.action.terminal.toggleTerminal" } ]
     },
     {
-      "before": ["i", "a"],
-      "commands": [
-        {
-          "command": "editor.action.quickFix"
-        }
-      ]
+      "before": [ "i", "a" ],
+      "commands": [ { "command": "editor.action.quickFix" } ]
+    },
+    {
+      "before": [ "g", "i" ],
+      "commands": [ { "command": "editor.action.goToImplementation" } ]
+    },
+    {
+      "before": [ "g", "r" ],
+      "commands": [ { "command": "editor.action.goToReferences" } ]
+    },
+    {
+      "before": ["<leader>","f","f"],
+      "commands": [ { "command": "workbench.action.quickOpen" } ]
+    },
+    {
+      "before": ["<leader>","f","r"],
+      "commands": [ { "command": "workbench.action.findInFiles" } ]
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
-      "before": ["<c-j>"],
-      "commands": [
-        {
-          "command": "cursorDown"
-        }
-      ]
+      "before": [ "<c-j>" ],
+      "commands": [ { "command": "cursorDown" } ]
     },
     {
-      "before": ["<c-k>"],
-      "commands": [
-        {
-          "command": "cursorUp"
-        }
-      ]
-    }
+      "before": [ "<c-k>" ],
+      "commands": [ { "command": "cursorUp" } ] }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
-      "before": ["s"],
-      "after": ["<leader>", "<leader>", "s"]
+      "before": [ "s" ],
+      "after": [ "<leader>", "<leader>", "s" ]
     }
   ],
-  "files.autoSave": "afterDelay",
   "git.suggestSmartCommit": false,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

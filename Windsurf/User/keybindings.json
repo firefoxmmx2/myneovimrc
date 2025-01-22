@@ -35,13 +35,13 @@
   },
   {
     "key": "ctrl+j",
-    "command": "list.focusDown",
-    "when": "listFocus || suggestWidgetVisible || quickFixWidgetVisible"
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
   },
   {
     "key": "ctrl+k",
-    "command": "list.focusUp",
-    "when": "listFocus || suggestWidgetVisible || quickFixWidgetVisible"
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
   },
   {
     "key": "ctrl+j",
