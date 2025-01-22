@@ -54,6 +54,16 @@
     "when": "codeActionMenuVisible"
   },
   {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && vim.active && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && vim.active && suggestWidgetVisible"
+  },
+  {
     // 在文件资源管理器中创建新文件
     "key": "a",
     "command": "explorer.newFile",
@@ -67,24 +77,25 @@
   },
   {
     // 版本管理界面聚焦时，按a键添加改变
-    "key": "ctrl+a",
+    "key": "a",
     "command": "git.stage",
-    "when": "workbench.scm.focus && !git.staged && !inputFocus"
-  },
-  {
-    "key": "ctrl+a",
-    "command": "git.unstage",
-    "when": "workbench.scm.focus && git.staged && !inputFocus"
-  },
-  {
-    // 版本管理界面聚焦时，按d键放弃改变
-    "key": "ctrl+d",
-    "command": "git.discardchange",
     "when": "workbench.scm.focus"
   },
   {
+    // 版本管理界面聚焦时，按d键放弃改变
+    "key": "d",
+    "command": "git.revertChange",
+    "when": "workbench.scm.focus"
+  },
+  {
+    // 版本管理界面聚焦时，当前选择文件处于已经stage的状态下，按d键unstage
+    "key": "d",
+    "command": "git.unstage",
+    "when": "workbench.scm.focus && scm.resourceState == 'staged'"
+  },
+  {
     // 版本管理界面聚焦时，按i键添加文件到忽略列表
-    "key": "ctrl+i",
+    "key": "i",
     "command": "git.ignore",
     "when": "workbench.scm.focus"
   },

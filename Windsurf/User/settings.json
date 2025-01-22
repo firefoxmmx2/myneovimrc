@@ -23,19 +23,23 @@
   "vim.leader": ",",
   "vim.normalModeKeyBindings": [
     {
-      "before": [ "<leader>", "t", "t" ],
-      "commands": [ { "command": "workbench.view.explorer" } ]
+      "before": ["<leader>", "g", "f"],
+      "commands": [{ "command": "editor.action.formatDocument" }]
     },
     {
-      "before": [ "<leader>", "b" ],
+      "before": ["<leader>", "t", "t"],
+      "commands": [{ "command": "workbench.view.explorer" }]
+    },
+    {
+      "before": ["<leader>", "b"],
       "commands": [ { "command": "workbench.action.quickOpen" } ]
     },
     {
-      "before": [ "<c-j>" ],
+      "before": ["<c-j>"],
       "commands": [ { "command": "cursorDown" } ]
     },
     {
-      "before": [ "<c-k>" ],
+      "before": ["<c-k>"],
       "commands": [ { "command": "cursorUp" } ]
     },
     {
@@ -95,10 +99,8 @@
     "git diff",
     "git show"
   ],
-  "maven.terminal.favorites": [
-    
-  ],
-  "scm.list.keyboardNavigation": false,
-  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:\"/home/firefoxmmx/.windsurf/extensions/gabrielbb.vscode-lombok-1.0.1-universal/server/lombok.jar\"",
-  "files.autoSave": "afterDelay"
+  "scm.alwaysShowActions": false,
+  "scm.autoReveal": true,
+  "workbench.list.defaultFindMatchType": "fuzzy",
+  "workbench.list.typeNavigationMode": "trigger"
 }
