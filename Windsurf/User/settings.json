@@ -43,12 +43,28 @@
       "after": [ "<leader>", "<leader>", "s" ]
     },
     {
-      "before": [ ",", "f", "t" ],
+      "before": [ "<leader>", "f", "t" ],
       "commands": [ { "command": "workbench.action.terminal.toggleTerminal" } ]
     },
     {
       "before": [ "i", "a" ],
       "commands": [ { "command": "editor.action.quickFix" } ]
+    },
+    {
+      "before": [ "g", "i" ],
+      "commands": [ { "command": "editor.action.goToImplementation" } ]
+    },
+    {
+      "before": [ "g", "r" ],
+      "commands": [ { "command": "editor.action.goToReferences" } ]
+    },
+    {
+      "before": ["<leader>","f","f"],
+      "commands": [ { "command": "workbench.action.quickOpen" } ]
+    },
+    {
+      "before": ["<leader>","f","r"],
+      "commands": [ { "command": "workbench.action.findInFiles" } ]
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
@@ -66,7 +82,6 @@
       "after": [ "<leader>", "<leader>", "s" ]
     }
   ],
-  "files.autoSave": "afterDelay",
   "git.suggestSmartCommit": false,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -79,5 +94,11 @@
     "git log",
     "git diff",
     "git show"
-  ]
+  ],
+  "maven.terminal.favorites": [
+    
+  ],
+  "scm.list.keyboardNavigation": false,
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:\"/home/firefoxmmx/.windsurf/extensions/gabrielbb.vscode-lombok-1.0.1-universal/server/lombok.jar\"",
+  "files.autoSave": "afterDelay"
 }
