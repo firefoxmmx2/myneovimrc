@@ -73,6 +73,11 @@
     {
       "before": ["i","o"],
       "commands": [ { "command": "editor.action.organizeImports" } ]
+    },
+    {
+      "before": ["i","m"],
+      "commands": [ { "command": "java.action.overrideMethodsPrompt" } ],
+      "when": "editorLangId == 'java'"
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
