@@ -69,6 +69,10 @@
     {
       "before": ["<leader>","f","r"],
       "commands": [ { "command": "workbench.action.findInFiles" } ]
+    },
+    {
+      "before": ["i","o"],
+      "commands": [ { "command": "editor.action.organizeImports" } ]
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
