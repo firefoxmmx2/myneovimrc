@@ -78,6 +78,10 @@
       "before": ["i","m"],
       "commands": [ { "command": "java.action.overrideMethodsPrompt" } ],
       "when": "editorLangId == 'java'"
+    },
+    {
+      "before": ["<leader>", "g","t"],
+      "commands": [ { "command": "workbench.view.scm" } ]
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
