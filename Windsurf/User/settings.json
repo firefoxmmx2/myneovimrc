@@ -115,5 +115,6 @@
   "scm.alwaysShowActions": false,
   "scm.autoReveal": true,
   "workbench.list.defaultFindMatchType": "fuzzy",
-  "workbench.list.typeNavigationMode": "trigger"
+  "workbench.list.typeNavigationMode": "trigger",
+  "files.autoSave": "afterDelay"
 }
