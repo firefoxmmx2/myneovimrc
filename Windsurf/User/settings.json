@@ -116,5 +116,7 @@
   "scm.autoReveal": true,
   "workbench.list.defaultFindMatchType": "fuzzy",
   "workbench.list.typeNavigationMode": "trigger",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "windsurf.enableSupercomplete": false,
+  "windsurf.enableTabToJump": false
 }
