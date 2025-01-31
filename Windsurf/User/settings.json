@@ -118,5 +118,7 @@
   "workbench.list.typeNavigationMode": "trigger",
   "files.autoSave": "afterDelay",
   "windsurf.enableSupercomplete": false,
-  "windsurf.enableTabToJump": false
+  "windsurf.enableTabToJump": false,
+  "windsurf.autoExecutionPolicy": "off",
+  "windsurf.autoOpenEditedFiles": true
 }
