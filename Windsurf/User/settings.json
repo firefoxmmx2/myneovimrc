@@ -120,5 +120,8 @@
   "windsurf.enableSupercomplete": false,
   "windsurf.enableTabToJump": false,
   "windsurf.autoExecutionPolicy": "off",
-  "windsurf.autoOpenEditedFiles": true
+  "windsurf.autoOpenEditedFiles": true,
+  "cline.vsCodeLmModelSelector": {
+    
+  }
 }
