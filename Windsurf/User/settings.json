@@ -123,5 +123,8 @@
   "windsurf.autoOpenEditedFiles": true,
   "cline.vsCodeLmModelSelector": {
     
+  },
+  "roo-cline.vsCodeLmModelSelector": {
+    
   }
 }
