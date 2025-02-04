@@ -118,7 +118,7 @@
   "workbench.list.typeNavigationMode": "trigger",
   "files.autoSave": "afterDelay",
   "windsurf.enableSupercomplete": false,
-  "windsurf.enableTabToJump": false,
+  "windsurf.enableTabToJump": true,
   "windsurf.autoExecutionPolicy": "off",
   "windsurf.autoOpenEditedFiles": true,
   "cline.vsCodeLmModelSelector": {
@@ -126,5 +126,6 @@
   },
   "roo-cline.vsCodeLmModelSelector": {
 
-  }
+  },
+  "windsurf.enableAutocomplete": true
 }
