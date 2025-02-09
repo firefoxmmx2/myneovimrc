@@ -117,7 +117,7 @@
   "workbench.list.defaultFindMatchType": "fuzzy",
   "workbench.list.typeNavigationMode": "trigger",
   "files.autoSave": "afterDelay",
-  "windsurf.enableSupercomplete": false,
+  "windsurf.enableSupercomplete": true,
   "windsurf.enableTabToJump": true,
   "windsurf.autoExecutionPolicy": "off",
   "windsurf.autoOpenEditedFiles": true,
@@ -127,5 +127,6 @@
   "roo-cline.vsCodeLmModelSelector": {
 
   },
-  "windsurf.enableAutocomplete": true
+  "windsurf.enableAutocomplete": true,
+  "windsurf.autocompleteSpeed": "default"
 }
