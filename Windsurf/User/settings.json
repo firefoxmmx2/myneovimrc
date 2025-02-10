@@ -128,5 +128,6 @@
 
   },
   "windsurf.enableAutocomplete": true,
-  "windsurf.autocompleteSpeed": "default"
+  "windsurf.autocompleteSpeed": "default",
+  "explorer.confirmDelete": false
 }
