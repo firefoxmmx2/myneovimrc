@@ -130,5 +130,8 @@
   "windsurf.enableAutocomplete": true,
   "windsurf.autocompleteSpeed": "default",
   "explorer.confirmDelete": false,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  }
 }
