@@ -129,5 +129,6 @@
   },
   "windsurf.enableAutocomplete": true,
   "windsurf.autocompleteSpeed": "default",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false
 }
