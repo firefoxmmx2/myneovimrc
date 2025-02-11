@@ -132,5 +132,8 @@
   "git.confirmSync": false,
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
