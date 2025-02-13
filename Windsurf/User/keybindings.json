@@ -100,6 +100,7 @@
     "when": "workbench.scm.focus"
   },
   {
+    // 两个shift键快速呼出命令面板
     "key": "shift shift",
     "command": "workbench.action.showCommands",
   },
