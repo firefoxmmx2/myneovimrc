@@ -99,4 +99,8 @@
     "command": "git.ignore",
     "when": "workbench.scm.focus"
   },
+  {
+    "key": "shift shift",
+    "command": "workbench.action.showCommands",
+  },
 ]
