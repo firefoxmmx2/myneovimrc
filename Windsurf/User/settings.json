@@ -135,5 +135,6 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "windsurf.explainAndFixInCurrentConversation": true
 }
