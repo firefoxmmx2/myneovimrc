@@ -110,7 +110,10 @@
     "tsc",
     "git log",
     "git diff",
-    "git show"
+    "git show",
+    "pnpm install",
+    "pnpm run dev",
+    "cd"
   ],
   "scm.alwaysShowActions": false,
   "scm.autoReveal": true,
