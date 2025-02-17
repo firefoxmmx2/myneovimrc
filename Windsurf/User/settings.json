@@ -137,5 +137,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "windsurf.explainAndFixInCurrentConversation": true,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "afterDelay"
 }
