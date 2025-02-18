@@ -97,7 +97,12 @@
     {
       "before": [ "s" ],
       "after": [ "<leader>", "<leader>", "s" ]
-    }
+    },
+    {
+      "before": ["i", "a"],
+      "commands": [ { "command": "editor.action.quickFixAll" } ]
+    },
+
   ],
   "git.suggestSmartCommit": false,
   "[jsonc]": {
