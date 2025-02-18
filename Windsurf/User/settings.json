@@ -100,7 +100,7 @@
     },
     {
       "before": ["i", "a"],
-      "commands": [ { "command": "editor.action.quickFixAll" } ]
+      "commands": [ { "command": "editor.action.quickFix" } ]
     },
 
   ],
