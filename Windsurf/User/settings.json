@@ -141,5 +141,8 @@
   },
   "windsurf.explainAndFixInCurrentConversation": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
