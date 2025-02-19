@@ -82,7 +82,8 @@
     {
       "before": ["<leader>", "g","t"],
       "commands": [ { "command": "workbench.view.scm" } ]
-    }
+    },
+
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
