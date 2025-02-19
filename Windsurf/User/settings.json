@@ -83,22 +83,6 @@
       "before": ["<leader>", "g","t"],
       "commands": [ { "command": "workbench.view.scm" } ]
     },
-    {
-      "before": [ "j" ],
-      "commands": [ { "command": "cursorDown" } ]
-    },
-    {
-      "before": [ "k" ],
-      "commands": [ { "command": "cursorUp" } ] 
-    },
-    {
-      "before": [ "h" ],
-      "commands": [ { "command": "cursorLeft" } ]
-    },
-    {
-      "before": [ "l" ],
-      "commands": [ { "command": "cursorRight" } ]
-    }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
