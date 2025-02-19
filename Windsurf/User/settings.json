@@ -90,6 +90,14 @@
     {
       "before": [ "k" ],
       "commands": [ { "command": "cursorUp" } ] 
+    },
+    {
+      "before": [ "h" ],
+      "commands": [ { "command": "cursorLeft" } ]
+    },
+    {
+      "before": [ "l" ],
+      "commands": [ { "command": "cursorRight" } ]
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
