@@ -83,15 +83,6 @@
       "before": ["<leader>", "g","t"],
       "commands": [ { "command": "workbench.view.scm" } ]
     },
-    {
-      "before": ["<c-i>"],
-      "commands": [ { "command": "workbench.action.navigateForward" } ]
-    },
-    {
-      "before": ["<c-o>"],
-      "commands": [ { "command": "workbench.action.navigateBack" } ]
-    },
-
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
