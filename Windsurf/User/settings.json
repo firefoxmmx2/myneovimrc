@@ -127,7 +127,7 @@
   "workbench.list.typeNavigationMode": "trigger",
   "windsurf.enableSupercomplete": true,
   "windsurf.enableTabToJump": true,
-  "windsurf.autoExecutionPolicy": "off",
+  "windsurf.autoExecutionPolicy": "auto",
   "windsurf.autoOpenEditedFiles": true,
   "cline.vsCodeLmModelSelector": {
     
@@ -136,7 +136,7 @@
 
   },
   "windsurf.enableAutocomplete": true,
-  "windsurf.autocompleteSpeed": "default",
+  "windsurf.autocompleteSpeed": "fast",
   "explorer.confirmDelete": false,
   "git.confirmSync": false,
   "[vue]": {
