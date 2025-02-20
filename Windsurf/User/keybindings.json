@@ -104,4 +104,11 @@
     "key": "shift shift",
     "command": "workbench.action.showCommands",
   },
+  {
+    // 文件视图聚焦时，r键重命名当前文件
+    "key": "r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+
 ]
