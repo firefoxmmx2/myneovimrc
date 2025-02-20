@@ -153,5 +153,6 @@
   "windsurf.chatFontSize": "default",
   "windsurf.rememberLastModelSelection": true,
   "windsurf.openRecentConversation": true,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+
 }
