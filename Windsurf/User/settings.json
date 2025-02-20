@@ -154,5 +154,6 @@
   "windsurf.rememberLastModelSelection": true,
   "windsurf.openRecentConversation": true,
   "workbench.editor.limit.value": "5",
+  "files.autoSave": "afterDelay",
 
 }
