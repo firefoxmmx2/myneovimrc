@@ -155,5 +155,6 @@
   "windsurf.openRecentConversation": true,
   "workbench.editor.limit.value": "5",
   "files.autoSave": "afterDelay",
+  "gitlens.views.commitDetails.files.layout": "list",
 
 }
