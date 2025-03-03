@@ -157,6 +157,6 @@
   "files.autoSave": "afterDelay",
   "gitlens.views.commitDetails.files.layout": "list",
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:\"/home/firefoxmmx/.windsurf/extensions/gabrielbb.vscode-lombok-1.0.1-universal/server/lombok.jar\"",
-  "workbench.activityBar.location": "hidden",
+  "window.menuBarVisibility": "compact",
 
 }
