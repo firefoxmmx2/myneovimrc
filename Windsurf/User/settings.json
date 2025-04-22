@@ -159,5 +159,8 @@
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:\"/home/firefoxmmx/.windsurf/extensions/gabrielbb.vscode-lombok-1.0.1-universal/server/lombok.jar\"",
   "window.menuBarVisibility": "compact",
   "http.proxyStrictSSL": false,
-  "search.quickOpen.includeSymbols": true,
+  "task.quickOpen.showAll": true,
+  "editor.quickSuggestionsDelay": 100,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.commandPalette.mode": "everything"
 }
