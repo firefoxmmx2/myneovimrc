@@ -115,5 +115,10 @@
     "command": "workbench.action.navigateBack",
     "when": "canNavigateBack"
   },
+  {
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
 
 ]
