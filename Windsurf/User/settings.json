@@ -163,4 +163,7 @@
   "editor.quickSuggestionsDelay": 100,
   "workbench.editor.enablePreviewFromQuickOpen": true,
   "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
