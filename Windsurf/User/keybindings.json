@@ -120,15 +120,4 @@
     "command": "workbench.action.navigateForward",
     "when": "canNavigateForward"
   },
-  {
-    // 使用 Alt+左右方向键导航前进后退
-    "key": "alt+left",
-    "command": "workbench.action.navigateBack",
-    "when": "canNavigateBack"
-  },
-  {
-    "key": "alt+right",
-    "command": "workbench.action.navigateForward",
-    "when": "canNavigateForward"
-  },
 ]
