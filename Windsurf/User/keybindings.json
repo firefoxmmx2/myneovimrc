@@ -120,5 +120,10 @@
     "command": "workbench.action.navigateForward",
     "when": "canNavigateForward"
   },
-
+  {
+    // 快捷键使用鼠标滚轮往前
+    "key": "ctrl+wheelForward",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
 ]
