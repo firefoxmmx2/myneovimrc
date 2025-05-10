@@ -169,4 +169,7 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
 }
