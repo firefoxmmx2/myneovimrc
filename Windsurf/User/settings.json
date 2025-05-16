@@ -172,4 +172,6 @@
   "[sql]": {
     "editor.defaultFormatter": "mtxr.sqltools"
   },
+  "terminal.integrated.mouseWheelScrollSensitivity": 2,
+  "editor.mouseWheelScrollSensitivity": 4,
 }
