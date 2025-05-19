@@ -174,4 +174,5 @@
   },
   "terminal.integrated.mouseWheelScrollSensitivity": 2,
   "editor.mouseWheelScrollSensitivity": 2,
+  "explorer.openEditors.visible": 5,
 }
