@@ -170,6 +170,7 @@
     "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[sql]": {
+  "breadcrumbs.showEnums": true,
     "editor.defaultFormatter": "mtxr.sqltools"
   },
   "explorer.openEditors.visible": 5,
