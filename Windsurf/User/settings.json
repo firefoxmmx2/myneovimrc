@@ -174,5 +174,5 @@
     "editor.defaultFormatter": "mtxr.sqltools"
   },
   "explorer.openEditors.visible": 5,
-  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.enabled": false,
 }
