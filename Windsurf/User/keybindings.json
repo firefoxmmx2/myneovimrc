@@ -13,7 +13,7 @@
   {
     "key": "ctrl+i",
     "command": "-windsurf.prioritized.command.open",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && !windsurf.interactiveCascade.enabled"
   },
   {
     // 从文件浏览器切换到编辑器
