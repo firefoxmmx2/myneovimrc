@@ -175,4 +175,5 @@
   },
   "explorer.openEditors.visible": 5,
   "git.blame.editorDecoration.enabled": false,
+  "groovyLint.fix.trigger": "onSave",
 }
