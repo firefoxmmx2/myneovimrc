@@ -12,6 +12,23 @@ set exchange
 "argtextobj 扩展参数操作使用a , dia , via, caa 等最后最后一个字符是a"
 set argtextobj
 set clipboard=unnamed
+
+" 启用 WhichKey 插件
+set which-key
+
+" 设置 WhichKey 的触发键（默认为空格键）
+let g:WhichKey_TriggerKey = '<Space>'
+
+" 设置 WhichKey 的显示延迟（毫秒）
+let g:WhichKey_DisplayDelay = 100
+
+" 定义你的快捷键映射
+nnoremap <leader>f :find<Space>
+nnoremap <leader>g :grep<Space>
+
+" 为 WhichKey 添加快捷键描述
+let g:WhichKeyDesc_f = "Find files"
+let g:WhichKeyDesc_g = "Grep in files"
 "" -- Suggested options --
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
