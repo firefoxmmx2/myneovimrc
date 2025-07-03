@@ -17,7 +17,7 @@ set clipboard=unnamed
 set which-key
 
 " 设置 WhichKey 的触发键（默认为空格键）
-let g:WhichKey_TriggerKey = '<Space>'
+let g:WhichKey_TriggerKey = '<space>'
 
 " 设置 WhichKey 的显示延迟（毫秒）
 let g:WhichKey_DisplayDelay = 100
