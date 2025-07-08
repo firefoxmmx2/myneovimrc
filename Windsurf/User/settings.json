@@ -121,7 +121,8 @@
     "pnpm run dev",
     "cd",
     "pnpm install -D",
-    "pnpm add"
+    "pnpm add",
+    "ls"
   ],
   "scm.alwaysShowActions": false,
   "scm.autoReveal": true,
