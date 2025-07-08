@@ -119,7 +119,9 @@
     "git show",
     "pnpm install",
     "pnpm run dev",
-    "cd"
+    "cd",
+    "pnpm install -D",
+    "pnpm add"
   ],
   "scm.alwaysShowActions": false,
   "scm.autoReveal": true,
