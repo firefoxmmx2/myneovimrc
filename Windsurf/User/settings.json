@@ -180,4 +180,5 @@
   "git.blame.editorDecoration.enabled": false,
   "groovyLint.fix.trigger": "onSave",
   "roo-cline.deniedCommands": [],
+  "diffEditor.ignoreTrimWhitespace": false,
 }
