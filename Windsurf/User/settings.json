@@ -181,4 +181,5 @@
   "groovyLint.fix.trigger": "onSave",
   "roo-cline.deniedCommands": [],
   "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }
