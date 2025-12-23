@@ -6,28 +6,10 @@
   },
   {
     // 连续三次按下 Esc 时强制回到编辑器焦点
-    "key": "esc esc esc",
-    "command": "workbench.action.focusLastEditorGroup",
+    "key": "escape escape escape",
+    "command": "workbench.action.focusActiveEditorGroup",
     "when": "!editorTextFocus"
   },
-  // {
-  //   // 从文件浏览器切换到编辑器
-  //   "key": "capslock",
-  //   "command": "workbench.action.focusLastEditorGroup",
-  //   "when": "filesExplorerFocus"
-  // },
-  // {
-  //   // 从版本控制面板切换到编辑器
-  //   "key": "capslock",
-  //   "command": "workbench.action.focusLastEditorGroup",
-  //   "when": "workbench.scm.visible"
-  // },
-  // {
-  //   // 在vim编辑器中大写键映射esc
-  //   "key": "capslock",
-  //   "command": "extension.vim_escape",
-  //   "when": "editorTextFocus && vim.active"
-  // },
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
