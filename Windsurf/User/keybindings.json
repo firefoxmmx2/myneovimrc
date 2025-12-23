@@ -10,10 +10,17 @@
   //   "command": "windsurf.prioritized.command.open",
   //   "when": "editorTextFocus"
   // },
+  
   {
     "key": "ctrl+i",
     "command": "-windsurf.prioritized.command.open",
     "when": "editorTextFocus && !windsurf.interactiveCascade.enabled"
+  },
+  {
+    // 连续三次按下 Esc 时强制回到编辑器焦点
+    "key": "esc esc esc",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorTextFocus"
   },
   // {
   //   // 从文件浏览器切换到编辑器
