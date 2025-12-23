@@ -1,16 +1,4 @@
 [
-  // {
-  //   // 定义大小写键默认动作为退出按键
-  //   "key": "capslock",
-  //   "command": "extension.vim_escape"
-  // },
-  // {
-  //   // 调整windsurf的命令窗口
-  //   "key": "ctrl+shift+i",
-  //   "command": "windsurf.prioritized.command.open",
-  //   "when": "editorTextFocus"
-  // },
-  
   {
     "key": "ctrl+i",
     "command": "-windsurf.prioritized.command.open",
@@ -19,7 +7,7 @@
   {
     // 连续三次按下 Esc 时强制回到编辑器焦点
     "key": "esc esc esc",
-    "command": "workbench.action.focusActiveEditorGroup",
+    "command": "workbench.action.focusLastEditorGroup",
     "when": "!editorTextFocus"
   },
   // {
