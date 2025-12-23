@@ -4,12 +4,12 @@
     "command": "-windsurf.prioritized.command.open",
     "when": "editorTextFocus && !windsurf.interactiveCascade.enabled"
   },
-  // {
-  //   // 连续三次按下 Esc 时强制回到编辑器焦点
-  //   "key": "escape escape escape",
-  //   "command": "workbench.action.focusActiveEditorGroup",
-  //   "when": "!editorTextFocus"
-  // },
+  {
+    // ctrl + Esc 时强制回到编辑器焦点
+    "key": "ctrl+escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorTextFocus"
+  },
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
