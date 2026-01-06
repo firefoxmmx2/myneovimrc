@@ -182,4 +182,7 @@
   "roo-cline.deniedCommands": [],
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
+  "workbench.editorAssociations": {
+    "*.docx": "default"
+  },
 }
