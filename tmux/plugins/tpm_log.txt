@@ -1,0 +1,2410 @@
+[2024-06-28 23:13:13.975]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-continuum tmux-plugins/tmux-yank tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-sensible tmux-plugins/tmux-pain-control
+[2024-06-28 23:13:14.012]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-06-28 23:13:14.104]	 Installing "tmux-copycat"
+[2024-06-28 23:13:14.106]	 Installing "tmux-cpu"
+[2024-06-28 23:13:14.111]	 Already installed "tmux-prefix-highlight"
+[2024-06-28 23:13:14.113]	 Installing "tmux-continuum"
+[2024-06-28 23:13:14.117]	 Already installed "tmux-pain-control"
+[2024-06-28 23:13:14.120]	 Already installed "tmux-sensible"
+[2024-06-28 23:13:14.121]	 Already installed "tmux-yank"
+[2024-06-28 23:15:28.354]	   "tmux-cpu" download fail
+[2024-06-28 23:15:28.354]	   "tmux-copycat" download fail
+[2024-06-28 23:15:28.354]	   "tmux-continuum" download fail
+[2024-06-28 23:15:28.408]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-06-28 23:15:28.428]	 Updating all plugins!
+[2024-06-28 23:15:28.428]	 
+[2024-06-28 23:15:29.749]	   "tmux-pain-control" update success
+[2024-06-28 23:15:29.749]	   "tmux-prefix-highlight" update success
+[2024-06-28 23:15:29.751]	     | 已经是最新的。
+[2024-06-28 23:15:29.751]	     | 已经是最新的。
+[2024-06-28 23:15:30.734]	   "tmux-yank" update success
+[2024-06-28 23:15:30.741]	     | 已经是最新的。
+[2024-06-28 23:15:49.221]	   "tmux-sensible" update success
+[2024-06-28 23:15:49.228]	     | 已经是最新的。
+[2024-06-28 23:15:49.271]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-06-28 23:15:49.305]	 Removing "tmux-resurrect"
+[2024-06-28 23:15:49.312]	   "tmux-resurrect" clean success
+[2024-06-28 23:15:49.335]	 Done.
+
+[2024-06-28 23:19:15.724]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-06-28 23:19:15.741]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-06-28 23:19:15.778]	 Installing "tmux-copycat"
+[2024-06-28 23:19:15.778]	 Installing "tmux-cpu"
+[2024-06-28 23:19:15.778]	 Installing "tmux-resurrect"
+[2024-06-28 23:19:15.779]	 Installing "tmux-continuum"
+[2024-06-28 23:19:17.600]	   "tmux-copycat" download success
+[2024-06-28 23:19:17.603]	   "tmux-continuum" download success
+[2024-06-28 23:19:17.620]	   "tmux-cpu" download success
+[2024-06-28 23:19:19.670]	   "tmux-resurrect" download success
+[2024-06-28 23:19:19.717]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-06-28 23:19:19.736]	 Updating all plugins!
+[2024-06-28 23:19:19.736]	 
+[2024-06-28 23:19:20.935]	   "tmux-continuum" update success
+[2024-06-28 23:19:20.937]	     | 已经是最新的。
+[2024-06-28 23:19:20.938]	   "tmux-cpu" update success
+[2024-06-28 23:19:20.940]	     | 已经是最新的。
+[2024-06-28 23:19:21.100]	   "tmux-resurrect" update success
+[2024-06-28 23:19:21.102]	     | 已经是最新的。
+[2024-06-28 23:19:21.106]	   "tmux-copycat" update success
+[2024-06-28 23:19:21.108]	     | 已经是最新的。
+[2024-06-28 23:19:21.124]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-06-28 23:19:21.157]	 Removing "tmux-pain-control"
+[2024-06-28 23:19:21.167]	   "tmux-pain-control" clean success
+[2024-06-28 23:19:21.169]	 Removing "tmux-prefix-highlight"
+[2024-06-28 23:19:21.171]	   "tmux-prefix-highlight" clean success
+[2024-06-28 23:19:21.175]	 Removing "tmux-sensible"
+[2024-06-28 23:19:21.178]	   "tmux-sensible" clean success
+[2024-06-28 23:19:21.180]	 Removing "tmux-yank"
+[2024-06-28 23:19:21.185]	   "tmux-yank" clean success
+[2024-06-28 23:19:21.205]	 Done.
+
+[2024-10-10 22:33:18.516]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-10 22:33:18.541]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-10 22:33:18.587]	 Already installed "tmux-copycat"
+[2024-10-10 22:33:18.588]	 Already installed "tmux-cpu"
+[2024-10-10 22:33:18.590]	 Already installed "tmux-continuum"
+[2024-10-10 22:33:18.590]	 Already installed "tmux-resurrect"
+[2024-10-10 22:33:18.607]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-10 22:33:18.627]	 Updating all plugins!
+[2024-10-10 22:33:18.627]	 
+[2024-10-10 22:33:19.791]	   "tmux-resurrect" update success
+[2024-10-10 22:33:19.797]	     | 已经是最新的。
+[2024-10-10 22:33:19.865]	   "tmux-continuum" update success
+[2024-10-10 22:33:19.869]	     | 已经是最新的。
+[2024-10-10 22:33:20.911]	   "tmux-copycat" update success
+[2024-10-10 22:33:20.915]	     | 已经是最新的。
+[2024-10-10 22:33:21.091]	   "tmux-cpu" update success
+[2024-10-10 22:33:21.094]	     | 来自 https://github.com/tmux-plugins/tmux-cpu
+[2024-10-10 22:33:21.094]	     |    98d7871..bcb110d  master     -> origin/master
+[2024-10-10 22:33:21.094]	     | 更新 98d7871..bcb110d
+[2024-10-10 22:33:21.094]	     | Fast-forward
+[2024-10-10 22:33:21.094]	     |  README.md                 | 2 +-
+[2024-10-10 22:33:21.094]	     |  scripts/cpu_percentage.sh | 2 +-
+[2024-10-10 22:33:21.094]	     |  2 files changed, 2 insertions(+), 2 deletions(-)
+[2024-10-10 22:33:21.121]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-10 22:33:21.233]	 Done.
+
+[2024-10-17 20:14:52.853]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-17 20:14:53.070]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-17 20:14:53.343]	 Already installed "tmux-copycat"
+[2024-10-17 20:14:53.343]	 Already installed "tmux-cpu"
+[2024-10-17 20:14:53.343]	 Already installed "tmux-resurrect"
+[2024-10-17 20:14:53.345]	 Already installed "tmux-continuum"
+[2024-10-17 20:14:53.387]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-17 20:14:53.441]	 Updating all plugins!
+[2024-10-17 20:14:53.441]	 
+[2024-10-17 20:14:54.569]	   "tmux-cpu" update success
+[2024-10-17 20:14:54.572]	     | 已经是最新的。
+[2024-10-17 20:14:54.663]	   "tmux-resurrect" update success
+[2024-10-17 20:14:54.667]	     | 已经是最新的。
+[2024-10-17 20:14:55.031]	   "tmux-continuum" update success
+[2024-10-17 20:14:55.033]	     | 已经是最新的。
+[2024-10-17 20:14:56.935]	   "tmux-copycat" update success
+[2024-10-17 20:14:56.938]	     | 已经是最新的。
+[2024-10-17 20:14:56.975]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-17 20:14:57.084]	 Done.
+
+[2024-10-18 22:23:40.934]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-18 22:23:41.016]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-18 22:23:41.234]	 Already installed "tmux-resurrect"
+[2024-10-18 22:23:41.238]	 Already installed "tmux-continuum"
+[2024-10-18 22:23:41.241]	 Already installed "tmux-cpu"
+[2024-10-18 22:23:41.249]	 Already installed "tmux-copycat"
+[2024-10-18 22:23:41.345]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-18 22:23:41.414]	 Updating all plugins!
+[2024-10-18 22:23:41.414]	 
+[2024-10-18 22:23:42.723]	   "tmux-cpu" update success
+[2024-10-18 22:23:42.725]	     | 已经是最新的。
+[2024-10-18 22:23:42.727]	   "tmux-copycat" update success
+[2024-10-18 22:23:42.731]	     | 已经是最新的。
+[2024-10-18 22:23:42.736]	   "tmux-resurrect" update success
+[2024-10-18 22:23:42.739]	     | 已经是最新的。
+[2024-10-18 22:23:42.747]	   "tmux-continuum" update success
+[2024-10-18 22:23:42.749]	     | 已经是最新的。
+[2024-10-18 22:23:42.771]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-18 22:23:42.851]	 Done.
+
+[2024-10-19 21:43:45.629]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-19 21:43:45.653]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-19 21:43:45.702]	 Already installed "tmux-cpu"
+[2024-10-19 21:43:45.702]	 Already installed "tmux-copycat"
+[2024-10-19 21:43:45.702]	 Already installed "tmux-resurrect"
+[2024-10-19 21:43:45.702]	 Already installed "tmux-continuum"
+[2024-10-19 21:43:45.724]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-19 21:43:45.749]	 Updating all plugins!
+[2024-10-19 21:43:45.749]	 
+[2024-10-19 21:43:46.738]	   "tmux-resurrect" update success
+[2024-10-19 21:43:46.740]	     | 已经是最新的。
+[2024-10-19 21:43:46.765]	   "tmux-copycat" update success
+[2024-10-19 21:43:46.767]	     | 已经是最新的。
+[2024-10-19 21:43:46.918]	   "tmux-cpu" update success
+[2024-10-19 21:43:46.921]	     | 已经是最新的。
+[2024-10-19 21:43:46.922]	   "tmux-continuum" update success
+[2024-10-19 21:43:46.925]	     | 已经是最新的。
+[2024-10-19 21:43:46.959]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-19 21:43:47.047]	 Done.
+
+[2024-10-21 21:53:17.872]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-21 21:53:17.918]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-21 21:53:18.029]	 Already installed "tmux-copycat"
+[2024-10-21 21:53:18.029]	 Already installed "tmux-cpu"
+[2024-10-21 21:53:18.034]	 Already installed "tmux-continuum"
+[2024-10-21 21:53:18.038]	 Already installed "tmux-resurrect"
+[2024-10-21 21:53:18.070]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-21 21:53:18.110]	 Updating all plugins!
+[2024-10-21 21:53:18.110]	 
+[2024-10-21 21:53:19.452]	   "tmux-continuum" update success
+[2024-10-21 21:53:19.455]	     | 已经是最新的。
+[2024-10-21 21:53:19.482]	   "tmux-resurrect" update success
+[2024-10-21 21:53:19.485]	     | 已经是最新的。
+[2024-10-21 21:53:19.644]	   "tmux-cpu" update success
+[2024-10-21 21:53:19.646]	     | 已经是最新的。
+[2024-10-21 21:53:19.666]	   "tmux-copycat" update success
+[2024-10-21 21:53:19.669]	     | 已经是最新的。
+[2024-10-21 21:53:19.692]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-21 21:53:19.761]	 Done.
+
+[2024-10-22 22:09:21.570]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-22 22:09:21.634]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-22 22:09:21.901]	 Already installed "tmux-cpu"
+[2024-10-22 22:09:21.905]	 Already installed "tmux-copycat"
+[2024-10-22 22:09:21.905]	 Already installed "tmux-resurrect"
+[2024-10-22 22:09:21.909]	 Already installed "tmux-continuum"
+[2024-10-22 22:09:21.963]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-22 22:09:22.051]	 Updating all plugins!
+[2024-10-22 22:09:22.052]	 
+[2024-10-22 22:09:23.487]	   "tmux-copycat" update success
+[2024-10-22 22:09:23.495]	     | 已经是最新的。
+[2024-10-22 22:09:23.540]	   "tmux-cpu" update success
+[2024-10-22 22:09:23.551]	     | 已经是最新的。
+[2024-10-22 22:09:23.627]	   "tmux-resurrect" update success
+[2024-10-22 22:09:23.636]	     | 已经是最新的。
+[2024-10-22 22:09:23.656]	   "tmux-continuum" update success
+[2024-10-22 22:09:23.666]	     | 已经是最新的。
+[2024-10-22 22:09:23.713]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-22 22:09:23.853]	 Done.
+
+[2024-10-23 21:22:12.453]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-23 21:22:12.525]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-23 21:22:12.621]	 Already installed "tmux-copycat"
+[2024-10-23 21:22:12.623]	 Already installed "tmux-continuum"
+[2024-10-23 21:22:12.626]	 Already installed "tmux-cpu"
+[2024-10-23 21:22:12.626]	 Already installed "tmux-resurrect"
+[2024-10-23 21:22:12.677]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-23 21:22:12.705]	 Updating all plugins!
+[2024-10-23 21:22:12.705]	 
+[2024-10-23 21:22:12.940]	   "tmux-copycat" update fail
+[2024-10-23 21:22:12.948]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：Could not resolve host: github.com
+[2024-10-23 21:22:14.084]	   "tmux-cpu" update success
+[2024-10-23 21:22:14.086]	     | 已经是最新的。
+[2024-10-23 21:22:14.195]	   "tmux-resurrect" update success
+[2024-10-23 21:22:14.197]	     | 已经是最新的。
+[2024-10-23 21:22:14.254]	   "tmux-continuum" update success
+[2024-10-23 21:22:14.256]	     | 已经是最新的。
+[2024-10-23 21:22:14.274]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-23 21:22:14.326]	 Done.
+
+[2024-10-24 22:34:32.976]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-24 22:34:32.997]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-24 22:34:33.053]	 Already installed "tmux-cpu"
+[2024-10-24 22:34:33.053]	 Already installed "tmux-copycat"
+[2024-10-24 22:34:33.053]	 Already installed "tmux-resurrect"
+[2024-10-24 22:34:33.053]	 Already installed "tmux-continuum"
+[2024-10-24 22:34:33.078]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-24 22:34:33.100]	 Updating all plugins!
+[2024-10-24 22:34:33.100]	 
+[2024-10-24 22:34:34.223]	   "tmux-cpu" update success
+[2024-10-24 22:34:34.225]	     | 已经是最新的。
+[2024-10-24 22:34:34.472]	   "tmux-copycat" update success
+[2024-10-24 22:34:34.474]	     | 已经是最新的。
+[2024-10-24 22:34:34.535]	   "tmux-continuum" update success
+[2024-10-24 22:34:34.537]	     | 已经是最新的。
+[2024-10-24 22:34:34.703]	   "tmux-resurrect" update success
+[2024-10-24 22:34:34.705]	     | 已经是最新的。
+[2024-10-24 22:34:34.723]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-24 22:34:34.777]	 Done.
+
+[2024-10-26 22:25:49.829]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-26 22:25:49.895]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-26 22:25:50.149]	 Already installed "tmux-resurrect"
+[2024-10-26 22:25:50.151]	 Already installed "tmux-continuum"
+[2024-10-26 22:25:50.185]	 Already installed "tmux-cpu"
+[2024-10-26 22:25:50.200]	 Already installed "tmux-copycat"
+[2024-10-26 22:25:50.285]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-26 22:25:50.368]	 Updating all plugins!
+[2024-10-26 22:25:50.368]	 
+[2024-10-26 22:25:51.642]	   "tmux-continuum" update success
+[2024-10-26 22:25:51.644]	     | 已经是最新的。
+[2024-10-26 22:25:51.867]	   "tmux-copycat" update success
+[2024-10-26 22:25:51.870]	     | 已经是最新的。
+[2024-10-26 22:25:51.896]	   "tmux-cpu" update success
+[2024-10-26 22:25:51.901]	     | 已经是最新的。
+[2024-10-26 22:25:51.966]	   "tmux-resurrect" update success
+[2024-10-26 22:25:51.969]	     | 已经是最新的。
+[2024-10-26 22:25:52.001]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-26 22:25:52.129]	 Done.
+
+[2024-10-27 20:01:02.439]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-27 20:01:02.491]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-27 20:01:02.686]	 Already installed "tmux-resurrect"
+[2024-10-27 20:01:02.688]	 Already installed "tmux-copycat"
+[2024-10-27 20:01:02.693]	 Already installed "tmux-continuum"
+[2024-10-27 20:01:02.694]	 Already installed "tmux-cpu"
+[2024-10-27 20:01:02.748]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-27 20:01:02.827]	 Updating all plugins!
+[2024-10-27 20:01:02.827]	 
+[2024-10-27 20:01:03.987]	   "tmux-cpu" update success
+[2024-10-27 20:01:03.990]	     | 已经是最新的。
+[2024-10-27 20:01:04.197]	   "tmux-resurrect" update success
+[2024-10-27 20:01:04.200]	     | 已经是最新的。
+[2024-10-27 20:01:04.310]	   "tmux-continuum" update success
+[2024-10-27 20:01:04.313]	     | 已经是最新的。
+[2024-10-27 20:01:04.570]	   "tmux-copycat" update success
+[2024-10-27 20:01:04.574]	     | 已经是最新的。
+[2024-10-27 20:01:04.624]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-27 20:01:04.737]	 Done.
+
+[2024-10-29 21:31:43.216]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-29 21:31:43.260]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-29 21:31:43.397]	 Already installed "tmux-cpu"
+[2024-10-29 21:31:43.397]	 Already installed "tmux-continuum"
+[2024-10-29 21:31:43.402]	 Already installed "tmux-copycat"
+[2024-10-29 21:31:43.405]	 Already installed "tmux-resurrect"
+[2024-10-29 21:31:43.463]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-29 21:31:43.534]	 Updating all plugins!
+[2024-10-29 21:31:43.534]	 
+[2024-10-29 21:31:44.820]	   "tmux-cpu" update success
+[2024-10-29 21:31:44.822]	     | 已经是最新的。
+[2024-10-29 21:31:45.174]	   "tmux-resurrect" update success
+[2024-10-29 21:31:45.176]	   "tmux-continuum" update success
+[2024-10-29 21:31:45.176]	     | 已经是最新的。
+[2024-10-29 21:31:45.178]	     | 已经是最新的。
+[2024-10-29 21:31:45.670]	   "tmux-copycat" update fail
+[2024-10-29 21:31:45.673]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：Could not resolve host: github.com
+[2024-10-29 21:31:45.696]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-29 21:31:45.763]	 Done.
+
+[2024-10-30 22:34:23.754]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-10-30 22:34:23.869]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-30 22:34:24.068]	 Already installed "tmux-copycat"
+[2024-10-30 22:34:24.083]	 Already installed "tmux-resurrect"
+[2024-10-30 22:34:24.083]	 Already installed "tmux-continuum"
+[2024-10-30 22:34:24.090]	 Already installed "tmux-cpu"
+[2024-10-30 22:34:24.167]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-30 22:34:24.242]	 Updating all plugins!
+[2024-10-30 22:34:24.242]	 
+[2024-10-30 22:34:25.360]	   "tmux-cpu" update success
+[2024-10-30 22:34:25.364]	     | 已经是最新的。
+[2024-10-30 22:34:25.403]	   "tmux-continuum" update success
+[2024-10-30 22:34:25.405]	     | 已经是最新的。
+[2024-10-30 22:34:25.413]	   "tmux-copycat" update success
+[2024-10-30 22:34:25.415]	     | 已经是最新的。
+[2024-10-30 22:34:25.438]	   "tmux-resurrect" update success
+[2024-10-30 22:34:25.440]	     | 已经是最新的。
+[2024-10-30 22:34:25.462]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-30 22:34:25.525]	 Done.
+
+[2024-11-10 08:31:57.693]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-11-10 08:31:57.720]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-11-10 08:31:57.809]	 Already installed "tmux-continuum"
+[2024-11-10 08:31:57.811]	 Already installed "tmux-resurrect"
+[2024-11-10 08:31:57.815]	 Already installed "tmux-cpu"
+[2024-11-10 08:31:57.815]	 Already installed "tmux-copycat"
+[2024-11-10 08:31:57.852]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-11-10 08:31:57.894]	 Updating all plugins!
+[2024-11-10 08:31:57.894]	 
+[2024-11-10 08:31:59.028]	   "tmux-copycat" update success
+[2024-11-10 08:31:59.031]	     | 已经是最新的。
+[2024-11-10 08:31:59.034]	   "tmux-resurrect" update success
+[2024-11-10 08:31:59.037]	     | 已经是最新的。
+[2024-11-10 08:31:59.039]	   "tmux-continuum" update success
+[2024-11-10 08:31:59.042]	     | 已经是最新的。
+[2024-11-10 08:31:59.043]	   "tmux-cpu" update success
+[2024-11-10 08:31:59.046]	     | 已经是最新的。
+[2024-11-10 08:31:59.070]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-10 08:31:59.136]	 Done.
+
+[2024-11-28 23:11:28.454]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-11-28 23:11:28.472]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-11-28 23:11:28.520]	 Already installed "tmux-continuum"
+[2024-11-28 23:11:28.520]	 Already installed "tmux-cpu"
+[2024-11-28 23:11:28.520]	 Already installed "tmux-copycat"
+[2024-11-28 23:11:28.523]	 Already installed "tmux-resurrect"
+[2024-11-28 23:11:28.543]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-11-28 23:11:28.570]	 Updating all plugins!
+[2024-11-28 23:11:28.570]	 
+[2024-11-28 23:11:29.668]	   "tmux-resurrect" update success
+[2024-11-28 23:11:29.671]	     | 已经是最新的。
+[2024-11-28 23:11:29.793]	   "tmux-continuum" update success
+[2024-11-28 23:11:29.796]	     | 已经是最新的。
+[2024-11-28 23:11:30.071]	   "tmux-copycat" update success
+[2024-11-28 23:11:30.073]	     | 已经是最新的。
+[2024-11-28 23:11:30.637]	   "tmux-cpu" update fail
+[2024-11-28 23:11:30.640]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-cpu/'：Could not resolve host: github.com
+[2024-11-28 23:11:30.664]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-28 23:11:30.730]	 Done.
+
+[2024-11-29 21:34:54.720]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-11-29 21:34:54.810]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-11-29 21:34:55.108]	 Already installed "tmux-cpu"
+[2024-11-29 21:34:55.110]	 Already installed "tmux-copycat"
+[2024-11-29 21:34:55.119]	 Already installed "tmux-resurrect"
+[2024-11-29 21:34:55.140]	 Already installed "tmux-continuum"
+[2024-11-29 21:34:55.213]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-11-29 21:34:55.299]	 Updating all plugins!
+[2024-11-29 21:34:55.299]	 
+[2024-11-29 21:34:56.838]	   "tmux-copycat" update success
+[2024-11-29 21:34:56.851]	     | 已经是最新的。
+[2024-11-29 21:34:56.924]	   "tmux-continuum" update success
+[2024-11-29 21:34:56.934]	     | 已经是最新的。
+[2024-11-29 21:34:57.404]	   "tmux-cpu" update success
+[2024-11-29 21:34:57.412]	     | 已经是最新的。
+[2024-11-29 21:34:57.584]	   "tmux-resurrect" update fail
+[2024-11-29 21:34:57.588]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-resurrect/'：Could not resolve host: github.com
+[2024-11-29 21:34:57.644]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-29 21:34:57.768]	 Done.
+
+[2024-11-30 00:18:15.954]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-11-30 00:18:15.985]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-11-30 00:18:16.050]	 Already installed "tmux-copycat"
+[2024-11-30 00:18:16.050]	 Already installed "tmux-cpu"
+[2024-11-30 00:18:16.050]	 Already installed "tmux-resurrect"
+[2024-11-30 00:18:16.051]	 Already installed "tmux-continuum"
+[2024-11-30 00:18:16.078]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-11-30 00:18:16.099]	 Updating all plugins!
+[2024-11-30 00:18:16.099]	 
+[2024-11-30 00:18:17.099]	   "tmux-cpu" update success
+[2024-11-30 00:18:17.101]	     | 已经是最新的。
+[2024-11-30 00:18:17.127]	   "tmux-continuum" update success
+[2024-11-30 00:18:17.129]	     | 已经是最新的。
+[2024-11-30 00:18:17.286]	   "tmux-resurrect" update success
+[2024-11-30 00:18:17.291]	     | 已经是最新的。
+[2024-11-30 00:18:17.388]	   "tmux-copycat" update success
+[2024-11-30 00:18:17.392]	     | 已经是最新的。
+[2024-11-30 00:18:17.417]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-30 00:18:17.510]	 Done.
+
+[2024-11-30 00:18:50.890]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-11-30 00:18:50.906]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-11-30 00:18:50.944]	 Already installed "tmux-copycat"
+[2024-11-30 00:18:50.944]	 Already installed "tmux-cpu"
+[2024-11-30 00:18:50.945]	 Already installed "tmux-continuum"
+[2024-11-30 00:18:50.945]	 Already installed "tmux-resurrect"
+[2024-11-30 00:18:50.963]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-11-30 00:18:50.980]	 Updating all plugins!
+[2024-11-30 00:18:50.980]	 
+[2024-11-30 00:18:52.153]	   "tmux-cpu" update success
+[2024-11-30 00:18:52.158]	     | 已经是最新的。
+[2024-11-30 00:18:52.477]	   "tmux-copycat" update success
+[2024-11-30 00:18:52.484]	     | 已经是最新的。
+[2024-11-30 00:18:53.933]	   "tmux-resurrect" update success
+[2024-11-30 00:18:53.938]	     | 已经是最新的。
+[2024-11-30 00:18:54.627]	   "tmux-continuum" update success
+[2024-11-30 00:18:54.634]	     | 已经是最新的。
+[2024-11-30 00:18:54.681]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-30 00:18:54.730]	 Done.
+
+[2024-11-30 21:37:07.426]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-11-30 21:37:07.457]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-11-30 21:37:07.515]	 Already installed "tmux-cpu"
+[2024-11-30 21:37:07.516]	 Already installed "tmux-copycat"
+[2024-11-30 21:37:07.517]	 Already installed "tmux-continuum"
+[2024-11-30 21:37:07.517]	 Already installed "tmux-resurrect"
+[2024-11-30 21:37:07.538]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-11-30 21:37:07.559]	 Updating all plugins!
+[2024-11-30 21:37:07.560]	 
+[2024-11-30 21:37:09.122]	   "tmux-copycat" update success
+[2024-11-30 21:37:09.124]	     | 已经是最新的。
+[2024-11-30 21:37:10.252]	   "tmux-cpu" update success
+[2024-11-30 21:37:10.255]	     | 已经是最新的。
+[2024-11-30 21:37:10.264]	   "tmux-continuum" update success
+[2024-11-30 21:37:10.266]	     | 已经是最新的。
+[2024-11-30 21:37:11.538]	   "tmux-resurrect" update success
+[2024-11-30 21:37:11.542]	     | 已经是最新的。
+[2024-11-30 21:37:11.582]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-11-30 21:37:11.690]	 Done.
+
+[2024-12-04 21:32:35.584]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-04 21:32:35.714]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-04 21:32:35.879]	 Already installed "tmux-copycat"
+[2024-12-04 21:32:35.891]	 Already installed "tmux-cpu"
+[2024-12-04 21:32:35.893]	 Already installed "tmux-continuum"
+[2024-12-04 21:32:35.899]	 Already installed "tmux-resurrect"
+[2024-12-04 21:32:35.952]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-04 21:32:36.066]	 Updating all plugins!
+[2024-12-04 21:32:36.067]	 
+[2024-12-04 21:32:38.056]	   "tmux-continuum" update success
+[2024-12-04 21:32:38.082]	     | 已经是最新的。
+[2024-12-04 21:32:38.221]	   "tmux-copycat" update success
+[2024-12-04 21:32:38.234]	     | 已经是最新的。
+[2024-12-04 21:32:38.605]	   "tmux-resurrect" update success
+[2024-12-04 21:32:38.616]	     | 已经是最新的。
+[2024-12-04 21:32:39.226]	   "tmux-cpu" update success
+[2024-12-04 21:32:39.237]	     | 已经是最新的。
+[2024-12-04 21:32:39.280]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-04 21:32:39.461]	 Done.
+
+[2024-12-06 00:08:28.409]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-06 00:08:28.478]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-06 00:08:28.691]	 Already installed "tmux-continuum"
+[2024-12-06 00:08:28.692]	 Already installed "tmux-resurrect"
+[2024-12-06 00:08:28.694]	 Already installed "tmux-cpu"
+[2024-12-06 00:08:28.697]	 Already installed "tmux-copycat"
+[2024-12-06 00:08:28.778]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-06 00:08:28.844]	 Updating all plugins!
+[2024-12-06 00:08:28.844]	 
+[2024-12-06 00:08:29.881]	   "tmux-copycat" update success
+[2024-12-06 00:08:29.883]	     | 已经是最新的。
+[2024-12-06 00:08:29.952]	   "tmux-resurrect" update success
+[2024-12-06 00:08:29.956]	     | 已经是最新的。
+[2024-12-06 00:08:30.393]	   "tmux-cpu" update success
+[2024-12-06 00:08:30.400]	     | 已经是最新的。
+[2024-12-06 00:08:30.779]	   "tmux-continuum" update success
+[2024-12-06 00:08:30.784]	     | 已经是最新的。
+[2024-12-06 00:08:30.846]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-06 00:08:30.941]	 Done.
+
+[2024-12-06 21:39:42.012]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-06 21:39:42.153]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-06 21:39:42.376]	 Already installed "tmux-cpu"
+[2024-12-06 21:39:42.377]	 Already installed "tmux-continuum"
+[2024-12-06 21:39:42.379]	 Already installed "tmux-resurrect"
+[2024-12-06 21:39:42.395]	 Already installed "tmux-copycat"
+[2024-12-06 21:39:42.476]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-06 21:39:42.553]	 Updating all plugins!
+[2024-12-06 21:39:42.553]	 
+[2024-12-06 21:39:43.786]	   "tmux-copycat" update success
+[2024-12-06 21:39:43.795]	     | 已经是最新的。
+[2024-12-06 21:39:43.908]	   "tmux-cpu" update success
+[2024-12-06 21:39:43.913]	   "tmux-continuum" update success
+[2024-12-06 21:39:43.914]	   "tmux-resurrect" update success
+[2024-12-06 21:39:43.915]	     | 已经是最新的。
+[2024-12-06 21:39:43.919]	     | 已经是最新的。
+[2024-12-06 21:39:43.921]	     | 已经是最新的。
+[2024-12-06 21:39:43.960]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-06 21:39:44.176]	 Done.
+
+[2024-12-09 22:53:44.062]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-09 22:53:44.130]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-09 22:53:44.308]	 Already installed "tmux-continuum"
+[2024-12-09 22:53:44.331]	 Already installed "tmux-cpu"
+[2024-12-09 22:53:44.336]	 Already installed "tmux-copycat"
+[2024-12-09 22:53:44.338]	 Already installed "tmux-resurrect"
+[2024-12-09 22:53:44.388]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-09 22:53:44.429]	 Updating all plugins!
+[2024-12-09 22:53:44.429]	 
+[2024-12-09 22:53:46.485]	   "tmux-continuum" update success
+[2024-12-09 22:53:46.492]	     | 已经是最新的。
+[2024-12-09 22:53:46.504]	   "tmux-cpu" update success
+[2024-12-09 22:53:46.510]	     | 已经是最新的。
+[2024-12-09 22:53:46.536]	   "tmux-copycat" update success
+[2024-12-09 22:53:46.541]	     | 已经是最新的。
+[2024-12-09 22:53:46.614]	   "tmux-resurrect" update success
+[2024-12-09 22:53:46.632]	     | 已经是最新的。
+[2024-12-09 22:53:46.679]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-09 22:53:46.788]	 Done.
+
+[2024-12-10 22:59:56.279]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-10 22:59:56.372]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-10 22:59:56.721]	 Already installed "tmux-resurrect"
+[2024-12-10 22:59:56.723]	 Already installed "tmux-continuum"
+[2024-12-10 22:59:56.732]	 Already installed "tmux-copycat"
+[2024-12-10 22:59:56.748]	 Already installed "tmux-cpu"
+[2024-12-10 22:59:56.826]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-10 22:59:56.929]	 Updating all plugins!
+[2024-12-10 22:59:56.929]	 
+[2024-12-10 22:59:58.407]	   "tmux-resurrect" update success
+[2024-12-10 22:59:58.414]	     | 已经是最新的。
+[2024-12-10 22:59:58.767]	   "tmux-copycat" update success
+[2024-12-10 22:59:58.777]	     | 已经是最新的。
+[2024-12-10 22:59:58.778]	   "tmux-cpu" update success
+[2024-12-10 22:59:58.785]	     | 已经是最新的。
+[2024-12-10 22:59:58.878]	   "tmux-continuum" update success
+[2024-12-10 22:59:58.882]	     | 已经是最新的。
+[2024-12-10 22:59:58.917]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-10 22:59:59.212]	 Done.
+
+[2024-12-11 21:10:22.685]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-11 21:10:22.759]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-11 21:10:22.997]	 Already installed "tmux-continuum"
+[2024-12-11 21:10:22.999]	 Already installed "tmux-copycat"
+[2024-12-11 21:10:23.004]	 Already installed "tmux-cpu"
+[2024-12-11 21:10:23.006]	 Already installed "tmux-resurrect"
+[2024-12-11 21:10:23.097]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-11 21:10:23.350]	 Updating all plugins!
+[2024-12-11 21:10:23.350]	 
+[2024-12-11 21:10:24.847]	   "tmux-cpu" update success
+[2024-12-11 21:10:24.856]	   "tmux-copycat" update success
+[2024-12-11 21:10:24.871]	     | 已经是最新的。
+[2024-12-11 21:10:24.872]	     | 已经是最新的。
+[2024-12-11 21:10:24.932]	   "tmux-resurrect" update success
+[2024-12-11 21:10:24.946]	     | 已经是最新的。
+[2024-12-11 21:10:24.960]	   "tmux-continuum" update success
+[2024-12-11 21:10:24.971]	     | 已经是最新的。
+[2024-12-11 21:10:25.067]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-11 21:10:25.333]	 Done.
+
+[2024-12-13 22:43:38.992]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-13 22:43:39.059]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-13 22:43:39.314]	 Already installed "tmux-copycat"
+[2024-12-13 22:43:39.314]	 Already installed "tmux-continuum"
+[2024-12-13 22:43:39.342]	 Already installed "tmux-resurrect"
+[2024-12-13 22:43:39.354]	 Already installed "tmux-cpu"
+[2024-12-13 22:43:39.540]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-13 22:43:39.730]	 Updating all plugins!
+[2024-12-13 22:43:39.730]	 
+[2024-12-13 22:43:41.407]	   "tmux-copycat" update success
+[2024-12-13 22:43:41.416]	     | 已经是最新的。
+[2024-12-13 22:43:41.432]	   "tmux-cpu" update success
+[2024-12-13 22:43:41.441]	     | 已经是最新的。
+[2024-12-13 22:43:41.599]	   "tmux-continuum" update success
+[2024-12-13 22:43:41.612]	     | 已经是最新的。
+[2024-12-13 22:43:42.183]	   "tmux-resurrect" update success
+[2024-12-13 22:43:42.197]	     | 已经是最新的。
+[2024-12-13 22:43:42.271]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-13 22:43:42.535]	 Done.
+
+[2024-12-14 22:16:43.104]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-14 22:16:43.152]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-14 22:16:43.320]	 Already installed "tmux-copycat"
+[2024-12-14 22:16:43.321]	 Already installed "tmux-resurrect"
+[2024-12-14 22:16:43.321]	 Already installed "tmux-cpu"
+[2024-12-14 22:16:43.323]	 Already installed "tmux-continuum"
+[2024-12-14 22:16:43.367]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-14 22:16:43.425]	 Updating all plugins!
+[2024-12-14 22:16:43.426]	 
+[2024-12-14 22:16:44.860]	   "tmux-copycat" update success
+[2024-12-14 22:16:44.864]	     | 已经是最新的。
+[2024-12-14 22:16:44.916]	   "tmux-cpu" update success
+[2024-12-14 22:16:44.925]	     | 已经是最新的。
+[2024-12-14 22:16:44.927]	   "tmux-continuum" update success
+[2024-12-14 22:16:44.935]	     | 已经是最新的。
+[2024-12-14 22:16:44.983]	   "tmux-resurrect" update success
+[2024-12-14 22:16:44.988]	     | 已经是最新的。
+[2024-12-14 22:16:45.028]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-14 22:16:45.143]	 Done.
+
+[2024-12-15 21:51:18.394]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-15 21:51:18.447]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-15 21:51:18.636]	 Already installed "tmux-continuum"
+[2024-12-15 21:51:18.638]	 Already installed "tmux-cpu"
+[2024-12-15 21:51:18.639]	 Already installed "tmux-copycat"
+[2024-12-15 21:51:18.643]	 Already installed "tmux-resurrect"
+[2024-12-15 21:51:18.687]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-15 21:51:18.736]	 Updating all plugins!
+[2024-12-15 21:51:18.736]	 
+[2024-12-15 21:51:19.793]	   "tmux-copycat" update success
+[2024-12-15 21:51:19.797]	     | 已经是最新的。
+[2024-12-15 21:51:19.832]	   "tmux-resurrect" update success
+[2024-12-15 21:51:19.835]	     | 已经是最新的。
+[2024-12-15 21:51:19.846]	   "tmux-cpu" update success
+[2024-12-15 21:51:19.849]	     | 已经是最新的。
+[2024-12-15 21:51:19.855]	   "tmux-continuum" update success
+[2024-12-15 21:51:19.857]	     | 已经是最新的。
+[2024-12-15 21:51:19.886]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-15 21:51:19.973]	 Done.
+
+[2024-12-16 22:33:55.803]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-16 22:33:55.846]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-16 22:33:56.041]	 Already installed "tmux-copycat"
+[2024-12-16 22:33:56.042]	 Already installed "tmux-continuum"
+[2024-12-16 22:33:56.043]	 Already installed "tmux-cpu"
+[2024-12-16 22:33:56.043]	 Already installed "tmux-resurrect"
+[2024-12-16 22:33:56.096]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-16 22:33:56.179]	 Updating all plugins!
+[2024-12-16 22:33:56.179]	 
+[2024-12-16 22:33:57.539]	   "tmux-copycat" update success
+[2024-12-16 22:33:57.556]	     | 已经是最新的。
+[2024-12-16 22:33:57.556]	   "tmux-cpu" update success
+[2024-12-16 22:33:57.571]	     | 已经是最新的。
+[2024-12-16 22:33:57.590]	   "tmux-continuum" update success
+[2024-12-16 22:33:57.604]	     | 已经是最新的。
+[2024-12-16 22:33:57.650]	   "tmux-resurrect" update success
+[2024-12-16 22:33:57.654]	     | 已经是最新的。
+[2024-12-16 22:33:57.700]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-16 22:33:57.873]	 Done.
+
+[2024-12-21 23:40:23.844]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-21 23:40:23.915]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-21 23:40:24.138]	 Already installed "tmux-copycat"
+[2024-12-21 23:40:24.138]	 Already installed "tmux-cpu"
+[2024-12-21 23:40:24.138]	 Already installed "tmux-continuum"
+[2024-12-21 23:40:24.138]	 Already installed "tmux-resurrect"
+[2024-12-21 23:40:24.213]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-21 23:40:24.330]	 Updating all plugins!
+[2024-12-21 23:40:24.330]	 
+[2024-12-21 23:40:25.591]	   "tmux-copycat" update success
+[2024-12-21 23:40:25.602]	     | 已经是最新的。
+[2024-12-21 23:40:25.640]	   "tmux-cpu" update success
+[2024-12-21 23:40:25.649]	     | 已经是最新的。
+[2024-12-21 23:40:25.670]	   "tmux-continuum" update success
+[2024-12-21 23:40:25.675]	     | 已经是最新的。
+[2024-12-21 23:40:25.734]	   "tmux-resurrect" update success
+[2024-12-21 23:40:25.745]	     | 已经是最新的。
+[2024-12-21 23:40:25.792]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-21 23:40:26.029]	 Done.
+
+[2024-12-23 21:56:46.535]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-23 21:56:46.573]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-23 21:56:46.698]	 Already installed "tmux-continuum"
+[2024-12-23 21:56:46.702]	 Already installed "tmux-copycat"
+[2024-12-23 21:56:46.702]	 Already installed "tmux-resurrect"
+[2024-12-23 21:56:46.704]	 Already installed "tmux-cpu"
+[2024-12-23 21:56:46.750]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-23 21:56:46.792]	 Updating all plugins!
+[2024-12-23 21:56:46.792]	 
+[2024-12-23 21:56:47.828]	   "tmux-cpu" update success
+[2024-12-23 21:56:47.830]	     | 已经是最新的。
+[2024-12-23 21:56:47.846]	   "tmux-resurrect" update success
+[2024-12-23 21:56:47.848]	     | 已经是最新的。
+[2024-12-23 21:56:47.855]	   "tmux-copycat" update success
+[2024-12-23 21:56:47.857]	     | 已经是最新的。
+[2024-12-23 21:56:47.871]	   "tmux-continuum" update success
+[2024-12-23 21:56:47.873]	     | 已经是最新的。
+[2024-12-23 21:56:47.897]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-23 21:56:47.971]	 Done.
+
+[2024-12-24 22:01:48.865]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-24 22:01:48.922]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-24 22:01:49.161]	 Already installed "tmux-resurrect"
+[2024-12-24 22:01:49.169]	 Already installed "tmux-cpu"
+[2024-12-24 22:01:49.173]	 Already installed "tmux-copycat"
+[2024-12-24 22:01:49.228]	 Already installed "tmux-continuum"
+[2024-12-24 22:01:49.289]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-24 22:01:49.406]	 Updating all plugins!
+[2024-12-24 22:01:49.407]	 
+[2024-12-24 22:01:50.762]	   "tmux-copycat" update success
+[2024-12-24 22:01:50.781]	     | 已经是最新的。
+[2024-12-24 22:01:50.975]	   "tmux-resurrect" update success
+[2024-12-24 22:01:50.984]	     | 已经是最新的。
+[2024-12-24 22:01:51.000]	   "tmux-cpu" update success
+[2024-12-24 22:01:51.011]	   "tmux-continuum" update success
+[2024-12-24 22:01:51.012]	     | 已经是最新的。
+[2024-12-24 22:01:51.015]	     | 已经是最新的。
+[2024-12-24 22:01:51.100]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-24 22:01:51.416]	 Done.
+
+[2024-12-25 22:56:51.591]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-25 22:56:51.622]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-25 22:56:51.746]	 Already installed "tmux-continuum"
+[2024-12-25 22:56:51.746]	 Already installed "tmux-resurrect"
+[2024-12-25 22:56:51.753]	 Already installed "tmux-copycat"
+[2024-12-25 22:56:51.757]	 Already installed "tmux-cpu"
+[2024-12-25 22:56:51.793]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-25 22:56:51.827]	 Updating all plugins!
+[2024-12-25 22:56:51.827]	 
+[2024-12-25 22:56:52.954]	   "tmux-copycat" update success
+[2024-12-25 22:56:52.958]	     | 已经是最新的。
+[2024-12-25 22:56:52.978]	   "tmux-cpu" update success
+[2024-12-25 22:56:52.981]	     | 已经是最新的。
+[2024-12-25 22:56:52.996]	   "tmux-continuum" update success
+[2024-12-25 22:56:53.000]	     | 已经是最新的。
+[2024-12-25 22:56:53.001]	   "tmux-resurrect" update success
+[2024-12-25 22:56:53.003]	     | 已经是最新的。
+[2024-12-25 22:56:53.038]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-25 22:56:53.126]	 Done.
+
+[2024-12-27 22:13:19.267]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-27 22:13:19.318]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-27 22:13:19.547]	 Already installed "tmux-continuum"
+[2024-12-27 22:13:19.550]	 Already installed "tmux-cpu"
+[2024-12-27 22:13:19.555]	 Already installed "tmux-resurrect"
+[2024-12-27 22:13:19.566]	 Already installed "tmux-copycat"
+[2024-12-27 22:13:19.609]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-27 22:13:19.741]	 Updating all plugins!
+[2024-12-27 22:13:19.741]	 
+[2024-12-27 22:13:21.020]	   "tmux-continuum" update success
+[2024-12-27 22:13:21.024]	   "tmux-copycat" update success
+[2024-12-27 22:13:21.031]	     | 已经是最新的。
+[2024-12-27 22:13:21.055]	     | 已经是最新的。
+[2024-12-27 22:13:21.110]	   "tmux-resurrect" update success
+[2024-12-27 22:13:21.119]	     | 已经是最新的。
+[2024-12-27 22:13:21.121]	   "tmux-cpu" update success
+[2024-12-27 22:13:21.134]	     | 已经是最新的。
+[2024-12-27 22:13:21.172]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-27 22:13:21.367]	 Done.
+
+[2024-12-28 22:18:02.876]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-28 22:18:02.935]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-28 22:18:03.240]	 Already installed "tmux-copycat"
+[2024-12-28 22:18:03.240]	 Already installed "tmux-resurrect"
+[2024-12-28 22:18:03.243]	 Already installed "tmux-continuum"
+[2024-12-28 22:18:03.249]	 Already installed "tmux-cpu"
+[2024-12-28 22:18:03.306]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-28 22:18:03.426]	 Updating all plugins!
+[2024-12-28 22:18:03.426]	 
+[2024-12-28 22:18:04.888]	   "tmux-cpu" update success
+[2024-12-28 22:18:04.888]	   "tmux-copycat" update success
+[2024-12-28 22:18:04.902]	     | 已经是最新的。
+[2024-12-28 22:18:04.912]	     | 已经是最新的。
+[2024-12-28 22:18:05.019]	   "tmux-resurrect" update success
+[2024-12-28 22:18:05.042]	     | 已经是最新的。
+[2024-12-28 22:18:05.058]	   "tmux-continuum" update success
+[2024-12-28 22:18:05.061]	     | 已经是最新的。
+[2024-12-28 22:18:05.149]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-28 22:18:05.541]	 Done.
+
+[2024-12-31 22:58:32.945]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-12-31 22:58:33.211]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-31 22:58:33.598]	 Already installed "tmux-cpu"
+[2024-12-31 22:58:33.616]	 Already installed "tmux-continuum"
+[2024-12-31 22:58:33.623]	 Already installed "tmux-resurrect"
+[2024-12-31 22:58:33.659]	 Already installed "tmux-copycat"
+[2024-12-31 22:58:33.787]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-31 22:58:33.946]	 Updating all plugins!
+[2024-12-31 22:58:33.946]	 
+[2024-12-31 22:58:35.616]	   "tmux-copycat" update success
+[2024-12-31 22:58:35.649]	     | 已经是最新的。
+[2024-12-31 22:58:35.839]	   "tmux-cpu" update success
+[2024-12-31 22:58:35.872]	     | 已经是最新的。
+[2024-12-31 22:58:35.930]	   "tmux-resurrect" update success
+[2024-12-31 22:58:35.968]	   "tmux-continuum" update success
+[2024-12-31 22:58:35.969]	     | 已经是最新的。
+[2024-12-31 22:58:35.988]	     | 已经是最新的。
+[2024-12-31 22:58:36.084]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-31 22:58:36.684]	 Done.
+
+[2025-01-01 22:45:31.038]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-01 22:45:31.086]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-01 22:45:31.224]	 Already installed "tmux-resurrect"
+[2025-01-01 22:45:31.225]	 Already installed "tmux-copycat"
+[2025-01-01 22:45:31.233]	 Already installed "tmux-continuum"
+[2025-01-01 22:45:31.233]	 Already installed "tmux-cpu"
+[2025-01-01 22:45:31.271]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-01 22:45:31.320]	 Updating all plugins!
+[2025-01-01 22:45:31.320]	 
+[2025-01-01 22:45:32.692]	   "tmux-copycat" update success
+[2025-01-01 22:45:32.701]	     | 已经是最新的。
+[2025-01-01 22:45:32.712]	   "tmux-continuum" update success
+[2025-01-01 22:45:32.727]	     | 已经是最新的。
+[2025-01-01 22:45:32.749]	   "tmux-cpu" update success
+[2025-01-01 22:45:32.752]	     | 已经是最新的。
+[2025-01-01 22:45:32.757]	   "tmux-resurrect" update success
+[2025-01-01 22:45:32.774]	     | 已经是最新的。
+[2025-01-01 22:45:32.819]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-01 22:45:32.972]	 Done.
+
+[2025-01-03 22:08:41.105]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-03 22:08:41.143]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-03 22:08:41.229]	 Already installed "tmux-cpu"
+[2025-01-03 22:08:41.231]	 Already installed "tmux-resurrect"
+[2025-01-03 22:08:41.237]	 Already installed "tmux-continuum"
+[2025-01-03 22:08:41.239]	 Already installed "tmux-copycat"
+[2025-01-03 22:08:41.281]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-03 22:08:41.324]	 Updating all plugins!
+[2025-01-03 22:08:41.324]	 
+[2025-01-03 22:08:42.347]	   "tmux-cpu" update success
+[2025-01-03 22:08:42.350]	     | 已经是最新的。
+[2025-01-03 22:08:42.359]	   "tmux-resurrect" update success
+[2025-01-03 22:08:42.362]	     | 已经是最新的。
+[2025-01-03 22:08:42.365]	   "tmux-copycat" update success
+[2025-01-03 22:08:42.368]	     | 已经是最新的。
+[2025-01-03 22:08:42.390]	   "tmux-continuum" update success
+[2025-01-03 22:08:42.394]	     | 已经是最新的。
+[2025-01-03 22:08:42.420]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-03 22:08:42.512]	 Done.
+
+[2025-01-05 22:46:55.540]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-05 22:46:55.877]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-05 22:46:56.394]	 Already installed "tmux-copycat"
+[2025-01-05 22:46:56.394]	 Already installed "tmux-resurrect"
+[2025-01-05 22:46:56.399]	 Already installed "tmux-continuum"
+[2025-01-05 22:46:56.456]	 Already installed "tmux-cpu"
+[2025-01-05 22:46:56.595]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-05 22:46:56.746]	 Updating all plugins!
+[2025-01-05 22:46:56.746]	 
+[2025-01-05 22:46:58.518]	   "tmux-cpu" update success
+[2025-01-05 22:46:58.583]	     | 已经是最新的。
+[2025-01-05 22:46:58.620]	   "tmux-resurrect" update success
+[2025-01-05 22:46:58.652]	     | 已经是最新的。
+[2025-01-05 22:46:58.654]	   "tmux-copycat" update success
+[2025-01-05 22:46:58.700]	     | 已经是最新的。
+[2025-01-05 22:46:58.807]	   "tmux-continuum" update success
+[2025-01-05 22:46:58.829]	     | 已经是最新的。
+[2025-01-05 22:46:59.055]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-05 22:46:59.651]	 Done.
+
+[2025-01-06 22:29:08.055]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-06 22:29:08.196]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-06 22:29:08.572]	 Already installed "tmux-resurrect"
+[2025-01-06 22:29:08.572]	 Already installed "tmux-cpu"
+[2025-01-06 22:29:08.583]	 Already installed "tmux-copycat"
+[2025-01-06 22:29:08.595]	 Already installed "tmux-continuum"
+[2025-01-06 22:29:08.689]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-06 22:29:08.864]	 Updating all plugins!
+[2025-01-06 22:29:08.891]	 
+[2025-01-06 22:29:10.514]	   "tmux-cpu" update success
+[2025-01-06 22:29:10.545]	     | 已经是最新的。
+[2025-01-06 22:29:10.592]	   "tmux-copycat" update success
+[2025-01-06 22:29:10.608]	     | 已经是最新的。
+[2025-01-06 22:29:10.651]	   "tmux-continuum" update success
+[2025-01-06 22:29:10.657]	   "tmux-resurrect" update success
+[2025-01-06 22:29:10.657]	     | 已经是最新的。
+[2025-01-06 22:29:10.661]	     | 已经是最新的。
+[2025-01-06 22:29:10.722]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-06 22:29:10.943]	 Done.
+
+[2025-01-08 22:26:49.564]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-08 22:26:49.617]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-08 22:26:49.732]	 Already installed "tmux-cpu"
+[2025-01-08 22:26:49.733]	 Already installed "tmux-continuum"
+[2025-01-08 22:26:49.734]	 Already installed "tmux-resurrect"
+[2025-01-08 22:26:49.735]	 Already installed "tmux-copycat"
+[2025-01-08 22:26:49.784]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-08 22:26:49.833]	 Updating all plugins!
+[2025-01-08 22:26:49.833]	 
+[2025-01-08 22:26:50.976]	   "tmux-cpu" update success
+[2025-01-08 22:26:50.987]	     | 已经是最新的。
+[2025-01-08 22:26:51.008]	   "tmux-copycat" update success
+[2025-01-08 22:26:51.020]	     | 已经是最新的。
+[2025-01-08 22:26:51.044]	   "tmux-continuum" update success
+[2025-01-08 22:26:51.048]	     | 已经是最新的。
+[2025-01-08 22:26:51.049]	   "tmux-resurrect" update success
+[2025-01-08 22:26:51.052]	     | 已经是最新的。
+[2025-01-08 22:26:51.097]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-08 22:26:51.196]	 Done.
+
+[2025-01-09 22:13:28.095]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-09 22:13:28.184]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-09 22:13:28.431]	 Already installed "tmux-copycat"
+[2025-01-09 22:13:28.431]	 Already installed "tmux-cpu"
+[2025-01-09 22:13:28.431]	 Already installed "tmux-resurrect"
+[2025-01-09 22:13:28.436]	 Already installed "tmux-continuum"
+[2025-01-09 22:13:28.495]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-09 22:13:28.580]	 Updating all plugins!
+[2025-01-09 22:13:28.580]	 
+[2025-01-09 22:13:29.911]	   "tmux-copycat" update success
+[2025-01-09 22:13:29.923]	     | 已经是最新的。
+[2025-01-09 22:13:29.932]	   "tmux-cpu" update success
+[2025-01-09 22:13:29.937]	     | 已经是最新的。
+[2025-01-09 22:13:30.084]	   "tmux-continuum" update success
+[2025-01-09 22:13:30.108]	     | 已经是最新的。
+[2025-01-09 22:13:30.202]	   "tmux-resurrect" update success
+[2025-01-09 22:13:30.206]	     | 已经是最新的。
+[2025-01-09 22:13:30.256]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-09 22:13:30.464]	 Done.
+
+[2025-01-11 22:21:22.474]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-11 22:21:22.543]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-11 22:21:22.814]	 Already installed "tmux-copycat"
+[2025-01-11 22:21:22.814]	 Already installed "tmux-resurrect"
+[2025-01-11 22:21:22.821]	 Already installed "tmux-cpu"
+[2025-01-11 22:21:22.835]	 Already installed "tmux-continuum"
+[2025-01-11 22:21:23.030]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-11 22:21:23.274]	 Updating all plugins!
+[2025-01-11 22:21:23.274]	 
+[2025-01-11 22:21:25.716]	   "tmux-copycat" update success
+[2025-01-11 22:21:25.750]	   "tmux-cpu" update success
+[2025-01-11 22:21:25.767]	     | 已经是最新的。
+[2025-01-11 22:21:25.767]	     | 已经是最新的。
+[2025-01-11 22:21:25.783]	   "tmux-continuum" update success
+[2025-01-11 22:21:25.804]	     | 已经是最新的。
+[2025-01-11 22:21:25.922]	   "tmux-resurrect" update success
+[2025-01-11 22:21:25.938]	     | 已经是最新的。
+[2025-01-11 22:21:26.032]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-11 22:21:26.600]	 Done.
+
+[2025-01-12 22:26:34.663]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-12 22:26:34.834]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-12 22:26:35.200]	 Already installed "tmux-resurrect"
+[2025-01-12 22:26:35.202]	 Already installed "tmux-continuum"
+[2025-01-12 22:26:35.215]	 Already installed "tmux-copycat"
+[2025-01-12 22:26:35.230]	 Already installed "tmux-cpu"
+[2025-01-12 22:26:35.311]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-12 22:26:35.430]	 Updating all plugins!
+[2025-01-12 22:26:35.431]	 
+[2025-01-12 22:26:36.721]	   "tmux-copycat" update success
+[2025-01-12 22:26:36.735]	     | 已经是最新的。
+[2025-01-12 22:26:36.767]	   "tmux-resurrect" update success
+[2025-01-12 22:26:36.771]	     | 已经是最新的。
+[2025-01-12 22:26:36.798]	   "tmux-cpu" update success
+[2025-01-12 22:26:36.807]	     | 已经是最新的。
+[2025-01-12 22:26:36.875]	   "tmux-continuum" update success
+[2025-01-12 22:26:36.878]	     | 已经是最新的。
+[2025-01-12 22:26:36.915]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-12 22:26:37.039]	 Done.
+
+[2025-01-14 22:55:42.434]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-14 22:55:42.479]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-14 22:55:42.576]	 Already installed "tmux-cpu"
+[2025-01-14 22:55:42.577]	 Already installed "tmux-copycat"
+[2025-01-14 22:55:42.580]	 Already installed "tmux-resurrect"
+[2025-01-14 22:55:42.580]	 Already installed "tmux-continuum"
+[2025-01-14 22:55:42.610]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-14 22:55:42.636]	 Updating all plugins!
+[2025-01-14 22:55:42.637]	 
+[2025-01-14 22:55:44.107]	   "tmux-cpu" update success
+[2025-01-14 22:55:44.113]	     | 已经是最新的。
+[2025-01-14 22:55:44.770]	   "tmux-resurrect" update success
+[2025-01-14 22:55:44.776]	     | 已经是最新的。
+[2025-01-14 22:55:44.784]	   "tmux-continuum" update success
+[2025-01-14 22:55:44.787]	     | 已经是最新的。
+[2025-01-14 22:55:44.925]	   "tmux-copycat" update success
+[2025-01-14 22:55:44.928]	     | 已经是最新的。
+[2025-01-14 22:55:44.974]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-14 22:55:45.129]	 Done.
+
+[2025-01-15 23:09:12.912]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-15 23:09:13.014]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-15 23:09:13.266]	 Already installed "tmux-cpu"
+[2025-01-15 23:09:13.290]	 Already installed "tmux-copycat"
+[2025-01-15 23:09:13.307]	 Already installed "tmux-continuum"
+[2025-01-15 23:09:13.319]	 Already installed "tmux-resurrect"
+[2025-01-15 23:09:13.394]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-15 23:09:13.598]	 Updating all plugins!
+[2025-01-15 23:09:13.598]	 
+[2025-01-15 23:09:15.052]	   "tmux-cpu" update success
+[2025-01-15 23:09:15.061]	   "tmux-continuum" update success
+[2025-01-15 23:09:15.061]	     | 已经是最新的。
+[2025-01-15 23:09:15.073]	     | 已经是最新的。
+[2025-01-15 23:09:15.079]	   "tmux-copycat" update success
+[2025-01-15 23:09:15.087]	     | 已经是最新的。
+[2025-01-15 23:09:15.103]	   "tmux-resurrect" update success
+[2025-01-15 23:09:15.107]	     | 已经是最新的。
+[2025-01-15 23:09:15.176]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-15 23:09:15.404]	 Done.
+
+[2025-01-16 23:19:48.326]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-16 23:19:48.472]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-16 23:19:48.777]	 Already installed "tmux-copycat"
+[2025-01-16 23:19:48.803]	 Already installed "tmux-cpu"
+[2025-01-16 23:19:48.804]	 Already installed "tmux-resurrect"
+[2025-01-16 23:19:48.836]	 Already installed "tmux-continuum"
+[2025-01-16 23:19:48.912]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-16 23:19:49.054]	 Updating all plugins!
+[2025-01-16 23:19:49.054]	 
+[2025-01-16 23:19:50.283]	   "tmux-cpu" update success
+[2025-01-16 23:19:50.288]	     | 已经是最新的。
+[2025-01-16 23:19:50.568]	   "tmux-continuum" update success
+[2025-01-16 23:19:50.573]	     | 已经是最新的。
+[2025-01-16 23:19:50.808]	   "tmux-copycat" update success
+[2025-01-16 23:19:50.812]	     | 已经是最新的。
+[2025-01-16 23:19:51.407]	   "tmux-resurrect" update success
+[2025-01-16 23:19:51.415]	     | 已经是最新的。
+[2025-01-16 23:19:51.475]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-16 23:19:51.692]	 Done.
+
+[2025-01-18 21:33:33.119]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-18 21:33:33.178]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-18 21:33:33.407]	 Already installed "tmux-cpu"
+[2025-01-18 21:33:33.408]	 Already installed "tmux-copycat"
+[2025-01-18 21:33:33.454]	 Already installed "tmux-resurrect"
+[2025-01-18 21:33:33.479]	 Already installed "tmux-continuum"
+[2025-01-18 21:33:33.539]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-18 21:33:33.625]	 Updating all plugins!
+[2025-01-18 21:33:33.625]	 
+[2025-01-18 21:33:35.052]	   "tmux-copycat" update success
+[2025-01-18 21:33:35.089]	     | 已经是最新的。
+[2025-01-18 21:33:35.260]	   "tmux-cpu" update success
+[2025-01-18 21:33:35.283]	     | 已经是最新的。
+[2025-01-18 21:33:35.378]	   "tmux-continuum" update success
+[2025-01-18 21:33:35.405]	     | 已经是最新的。
+[2025-01-18 21:33:35.409]	   "tmux-resurrect" update success
+[2025-01-18 21:33:35.434]	     | 已经是最新的。
+[2025-01-18 21:33:35.674]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-18 21:33:36.241]	 Done.
+
+[2025-01-19 22:12:19.423]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-19 22:12:19.520]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-19 22:12:19.880]	 Already installed "tmux-cpu"
+[2025-01-19 22:12:19.886]	 Already installed "tmux-continuum"
+[2025-01-19 22:12:19.901]	 Already installed "tmux-copycat"
+[2025-01-19 22:12:19.915]	 Already installed "tmux-resurrect"
+[2025-01-19 22:12:19.980]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-19 22:12:20.082]	 Updating all plugins!
+[2025-01-19 22:12:20.082]	 
+[2025-01-19 22:12:21.409]	   "tmux-copycat" update success
+[2025-01-19 22:12:21.427]	     | 已经是最新的。
+[2025-01-19 22:12:21.501]	   "tmux-cpu" update success
+[2025-01-19 22:12:21.509]	     | 已经是最新的。
+[2025-01-19 22:12:21.513]	   "tmux-resurrect" update success
+[2025-01-19 22:12:21.519]	     | 已经是最新的。
+[2025-01-19 22:12:21.523]	   "tmux-continuum" update success
+[2025-01-19 22:12:21.527]	     | 已经是最新的。
+[2025-01-19 22:12:21.561]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-19 22:12:21.730]	 Done.
+
+[2025-01-20 21:33:51.089]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-20 21:33:51.242]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-20 21:33:51.706]	 Already installed "tmux-continuum"
+[2025-01-20 21:33:51.726]	 Already installed "tmux-copycat"
+[2025-01-20 21:33:51.732]	 Already installed "tmux-cpu"
+[2025-01-20 21:33:51.746]	 Already installed "tmux-resurrect"
+[2025-01-20 21:33:51.824]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-20 21:33:52.065]	 Updating all plugins!
+[2025-01-20 21:33:52.066]	 
+[2025-01-20 21:33:53.994]	   "tmux-copycat" update success
+[2025-01-20 21:33:54.033]	     | 已经是最新的。
+[2025-01-20 21:33:54.169]	   "tmux-cpu" update success
+[2025-01-20 21:33:54.187]	     | 已经是最新的。
+[2025-01-20 21:33:54.276]	   "tmux-resurrect" update success
+[2025-01-20 21:33:54.285]	     | 已经是最新的。
+[2025-01-20 21:33:54.549]	   "tmux-continuum" update success
+[2025-01-20 21:33:54.567]	     | 已经是最新的。
+[2025-01-20 21:33:54.808]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-20 21:33:55.125]	 Done.
+
+[2025-01-22 23:08:52.150]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-22 23:08:52.209]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-22 23:08:52.521]	 Already installed "tmux-cpu"
+[2025-01-22 23:08:52.578]	 Already installed "tmux-continuum"
+[2025-01-22 23:08:52.624]	 Already installed "tmux-resurrect"
+[2025-01-22 23:08:52.625]	 Already installed "tmux-copycat"
+[2025-01-22 23:08:52.698]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-22 23:08:52.772]	 Updating all plugins!
+[2025-01-22 23:08:52.772]	 
+[2025-01-22 23:08:54.270]	   "tmux-copycat" update success
+[2025-01-22 23:08:54.281]	     | 已经是最新的。
+[2025-01-22 23:08:54.301]	   "tmux-continuum" update success
+[2025-01-22 23:08:54.309]	     | 已经是最新的。
+[2025-01-22 23:08:54.381]	   "tmux-resurrect" update success
+[2025-01-22 23:08:54.385]	     | 已经是最新的。
+[2025-01-22 23:08:54.506]	   "tmux-cpu" update success
+[2025-01-22 23:08:54.514]	     | 已经是最新的。
+[2025-01-22 23:08:54.552]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-22 23:08:54.794]	 Done.
+
+[2025-01-23 21:50:16.230]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-23 21:50:16.269]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-23 21:50:16.597]	 Already installed "tmux-cpu"
+[2025-01-23 21:50:16.613]	 Already installed "tmux-continuum"
+[2025-01-23 21:50:16.613]	 Already installed "tmux-copycat"
+[2025-01-23 21:50:16.619]	 Already installed "tmux-resurrect"
+[2025-01-23 21:50:16.669]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-23 21:50:16.789]	 Updating all plugins!
+[2025-01-23 21:50:16.789]	 
+[2025-01-23 21:50:17.916]	   "tmux-copycat" update success
+[2025-01-23 21:50:17.918]	     | 已经是最新的。
+[2025-01-23 21:50:18.009]	   "tmux-cpu" update success
+[2025-01-23 21:50:18.012]	     | 已经是最新的。
+[2025-01-23 21:50:18.024]	   "tmux-continuum" update success
+[2025-01-23 21:50:18.027]	     | 已经是最新的。
+[2025-01-23 21:50:18.072]	   "tmux-resurrect" update success
+[2025-01-23 21:50:18.075]	     | 已经是最新的。
+[2025-01-23 21:50:18.097]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-23 21:50:18.168]	 Done.
+
+[2025-01-24 22:59:11.995]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-01-24 22:59:12.042]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-24 22:59:12.260]	 Already installed "tmux-copycat"
+[2025-01-24 22:59:12.260]	 Already installed "tmux-continuum"
+[2025-01-24 22:59:12.277]	 Already installed "tmux-resurrect"
+[2025-01-24 22:59:12.285]	 Already installed "tmux-cpu"
+[2025-01-24 22:59:12.386]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-24 22:59:12.575]	 Updating all plugins!
+[2025-01-24 22:59:12.575]	 
+[2025-01-24 22:59:13.947]	   "tmux-cpu" update success
+[2025-01-24 22:59:13.955]	     | 已经是最新的。
+[2025-01-24 22:59:15.130]	   "tmux-copycat" update success
+[2025-01-24 22:59:15.157]	     | 已经是最新的。
+[2025-01-24 22:59:15.174]	   "tmux-continuum" update success
+[2025-01-24 22:59:15.193]	     | 已经是最新的。
+[2025-01-24 22:59:15.219]	   "tmux-resurrect" update success
+[2025-01-24 22:59:15.250]	     | 已经是最新的。
+[2025-01-24 22:59:15.306]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-24 22:59:15.619]	 Done.
+
+[2025-02-08 22:01:44.835]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-08 22:01:44.879]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-08 22:01:45.017]	 Already installed "tmux-continuum"
+[2025-02-08 22:01:45.019]	 Already installed "tmux-copycat"
+[2025-02-08 22:01:45.022]	 Already installed "tmux-cpu"
+[2025-02-08 22:01:45.022]	 Already installed "tmux-resurrect"
+[2025-02-08 22:01:45.066]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-08 22:01:45.123]	 Updating all plugins!
+[2025-02-08 22:01:45.123]	 
+[2025-02-08 22:01:46.415]	   "tmux-copycat" update success
+[2025-02-08 22:01:46.428]	     | 已经是最新的。
+[2025-02-08 22:01:46.469]	   "tmux-continuum" update success
+[2025-02-08 22:01:46.474]	     | 已经是最新的。
+[2025-02-08 22:01:46.474]	   "tmux-cpu" update success
+[2025-02-08 22:01:46.477]	     | 已经是最新的。
+[2025-02-08 22:01:46.489]	   "tmux-resurrect" update success
+[2025-02-08 22:01:46.494]	     | 已经是最新的。
+[2025-02-08 22:01:46.531]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-08 22:01:46.633]	 Done.
+
+[2025-02-09 11:16:44.142]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-09 11:16:44.198]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-09 11:16:44.457]	 Already installed "tmux-cpu"
+[2025-02-09 11:16:44.465]	 Already installed "tmux-copycat"
+[2025-02-09 11:16:44.507]	 Already installed "tmux-continuum"
+[2025-02-09 11:16:44.507]	 Already installed "tmux-resurrect"
+[2025-02-09 11:16:44.559]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-09 11:16:44.694]	 Updating all plugins!
+[2025-02-09 11:16:44.695]	 
+[2025-02-09 11:16:46.179]	   "tmux-copycat" update success
+[2025-02-09 11:16:46.198]	   "tmux-resurrect" update success
+[2025-02-09 11:16:46.208]	     | 已经是最新的。
+[2025-02-09 11:16:46.213]	     | 已经是最新的。
+[2025-02-09 11:16:46.215]	   "tmux-cpu" update success
+[2025-02-09 11:16:46.237]	     | 已经是最新的。
+[2025-02-09 11:16:46.243]	   "tmux-continuum" update success
+[2025-02-09 11:16:46.253]	     | 已经是最新的。
+[2025-02-09 11:16:46.304]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-09 11:16:46.585]	 Done.
+
+[2025-02-10 22:14:08.775]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-10 22:14:08.855]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-10 22:14:09.124]	 Already installed "tmux-continuum"
+[2025-02-10 22:14:09.141]	 Already installed "tmux-resurrect"
+[2025-02-10 22:14:09.141]	 Already installed "tmux-copycat"
+[2025-02-10 22:14:09.145]	 Already installed "tmux-cpu"
+[2025-02-10 22:14:09.205]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-10 22:14:09.388]	 Updating all plugins!
+[2025-02-10 22:14:09.388]	 
+[2025-02-10 22:14:10.894]	   "tmux-resurrect" update success
+[2025-02-10 22:14:10.915]	     | 已经是最新的。
+[2025-02-10 22:14:11.071]	   "tmux-continuum" update success
+[2025-02-10 22:14:11.087]	     | 已经是最新的。
+[2025-02-10 22:14:11.305]	   "tmux-copycat" update success
+[2025-02-10 22:14:11.309]	     | 已经是最新的。
+[2025-02-10 22:14:11.317]	   "tmux-cpu" update success
+[2025-02-10 22:14:11.319]	     | 已经是最新的。
+[2025-02-10 22:14:11.478]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-10 22:14:11.953]	 Done.
+
+[2025-02-12 22:16:20.278]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-12 22:16:20.318]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-12 22:16:20.515]	 Already installed "tmux-copycat"
+[2025-02-12 22:16:20.525]	 Already installed "tmux-resurrect"
+[2025-02-12 22:16:20.529]	 Already installed "tmux-continuum"
+[2025-02-12 22:16:20.539]	 Already installed "tmux-cpu"
+[2025-02-12 22:16:20.614]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-12 22:16:20.708]	 Updating all plugins!
+[2025-02-12 22:16:20.708]	 
+[2025-02-12 22:16:22.397]	   "tmux-copycat" update success
+[2025-02-12 22:16:22.523]	     | 已经是最新的。
+[2025-02-12 22:16:22.709]	   "tmux-resurrect" update success
+[2025-02-12 22:16:22.741]	     | 已经是最新的。
+[2025-02-12 22:16:22.839]	   "tmux-continuum" update success
+[2025-02-12 22:16:22.927]	     | 已经是最新的。
+[2025-02-12 22:16:23.051]	   "tmux-cpu" update success
+[2025-02-12 22:16:23.061]	     | 已经是最新的。
+[2025-02-12 22:16:23.157]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-12 22:16:23.885]	 Done.
+
+[2025-02-13 21:55:01.095]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-13 21:55:01.150]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-13 21:55:01.362]	 Already installed "tmux-copycat"
+[2025-02-13 21:55:01.365]	 Already installed "tmux-continuum"
+[2025-02-13 21:55:01.371]	 Already installed "tmux-resurrect"
+[2025-02-13 21:55:01.375]	 Already installed "tmux-cpu"
+[2025-02-13 21:55:01.458]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-13 21:55:01.574]	 Updating all plugins!
+[2025-02-13 21:55:01.574]	 
+[2025-02-13 21:55:02.702]	   "tmux-continuum" update success
+[2025-02-13 21:55:02.702]	   "tmux-cpu" update success
+[2025-02-13 21:55:02.705]	     | 已经是最新的。
+[2025-02-13 21:55:02.705]	     | 已经是最新的。
+[2025-02-13 21:55:02.924]	   "tmux-copycat" update success
+[2025-02-13 21:55:02.929]	     | 已经是最新的。
+[2025-02-13 21:55:04.251]	   "tmux-resurrect" update success
+[2025-02-13 21:55:04.262]	     | 已经是最新的。
+[2025-02-13 21:55:04.331]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-13 21:55:04.726]	 Done.
+
+[2025-02-14 22:45:45.759]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-14 22:45:45.873]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-14 22:45:46.126]	 Already installed "tmux-copycat"
+[2025-02-14 22:45:46.152]	 Already installed "tmux-resurrect"
+[2025-02-14 22:45:46.158]	 Already installed "tmux-cpu"
+[2025-02-14 22:45:46.167]	 Already installed "tmux-continuum"
+[2025-02-14 22:45:46.232]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-14 22:45:46.326]	 Updating all plugins!
+[2025-02-14 22:45:46.327]	 
+[2025-02-14 22:45:47.761]	   "tmux-copycat" update success
+[2025-02-14 22:45:47.772]	     | 已经是最新的。
+[2025-02-14 22:45:47.815]	   "tmux-resurrect" update success
+[2025-02-14 22:45:47.820]	     | 已经是最新的。
+[2025-02-14 22:45:48.554]	   "tmux-continuum" update success
+[2025-02-14 22:45:48.568]	     | 已经是最新的。
+[2025-02-14 22:45:48.818]	   "tmux-cpu" update success
+[2025-02-14 22:45:48.824]	     | 已经是最新的。
+[2025-02-14 22:45:48.887]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-14 22:45:49.098]	 Done.
+
+[2025-02-15 22:46:08.382]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-15 22:46:08.429]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-15 22:46:08.599]	 Already installed "tmux-cpu"
+[2025-02-15 22:46:08.602]	 Already installed "tmux-continuum"
+[2025-02-15 22:46:08.613]	 Already installed "tmux-resurrect"
+[2025-02-15 22:46:08.624]	 Already installed "tmux-copycat"
+[2025-02-15 22:46:08.706]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-15 22:46:08.791]	 Updating all plugins!
+[2025-02-15 22:46:08.791]	 
+[2025-02-15 22:46:09.982]	   "tmux-copycat" update success
+[2025-02-15 22:46:09.992]	     | 已经是最新的。
+[2025-02-15 22:46:10.245]	   "tmux-resurrect" update success
+[2025-02-15 22:46:10.267]	     | 已经是最新的。
+[2025-02-15 22:46:10.268]	   "tmux-continuum" update success
+[2025-02-15 22:46:10.312]	     | 已经是最新的。
+[2025-02-15 22:46:10.463]	   "tmux-cpu" update success
+[2025-02-15 22:46:10.476]	     | 已经是最新的。
+[2025-02-15 22:46:10.624]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-15 22:46:10.825]	 Done.
+
+[2025-02-17 22:01:37.043]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-17 22:01:37.089]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-17 22:01:37.287]	 Already installed "tmux-continuum"
+[2025-02-17 22:01:37.289]	 Already installed "tmux-resurrect"
+[2025-02-17 22:01:37.291]	 Already installed "tmux-copycat"
+[2025-02-17 22:01:37.305]	 Already installed "tmux-cpu"
+[2025-02-17 22:01:37.367]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-17 22:01:37.459]	 Updating all plugins!
+[2025-02-17 22:01:37.460]	 
+[2025-02-17 22:01:38.837]	   "tmux-cpu" update success
+[2025-02-17 22:01:38.847]	     | 已经是最新的。
+[2025-02-17 22:01:38.851]	   "tmux-copycat" update success
+[2025-02-17 22:01:38.864]	     | 已经是最新的。
+[2025-02-17 22:01:38.893]	   "tmux-resurrect" update success
+[2025-02-17 22:01:38.904]	     | 已经是最新的。
+[2025-02-17 22:01:39.017]	   "tmux-continuum" update success
+[2025-02-17 22:01:39.024]	     | 已经是最新的。
+[2025-02-17 22:01:39.073]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-17 22:01:39.377]	 Done.
+
+[2025-02-19 20:55:36.185]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-19 20:55:36.271]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-19 20:55:36.598]	 Already installed "tmux-cpu"
+[2025-02-19 20:55:36.618]	 Already installed "tmux-continuum"
+[2025-02-19 20:55:36.621]	 Already installed "tmux-copycat"
+[2025-02-19 20:55:36.630]	 Already installed "tmux-resurrect"
+[2025-02-19 20:55:36.699]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-19 20:55:36.873]	 Updating all plugins!
+[2025-02-19 20:55:36.873]	 
+[2025-02-19 20:55:39.042]	   "tmux-copycat" update success
+[2025-02-19 20:55:39.050]	   "tmux-continuum" update success
+[2025-02-19 20:55:39.059]	     | 已经是最新的。
+[2025-02-19 20:55:39.086]	     | 已经是最新的。
+[2025-02-19 20:55:39.224]	   "tmux-cpu" update success
+[2025-02-19 20:55:39.232]	     | 已经是最新的。
+[2025-02-19 20:55:39.333]	   "tmux-resurrect" update success
+[2025-02-19 20:55:39.374]	     | 已经是最新的。
+[2025-02-19 20:55:39.500]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-19 20:55:39.804]	 Done.
+
+[2025-02-20 23:42:25.358]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-20 23:42:25.429]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-20 23:42:25.625]	 Already installed "tmux-continuum"
+[2025-02-20 23:42:25.627]	 Already installed "tmux-copycat"
+[2025-02-20 23:42:25.629]	 Already installed "tmux-cpu"
+[2025-02-20 23:42:25.638]	 Already installed "tmux-resurrect"
+[2025-02-20 23:42:25.689]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-20 23:42:25.797]	 Updating all plugins!
+[2025-02-20 23:42:25.797]	 
+[2025-02-20 23:42:27.443]	   "tmux-cpu" update success
+[2025-02-20 23:42:27.444]	   "tmux-copycat" update success
+[2025-02-20 23:42:27.450]	     | 已经是最新的。
+[2025-02-20 23:42:27.451]	     | 已经是最新的。
+[2025-02-20 23:42:27.478]	   "tmux-resurrect" update success
+[2025-02-20 23:42:27.481]	     | 已经是最新的。
+[2025-02-20 23:42:28.712]	   "tmux-continuum" update success
+[2025-02-20 23:42:28.723]	     | 已经是最新的。
+[2025-02-20 23:42:28.844]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-20 23:42:29.117]	 Done.
+
+[2025-02-22 21:49:40.700]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-22 21:49:40.766]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-22 21:49:41.030]	 Already installed "tmux-copycat"
+[2025-02-22 21:49:41.046]	 Already installed "tmux-continuum"
+[2025-02-22 21:49:41.103]	 Already installed "tmux-cpu"
+[2025-02-22 21:49:41.103]	 Already installed "tmux-resurrect"
+[2025-02-22 21:49:41.171]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-22 21:49:41.277]	 Updating all plugins!
+[2025-02-22 21:49:41.278]	 
+[2025-02-22 21:49:42.649]	   "tmux-cpu" update success
+[2025-02-22 21:49:42.656]	     | 已经是最新的。
+[2025-02-22 21:49:42.796]	   "tmux-copycat" update success
+[2025-02-22 21:49:42.807]	     | 已经是最新的。
+[2025-02-22 21:49:42.857]	   "tmux-continuum" update success
+[2025-02-22 21:49:42.862]	     | 已经是最新的。
+[2025-02-22 21:49:42.903]	   "tmux-resurrect" update success
+[2025-02-22 21:49:42.907]	     | 已经是最新的。
+[2025-02-22 21:49:42.961]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-22 21:49:43.231]	 Done.
+
+[2025-02-24 22:56:10.658]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-24 22:56:10.763]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-24 22:56:11.176]	 Already installed "tmux-continuum"
+[2025-02-24 22:56:11.176]	 Already installed "tmux-copycat"
+[2025-02-24 22:56:11.178]	 Already installed "tmux-cpu"
+[2025-02-24 22:56:11.247]	 Already installed "tmux-resurrect"
+[2025-02-24 22:56:11.294]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-24 22:56:11.314]	 Updating all plugins!
+[2025-02-24 22:56:11.314]	 
+[2025-02-24 22:56:13.033]	   "tmux-copycat" update success
+[2025-02-24 22:56:13.035]	     | 已经是最新的。
+[2025-02-24 22:56:13.091]	   "tmux-cpu" update success
+[2025-02-24 22:56:13.093]	     | 已经是最新的。
+[2025-02-24 22:56:13.123]	   "tmux-resurrect" update success
+[2025-02-24 22:56:13.126]	     | 已经是最新的。
+[2025-02-24 22:56:13.836]	   "tmux-continuum" update success
+[2025-02-24 22:56:13.840]	     | 已经是最新的。
+[2025-02-24 22:56:13.943]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-24 22:56:14.763]	 Done.
+
+[2025-02-26 21:30:41.110]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-26 21:30:41.200]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-26 21:30:41.429]	 Already installed "tmux-cpu"
+[2025-02-26 21:30:41.455]	 Already installed "tmux-copycat"
+[2025-02-26 21:30:41.474]	 Already installed "tmux-continuum"
+[2025-02-26 21:30:41.509]	 Already installed "tmux-resurrect"
+[2025-02-26 21:30:41.609]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-26 21:30:41.715]	 Updating all plugins!
+[2025-02-26 21:30:41.715]	 
+[2025-02-26 21:30:43.422]	   "tmux-copycat" update success
+[2025-02-26 21:30:43.453]	     | 已经是最新的。
+[2025-02-26 21:30:43.636]	   "tmux-continuum" update success
+[2025-02-26 21:30:43.647]	     | 已经是最新的。
+[2025-02-26 21:30:43.661]	   "tmux-cpu" update success
+[2025-02-26 21:30:43.693]	     | 已经是最新的。
+[2025-02-26 21:30:43.770]	   "tmux-resurrect" update success
+[2025-02-26 21:30:43.800]	     | 已经是最新的。
+[2025-02-26 21:30:43.856]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-26 21:30:44.452]	 Done.
+
+[2025-02-27 22:44:51.819]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-02-27 22:44:51.881]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-27 22:44:52.099]	 Already installed "tmux-continuum"
+[2025-02-27 22:44:52.106]	 Already installed "tmux-cpu"
+[2025-02-27 22:44:52.113]	 Already installed "tmux-copycat"
+[2025-02-27 22:44:52.116]	 Already installed "tmux-resurrect"
+[2025-02-27 22:44:52.165]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-27 22:44:52.247]	 Updating all plugins!
+[2025-02-27 22:44:52.247]	 
+[2025-02-27 22:44:53.585]	   "tmux-copycat" update success
+[2025-02-27 22:44:53.588]	     | 已经是最新的。
+[2025-02-27 22:44:53.688]	   "tmux-resurrect" update success
+[2025-02-27 22:44:53.696]	   "tmux-cpu" update success
+[2025-02-27 22:44:53.699]	     | 已经是最新的。
+[2025-02-27 22:44:53.700]	     | 已经是最新的。
+[2025-02-27 22:44:53.700]	   "tmux-continuum" update success
+[2025-02-27 22:44:53.703]	     | 已经是最新的。
+[2025-02-27 22:44:53.738]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-27 22:44:53.845]	 Done.
+
+[2025-03-02 22:49:41.223]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-02 22:49:41.329]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-02 22:49:41.596]	 Already installed "tmux-continuum"
+[2025-03-02 22:49:41.610]	 Already installed "tmux-resurrect"
+[2025-03-02 22:49:41.611]	 Already installed "tmux-cpu"
+[2025-03-02 22:49:41.611]	 Already installed "tmux-copycat"
+[2025-03-02 22:49:41.672]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-02 22:49:41.757]	 Updating all plugins!
+[2025-03-02 22:49:41.757]	 
+[2025-03-02 22:49:43.343]	   "tmux-copycat" update success
+[2025-03-02 22:49:43.348]	   "tmux-continuum" update success
+[2025-03-02 22:49:43.355]	     | 已经是最新的。
+[2025-03-02 22:49:43.363]	     | 已经是最新的。
+[2025-03-02 22:49:43.561]	   "tmux-cpu" update success
+[2025-03-02 22:49:43.562]	     | 已经是最新的。
+[2025-03-02 22:49:43.611]	   "tmux-resurrect" update success
+[2025-03-02 22:49:43.615]	     | 已经是最新的。
+[2025-03-02 22:49:43.670]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-02 22:49:43.965]	 Done.
+
+[2025-03-03 22:21:07.021]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-03 22:21:07.052]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-03 22:21:07.232]	 Already installed "tmux-continuum"
+[2025-03-03 22:21:07.243]	 Already installed "tmux-cpu"
+[2025-03-03 22:21:07.352]	 Already installed "tmux-resurrect"
+[2025-03-03 22:21:07.385]	 Already installed "tmux-copycat"
+[2025-03-03 22:21:07.787]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-03 22:21:07.994]	 Updating all plugins!
+[2025-03-03 22:21:07.994]	 
+[2025-03-03 22:21:10.072]	   "tmux-copycat" update success
+[2025-03-03 22:21:10.091]	   "tmux-continuum" update success
+[2025-03-03 22:21:10.092]	   "tmux-resurrect" update success
+[2025-03-03 22:21:10.093]	     | 已经是最新的。
+[2025-03-03 22:21:10.109]	     | 已经是最新的。
+[2025-03-03 22:21:10.110]	     | 已经是最新的。
+[2025-03-03 22:21:10.868]	   "tmux-cpu" update success
+[2025-03-03 22:21:10.877]	     | 已经是最新的。
+[2025-03-03 22:21:10.924]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-03 22:21:11.101]	 Done.
+
+[2025-03-04 22:30:10.863]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-04 22:30:10.973]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:30:11.541]	 Already installed "tmux-copycat"
+[2025-03-04 22:30:11.586]	 Already installed "tmux-resurrect"
+[2025-03-04 22:30:11.587]	 Already installed "tmux-continuum"
+[2025-03-04 22:30:11.624]	 Already installed "tmux-cpu"
+[2025-03-04 22:30:11.794]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:30:11.945]	 Updating all plugins!
+[2025-03-04 22:30:11.946]	 
+[2025-03-04 22:30:13.383]	   "tmux-continuum" update success
+[2025-03-04 22:30:13.405]	     | 已经是最新的。
+[2025-03-04 22:30:13.817]	   "tmux-resurrect" update success
+[2025-03-04 22:30:13.831]	     | 已经是最新的。
+[2025-03-04 22:30:13.925]	   "tmux-copycat" update success
+[2025-03-04 22:30:13.931]	     | 已经是最新的。
+[2025-03-04 22:30:14.168]	   "tmux-cpu" update success
+[2025-03-04 22:30:14.180]	     | 已经是最新的。
+[2025-03-04 22:30:14.260]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:30:14.473]	 Done.
+
+[2025-03-06 22:14:59.969]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-06 22:14:59.990]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-06 22:15:00.030]	 Already installed "tmux-cpu"
+[2025-03-06 22:15:00.030]	 Already installed "tmux-copycat"
+[2025-03-06 22:15:00.030]	 Already installed "tmux-resurrect"
+[2025-03-06 22:15:00.031]	 Already installed "tmux-continuum"
+[2025-03-06 22:15:00.054]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-06 22:15:00.075]	 Updating all plugins!
+[2025-03-06 22:15:00.075]	 
+[2025-03-06 22:15:01.109]	   "tmux-resurrect" update success
+[2025-03-06 22:15:01.111]	     | 已经是最新的。
+[2025-03-06 22:15:01.125]	   "tmux-continuum" update success
+[2025-03-06 22:15:01.127]	     | 已经是最新的。
+[2025-03-06 22:15:02.298]	   "tmux-cpu" update success
+[2025-03-06 22:15:02.300]	     | 已经是最新的。
+[2025-03-06 22:15:20.508]	   "tmux-copycat" update success
+[2025-03-06 22:15:20.510]	     | 已经是最新的。
+[2025-03-06 22:15:20.529]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-06 22:15:20.583]	 Done.
+
+[2025-03-07 22:09:49.303]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-07 22:09:49.380]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-07 22:09:49.597]	 Already installed "tmux-copycat"
+[2025-03-07 22:09:49.602]	 Already installed "tmux-resurrect"
+[2025-03-07 22:09:49.616]	 Already installed "tmux-continuum"
+[2025-03-07 22:09:49.630]	 Already installed "tmux-cpu"
+[2025-03-07 22:09:49.679]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-07 22:09:49.769]	 Updating all plugins!
+[2025-03-07 22:09:49.770]	 
+[2025-03-07 22:09:51.302]	   "tmux-cpu" update success
+[2025-03-07 22:09:51.312]	   "tmux-resurrect" update success
+[2025-03-07 22:09:51.332]	     | 已经是最新的。
+[2025-03-07 22:09:51.344]	     | 已经是最新的。
+[2025-03-07 22:09:51.509]	   "tmux-copycat" update success
+[2025-03-07 22:09:51.521]	     | 已经是最新的。
+[2025-03-07 22:09:51.538]	   "tmux-continuum" update success
+[2025-03-07 22:09:51.590]	     | 已经是最新的。
+[2025-03-07 22:09:51.660]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-07 22:09:51.891]	 Done.
+
+[2025-03-08 22:25:54.854]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-08 22:25:55.014]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-08 22:25:55.334]	 Already installed "tmux-resurrect"
+[2025-03-08 22:25:55.362]	 Already installed "tmux-cpu"
+[2025-03-08 22:25:55.379]	 Already installed "tmux-continuum"
+[2025-03-08 22:25:55.384]	 Already installed "tmux-copycat"
+[2025-03-08 22:25:55.558]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-08 22:25:55.800]	 Updating all plugins!
+[2025-03-08 22:25:55.801]	 
+[2025-03-08 22:25:57.274]	   "tmux-copycat" update success
+[2025-03-08 22:25:57.281]	     | 已经是最新的。
+[2025-03-08 22:25:57.363]	   "tmux-cpu" update success
+[2025-03-08 22:25:57.373]	     | 已经是最新的。
+[2025-03-08 22:25:57.475]	   "tmux-resurrect" update success
+[2025-03-08 22:25:57.480]	     | 已经是最新的。
+[2025-03-08 22:25:57.569]	   "tmux-continuum" update success
+[2025-03-08 22:25:57.573]	     | 已经是最新的。
+[2025-03-08 22:25:57.617]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-08 22:25:57.780]	 Done.
+
+[2025-03-09 22:09:27.243]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-09 22:09:27.372]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-09 22:09:27.688]	 Already installed "tmux-resurrect"
+[2025-03-09 22:09:27.696]	 Already installed "tmux-copycat"
+[2025-03-09 22:09:27.696]	 Already installed "tmux-cpu"
+[2025-03-09 22:09:27.698]	 Already installed "tmux-continuum"
+[2025-03-09 22:09:27.780]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-09 22:09:27.845]	 Updating all plugins!
+[2025-03-09 22:09:27.845]	 
+[2025-03-09 22:09:29.215]	   "tmux-cpu" update success
+[2025-03-09 22:09:29.229]	     | 已经是最新的。
+[2025-03-09 22:09:29.516]	   "tmux-continuum" update success
+[2025-03-09 22:09:29.520]	     | 已经是最新的。
+[2025-03-09 22:09:38.318]	   "tmux-copycat" update fail
+[2025-03-09 22:09:38.329]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0
+[2025-03-09 22:09:48.862]	   "tmux-resurrect" update success
+[2025-03-09 22:09:48.879]	     | 已经是最新的。
+[2025-03-09 22:09:49.018]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-09 22:09:49.406]	 Done.
+
+[2025-03-10 20:20:46.885]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-10 20:20:46.946]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-10 20:20:47.255]	 Already installed "tmux-continuum"
+[2025-03-10 20:20:47.289]	 Already installed "tmux-resurrect"
+[2025-03-10 20:20:47.298]	 Already installed "tmux-copycat"
+[2025-03-10 20:20:47.298]	 Already installed "tmux-cpu"
+[2025-03-10 20:20:47.366]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-10 20:20:47.569]	 Updating all plugins!
+[2025-03-10 20:20:47.569]	 
+[2025-03-10 20:20:49.058]	   "tmux-cpu" update success
+[2025-03-10 20:20:49.091]	     | 已经是最新的。
+[2025-03-10 20:20:49.172]	   "tmux-copycat" update success
+[2025-03-10 20:20:49.198]	     | 已经是最新的。
+[2025-03-10 20:20:49.261]	   "tmux-resurrect" update success
+[2025-03-10 20:20:49.317]	     | 已经是最新的。
+[2025-03-10 20:20:49.317]	   "tmux-continuum" update success
+[2025-03-10 20:20:49.345]	     | 已经是最新的。
+[2025-03-10 20:20:49.430]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-10 20:20:49.681]	 Done.
+
+[2025-03-12 22:44:41.872]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-12 22:44:41.942]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-12 22:44:42.187]	 Already installed "tmux-copycat"
+[2025-03-12 22:44:42.187]	 Already installed "tmux-cpu"
+[2025-03-12 22:44:42.210]	 Already installed "tmux-resurrect"
+[2025-03-12 22:44:42.257]	 Already installed "tmux-continuum"
+[2025-03-12 22:44:42.319]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-12 22:44:42.400]	 Updating all plugins!
+[2025-03-12 22:44:42.400]	 
+[2025-03-12 22:44:43.609]	   "tmux-copycat" update success
+[2025-03-12 22:44:43.614]	     | 已经是最新的。
+[2025-03-12 22:44:43.639]	   "tmux-cpu" update success
+[2025-03-12 22:44:43.645]	     | 已经是最新的。
+[2025-03-12 22:44:43.726]	   "tmux-resurrect" update success
+[2025-03-12 22:44:43.738]	     | 已经是最新的。
+[2025-03-12 22:44:44.624]	   "tmux-continuum" update success
+[2025-03-12 22:44:44.630]	     | 已经是最新的。
+[2025-03-12 22:44:44.667]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-12 22:44:44.805]	 Done.
+
+[2025-03-13 22:17:06.123]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-13 22:17:06.205]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-13 22:17:06.473]	 Already installed "tmux-copycat"
+[2025-03-13 22:17:06.473]	 Already installed "tmux-cpu"
+[2025-03-13 22:17:06.473]	 Already installed "tmux-resurrect"
+[2025-03-13 22:17:06.473]	 Already installed "tmux-continuum"
+[2025-03-13 22:17:06.568]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-13 22:17:06.692]	 Updating all plugins!
+[2025-03-13 22:17:06.692]	 
+[2025-03-13 22:17:08.132]	   "tmux-cpu" update success
+[2025-03-13 22:17:08.142]	     | 已经是最新的。
+[2025-03-13 22:17:08.179]	   "tmux-copycat" update success
+[2025-03-13 22:17:08.185]	     | 已经是最新的。
+[2025-03-13 22:17:08.385]	   "tmux-resurrect" update success
+[2025-03-13 22:17:08.389]	     | 已经是最新的。
+[2025-03-13 22:17:08.843]	   "tmux-continuum" update success
+[2025-03-13 22:17:08.854]	     | 已经是最新的。
+[2025-03-13 22:17:08.923]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-13 22:17:09.281]	 Done.
+
+[2025-03-16 21:35:32.644]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-16 21:35:32.725]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-16 21:35:32.943]	 Already installed "tmux-resurrect"
+[2025-03-16 21:35:32.947]	 Already installed "tmux-cpu"
+[2025-03-16 21:35:32.947]	 Already installed "tmux-copycat"
+[2025-03-16 21:35:32.950]	 Already installed "tmux-continuum"
+[2025-03-16 21:35:33.010]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-16 21:35:33.091]	 Updating all plugins!
+[2025-03-16 21:35:33.091]	 
+[2025-03-16 21:35:34.395]	   "tmux-cpu" update success
+[2025-03-16 21:35:34.410]	     | 已经是最新的。
+[2025-03-16 21:35:34.458]	   "tmux-copycat" update success
+[2025-03-16 21:35:34.486]	     | 已经是最新的。
+[2025-03-16 21:35:34.652]	   "tmux-resurrect" update success
+[2025-03-16 21:35:34.661]	     | 已经是最新的。
+[2025-03-16 21:35:35.439]	   "tmux-continuum" update success
+[2025-03-16 21:35:35.442]	     | 已经是最新的。
+[2025-03-16 21:35:35.479]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-16 21:35:35.587]	 Done.
+
+[2025-03-18 21:48:26.316]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-18 21:48:26.372]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-18 21:48:26.517]	 Already installed "tmux-copycat"
+[2025-03-18 21:48:26.529]	 Already installed "tmux-continuum"
+[2025-03-18 21:48:26.540]	 Already installed "tmux-resurrect"
+[2025-03-18 21:48:26.542]	 Already installed "tmux-cpu"
+[2025-03-18 21:48:26.590]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-18 21:48:26.647]	 Updating all plugins!
+[2025-03-18 21:48:26.647]	 
+[2025-03-18 21:48:27.951]	   "tmux-copycat" update success
+[2025-03-18 21:48:27.961]	     | 已经是最新的。
+[2025-03-18 21:48:27.989]	   "tmux-cpu" update success
+[2025-03-18 21:48:28.007]	     | 已经是最新的。
+[2025-03-18 21:48:28.058]	   "tmux-continuum" update success
+[2025-03-18 21:48:28.062]	     | 已经是最新的。
+[2025-03-18 21:48:28.287]	   "tmux-resurrect" update success
+[2025-03-18 21:48:28.294]	     | 已经是最新的。
+[2025-03-18 21:48:28.353]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-18 21:48:28.516]	 Done.
+
+[2025-03-19 22:12:05.687]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-19 22:12:05.773]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-19 22:12:05.994]	 Already installed "tmux-copycat"
+[2025-03-19 22:12:05.996]	 Already installed "tmux-resurrect"
+[2025-03-19 22:12:06.017]	 Already installed "tmux-continuum"
+[2025-03-19 22:12:06.017]	 Already installed "tmux-cpu"
+[2025-03-19 22:12:06.066]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-19 22:12:06.166]	 Updating all plugins!
+[2025-03-19 22:12:06.166]	 
+[2025-03-19 22:12:07.827]	   "tmux-resurrect" update success
+[2025-03-19 22:12:07.834]	     | 已经是最新的。
+[2025-03-19 22:12:07.850]	   "tmux-cpu" update success
+[2025-03-19 22:12:07.854]	     | 已经是最新的。
+[2025-03-19 22:12:07.859]	   "tmux-continuum" update success
+[2025-03-19 22:12:07.870]	     | 已经是最新的。
+[2025-03-19 22:13:36.666]	   "tmux-copycat" update fail
+[2025-03-19 22:13:36.675]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0
+[2025-03-19 22:13:36.725]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-19 22:13:36.777]	 Done.
+
+[2025-03-20 22:04:20.147]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-20 22:04:20.161]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-20 22:04:20.191]	 Already installed "tmux-copycat"
+[2025-03-20 22:04:20.191]	 Already installed "tmux-cpu"
+[2025-03-20 22:04:20.191]	 Already installed "tmux-continuum"
+[2025-03-20 22:04:20.191]	 Already installed "tmux-resurrect"
+[2025-03-20 22:04:20.205]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-20 22:04:20.218]	 Updating all plugins!
+[2025-03-20 22:04:20.218]	 
+[2025-03-20 22:04:21.197]	   "tmux-copycat" update success
+[2025-03-20 22:04:21.199]	     | 已经是最新的。
+[2025-03-20 22:04:21.570]	   "tmux-cpu" update success
+[2025-03-20 22:04:21.577]	     | 已经是最新的。
+[2025-03-20 22:04:40.596]	   "tmux-continuum" update success
+[2025-03-20 22:04:40.598]	     | 已经是最新的。
+[2025-03-20 22:04:40.605]	   "tmux-resurrect" update success
+[2025-03-20 22:04:40.607]	     | 已经是最新的。
+[2025-03-20 22:04:40.622]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-20 22:04:40.667]	 Done.
+
+[2025-03-21 22:36:32.027]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-21 22:36:32.079]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-21 22:36:32.237]	 Already installed "tmux-copycat"
+[2025-03-21 22:36:32.248]	 Already installed "tmux-continuum"
+[2025-03-21 22:36:32.274]	 Already installed "tmux-resurrect"
+[2025-03-21 22:36:32.281]	 Already installed "tmux-cpu"
+[2025-03-21 22:36:32.376]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-21 22:36:32.442]	 Updating all plugins!
+[2025-03-21 22:36:32.443]	 
+[2025-03-21 22:36:33.885]	   "tmux-copycat" update success
+[2025-03-21 22:36:33.898]	     | 已经是最新的。
+[2025-03-21 22:36:33.996]	   "tmux-cpu" update success
+[2025-03-21 22:36:34.002]	     | 已经是最新的。
+[2025-03-21 22:36:34.003]	   "tmux-resurrect" update success
+[2025-03-21 22:36:34.007]	     | 已经是最新的。
+[2025-03-21 22:36:34.340]	   "tmux-continuum" update success
+[2025-03-21 22:36:34.348]	     | 已经是最新的。
+[2025-03-21 22:36:34.446]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-21 22:36:34.853]	 Done.
+
+[2025-03-22 21:36:25.139]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-22 21:36:25.181]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-22 21:36:25.280]	 Already installed "tmux-cpu"
+[2025-03-22 21:36:25.281]	 Already installed "tmux-copycat"
+[2025-03-22 21:36:25.283]	 Already installed "tmux-resurrect"
+[2025-03-22 21:36:25.295]	 Already installed "tmux-continuum"
+[2025-03-22 21:36:25.336]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-22 21:36:25.385]	 Updating all plugins!
+[2025-03-22 21:36:25.385]	 
+[2025-03-22 21:36:26.475]	   "tmux-copycat" update success
+[2025-03-22 21:36:26.484]	     | 已经是最新的。
+[2025-03-22 21:36:26.548]	   "tmux-cpu" update success
+[2025-03-22 21:36:26.550]	     | 已经是最新的。
+[2025-03-22 21:36:26.642]	   "tmux-resurrect" update success
+[2025-03-22 21:36:26.645]	     | 已经是最新的。
+[2025-03-22 21:36:27.742]	   "tmux-continuum" update success
+[2025-03-22 21:36:27.753]	     | 已经是最新的。
+[2025-03-22 21:36:27.792]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-22 21:36:27.985]	 Done.
+
+[2025-03-23 22:14:21.012]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-23 22:14:21.029]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-23 22:14:21.072]	 Already installed "tmux-cpu"
+[2025-03-23 22:14:21.072]	 Already installed "tmux-copycat"
+[2025-03-23 22:14:21.073]	 Already installed "tmux-resurrect"
+[2025-03-23 22:14:21.073]	 Already installed "tmux-continuum"
+[2025-03-23 22:14:21.108]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-23 22:14:21.158]	 Updating all plugins!
+[2025-03-23 22:14:21.158]	 
+[2025-03-23 22:14:22.160]	   "tmux-cpu" update success
+[2025-03-23 22:14:22.162]	     | 已经是最新的。
+[2025-03-23 22:14:22.200]	   "tmux-continuum" update success
+[2025-03-23 22:14:22.204]	     | 已经是最新的。
+[2025-03-23 22:14:22.290]	   "tmux-resurrect" update success
+[2025-03-23 22:14:22.292]	     | 已经是最新的。
+[2025-03-23 22:14:41.627]	   "tmux-copycat" update success
+[2025-03-23 22:14:41.630]	     | 已经是最新的。
+[2025-03-23 22:14:41.654]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-23 22:14:41.737]	 Done.
+
+[2025-03-24 22:24:54.815]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-24 22:24:54.874]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-24 22:24:55.209]	 Already installed "tmux-resurrect"
+[2025-03-24 22:24:55.209]	 Already installed "tmux-cpu"
+[2025-03-24 22:24:55.214]	 Already installed "tmux-copycat"
+[2025-03-24 22:24:55.225]	 Already installed "tmux-continuum"
+[2025-03-24 22:24:55.294]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-24 22:24:55.382]	 Updating all plugins!
+[2025-03-24 22:24:55.382]	 
+[2025-03-24 22:27:39.366]	   "tmux-cpu" update fail
+[2025-03-24 22:27:39.367]	   "tmux-copycat" update fail
+[2025-03-24 22:27:39.367]	   "tmux-continuum" update fail
+[2025-03-24 22:27:39.368]	     | 错误：RPC 失败。curl 28 Failed to connect to github.com port 443 after 133155 ms: Could not connect to server
+[2025-03-24 22:27:39.368]	     | 致命错误：在引用列表之后应该有一个 flush 包
+[2025-03-24 22:27:39.369]	     | 错误：RPC 失败。curl 28 Failed to connect to github.com port 443 after 133155 ms: Could not connect to server
+[2025-03-24 22:27:39.369]	     | 致命错误：在引用列表之后应该有一个 flush 包
+[2025-03-24 22:27:39.369]	     | 错误：RPC 失败。curl 28 Failed to connect to github.com port 443 after 133135 ms: Could not connect to server
+[2025-03-24 22:27:39.369]	     | 致命错误：在引用列表之后应该有一个 flush 包
+[2025-03-24 22:27:39.369]	   "tmux-resurrect" update fail
+[2025-03-24 22:27:39.371]	     | 错误：RPC 失败。curl 28 Failed to connect to github.com port 443 after 133158 ms: Could not connect to server
+[2025-03-24 22:27:39.371]	     | 致命错误：在引用列表之后应该有一个 flush 包
+[2025-03-24 22:27:39.385]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-24 22:27:39.428]	 Done.
+
+[2025-03-26 22:02:17.840]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-26 22:02:17.915]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-26 22:02:18.198]	 Already installed "tmux-cpu"
+[2025-03-26 22:02:18.219]	 Already installed "tmux-continuum"
+[2025-03-26 22:02:18.228]	 Already installed "tmux-resurrect"
+[2025-03-26 22:02:18.229]	 Already installed "tmux-copycat"
+[2025-03-26 22:02:18.320]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-26 22:02:18.432]	 Updating all plugins!
+[2025-03-26 22:02:18.432]	 
+[2025-03-26 22:02:20.080]	   "tmux-continuum" update success
+[2025-03-26 22:02:20.092]	   "tmux-resurrect" update success
+[2025-03-26 22:02:20.101]	     | 已经是最新的。
+[2025-03-26 22:02:20.141]	     | 已经是最新的。
+[2025-03-26 22:02:20.172]	   "tmux-cpu" update success
+[2025-03-26 22:02:20.181]	     | 已经是最新的。
+[2025-03-26 22:02:20.346]	   "tmux-copycat" update success
+[2025-03-26 22:02:20.356]	     | 已经是最新的。
+[2025-03-26 22:02:20.423]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-26 22:02:20.762]	 Done.
+
+[2025-03-27 21:32:20.871]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-27 21:32:20.989]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-27 21:32:21.323]	 Already installed "tmux-continuum"
+[2025-03-27 21:32:21.338]	 Already installed "tmux-resurrect"
+[2025-03-27 21:32:21.348]	 Already installed "tmux-copycat"
+[2025-03-27 21:32:21.391]	 Already installed "tmux-cpu"
+[2025-03-27 21:32:21.454]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-27 21:32:21.574]	 Updating all plugins!
+[2025-03-27 21:32:21.574]	 
+[2025-03-27 21:32:23.050]	   "tmux-copycat" update success
+[2025-03-27 21:32:23.061]	     | 已经是最新的。
+[2025-03-27 21:32:23.236]	   "tmux-continuum" update success
+[2025-03-27 21:32:23.239]	     | 已经是最新的。
+[2025-03-27 21:32:23.468]	   "tmux-resurrect" update success
+[2025-03-27 21:32:23.478]	     | 已经是最新的。
+[2025-03-27 21:32:24.046]	   "tmux-cpu" update success
+[2025-03-27 21:32:24.055]	     | 已经是最新的。
+[2025-03-27 21:32:24.098]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-27 21:32:24.428]	 Done.
+
+[2025-03-29 22:13:38.184]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-29 22:13:38.237]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-29 22:13:38.417]	 Already installed "tmux-cpu"
+[2025-03-29 22:13:38.448]	 Already installed "tmux-copycat"
+[2025-03-29 22:13:38.501]	 Already installed "tmux-resurrect"
+[2025-03-29 22:13:38.514]	 Already installed "tmux-continuum"
+[2025-03-29 22:13:38.572]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-29 22:13:38.638]	 Updating all plugins!
+[2025-03-29 22:13:38.639]	 
+[2025-03-29 22:13:39.803]	   "tmux-cpu" update success
+[2025-03-29 22:13:39.806]	     | 已经是最新的。
+[2025-03-29 22:13:39.867]	   "tmux-copycat" update success
+[2025-03-29 22:13:39.871]	     | 已经是最新的。
+[2025-03-29 22:13:39.874]	   "tmux-resurrect" update success
+[2025-03-29 22:13:39.876]	     | 已经是最新的。
+[2025-03-29 22:13:39.880]	   "tmux-continuum" update success
+[2025-03-29 22:13:39.883]	     | 已经是最新的。
+[2025-03-29 22:13:39.914]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-29 22:13:39.994]	 Done.
+
+[2025-03-31 22:35:39.294]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-03-31 22:35:39.348]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-31 22:35:39.542]	 Already installed "tmux-cpu"
+[2025-03-31 22:35:39.542]	 Already installed "tmux-resurrect"
+[2025-03-31 22:35:39.552]	 Already installed "tmux-copycat"
+[2025-03-31 22:35:39.556]	 Already installed "tmux-continuum"
+[2025-03-31 22:35:39.617]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-31 22:35:39.667]	 Updating all plugins!
+[2025-03-31 22:35:39.667]	 
+[2025-03-31 22:35:40.996]	   "tmux-copycat" update success
+[2025-03-31 22:35:41.007]	     | 已经是最新的。
+[2025-03-31 22:35:41.109]	   "tmux-resurrect" update success
+[2025-03-31 22:35:41.148]	     | 已经是最新的。
+[2025-03-31 22:35:41.410]	   "tmux-cpu" update success
+[2025-03-31 22:35:41.420]	     | 已经是最新的。
+[2025-03-31 22:35:41.984]	   "tmux-continuum" update success
+[2025-03-31 22:35:41.986]	     | 已经是最新的。
+[2025-03-31 22:35:42.011]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-31 22:35:42.085]	 Done.
+
+[2025-04-01 22:51:55.547]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-04-01 22:51:55.601]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-01 22:51:55.780]	 Already installed "tmux-continuum"
+[2025-04-01 22:51:55.789]	 Already installed "tmux-copycat"
+[2025-04-01 22:51:55.791]	 Already installed "tmux-cpu"
+[2025-04-01 22:51:55.794]	 Already installed "tmux-resurrect"
+[2025-04-01 22:51:55.860]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-01 22:51:55.918]	 Updating all plugins!
+[2025-04-01 22:51:55.918]	 
+[2025-04-01 22:51:57.037]	   "tmux-copycat" update success
+[2025-04-01 22:51:57.040]	     | 已经是最新的。
+[2025-04-01 22:51:57.191]	   "tmux-continuum" update success
+[2025-04-01 22:51:57.195]	     | 已经是最新的。
+[2025-04-01 22:51:57.525]	   "tmux-cpu" update success
+[2025-04-01 22:51:57.532]	     | 已经是最新的。
+[2025-04-01 22:51:58.042]	   "tmux-resurrect" update success
+[2025-04-01 22:51:58.044]	     | 已经是最新的。
+[2025-04-01 22:51:58.074]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-01 22:51:58.164]	 Done.
+
+[2025-04-05 22:11:06.576]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-04-05 22:11:06.773]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-05 22:11:06.977]	 Already installed "tmux-copycat"
+[2025-04-05 22:11:06.981]	 Already installed "tmux-resurrect"
+[2025-04-05 22:11:06.983]	 Already installed "tmux-cpu"
+[2025-04-05 22:11:06.986]	 Already installed "tmux-continuum"
+[2025-04-05 22:11:07.027]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-05 22:11:07.090]	 Updating all plugins!
+[2025-04-05 22:11:07.091]	 
+[2025-04-05 22:11:08.165]	   "tmux-copycat" update success
+[2025-04-05 22:11:08.167]	     | 已经是最新的。
+[2025-04-05 22:11:08.289]	   "tmux-continuum" update success
+[2025-04-05 22:11:08.290]	   "tmux-cpu" update success
+[2025-04-05 22:11:08.292]	     | 已经是最新的。
+[2025-04-05 22:11:08.292]	     | 已经是最新的。
+[2025-04-05 22:11:08.454]	   "tmux-resurrect" update success
+[2025-04-05 22:11:08.456]	     | 已经是最新的。
+[2025-04-05 22:11:08.475]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-05 22:11:08.533]	 Done.
+
+[2025-04-07 22:13:42.196]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-04-07 22:13:42.267]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-07 22:13:42.418]	 Already installed "tmux-continuum"
+[2025-04-07 22:13:42.419]	 Already installed "tmux-copycat"
+[2025-04-07 22:13:42.420]	 Already installed "tmux-cpu"
+[2025-04-07 22:13:42.422]	 Already installed "tmux-resurrect"
+[2025-04-07 22:13:42.473]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-07 22:13:42.552]	 Updating all plugins!
+[2025-04-07 22:13:42.552]	 
+[2025-04-07 22:13:43.916]	   "tmux-cpu" update success
+[2025-04-07 22:13:43.919]	     | 已经是最新的。
+[2025-04-07 22:13:43.997]	   "tmux-continuum" update success
+[2025-04-07 22:13:44.013]	   "tmux-copycat" update success
+[2025-04-07 22:13:44.021]	     | 已经是最新的。
+[2025-04-07 22:13:44.022]	   "tmux-resurrect" update success
+[2025-04-07 22:13:44.023]	     | 已经是最新的。
+[2025-04-07 22:13:44.028]	     | 已经是最新的。
+[2025-04-07 22:13:44.109]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-07 22:13:44.426]	 Done.
+
+[2025-04-09 21:57:56.660]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-04-09 21:57:56.838]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-09 21:57:57.268]	 Already installed "tmux-copycat"
+[2025-04-09 21:57:57.270]	 Already installed "tmux-resurrect"
+[2025-04-09 21:57:57.276]	 Already installed "tmux-continuum"
+[2025-04-09 21:57:57.276]	 Already installed "tmux-cpu"
+[2025-04-09 21:57:57.482]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-09 21:57:57.584]	 Updating all plugins!
+[2025-04-09 21:57:57.585]	 
+[2025-04-09 21:57:58.899]	   "tmux-cpu" update success
+[2025-04-09 21:57:58.907]	     | 已经是最新的。
+[2025-04-09 21:57:58.920]	   "tmux-copycat" update success
+[2025-04-09 21:57:58.929]	     | 已经是最新的。
+[2025-04-09 21:57:58.936]	   "tmux-continuum" update success
+[2025-04-09 21:57:58.942]	     | 已经是最新的。
+[2025-04-09 21:57:58.992]	   "tmux-resurrect" update success
+[2025-04-09 21:57:58.996]	     | 已经是最新的。
+[2025-04-09 21:57:59.035]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-09 21:57:59.131]	 Done.
+
+[2025-04-10 22:15:51.646]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-04-10 22:15:51.697]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-10 22:15:51.833]	 Already installed "tmux-cpu"
+[2025-04-10 22:15:51.833]	 Already installed "tmux-continuum"
+[2025-04-10 22:15:51.837]	 Already installed "tmux-resurrect"
+[2025-04-10 22:15:51.838]	 Already installed "tmux-copycat"
+[2025-04-10 22:15:51.878]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-10 22:15:51.932]	 Updating all plugins!
+[2025-04-10 22:15:51.933]	 
+[2025-04-10 22:15:53.009]	   "tmux-cpu" update success
+[2025-04-10 22:15:53.011]	     | 已经是最新的。
+[2025-04-10 22:15:53.044]	   "tmux-resurrect" update success
+[2025-04-10 22:15:53.047]	     | 已经是最新的。
+[2025-04-10 22:15:53.056]	   "tmux-continuum" update success
+[2025-04-10 22:15:53.058]	     | 已经是最新的。
+[2025-04-10 22:15:53.370]	   "tmux-copycat" update success
+[2025-04-10 22:15:53.372]	     | 已经是最新的。
+[2025-04-10 22:15:53.386]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-10 22:15:53.435]	 Done.
+
+[2025-04-15 22:36:43.433]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-04-15 22:36:43.473]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-15 22:36:43.597]	 Already installed "tmux-cpu"
+[2025-04-15 22:36:43.600]	 Already installed "tmux-copycat"
+[2025-04-15 22:36:43.601]	 Already installed "tmux-resurrect"
+[2025-04-15 22:36:43.604]	 Already installed "tmux-continuum"
+[2025-04-15 22:36:43.650]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-15 22:36:43.691]	 Updating all plugins!
+[2025-04-15 22:36:43.691]	 
+[2025-04-15 22:36:44.914]	   "tmux-copycat" update success
+[2025-04-15 22:36:44.914]	   "tmux-continuum" update success
+[2025-04-15 22:36:44.922]	     | 已经是最新的。
+[2025-04-15 22:36:44.924]	     | 已经是最新的。
+[2025-04-15 22:36:44.958]	   "tmux-resurrect" update success
+[2025-04-15 22:36:44.961]	     | 已经是最新的。
+[2025-04-15 22:36:45.169]	   "tmux-cpu" update success
+[2025-04-15 22:36:45.176]	     | 已经是最新的。
+[2025-04-15 22:36:45.233]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-15 22:36:45.343]	 Done.
+
+[2025-04-16 22:18:12.512]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-04-16 22:18:12.584]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-16 22:18:12.789]	 Already installed "tmux-cpu"
+[2025-04-16 22:18:12.805]	 Already installed "tmux-copycat"
+[2025-04-16 22:18:12.812]	 Already installed "tmux-resurrect"
+[2025-04-16 22:18:12.823]	 Already installed "tmux-continuum"
+[2025-04-16 22:18:12.896]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-16 22:18:13.011]	 Updating all plugins!
+[2025-04-16 22:18:13.011]	 
+[2025-04-16 22:18:14.234]	   "tmux-copycat" update success
+[2025-04-16 22:18:14.244]	     | 已经是最新的。
+[2025-04-16 22:18:14.431]	   "tmux-continuum" update success
+[2025-04-16 22:18:14.436]	   "tmux-cpu" update success
+[2025-04-16 22:18:14.443]	     | 已经是最新的。
+[2025-04-16 22:18:14.448]	     | 已经是最新的。
+[2025-04-16 22:18:14.493]	   "tmux-resurrect" update success
+[2025-04-16 22:18:14.500]	     | 已经是最新的。
+[2025-04-16 22:18:14.617]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-16 22:18:14.868]	 Done.
+
+[2025-05-15 22:15:17.798]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-15 22:15:17.847]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-15 22:15:18.035]	 Already installed "tmux-continuum"
+[2025-05-15 22:15:18.039]	 Already installed "tmux-cpu"
+[2025-05-15 22:15:18.041]	 Already installed "tmux-copycat"
+[2025-05-15 22:15:18.048]	 Already installed "tmux-resurrect"
+[2025-05-15 22:15:18.099]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-15 22:15:18.162]	 Updating all plugins!
+[2025-05-15 22:15:18.162]	 
+[2025-05-15 22:15:19.525]	   "tmux-resurrect" update success
+[2025-05-15 22:15:19.529]	   "tmux-cpu" update success
+[2025-05-15 22:15:19.532]	     | 已经是最新的。
+[2025-05-15 22:15:19.539]	     | 已经是最新的。
+[2025-05-15 22:15:19.556]	   "tmux-copycat" update success
+[2025-05-15 22:15:19.559]	     | 已经是最新的。
+[2025-05-15 22:15:19.567]	   "tmux-continuum" update success
+[2025-05-15 22:15:19.570]	     | 已经是最新的。
+[2025-05-15 22:15:19.613]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-15 22:15:19.786]	 Done.
+
+[2025-05-17 21:54:20.571]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-17 21:54:20.612]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-17 21:54:20.805]	 Already installed "tmux-copycat"
+[2025-05-17 21:54:20.816]	 Already installed "tmux-resurrect"
+[2025-05-17 21:54:20.818]	 Already installed "tmux-cpu"
+[2025-05-17 21:54:20.824]	 Already installed "tmux-continuum"
+[2025-05-17 21:54:20.898]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-17 21:54:21.041]	 Updating all plugins!
+[2025-05-17 21:54:21.041]	 
+[2025-05-17 21:54:20.647]	   "tmux-copycat" update success
+[2025-05-17 21:54:20.665]	     | 已经是最新的。
+[2025-05-17 21:54:20.824]	   "tmux-continuum" update success
+[2025-05-17 21:54:20.831]	   "tmux-resurrect" update success
+[2025-05-17 21:54:20.834]	     | 已经是最新的。
+[2025-05-17 21:54:20.864]	     | 已经是最新的。
+[2025-05-17 21:54:21.131]	   "tmux-cpu" update success
+[2025-05-17 21:54:21.140]	     | 已经是最新的。
+[2025-05-17 21:54:21.187]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-17 21:54:21.380]	 Done.
+
+[2025-05-18 15:10:28.688]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-18 15:10:28.735]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-18 15:10:29.004]	 Already installed "tmux-cpu"
+[2025-05-18 15:10:29.013]	 Already installed "tmux-continuum"
+[2025-05-18 15:10:29.024]	 Already installed "tmux-copycat"
+[2025-05-18 15:10:29.026]	 Already installed "tmux-resurrect"
+[2025-05-18 15:10:29.095]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-18 15:10:29.164]	 Updating all plugins!
+[2025-05-18 15:10:29.164]	 
+[2025-05-18 15:10:30.987]	   "tmux-resurrect" update success
+[2025-05-18 15:10:31.007]	   "tmux-copycat" update success
+[2025-05-18 15:10:31.027]	     | 已经是最新的。
+[2025-05-18 15:10:31.028]	   "tmux-cpu" update success
+[2025-05-18 15:10:31.030]	     | 已经是最新的。
+[2025-05-18 15:10:31.053]	     | 已经是最新的。
+[2025-05-18 15:10:31.094]	   "tmux-continuum" update success
+[2025-05-18 15:10:31.129]	     | 已经是最新的。
+[2025-05-18 15:10:31.208]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-18 15:10:31.751]	 Done.
+
+[2025-05-19 21:03:02.569]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-19 21:03:02.829]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-19 21:03:01.502]	 Already installed "tmux-continuum"
+[2025-05-19 21:03:01.509]	 Already installed "tmux-cpu"
+[2025-05-19 21:03:01.543]	 Already installed "tmux-copycat"
+[2025-05-19 21:03:01.673]	 Already installed "tmux-resurrect"
+[2025-05-19 21:03:01.808]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-19 21:03:02.041]	 Updating all plugins!
+[2025-05-19 21:03:02.041]	 
+[2025-05-19 21:03:03.818]	   "tmux-continuum" update success
+[2025-05-19 21:03:03.830]	     | 已经是最新的。
+[2025-05-19 21:03:03.898]	   "tmux-resurrect" update success
+[2025-05-19 21:03:03.903]	   "tmux-cpu" update success
+[2025-05-19 21:03:03.926]	     | 已经是最新的。
+[2025-05-19 21:03:03.932]	     | 已经是最新的。
+[2025-05-19 21:03:03.939]	   "tmux-copycat" update success
+[2025-05-19 21:03:03.959]	     | 已经是最新的。
+[2025-05-19 21:03:04.087]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-19 21:03:04.486]	 Done.
+
+[2025-05-20 21:57:12.518]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-20 21:57:12.569]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-20 21:57:12.760]	 Already installed "tmux-resurrect"
+[2025-05-20 21:57:12.760]	 Already installed "tmux-cpu"
+[2025-05-20 21:57:12.760]	 Already installed "tmux-copycat"
+[2025-05-20 21:57:12.769]	 Already installed "tmux-continuum"
+[2025-05-20 21:57:12.824]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-20 21:57:12.939]	 Updating all plugins!
+[2025-05-20 21:57:12.940]	 
+[2025-05-20 21:57:14.474]	   "tmux-cpu" update success
+[2025-05-20 21:57:14.480]	     | 已经是最新的。
+[2025-05-20 21:57:14.500]	   "tmux-copycat" update success
+[2025-05-20 21:57:14.532]	     | 已经是最新的。
+[2025-05-20 21:57:14.599]	   "tmux-continuum" update success
+[2025-05-20 21:57:14.606]	     | 已经是最新的。
+[2025-05-20 21:57:14.656]	   "tmux-resurrect" update success
+[2025-05-20 21:57:14.661]	     | 已经是最新的。
+[2025-05-20 21:57:14.707]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-20 21:57:14.961]	 Done.
+
+[2025-05-21 22:15:12.406]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-21 22:15:12.548]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-21 22:15:12.820]	 Already installed "tmux-continuum"
+[2025-05-21 22:15:12.835]	 Already installed "tmux-resurrect"
+[2025-05-21 22:15:12.846]	 Already installed "tmux-copycat"
+[2025-05-21 22:15:12.852]	 Already installed "tmux-cpu"
+[2025-05-21 22:15:12.958]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-21 22:15:13.053]	 Updating all plugins!
+[2025-05-21 22:15:13.053]	 
+[2025-05-21 22:15:13.422]	   "tmux-copycat" update success
+[2025-05-21 22:15:13.464]	     | 已经是最新的。
+[2025-05-21 22:15:13.533]	   "tmux-resurrect" update success
+[2025-05-21 22:15:13.551]	     | 已经是最新的。
+[2025-05-21 22:15:13.571]	   "tmux-cpu" update success
+[2025-05-21 22:15:13.587]	     | 已经是最新的。
+[2025-05-21 22:15:14.129]	   "tmux-continuum" update success
+[2025-05-21 22:15:14.137]	     | 已经是最新的。
+[2025-05-21 22:15:14.255]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-21 22:15:14.945]	 Done.
+
+[2025-05-22 22:12:51.937]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-22 22:12:51.977]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-22 22:12:52.105]	 Already installed "tmux-continuum"
+[2025-05-22 22:12:52.108]	 Already installed "tmux-copycat"
+[2025-05-22 22:12:52.109]	 Already installed "tmux-resurrect"
+[2025-05-22 22:12:52.111]	 Already installed "tmux-cpu"
+[2025-05-22 22:12:52.168]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-22 22:12:52.231]	 Updating all plugins!
+[2025-05-22 22:12:52.231]	 
+[2025-05-22 22:12:53.629]	   "tmux-copycat" update success
+[2025-05-22 22:12:53.644]	     | 已经是最新的。
+[2025-05-22 22:12:53.648]	   "tmux-resurrect" update success
+[2025-05-22 22:12:53.649]	   "tmux-continuum" update success
+[2025-05-22 22:12:53.677]	     | 已经是最新的。
+[2025-05-22 22:12:53.682]	     | 已经是最新的。
+[2025-05-22 22:12:53.701]	   "tmux-cpu" update success
+[2025-05-22 22:12:53.704]	     | 已经是最新的。
+[2025-05-22 22:12:53.770]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-22 22:12:54.126]	 Done.
+
+[2025-05-23 22:50:19.450]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-23 22:50:19.603]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-23 22:50:19.809]	 Already installed "tmux-copycat"
+[2025-05-23 22:50:19.814]	 Already installed "tmux-cpu"
+[2025-05-23 22:50:19.816]	 Already installed "tmux-resurrect"
+[2025-05-23 22:50:19.822]	 Already installed "tmux-continuum"
+[2025-05-23 22:50:19.863]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-23 22:50:19.931]	 Updating all plugins!
+[2025-05-23 22:50:19.931]	 
+[2025-05-23 22:50:21.119]	   "tmux-cpu" update success
+[2025-05-23 22:50:21.121]	     | 已经是最新的。
+[2025-05-23 22:50:21.225]	   "tmux-continuum" update success
+[2025-05-23 22:50:21.229]	     | 已经是最新的。
+[2025-05-23 22:50:21.422]	   "tmux-resurrect" update success
+[2025-05-23 22:50:21.424]	     | 已经是最新的。
+[2025-05-23 22:50:21.753]	   "tmux-copycat" update success
+[2025-05-23 22:50:21.756]	     | 已经是最新的。
+[2025-05-23 22:50:21.793]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-23 22:50:21.902]	 Done.
+
+[2025-05-24 23:25:10.113]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-24 23:25:10.279]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-24 23:25:10.767]	 Already installed "tmux-copycat"
+[2025-05-24 23:25:10.767]	 Already installed "tmux-cpu"
+[2025-05-24 23:25:10.767]	 Already installed "tmux-continuum"
+[2025-05-24 23:25:10.773]	 Already installed "tmux-resurrect"
+[2025-05-24 23:25:11.027]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-24 23:25:11.313]	 Updating all plugins!
+[2025-05-24 23:25:11.313]	 
+[2025-05-24 23:25:12.793]	   "tmux-resurrect" update success
+[2025-05-24 23:25:12.806]	     | 已经是最新的。
+[2025-05-24 23:25:13.289]	   "tmux-copycat" update success
+[2025-05-24 23:25:13.299]	     | 已经是最新的。
+[2025-05-24 23:25:13.799]	   "tmux-cpu" update success
+[2025-05-24 23:25:13.809]	     | 已经是最新的。
+[2025-05-24 23:25:15.233]	   "tmux-continuum" update success
+[2025-05-24 23:25:15.244]	     | 已经是最新的。
+[2025-05-24 23:25:15.332]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-24 23:25:15.582]	 Done.
+
+[2025-05-26 22:31:16.956]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-26 22:31:17.087]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-26 22:31:17.378]	 Already installed "tmux-continuum"
+[2025-05-26 22:31:17.389]	 Already installed "tmux-cpu"
+[2025-05-26 22:31:17.390]	 Already installed "tmux-copycat"
+[2025-05-26 22:31:17.407]	 Already installed "tmux-resurrect"
+[2025-05-26 22:31:17.544]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-26 22:31:17.627]	 Updating all plugins!
+[2025-05-26 22:31:17.627]	 
+[2025-05-26 22:31:18.878]	   "tmux-copycat" update success
+[2025-05-26 22:31:18.884]	     | 已经是最新的。
+[2025-05-26 22:31:19.176]	   "tmux-resurrect" update success
+[2025-05-26 22:31:19.189]	     | 已经是最新的。
+[2025-05-26 22:31:19.224]	   "tmux-continuum" update success
+[2025-05-26 22:31:19.228]	     | 已经是最新的。
+[2025-05-26 22:31:19.565]	   "tmux-cpu" update success
+[2025-05-26 22:31:19.568]	     | 已经是最新的。
+[2025-05-26 22:31:19.620]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-26 22:31:19.877]	 Done.
+
+[2025-05-28 22:19:34.905]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-28 22:19:34.939]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-28 22:19:35.052]	 Already installed "tmux-resurrect"
+[2025-05-28 22:19:35.052]	 Already installed "tmux-copycat"
+[2025-05-28 22:19:35.054]	 Already installed "tmux-cpu"
+[2025-05-28 22:19:35.056]	 Already installed "tmux-continuum"
+[2025-05-28 22:19:35.113]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-28 22:19:35.201]	 Updating all plugins!
+[2025-05-28 22:19:35.201]	 
+[2025-05-28 22:19:36.355]	   "tmux-resurrect" update success
+[2025-05-28 22:19:36.360]	     | 已经是最新的。
+[2025-05-28 22:19:36.457]	   "tmux-continuum" update success
+[2025-05-28 22:19:36.460]	     | 已经是最新的。
+[2025-05-28 22:19:36.629]	   "tmux-cpu" update success
+[2025-05-28 22:19:36.633]	     | 已经是最新的。
+[2025-05-28 22:19:36.667]	   "tmux-copycat" update success
+[2025-05-28 22:19:36.669]	     | 已经是最新的。
+[2025-05-28 22:19:36.717]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-28 22:19:36.884]	 Done.
+
+[2025-06-03 21:10:09.366]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-03 21:10:09.716]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-03 21:10:10.051]	 Already installed "tmux-cpu"
+[2025-06-03 21:10:10.052]	 Already installed "tmux-resurrect"
+[2025-06-03 21:10:10.057]	 Already installed "tmux-continuum"
+[2025-06-03 21:10:10.066]	 Already installed "tmux-copycat"
+[2025-06-03 21:10:10.121]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-03 21:10:10.254]	 Updating all plugins!
+[2025-06-03 21:10:10.254]	 
+[2025-06-03 21:10:11.740]	   "tmux-copycat" update success
+[2025-06-03 21:10:11.740]	     | 已经是最新的。
+[2025-06-03 21:10:11.929]	   "tmux-cpu" update success
+[2025-06-03 21:10:11.939]	     | 已经是最新的。
+[2025-06-03 21:10:12.009]	   "tmux-continuum" update success
+[2025-06-03 21:10:12.010]	   "tmux-resurrect" update success
+[2025-06-03 21:10:12.019]	     | 已经是最新的。
+[2025-06-03 21:10:12.029]	     | 已经是最新的。
+[2025-06-03 21:10:12.252]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-03 21:10:12.937]	 Done.
+
+[2025-06-14 21:41:57.127]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-14 21:41:57.181]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-14 21:41:57.383]	 Already installed "tmux-cpu"
+[2025-06-14 21:41:57.383]	 Already installed "tmux-copycat"
+[2025-06-14 21:41:57.383]	 Already installed "tmux-resurrect"
+[2025-06-14 21:41:57.388]	 Already installed "tmux-continuum"
+[2025-06-14 21:41:57.452]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-14 21:41:57.530]	 Updating all plugins!
+[2025-06-14 21:41:57.530]	 
+[2025-06-14 21:41:58.819]	   "tmux-copycat" update success
+[2025-06-14 21:41:58.829]	     | 已经是最新的。
+[2025-06-14 21:41:58.872]	   "tmux-cpu" update success
+[2025-06-14 21:41:58.877]	     | 已经是最新的。
+[2025-06-14 21:41:59.622]	   "tmux-resurrect" update success
+[2025-06-14 21:41:59.628]	     | 已经是最新的。
+[2025-06-14 21:41:59.790]	   "tmux-continuum" update success
+[2025-06-14 21:41:59.794]	     | 已经是最新的。
+[2025-06-14 21:41:59.834]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-14 21:41:59.991]	 Done.
+
+[2025-06-19 22:19:57.114]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-19 22:19:57.171]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-19 22:19:57.445]	 Already installed "tmux-copycat"
+[2025-06-19 22:19:57.479]	 Already installed "tmux-cpu"
+[2025-06-19 22:19:57.497]	 Already installed "tmux-continuum"
+[2025-06-19 22:19:57.501]	 Already installed "tmux-resurrect"
+[2025-06-19 22:19:57.567]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-19 22:19:57.888]	 Updating all plugins!
+[2025-06-19 22:19:57.888]	 
+[2025-06-19 22:19:59.533]	   "tmux-copycat" update success
+[2025-06-19 22:19:59.542]	     | 已经是最新的。
+[2025-06-19 22:19:59.592]	   "tmux-resurrect" update success
+[2025-06-19 22:19:59.602]	     | 已经是最新的。
+[2025-06-19 22:19:59.610]	   "tmux-cpu" update success
+[2025-06-19 22:19:59.619]	     | 已经是最新的。
+[2025-06-19 22:19:59.890]	   "tmux-continuum" update success
+[2025-06-19 22:19:59.894]	     | 已经是最新的。
+[2025-06-19 22:19:59.962]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-19 22:20:00.315]	 Done.
+
+[2025-06-20 22:45:20.136]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-20 22:45:20.244]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-20 22:45:20.476]	 Already installed "tmux-continuum"
+[2025-06-20 22:45:20.499]	 Already installed "tmux-resurrect"
+[2025-06-20 22:45:20.504]	 Already installed "tmux-copycat"
+[2025-06-20 22:45:20.510]	 Already installed "tmux-cpu"
+[2025-06-20 22:45:20.577]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-20 22:45:20.652]	 Updating all plugins!
+[2025-06-20 22:45:20.652]	 
+[2025-06-20 22:45:21.961]	   "tmux-cpu" update success
+[2025-06-20 22:45:21.972]	     | 已经是最新的。
+[2025-06-20 22:45:21.980]	   "tmux-resurrect" update success
+[2025-06-20 22:45:21.988]	     | 已经是最新的。
+[2025-06-20 22:45:22.041]	   "tmux-copycat" update success
+[2025-06-20 22:45:22.051]	     | 已经是最新的。
+[2025-06-20 22:45:22.233]	   "tmux-continuum" update success
+[2025-06-20 22:45:22.239]	     | 已经是最新的。
+[2025-06-20 22:45:22.298]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-20 22:45:22.447]	 Done.
+
+[2025-06-23 22:16:00.546]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-23 22:16:00.592]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-23 22:16:00.732]	 Already installed "tmux-cpu"
+[2025-06-23 22:16:00.741]	 Already installed "tmux-continuum"
+[2025-06-23 22:16:00.741]	 Already installed "tmux-copycat"
+[2025-06-23 22:16:00.748]	 Already installed "tmux-resurrect"
+[2025-06-23 22:16:00.804]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-23 22:16:00.856]	 Updating all plugins!
+[2025-06-23 22:16:00.857]	 
+[2025-06-23 22:16:02.081]	   "tmux-continuum" update success
+[2025-06-23 22:16:02.083]	     | 已经是最新的。
+[2025-06-23 22:16:02.131]	   "tmux-resurrect" update success
+[2025-06-23 22:16:02.132]	     | 已经是最新的。
+[2025-06-23 22:16:02.466]	   "tmux-copycat" update success
+[2025-06-23 22:16:02.468]	     | 已经是最新的。
+[2025-06-23 22:16:02.588]	   "tmux-cpu" update success
+[2025-06-23 22:16:02.589]	     | 已经是最新的。
+[2025-06-23 22:16:02.610]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-23 22:16:02.684]	 Done.
+
+[2025-06-28 09:41:04.517]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-28 09:41:04.629]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-28 09:41:04.836]	 Already installed "tmux-continuum"
+[2025-06-28 09:41:04.836]	 Already installed "tmux-copycat"
+[2025-06-28 09:41:04.846]	 Already installed "tmux-resurrect"
+[2025-06-28 09:41:04.887]	 Already installed "tmux-cpu"
+[2025-06-28 09:41:04.941]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-28 09:41:05.019]	 Updating all plugins!
+[2025-06-28 09:41:05.019]	 
+[2025-06-28 09:41:06.156]	   "tmux-copycat" update success
+[2025-06-28 09:41:06.160]	     | 已经是最新的。
+[2025-06-28 09:41:06.225]	   "tmux-cpu" update success
+[2025-06-28 09:41:06.229]	     | 已经是最新的。
+[2025-06-28 09:41:06.297]	   "tmux-resurrect" update success
+[2025-06-28 09:41:06.302]	     | 已经是最新的。
+[2025-06-28 09:41:06.356]	   "tmux-continuum" update success
+[2025-06-28 09:41:06.360]	     | 已经是最新的。
+[2025-06-28 09:41:06.396]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-28 09:41:06.580]	 Done.
+
+[2025-06-28 14:59:38.564]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-28 14:59:38.669]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-28 14:59:38.911]	 Already installed "tmux-cpu"
+[2025-06-28 14:59:38.916]	 Already installed "tmux-continuum"
+[2025-06-28 14:59:38.925]	 Already installed "tmux-copycat"
+[2025-06-28 14:59:38.935]	 Already installed "tmux-resurrect"
+[2025-06-28 14:59:39.003]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-28 14:59:39.075]	 Updating all plugins!
+[2025-06-28 14:59:39.075]	 
+[2025-06-28 14:59:40.270]	   "tmux-copycat" update success
+[2025-06-28 14:59:40.283]	     | 已经是最新的。
+[2025-06-28 14:59:40.475]	   "tmux-cpu" update success
+[2025-06-28 14:59:40.482]	     | 已经是最新的。
+[2025-06-28 14:59:40.492]	   "tmux-continuum" update success
+[2025-06-28 14:59:40.496]	     | 已经是最新的。
+[2025-06-28 14:59:40.529]	   "tmux-resurrect" update success
+[2025-06-28 14:59:40.535]	     | 已经是最新的。
+[2025-06-28 14:59:40.594]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-28 14:59:40.800]	 Done.
+
+[2025-06-29 08:49:44.927]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-29 08:49:44.982]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-29 08:49:45.091]	 Already installed "tmux-cpu"
+[2025-06-29 08:49:45.092]	 Already installed "tmux-continuum"
+[2025-06-29 08:49:45.105]	 Already installed "tmux-copycat"
+[2025-06-29 08:49:45.105]	 Already installed "tmux-resurrect"
+[2025-06-29 08:49:45.147]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-29 08:49:45.197]	 Updating all plugins!
+[2025-06-29 08:49:45.197]	 
+[2025-06-29 08:49:46.386]	   "tmux-continuum" update success
+[2025-06-29 08:49:46.392]	     | 已经是最新的。
+[2025-06-29 08:49:46.399]	   "tmux-copycat" update success
+[2025-06-29 08:49:46.404]	   "tmux-cpu" update success
+[2025-06-29 08:49:46.405]	     | 已经是最新的。
+[2025-06-29 08:49:46.409]	     | 已经是最新的。
+[2025-06-29 08:49:46.432]	   "tmux-resurrect" update success
+[2025-06-29 08:49:46.436]	     | 已经是最新的。
+[2025-06-29 08:49:46.474]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-29 08:49:46.579]	 Done.
+
+[2025-06-30 21:56:05.814]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-30 21:56:05.851]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-30 21:56:06.048]	 Already installed "tmux-continuum"
+[2025-06-30 21:56:06.056]	 Already installed "tmux-resurrect"
+[2025-06-30 21:56:06.063]	 Already installed "tmux-cpu"
+[2025-06-30 21:56:06.069]	 Already installed "tmux-copycat"
+[2025-06-30 21:56:06.209]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-30 21:56:06.318]	 Updating all plugins!
+[2025-06-30 21:56:06.319]	 
+[2025-06-30 21:56:07.531]	   "tmux-copycat" update success
+[2025-06-30 21:56:07.535]	     | 已经是最新的。
+[2025-06-30 21:56:07.647]	   "tmux-continuum" update success
+[2025-06-30 21:56:07.656]	     | 已经是最新的。
+[2025-06-30 21:56:07.993]	   "tmux-cpu" update success
+[2025-06-30 21:56:07.998]	     | 已经是最新的。
+[2025-06-30 21:56:08.379]	   "tmux-resurrect" update success
+[2025-06-30 21:56:08.382]	     | 已经是最新的。
+[2025-06-30 21:56:08.464]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-30 21:56:08.682]	 Done.
+
+[2025-07-01 22:25:12.016]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-01 22:25:12.320]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-01 22:25:12.564]	 Already installed "tmux-resurrect"
+[2025-07-01 22:25:12.564]	 Already installed "tmux-copycat"
+[2025-07-01 22:25:12.564]	 Already installed "tmux-cpu"
+[2025-07-01 22:25:12.564]	 Already installed "tmux-continuum"
+[2025-07-01 22:25:12.631]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-01 22:25:12.828]	 Updating all plugins!
+[2025-07-01 22:25:12.828]	 
+[2025-07-01 22:25:12.617]	   "tmux-cpu" update success
+[2025-07-01 22:25:12.622]	     | 已经是最新的。
+[2025-07-01 22:25:12.879]	   "tmux-continuum" update success
+[2025-07-01 22:25:12.886]	     | 已经是最新的。
+[2025-07-01 22:25:12.916]	   "tmux-copycat" update success
+[2025-07-01 22:25:12.938]	     | 已经是最新的。
+[2025-07-01 22:25:13.643]	   "tmux-resurrect" update success
+[2025-07-01 22:25:13.649]	     | 已经是最新的。
+[2025-07-01 22:25:13.706]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-01 22:25:13.889]	 Done.
+
+[2025-07-04 21:48:55.205]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-04 21:48:55.313]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-04 21:48:55.486]	 Already installed "tmux-resurrect"
+[2025-07-04 21:48:55.490]	 Already installed "tmux-copycat"
+[2025-07-04 21:48:55.493]	 Already installed "tmux-cpu"
+[2025-07-04 21:48:55.506]	 Already installed "tmux-continuum"
+[2025-07-04 21:48:55.576]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-04 21:48:55.646]	 Updating all plugins!
+[2025-07-04 21:48:55.646]	 
+[2025-07-04 21:48:56.793]	   "tmux-copycat" update success
+[2025-07-04 21:48:56.794]	   "tmux-cpu" update success
+[2025-07-04 21:48:56.801]	     | 已经是最新的。
+[2025-07-04 21:48:56.802]	     | 已经是最新的。
+[2025-07-04 21:48:56.882]	   "tmux-resurrect" update success
+[2025-07-04 21:48:56.889]	     | 已经是最新的。
+[2025-07-04 21:48:56.936]	   "tmux-continuum" update success
+[2025-07-04 21:48:56.944]	     | 已经是最新的。
+[2025-07-04 21:48:56.991]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-04 21:48:57.245]	 Done.
+

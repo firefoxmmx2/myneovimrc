@@ -1,0 +1,135 @@
+"" Source your .vimrc
+"source ~/.vimrc
+source ~/.config/nvim/vimrc.vim
+Plug 'preservim/nerdtree'
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+set NERDTree
+set surround
+Plug 'terryma/vim-multiple-cursors'
+Plug 'vim-scripts/argtextobj.vim'
+set exchange
+"argtextobj 扩展参数操作使用a , dia , via, caa 等最后最后一个字符是a"
+set argtextobj
+set clipboard=unnamed
+
+" 启用 WhichKey 插件
+set which-key
+
+" 设置 WhichKey 的触发键（默认为空格键）
+let g:WhichKey_TriggerKey = '<space>'
+
+" 设置 WhichKey 的显示延迟（毫秒）
+let g:WhichKey_DisplayDelay = 100
+
+" 定义你的快捷键映射
+nnoremap <leader>f :find<Space>
+nnoremap <leader>g :grep<Space>
+
+" 为 WhichKey 添加快捷键描述
+let g:WhichKeyDesc_f = "Find files"
+let g:WhichKeyDesc_g = "Grep in files"
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+"set scrolloff=5
+
+" Do incremental searching.
+"set incsearch
+let g:mapleader = ','
+" ignore search case
+set ignorecase
+set smartcase
+nmap n nzz
+nmap N Nzz
+set smarttab
+set relativenumber
+" indent
+set autoindent
+set smartindent
+" tagbar file structure
+nmap fs :TagbarToggle<cr><c-w>l
+" nerdcommenter setting
+let g:NERDSpaceDelims=1
+nmap <leader>cc <action>(CommentByLineComment)
+vmap <leader>cc <action>(CommentByLineComment)
+" ultisnips setting
+let g:UltiSnipsExpandTrigger="<leader><tab>"
+" vim fcitx setting
+let g:fcitx5_remote="fcitx5-remote"
+" window split setting
+nmap <leader>wsl :split<cr>
+nmap <leader>wsb :vsplit<cr>
+nmap <leader>wl <c-w>l
+nmap <leader>wh <c-w>h
+nmap <leader>wj <c-w>j
+nmap <leader>wk <c-w>k
+nmap <leader>wy 3<c-w>>
+nmap <leader>wo 3<c-w><
+nmap <leader>wu 3<c-w>+
+nmap <leader>wi 3<c-w>-
+
+nmap fa <action>(GotoAction)
+vmap fa <action>(GotoAction)
+nmap Q <c-4>
+nmap <leader>b <action>(RecentFiles)
+nmap <leader>fr <action>(FindInPath)
+nmap <leader>ff <action>(GotoFile)
+nmap <leader>n <action>(GotoClass)
+nmap s <plug>(easymotion-s)
+" nmap S <plug>(easymotion-F2)
+vmap s <plug>(easymotion-s)
+" vmap S <plug>(easymotion-F2)
+nmap ia <action>(ShowIntentionActions)
+xmap ia <action>(ShowIntentionActions)
+xmap <leader>f <action>(ReformatCode)
+nmap <leader>gf <action>(ReformatCode)
+nmap <leader>ac <action>(Generate)
+#nmap <leader>ac <a-inc>
+nmap <leader>rn <action>(RenameElement)
+nmap ]g <action>(GotoNextError)
+nmap [g <action>(GotoPreviousError)
+nmap go <action>(OptimizeImports)
+nmap gr <action>(ShowUsages)
+nmap <leader>c<space> <action>(CommentByLineComment)
+xmap <leader>c<space> <action>(CommentByLineComment)
+nmap <c-=> <action>(EditorIncreaseFontSizeGlobal)
+nmap <c--> <action>(EditorDecreaseFontSizeGlobal)
+nmap gi <action>(GotoImplementation)
+nmap gd <action>(GotoDeclaration)
+nmap <c-i> <action>(Forward)
+nmap <c-o> <action>(Back)
+nmap <leader>db <action>(Debug)
+nmap <leader>jdb <action>(JrebelDebug)
+"比较跳转"
+nmap ]c <action>(NextDiff)
+nmap [c <action>(PreviousDiff)
+"普通模式下关闭输入法"
+set keep-english-in-normal
+"跳转到对应项目文件"
+nmap <leader>fl <action>(SelectInProjectView)
+nmap R <action>(IdeaVim.ReloadVimRc.reload)
+nmap im <action>(ImplementMethods)
+nmap <leader>cs <action>(ChangeSignature)
+nmap <cr> <action>(EditorSelectWord)
+vmap <cr> <action>(EditorSelectWord)
+nmap <bs> <action>(EditorUnSelectWord)
+vmap <bs> <action>(EditorUnSelectWord)
+iunmap <c-j>
+iunmap <c-k>
+unmap <c-k>
+imap <c-k> <up>
+nmap fs <action>(FileStructurePopup)
+nmap gs <action>(GotoSuperMethod)
+nmap io <action>(OverrideMethods)
+nmap <leader>tr <action>(TranslationPopupMenu)
+vmap <leader>tr <action>(TranslationPopupMenu)
+" diff setting
+nmap dp dp]c
+nmap do do]c
+" page up
+nmap <c-e> <c-u>
+nmap ; :
+vmap ; :
+nmap ! :!<space>
+nmap <leader>tt <action>(ActivateProjectToolWindow)

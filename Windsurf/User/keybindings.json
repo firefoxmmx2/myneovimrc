@@ -1,0 +1,130 @@
+[
+  {
+    "key": "ctrl+i",
+    "command": "-windsurf.prioritized.command.open",
+    "when": "editorTextFocus && !windsurf.interactiveCascade.enabled"
+  },
+  {
+    // ctrl + Esc 时强制回到编辑器焦点
+    "key": "ctrl+escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && vim.active && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && vim.active && suggestWidgetVisible"
+  },
+  {
+    // 在文件资源管理器中创建新文件
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    // 在文件资源管理器中创建新文件夹
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    // 版本管理界面聚焦时，按a键添加改变
+    "key": "a",
+    "command": "git.stage",
+    "when": "workbench.scm.focus"
+  },
+  {
+    // 版本管理界面聚焦时，按d键放弃改变
+    "key": "d",
+    "command": "git.revertChange",
+    "when": "workbench.scm.focus"
+  },
+  {
+    // 版本管理界面聚焦时，当前选择文件处于已经stage的状态下，按d键unstage
+    "key": "d",
+    "command": "git.unstage",
+    "when": "workbench.scm.focus && scm.resourceState == 'staged'"
+  },
+  {
+    // 版本管理界面聚焦时，按i键添加文件到忽略列表
+    "key": "i",
+    "command": "git.ignore",
+    "when": "workbench.scm.focus"
+  },
+  {
+    // 两个shift键快速呼出命令面板
+    "key": "shift shift",
+    "command": "workbench.action.showCommands",
+  },
+  {
+    // 文件视图聚焦时，r键重命名当前文件
+    "key": "r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "editor.action.formatDocument.none",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-editor.action.formatDocument.none",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "notebook.format",
+    "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-notebook.format",
+    "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+  },
+]

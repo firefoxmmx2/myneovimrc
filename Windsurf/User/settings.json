@@ -1,0 +1,333 @@
+{
+  "terminal.integrated.fontSize": 13,
+  "editor.fontFamily": "'FiraCode Nerd Font', 'monospace', monospace",
+  "editor.fontSize": 16,
+  "redhat.telemetry.enabled": true,
+  "vim.easymotion": true,
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote -n",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -c {im}",
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "/usr/bin/fcitx5-remote -c ",
+  "workbench.externalBrowser": "firefox",
+  "git.autofetch": true,
+  "firefox.profile": "default-release",
+  "vim.camelCaseMotion.enable": true,
+  "vim.smartRelativeLine": true,
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-[>": false
+  },
+  "vim.insertModeKeyBindings": [],
+  "git.openRepositoryInParentFolders": "always",
+  "vim.leader": ",",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "g", "f"],
+      "commands": [{ "command": "editor.action.formatDocument" }]
+    },
+    {
+      "before": ["<leader>", "t", "t"],
+      "commands": [{ "command": "workbench.view.explorer" }]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": [ { "command": "workbench.action.quickOpen" } ]
+    },
+    {
+      "before": ["<c-j>"],
+      "commands": [ { "command": "cursorDown" } ]
+    },
+    {
+      "before": ["<c-k>"],
+      "commands": [ { "command": "cursorUp" } ]
+    },
+    {
+      "before": [ "s" ], 
+      "after": [ "<leader>", "<leader>", "s" ]
+    },
+    {
+      "before": [ "<leader>", "f", "t" ],
+      "commands": [ { "command": "workbench.action.terminal.toggleTerminal" } ]
+    },
+    {
+      "before": [ "i", "a" ],
+      "commands": [ { "command": "editor.action.quickFix" } ]
+    },
+    {
+      "before": [ "g", "i" ],
+      "commands": [ { "command": "editor.action.goToImplementation" } ]
+    },
+    {
+      "before": [ "g", "r" ],
+      "commands": [ { "command": "editor.action.goToReferences" } ]
+    },
+    {
+      "before": ["<leader>","f","f"],
+      "commands": [ { "command": "workbench.action.quickOpen" } ]
+    },
+    {
+      "before": ["<leader>","f","r"],
+      "commands": [ { "command": "workbench.action.findInFiles" } ]
+    },
+    {
+      "before": ["i","o"],
+      "commands": [ { "command": "editor.action.organizeImports" } ]
+    },
+    {
+      "before": ["i","m"],
+      "commands": [ { "command": "java.action.overrideMethodsPrompt" } ],
+      "when": "editorLangId == 'java'"
+    },
+    {
+      "before": ["<leader>", "g","t"],
+      "commands": [ { "command": "workbench.view.scm" } ]
+    },
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [ "<c-j>" ],
+      "commands": [ { "command": "cursorDown" } ]
+    },
+    {
+      "before": [ "<c-k>" ],
+      "commands": [ { "command": "cursorUp" } ] 
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [ "s" ],
+      "after": [ "<leader>", "<leader>", "s" ]
+    },
+    {
+      "before": ["i", "a"],
+      "commands": [ { "command": "editor.action.quickFix" } ]
+    },
+
+  ],
+  "git.suggestSmartCommit": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "maven.terminal.customEnv": [
+  
+    {
+      "environmentVariable": "JAVA_HOME",
+      "value": "/usr/lib/jvm/java-25-openjdk"
+    }
+  ],
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show",
+    "pnpm install",
+    "pnpm run dev",
+    "cd",
+    "pnpm install -D",
+    "pnpm add",
+    "ls"
+  ],
+  "scm.alwaysShowActions": false,
+  "scm.autoReveal": true,
+  "workbench.list.defaultFindMatchType": "fuzzy",
+  "workbench.list.typeNavigationMode": "trigger",
+  "windsurf.enableSupercomplete": true,
+  "windsurf.enableTabToJump": true,
+  "windsurf.autoExecutionPolicy": "auto",
+  "windsurf.autoOpenEditedFiles": true,
+  "cline.vsCodeLmModelSelector": {
+    
+  },
+  "roo-cline.vsCodeLmModelSelector": {
+
+  },
+  "windsurf.enableAutocomplete": true,
+  "windsurf.autocompleteSpeed": "fast",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "windsurf.explainAndFixInCurrentConversation": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "windsurf.chatFontSize": "default",
+  "windsurf.rememberLastModelSelection": true,
+  "windsurf.openRecentConversation": true,
+  "workbench.editor.limit.value": "5",
+  "files.autoSave": "afterDelay",
+  "gitlens.views.commitDetails.files.layout": "list",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:\"/home/firefoxmmx/.windsurf/extensions/gabrielbb.vscode-lombok-1.0.1-universal/server/lombok.jar\"",
+  "window.menuBarVisibility": "compact",
+  "http.proxyStrictSSL": false,
+  "task.quickOpen.showAll": true,
+  "editor.quickSuggestionsDelay": 100,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[sql]": {
+  "breadcrumbs.showEnums": true,
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "explorer.openEditors.visible": 5,
+  "git.blame.editorDecoration.enabled": false,
+  "groovyLint.fix.trigger": "onSave",
+  "roo-cline.deniedCommands": [],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#00FF0010"
+    },
+    {
+      "column": 100,
+      "color": "#BDB76B15"
+    },
+    {
+      "column": 120,
+      "color": "#FA807219"
+    }
+  ],
+  "editor.unicodeHighlight.includeComments": true,
+  "workbench.colorCustomizations": {
+    "[Default Dark Modern]": {
+      "tab.activeBorderTop": "#00FF00",
+      "tab.unfocusedActiveBorderTop": "#00FF0088",
+      "textCodeBlock.background": "#00000055"
+    },
+    "editor.wordHighlightStrongBorder": "#FF6347",
+    "editor.wordHighlightBorder": "#FFD700",
+    "editor.selectionHighlightBorder": "#A9A9A9"
+  },
+  "workbench.editor.revealIfOpen": true,
+  "emmet.variables": {
+    "lang": "zh"
+  },
+  "cSpell.diagnosticLevel": "Hint",
+  "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+  "trailing-spaces.includeEmptyLines": false,
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.detectJdksAtStart": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.debug.settings.hotCodeReplace": "auto",
+  "java.dependency.packagePresentation": "hierarchical",
+  "java.maxConcurrentBuilds": 8,
+  "java.sources.organizeImports.staticStarThreshold": 1,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/usr/lib/jvm/java-8-jdk"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk"
+    },
+    {
+      "name": "JavaSE-21",
+      "path": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+    },
+    {
+      "name": "JavaSE-24",
+      "path": "/home/ffmmx/.jdks/temurin-24.0.2"
+    },
+    {
+      "name": "JavaSE-25",
+      "path": "/usr/lib/jvm/java-25-openjdk",
+      "default": true
+    }
+  ],
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-25-openjdk"
+      },
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-1.8 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-8-jdk"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-17 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-21 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-24": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/home/ffmmx/.jdks/temurin-24.0.2"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-25 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-25-openjdk"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "JavaSE-25 LTS",
+  "java.import.gradle.java.home": "/usr/lib/jvm/java-25-openjdk",
+  "maven.executable.path": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn",
+  "java.import.gradle.home": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "pull:command"
+  ],
+}
