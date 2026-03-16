@@ -321,7 +321,7 @@
       ]
     }
   },
-  "terminal.integrated.defaultProfile.linux": "JavaSE-25 LTS",
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "java.import.gradle.java.home": "/usr/lib/jvm/java-25-openjdk",
   "maven.executable.path": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn",
   "java.import.gradle.home": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
