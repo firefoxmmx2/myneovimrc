@@ -110,10 +110,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "maven.terminal.customEnv": [
-  
     {
       "environmentVariable": "JAVA_HOME",
-      "value": "/usr/lib/jvm/java-25-openjdk"
+      "value": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
     }
   ],
   "roo-cline.allowedCommands": [
@@ -247,18 +246,13 @@
     {
       "name": "JavaSE-24",
       "path": "/home/ffmmx/.jdks/temurin-24.0.2"
-    },
-    {
-      "name": "JavaSE-25",
-      "path": "/usr/lib/jvm/java-25-openjdk",
-      "default": true
     }
   ],
   "terminal.integrated.profiles.linux": {
     "bash": {
       "path": "bash",
       "env": {
-        "JAVA_HOME": "/usr/lib/jvm/java-25-openjdk"
+        "JAVA_HOME": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
       },
       "args": [
         "--rcfile",
@@ -308,21 +302,10 @@
         "--rcfile",
         "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
       ]
-    },
-    "JavaSE-25 LTS": {
-      "overrideName": true,
-      "env": {
-        "JAVA_HOME": "/usr/lib/jvm/java-25-openjdk"
-      },
-      "path": "bash",
-      "args": [
-        "--rcfile",
-        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
-      ]
     }
   },
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "java.import.gradle.java.home": "/usr/lib/jvm/java-25-openjdk",
+  "terminal.integrated.defaultProfile.linux": "JavaSE-21 LTS",
+  "java.import.gradle.java.home": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/java/21",
   "maven.executable.path": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn",
   "java.import.gradle.home": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
   "gitlens.gitCommands.skipConfirmations": [
