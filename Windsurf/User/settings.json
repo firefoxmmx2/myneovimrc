@@ -246,6 +246,11 @@
     {
       "name": "JavaSE-24",
       "path": "/home/ffmmx/.jdks/temurin-24.0.2"
+    },
+    {
+      "name": "JavaSE-25",
+      "path": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+      "default": true
     }
   ],
   "terminal.integrated.profiles.linux": {
@@ -296,6 +301,17 @@
       "overrideName": true,
       "env": {
         "JAVA_HOME": "/home/ffmmx/.jdks/temurin-24.0.2"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-25 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
       },
       "path": "bash",
       "args": [
