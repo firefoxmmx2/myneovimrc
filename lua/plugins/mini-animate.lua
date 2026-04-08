@@ -8,17 +8,11 @@ return {
     return vim.tbl_deep_extend("force", opts, {
       cursor = {
         enable = true,
-        timing = animate.gen_timing.bounce({
-          duration = 80,
-          max_step = 8,
-        }),
+        timing = animate.gen_timing.linear({ duration = 80, unit = "total" }),
       },
       scroll = {
         enable = true,
-        timing = animate.gen_timing.bounce({
-          duration = 100,
-          max_step = 10,
-        }),
+        timing = animate.gen_timing.linear({ duration = 100, unit = "total" }),
       },
       resize = {
         enable = true,
@@ -26,17 +20,11 @@ return {
       },
       open = {
         enable = true,
-        timing = animate.gen_timing.bounce({
-          duration = 150,
-          max_step = 10,
-        }),
+        timing = animate.gen_timing.linear({ duration = 150, unit = "total" }),
       },
       close = {
         enable = true,
-        timing = animate.gen_timing.bounce({
-          duration = 100,
-          max_step = 8,
-        }),
+        timing = animate.gen_timing.linear({ duration = 100, unit = "total" }),
       },
     })
   end,
