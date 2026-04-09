@@ -8,22 +8,22 @@ return {
     return vim.tbl_deep_extend("force", opts, {
       cursor = {
         enable = true,
-        timing = animate.gen_timing.linear({ duration = 250, unit = "total" }),
+        timing = animate.gen_timing.linear({ duration = 400, unit = "total" }),
       },
       scroll = {
         enable = false,
       },
       resize = {
         enable = true,
-        timing = animate.gen_timing.linear({ duration = 250, unit = "total" }),
+        timing = animate.gen_timing.linear({ duration = 350, unit = "total" }),
       },
       open = {
         enable = true,
-        timing = animate.gen_timing.linear({ duration = 250, unit = "total" }),
+        timing = animate.gen_timing.linear({ duration = 350, unit = "total" }),
       },
       close = {
         enable = true,
-        timing = animate.gen_timing.linear({ duration = 150, unit = "total" }),
+        timing = animate.gen_timing.linear({ duration = 250, unit = "total" }),
       },
     })
   end,
