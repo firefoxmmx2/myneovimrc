@@ -42,16 +42,16 @@ return {
       vim.keymap.set({ "n", "x" }, "<C-x>", function()
         require("opencode").select()
       end, { desc = "Execute opencode action…" })
-      vim.keymap.set({ "n", "t" }, "<C-.>", function()
+      vim.keymap.set({ "n", "t" }, "<C-dot>", function()
         require("opencode").toggle()
       end, { desc = "Toggle opencode" })
 
       vim.keymap.set({ "n", "x" }, "go", function()
-        return require("opencode").operator("@this ")
-      end, { desc = "Add range to opencode", expr = true })
+        require("opencode").prompt("@this ")
+      end, { desc = "Add range to opencode" })
       vim.keymap.set("n", "goo", function()
-        return require("opencode").operator("@this ") .. "_"
-      end, { desc = "Add line to opencode", expr = true })
+        require("opencode").prompt("@file ")
+      end, { desc = "Add line to opencode" })
 
       vim.keymap.set("n", "<S-C-u>", function()
         require("opencode").command("session.half.page.up")
