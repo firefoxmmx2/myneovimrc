@@ -1,48 +1,59 @@
-[2026-04-13 10:00:43.976]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2026-04-13 10:00:44.085]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
-[2026-04-13 10:00:44.811]	 Installing "tmux-copycat"
-[2026-04-13 10:00:44.813]	 Installing "tmux-continuum"
-[2026-04-13 10:00:44.814]	 Installing "tmux-cpu"
-[2026-04-13 10:00:44.820]	 Installing "tmux-resurrect"
-[2026-04-13 10:00:47.292]	   "tmux-continuum" download success
-[2026-04-13 10:00:47.877]	   "tmux-copycat" download success
-[2026-04-13 10:00:47.880]	   "tmux-cpu" download success
-[2026-04-13 10:00:52.310]	   "tmux-resurrect" download success
-[2026-04-13 10:00:52.385]	 Done.
+[2026-04-15 14:44:53.336]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-15 14:44:53.363]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-15 14:44:53.745]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-15 14:44:53.767]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-15 14:44:54.388]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-15 14:44:54.416]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-15 14:44:54.504]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-15 14:44:54.539]	 Updating all plugins!
+[2026-04-15 14:44:54.539]	 
+[2026-04-15 14:44:54.591]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-15 14:44:54.682]	 Done.
 
-[2026-04-14 09:02:10.577]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2026-04-14 09:02:10.618]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
-[2026-04-14 09:02:11.219]	 Already installed "tmux-copycat"
-[2026-04-14 09:02:11.448]	 Already installed "tmux-continuum"
-[2026-04-14 09:02:11.800]	 Already installed "tmux-cpu"
-[2026-04-14 09:02:12.265]	 Already installed "tmux-resurrect"
-[2026-04-14 09:02:12.484]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
-[2026-04-14 09:02:12.776]	 Updating all plugins!
-[2026-04-14 09:02:12.776]	 
-[2026-04-14 09:02:14.611]	   "tmux-copycat" update success
-[2026-04-14 09:02:14.622]	     | 已经是最新的。
-[2026-04-14 09:02:14.687]	   "tmux-cpu" update success
-[2026-04-14 09:02:14.691]	     | 已经是最新的。
-[2026-04-14 09:02:15.778]	   "tmux-continuum" update success
-[2026-04-14 09:02:15.786]	     | 已经是最新的。
-[2026-04-14 09:02:16.124]	   "tmux-resurrect" update success
-[2026-04-14 09:02:16.139]	     | 已经是最新的。
-[2026-04-14 09:02:16.229]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
-[2026-04-14 09:02:16.645]	 Done.
+[2026-04-15 14:44:55.130]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-15 14:44:55.588]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-15 14:44:55.613]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-15 14:44:55.637]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-15 14:44:55.692]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-15 14:44:55.717]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-15 14:44:55.753]	 Updating all plugins!
+[2026-04-15 14:44:55.753]	 
+[2026-04-15 14:44:55.804]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-15 14:44:55.801]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-15 14:44:55.884]	 Removing "tmux-continuum"
+[2026-04-15 14:44:55.893]	   "tmux-continuum" clean success
+[2026-04-15 14:44:55.895]	 Removing "tmux-copycat"
+[2026-04-15 14:44:55.902]	   "tmux-copycat" clean fail
+[2026-04-15 14:44:55.905]	 Removing "tmux-cpu"
+[2026-04-15 14:44:55.915]	   "tmux-cpu" clean success
+[2026-04-15 14:44:55.919]	 Removing "tmux-resurrect"
+[2026-04-15 14:44:55.926]	   "tmux-resurrect" clean success
+[2026-04-15 14:44:55.874]	 Updating all plugins!
+[2026-04-15 14:44:55.874]	 
+[2026-04-15 14:44:55.968]	 Done.
 
-[2026-04-14 09:02:16.841]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2026-04-14 09:02:16.933]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
-[2026-04-14 09:02:17.283]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
-[2026-04-14 09:02:17.375]	 Updating all plugins!
-[2026-04-14 09:02:17.375]	 
-[2026-04-14 09:02:17.423]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
-[2026-04-14 09:02:17.531]	 Removing "tmux-continuum"
-[2026-04-14 09:02:17.539]	   "tmux-continuum" clean success
-[2026-04-14 09:02:17.550]	 Removing "tmux-copycat"
-[2026-04-14 09:02:17.581]	   "tmux-copycat" clean success
-[2026-04-14 09:02:17.602]	 Removing "tmux-cpu"
-[2026-04-14 09:02:17.605]	   "tmux-cpu" clean success
-[2026-04-14 09:02:17.611]	 Removing "tmux-resurrect"
-[2026-04-14 09:02:17.650]	   "tmux-resurrect" clean success
-[2026-04-14 09:02:17.707]	 Done.
+[2026-04-15 14:44:55.983]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-15 14:44:56.086]	 Done.
 
+[2026-04-15 14:44:55.858]	 Updating all plugins!
+[2026-04-15 14:44:55.858]	 
+[2026-04-15 14:44:56.438]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-15 14:44:53.452]	 Installing "tmux-copycat"
+[2026-04-15 14:44:53.452]	 Installing "tmux-resurrect"
+[2026-04-15 14:44:53.454]	 Installing "tmux-cpu"
+[2026-04-15 14:44:53.454]	 Installing "tmux-continuum"
+[2026-04-15 14:44:55.868]	   "tmux-continuum" download success
+[2026-04-15 14:44:55.902]	   "tmux-copycat" download fail
+[2026-04-15 14:44:55.958]	   "tmux-cpu" download fail
+[2026-04-15 14:44:57.308]	   "tmux-resurrect" download fail
+[2026-04-15 14:44:57.401]	 Done.
+
+[2026-04-15 14:44:57.746]	 Removing "tmux-copycat"
+[2026-04-15 14:44:57.750]	   "tmux-copycat" clean success
+[2026-04-15 14:44:57.805]	 Done.
+
+[2026-04-15 14:45:00.445]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-15 14:45:00.462]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-15 14:45:00.777]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2026-04-15 14:45:00.808]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-15 14:45:00.930]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
