@@ -36,13 +36,13 @@ return {
       vim.o.autoread = true -- Required for `opts.events.reload`
 
       -- Recommended/example keymaps
-      vim.keymap.set({ "n", "x" }, "<C-a>", function()
+      vim.keymap.set({ "n", "x" }, "<leader>oa", function()
         require("opencode").ask("@this: ", { submit = true })
       end, { desc = "Ask opencode…" })
-      vim.keymap.set({ "n", "x" }, "<C-x>", function()
+      vim.keymap.set({ "n", "x" }, "<leader>ox", function()
         require("opencode").select()
       end, { desc = "Execute opencode action…" })
-      vim.keymap.set({ "n", "t" }, "<C-,>", function()
+      vim.keymap.set({ "n", "t" }, "<leader>ot", function()
         require("opencode").toggle()
       end, { desc = "Toggle opencode" })
 
@@ -60,9 +60,9 @@ return {
         require("opencode").command("session.half.page.down")
       end, { desc = "Scroll opencode down" })
 
-      -- You may want these if you use the opinionated `<C-a>` and `<C-x>` keymaps above — otherwise consider `<leader>o…` (and remove terminal mode from the `toggle` keymap)
-      vim.keymap.set("n", "+", "<C-a>", { desc = "Increment under cursor", noremap = true })
-      vim.keymap.set("n", "-", "<C-x>", { desc = "Decrement under cursor", noremap = true })
+      -- You may want these if you use the opinionate `<leader>oa` and `<leader>ox` keymaps
+      vim.keymap.set("n", "goa", "<leader>oa", { desc = "Ask opencode", noremap = true })
+      vim.keymap.set("n", "gox", "<leader>ox", { desc = "Execute opencode", noremap = true })
     end,
   },
 }
