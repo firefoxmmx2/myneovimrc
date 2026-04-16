@@ -9,8 +9,8 @@
 
 -- Jenkinsfile syntax highlighting
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
-  pattern = { "Jenkinsfile", "Jenkinsfile.*" },
+  pattern = { "Jenkinsfile", "Jenkinsfile.*", "*.Jenkinsfile", "*.jenkinsfile", "jenkinsfile", "jenkinsfile.*" },
   callback = function()
-    vim.opt.filetype = "groovy"
+    vim.bo.filetype = "groovy"
   end,
 })
