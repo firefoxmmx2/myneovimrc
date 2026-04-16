@@ -1,0 +1,373 @@
+[2026-04-16 23:15:21.777]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-16 23:15:21.793]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-16 23:15:21.831]	 Installing "tmux-fzf"
+[2026-04-16 23:15:21.831]	 Already installed "tmux-resurrect"
+[2026-04-16 23:15:21.833]	 Already installed "tmux-copycat"
+[2026-04-16 23:15:21.833]	 Already installed "tmux-cpu"
+[2026-04-16 23:15:21.833]	 Already installed "tmux-continuum"
+[2026-04-16 23:15:21.837]	 Already installed "tmux-sensible"
+[2026-04-16 23:15:21.837]	 Already installed "tmux-open"
+[2026-04-16 23:15:21.837]	 Already installed "tmux-quick-select"
+[2026-04-16 23:15:21.838]	 Already installed "tmux-prefix-highlight"
+[2026-04-16 23:15:21.838]	 Already installed "tmux"
+[2026-04-16 23:15:24.579]	   "tmux-fzf" download fail
+[2026-04-16 23:15:24.605]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-16 23:15:27.888]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-16 23:15:27.907]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-16 23:15:24.623]	 Updating all plugins!
+[2026-04-16 23:15:24.623]	 
+[2026-04-16 23:15:26.315]	   "tmux-open" update success
+[2026-04-16 23:15:26.317]	     | 已经是最新的。
+[2026-04-16 23:15:26.418]	   "tmux-sensible" update success
+[2026-04-16 23:15:26.421]	     | 已经是最新的。
+[2026-04-16 23:15:26.500]	   "tmux-continuum" update success
+[2026-04-16 23:15:26.502]	     | 已经是最新的。
+[2026-04-16 23:15:26.867]	   "tmux-prefix-highlight" update success
+[2026-04-16 23:15:26.871]	     | 已经是最新的。
+[2026-04-16 23:15:27.177]	   "tmux" update success
+[2026-04-16 23:15:27.179]	     | 已经是最新的。
+[2026-04-16 23:15:27.344]	   "tmux-resurrect" update success
+[2026-04-16 23:15:27.346]	     | 已经是最新的。
+[2026-04-16 23:15:27.468]	   "tmux-copycat" update success
+[2026-04-16 23:15:27.471]	     | 已经是最新的。
+[2026-04-16 23:15:28.750]	   "tmux-cpu" update success
+[2026-04-16 23:15:28.754]	     | 已经是最新的。
+[2026-04-16 23:15:28.777]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-16 23:15:28.865]	 Done.
+
+[2026-04-16 23:15:27.948]	 Already installed "tmux-copycat"
+[2026-04-16 23:15:27.949]	 Already installed "tmux-cpu"
+[2026-04-16 23:15:27.949]	 Installing "tmux-fzf"
+[2026-04-16 23:15:27.950]	 Already installed "tmux-resurrect"
+[2026-04-16 23:15:27.950]	 Installing "tmux-quick-select"
+[2026-04-16 23:15:27.950]	 Already installed "tmux-prefix-highlight"
+[2026-04-16 23:15:27.950]	 Already installed "tmux-continuum"
+[2026-04-16 23:15:27.951]	 Already installed "tmux-open"
+[2026-04-16 23:15:27.952]	 Already installed "tmux"
+[2026-04-16 23:15:27.954]	 Already installed "tmux-sensible"
+[2026-04-16 23:15:29.689]	   "tmux-fzf" download fail
+[2026-04-16 23:15:30.203]	   "tmux-quick-select" download fail
+[2026-04-16 23:15:30.229]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-16 23:15:30.247]	 Updating all plugins!
+[2026-04-16 23:15:30.247]	 
+[2026-04-16 23:15:30.272]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-16 23:15:30.300]	 Removing "catppuccin"
+[2026-04-16 23:15:30.304]	   "catppuccin" clean success
+[2026-04-16 23:15:30.307]	 Removing "tmux"
+[2026-04-16 23:15:30.310]	   "tmux" clean success
+[2026-04-16 23:15:30.312]	 Removing "tmux-continuum"
+[2026-04-16 23:15:30.314]	   "tmux-continuum" clean success
+[2026-04-16 23:15:30.317]	 Removing "tmux-copycat"
+[2026-04-16 23:15:30.320]	   "tmux-copycat" clean success
+[2026-04-16 23:15:30.322]	 Removing "tmux-cpu"
+[2026-04-16 23:15:30.325]	   "tmux-cpu" clean success
+[2026-04-16 23:15:30.327]	 Removing "tmux-open"
+[2026-04-16 23:15:30.329]	   "tmux-open" clean success
+[2026-04-16 23:15:30.331]	 Removing "tmux-prefix-highlight"
+[2026-04-16 23:15:30.334]	   "tmux-prefix-highlight" clean success
+[2026-04-16 23:15:30.335]	 Removing "tmux-resurrect"
+[2026-04-16 23:15:30.341]	   "tmux-resurrect" clean success
+[2026-04-16 23:15:30.343]	 Removing "tmux-sensible"
+[2026-04-16 23:15:30.346]	   "tmux-sensible" clean success
+[2026-04-16 23:15:30.366]	 Done.
+
+[2026-04-16 23:16:58.840]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-16 23:16:58.856]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-16 23:16:59.105]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-16 23:16:59.121]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-16 23:16:59.158]	 Already installed "tmux-copycat"
+[2026-04-16 23:16:59.160]	 Already installed "tmux-resurrect"
+[2026-04-16 23:16:59.161]	 Already installed "tmux-fzf"
+[2026-04-16 23:16:59.161]	 Already installed "tmux-cpu"
+[2026-04-16 23:16:59.162]	 Already installed "tmux-open"
+[2026-04-16 23:16:59.163]	 Already installed "tmux-prefix-highlight"
+[2026-04-16 23:16:59.164]	 Already installed "tmux-quick-select"
+[2026-04-16 23:16:59.164]	 Already installed "tmux-continuum"
+[2026-04-16 23:16:59.165]	 Already installed "tmux"
+[2026-04-16 23:16:59.166]	 Already installed "tmux-sensible"
+[2026-04-16 23:16:59.180]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-16 23:16:58.892]	 Installing "tmux-cpu"
+[2026-04-16 23:16:58.894]	 Installing "tmux-fzf"
+[2026-04-16 23:16:58.895]	 Installing "tmux-continuum"
+[2026-04-16 23:16:58.897]	 Installing "tmux-resurrect"
+[2026-04-16 23:16:58.897]	 Installing "tmux-prefix-highlight"
+[2026-04-16 23:16:58.897]	 Installing "tmux-quick-select"
+[2026-04-16 23:16:58.898]	 Installing "tmux-open"
+[2026-04-16 23:16:58.899]	 Installing "tmux-copycat"
+[2026-04-16 23:16:58.899]	 Installing "tmux-sensible"
+[2026-04-16 23:16:58.902]	 Installing "tmux"
+[2026-04-16 23:17:00.526]	   "tmux-quick-select" download fail
+[2026-04-16 23:17:01.333]	   "tmux-prefix-highlight" download success
+[2026-04-16 23:17:01.481]	   "tmux-fzf" download fail
+[2026-04-16 23:17:01.530]	   "tmux-continuum" download success
+[2026-04-16 23:17:02.113]	   "tmux-sensible" download fail
+[2026-04-16 23:17:02.633]	   "tmux-open" download fail
+[2026-04-16 23:17:02.981]	   "tmux-cpu" download fail
+[2026-04-16 23:17:03.574]	   "tmux-copycat" download success
+[2026-04-16 23:17:03.800]	   "tmux" download success
+[2026-04-16 23:17:06.336]	   "tmux-resurrect" download success
+[2026-04-16 23:17:06.367]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-16 23:16:59.194]	 Updating all plugins!
+[2026-04-16 23:16:59.195]	 
+[2026-04-16 23:17:00.656]	   "tmux-fzf" update fail
+[2026-04-16 23:17:00.664]	     | remote: Invalid username or token. Password authentication is not supported for Git operations.
+[2026-04-16 23:17:00.664]	     | 致命错误：'https://github.com/tmux-plugins/tmux-fzf/' 鉴权失败
+[2026-04-16 23:17:01.840]	   "tmux-prefix-highlight" update fail
+[2026-04-16 23:17:01.848]	     | 来自 https://github.com/tmux-plugins/tmux-prefix-highlight
+[2026-04-16 23:17:01.848]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:01.848]	     | 错误：工作区中下列未跟踪的文件将会因为合并操作而被覆盖：
+[2026-04-16 23:17:01.848]	     | 	LICENSE
+[2026-04-16 23:17:01.849]	     | 	README.md
+[2026-04-16 23:17:01.849]	     | 	prefix_highlight.tmux
+[2026-04-16 23:17:01.849]	     | 	screenshots/prefix_off.png
+[2026-04-16 23:17:01.849]	     | 	screenshots/prefix_on.png
+[2026-04-16 23:17:01.849]	     | 请在合并前移动或删除。
+[2026-04-16 23:17:01.849]	     | 正在终止
+[2026-04-16 23:17:01.911]	   "tmux-sensible" update success
+[2026-04-16 23:17:01.914]	     | 来自 https://github.com/tmux-plugins/tmux-sensible
+[2026-04-16 23:17:01.915]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:02.270]	   "tmux-cpu" update success
+[2026-04-16 23:17:02.274]	     | 来自 https://github.com/tmux-plugins/tmux-cpu
+[2026-04-16 23:17:02.274]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:02.346]	   "tmux-continuum" update fail
+[2026-04-16 23:17:02.354]	     | 来自 https://github.com/tmux-plugins/tmux-continuum
+[2026-04-16 23:17:02.354]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:02.354]	     | 错误：工作区中下列未跟踪的文件将会因为合并操作而被覆盖：
+[2026-04-16 23:17:02.354]	     | 	.gitattributes
+[2026-04-16 23:17:02.354]	     | 	CHANGELOG.md
+[2026-04-16 23:17:02.354]	     | 	CONTRIBUTING.md
+[2026-04-16 23:17:02.354]	     | 	LICENSE.md
+[2026-04-16 23:17:02.354]	     | 	README.md
+[2026-04-16 23:17:02.354]	     | 	continuum.tmux
+[2026-04-16 23:17:02.354]	     | 	docs/automatic_start.md
+[2026-04-16 23:17:02.354]	     | 	docs/continuum_status.md
+[2026-04-16 23:17:02.354]	     | 	docs/faq.md
+[2026-04-16 23:17:02.354]	     | 	docs/multiple_tmux_servers.md
+[2026-04-16 23:17:02.354]	     | 	docs/systemd_details.md
+[2026-04-16 23:17:02.354]	     | 	scripts/check_tmux_version.sh
+[2026-04-16 23:17:02.354]	     | 	scripts/continuum_restore.sh
+[2026-04-16 23:17:02.354]	     | 	scripts/continuum_save.sh
+[2026-04-16 23:17:02.354]	     | 	scripts/continuum_status.sh
+[2026-04-16 23:17:02.354]	     | 	scripts/handle_tmux_automatic_start.sh
+[2026-04-16 23:17:02.354]	     | 	scripts/handle_tmux_automatic_start/README.md
+[2026-04-16 23:17:02.354]	     | 	scripts/handle_tmux_automatic_start/osx_alacritty_start_tmux.sh
+[2026-04-16 23:17:02.354]	     | 	scripts/handle_tmux_automatic_start/osx_disable.sh
+[2026-04-16 23:17:02.354]	     | 	scripts/handle_tmux_automatic_start/osx_enable.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/handle_tmux_automatic_start/osx_iterm_start_tmux.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/handle_tmux_automatic_start/osx_kitty_start_tmux.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/handle_tmux_automatic_start/osx_terminal_start_tmux.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/handle_tmux_automatic_start/systemd_disable.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/handle_tmux_automatic_start/systemd_enable.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/helpers.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/shared.sh
+[2026-04-16 23:17:02.355]	     | 	scripts/variables.sh
+[2026-04-16 23:17:02.355]	     | 请在合并前移动或删除。
+[2026-04-16 23:17:02.355]	     | 正在终止
+[2026-04-16 23:17:02.480]	   "tmux-open" update success
+[2026-04-16 23:17:02.482]	     | 来自 https://github.com/tmux-plugins/tmux-open
+[2026-04-16 23:17:02.482]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:02.756]	   "tmux-quick-select" update fail
+[2026-04-16 23:17:02.763]	     | shell-init: 获取当前目录时出错: getcwd: 无法访问父目录: 没有那个文件或目录
+[2026-04-16 23:17:02.763]	     | remote: Invalid username or token. Password authentication is not supported for Git operations.
+[2026-04-16 23:17:02.763]	     | 致命错误：'https://github.com/tmux-plugins/tmux-quick-select/' 鉴权失败
+[2026-04-16 23:17:06.202]	   "tmux-copycat" update fail
+[2026-04-16 23:17:06.205]	     | 来自 https://github.com/tmux-plugins/tmux-copycat
+[2026-04-16 23:17:06.205]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:06.205]	     | 错误：工作区中下列未跟踪的文件将会因为合并操作而被覆盖：
+[2026-04-16 23:17:06.205]	     | 	.gitattributes
+[2026-04-16 23:17:06.205]	     | 	.gitignore
+[2026-04-16 23:17:06.205]	     | 	.travis.yml
+[2026-04-16 23:17:06.205]	     | 	CHANGELOG.md
+[2026-04-16 23:17:06.205]	     | 	LICENSE.md
+[2026-04-16 23:17:06.205]	     | 	README.md
+[2026-04-16 23:17:06.205]	     | 	Vagrantfile
+[2026-04-16 23:17:06.205]	     | 	copycat.tmux
+[2026-04-16 23:17:06.205]	     | 	docs/customizations.md
+[2026-04-16 23:17:06.205]	     | 	docs/defining_new_stored_searches.md
+[2026-04-16 23:17:06.205]	     | 	docs/installation_for_tmux_2.3.md
+[2026-04-16 23:17:06.205]	     | 	docs/limitations.md
+[2026-04-16 23:17:06.205]	     | 	run-tests
+[2026-04-16 23:17:06.205]	     | 	scripts/check_tmux_version.sh
+[2026-04-16 23:17:06.205]	     | 	scripts/copycat_generate_results.sh
+[2026-04-16 23:17:06.205]	     | 	scripts/copycat_git_special.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/copycat_jump.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/copycat_mode_bindings.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/copycat_mode_quit.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/copycat_mode_start.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/copycat_search.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/helpers.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/stored_search_helpers.sh
+[2026-04-16 23:17:06.206]	     | 	scripts/variables.sh
+[2026-04-16 23:17:06.206]	     | 	test/README.md
+[2026-04-16 23:17:06.206]	     | 	test/helpers/expect_copycat_assertions.exp
+[2026-04-16 23:17:06.206]	     | 	test/helpers/expect_copycat_helpers.exp
+[2026-04-16 23:17:06.206]	     | 	test/helpers/expect_helpers.exp
+[2026-04-16 23:17:06.206]	     | 	test/helpers/run_tmux.exp
+[2026-04-16 23:17:06.206]	     | 	test/helpers/setup.exp
+[2026-04-16 23:17:06.206]	     | 	test/helpers/setup_tmux_conf.sh
+[2026-04-16 23:17:06.206]	     | 	test/helpers/setup_tmux_conf_with_custom_searches.sh
+[2026-04-16 23:17:06.206]	     | 	test/helpers/setup_with_custom_searches.exp
+[2026-04-16 23:17:06.206]	     | 	test/helpers/test.exp
+[2026-04-16 23:17:06.206]	     | 	test/run-tests-within-vm
+[2026-04-16 23:17:06.206]	     | 	test/test_digit_search.exp
+[2026-04-16 23:17:06.206]	     | 	test/test_file_search.exp
+[2026-04-16 23:17:06.206]	     | 	test/test_free_search.exp
+[2026-04-16 23:17:06.206]	     | 	test/test_git_hash_search.exp
+[2026-04-16 23:17:06.206]	     | 	test/test_git_status_search.exp
+[2026-04-16 23:17:06.206]	     | 	test/test_url_search.exp
+[2026-04-16 23:17:06.206]	     | 	test/test_user_defined_search.exp
+[2026-04-16 23:17:06.206]	     | 	vagrant_ubuntu_provisioning_two_five.sh
+[2026-04-16 23:17:06.206]	     | 	video/README.md
+[2026-04-16 23:17:06.206]	     | 	video/screencast_img.png
+[2026-04-16 23:17:06.206]	     | 	video/script.md
+[2026-04-16 23:17:06.206]	     | 请在合并前移动或删除。
+[2026-04-16 23:17:06.206]	     | 正在终止
+[2026-04-16 23:17:07.291]	   "tmux-resurrect" update fail
+[2026-04-16 23:17:07.296]	     | 来自 https://github.com/tmux-plugins/tmux-resurrect
+[2026-04-16 23:17:07.296]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:07.296]	     | 错误：工作区中下列未跟踪的文件将会因为合并操作而被覆盖：
+[2026-04-16 23:17:07.296]	     | 	.gitattributes
+[2026-04-16 23:17:07.296]	     | 	.gitignore
+[2026-04-16 23:17:07.296]	     | 	.gitmodules
+[2026-04-16 23:17:07.296]	     | 	.travis.yml
+[2026-04-16 23:17:07.296]	     | 	CHANGELOG.md
+[2026-04-16 23:17:07.296]	     | 	CONTRIBUTING.md
+[2026-04-16 23:17:07.296]	     | 	LICENSE.md
+[2026-04-16 23:17:07.296]	     | 	README.md
+[2026-04-16 23:17:07.296]	     | 	docs/custom_key_bindings.md
+[2026-04-16 23:17:07.296]	     | 	docs/hooks.md
+[2026-04-16 23:17:07.296]	     | 	docs/migrating_from_tmuxinator.md
+[2026-04-16 23:17:07.296]	     | 	docs/restoring_bash_history.md
+[2026-04-16 23:17:07.296]	     | 	docs/restoring_pane_contents.md
+[2026-04-16 23:17:07.297]	     | 	docs/restoring_previously_saved_environment.md
+[2026-04-16 23:17:07.297]	     | 	docs/restoring_programs.md
+[2026-04-16 23:17:07.297]	     | 	docs/restoring_vim_and_neovim_sessions.md
+[2026-04-16 23:17:07.297]	     | 	docs/save_dir.md
+[2026-04-16 23:17:07.297]	     | 	resurrect.tmux
+[2026-04-16 23:17:07.297]	     | 	run_tests
+[2026-04-16 23:17:07.297]	     | 	save_command_strategies/gdb.sh
+[2026-04-16 23:17:07.297]	     | 	save_command_strategies/linux_procfs.sh
+[2026-04-16 23:17:07.297]	     | 	save_command_strategies/pgrep.sh
+[2026-04-16 23:17:07.297]	     | 	save_command_strategies/ps.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/check_tmux_version.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/helpers.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/process_restore_helpers.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/restore.exp
+[2026-04-16 23:17:07.297]	     | 	scripts/restore.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/save.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/spinner_helpers.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/tmux_spinner.sh
+[2026-04-16 23:17:07.297]	     | 	scripts/variables.sh
+[2026-04-16 23:17:07.297]	     | 	strategies/irb_default_strategy.sh
+[2026-04-16 23:17:07.297]	     | 	strategies/mosh-client_default_strategy.sh
+[2026-04-16 23:17:07.297]	     | 	strategies/nvim_session.sh
+[2026-04-16 23:17:07.297]	     | 	strategies/vim_session.sh
+[2026-04-16 23:17:07.297]	     | 	tests/fixtures/restore_file.txt
+[2026-04-16 23:17:07.297]	     | 	tests/fixtures/save_file.txt
+[2026-04-16 23:17:07.297]	     | 	tests/helpers/create_and_save_tmux_test_environment.exp
+[2026-04-16 23:17:07.297]	     | 	tests/helpers/expect_helpers.exp
+[2026-04-16 23:17:07.297]	     | 	tests/helpers/helpers.sh
+[2026-04-16 23:17:07.297]	     | 	tests/helpers/restore_and_save_tmux_test_environment.exp
+[2026-04-16 23:17:07.297]	     | 	tests/helpers/resurrect_helpers.sh
+[2026-04-16 23:17:07.298]	     | 	tests/run_tests_in_isolation
+[2026-04-16 23:17:07.298]	     | 	tests/test_resurrect_restore.sh
+[2026-04-16 23:17:07.298]	     | 	tests/test_resurrect_save.sh
+[2026-04-16 23:17:07.298]	     | 	video/issue_vid.png
+[2026-04-16 23:17:07.298]	     | 	video/screencast_img.png
+[2026-04-16 23:17:07.298]	     | 	video/script.md
+[2026-04-16 23:17:07.298]	     | 请在合并前移动或删除。
+[2026-04-16 23:17:07.298]	     | 正在终止
+[2026-04-16 23:17:11.099]	   "tmux" update fail
+[2026-04-16 23:17:11.101]	     | 来自 https://github.com/catppuccin/tmux
+[2026-04-16 23:17:11.101]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-16 23:17:11.101]	     | 致命错误：无法将多个分支合并到空分支。
+[2026-04-16 23:17:11.119]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-16 23:17:06.384]	 Updating all plugins!
+[2026-04-16 23:17:06.384]	 
+[2026-04-16 23:17:07.836]	   "tmux" update success
+[2026-04-16 23:17:07.839]	     | 已经是最新的。
+[2026-04-16 23:17:08.004]	   "tmux-prefix-highlight" update success
+[2026-04-16 23:17:08.006]	     | 已经是最新的。
+[2026-04-16 23:17:08.047]	   "tmux-cpu" update success
+[2026-04-16 23:17:08.051]	     | 已经是最新的。
+[2026-04-16 23:17:08.300]	   "tmux-continuum" update success
+[2026-04-16 23:17:08.302]	     | 已经是最新的。
+[2026-04-16 23:17:09.247]	   "tmux-open" update success
+[2026-04-16 23:17:09.249]	     | 来自 https://github.com/tmux-plugins/tmux-open
+[2026-04-16 23:17:09.249]	     |  * [新标签]          v0.0.1     -> v0.0.1
+[2026-04-16 23:17:09.249]	     |  * [新标签]          v0.0.2     -> v0.0.2
+[2026-04-16 23:17:09.249]	     |  * [新标签]          v1.0.0     -> v1.0.0
+[2026-04-16 23:17:09.249]	     |  * [新标签]          v2.0.0     -> v2.0.0
+[2026-04-16 23:17:09.249]	     |  * [新标签]          v3.0.0     -> v3.0.0
+[2026-04-16 23:17:09.249]	     | 已经是最新的。
+[2026-04-16 23:17:09.952]	   "tmux-sensible" update success
+[2026-04-16 23:17:09.956]	     | 来自 https://github.com/tmux-plugins/tmux-sensible
+[2026-04-16 23:17:09.956]	     |  * [新标签]          v1.0.0     -> v1.0.0
+[2026-04-16 23:17:09.956]	     |  * [新标签]          v1.1.0     -> v1.1.0
+[2026-04-16 23:17:09.957]	     |  * [新标签]          v2.0.0     -> v2.0.0
+[2026-04-16 23:17:09.957]	     |  * [新标签]          v2.1.0     -> v2.1.0
+[2026-04-16 23:17:09.957]	     |  * [新标签]          v2.2.0     -> v2.2.0
+[2026-04-16 23:17:09.957]	     |  * [新标签]          v2.3.0     -> v2.3.0
+[2026-04-16 23:17:09.957]	     |  * [新标签]          v3.0.0     -> v3.0.0
+[2026-04-16 23:17:09.957]	     | 已经是最新的。
+[2026-04-16 23:17:10.171]	   "tmux-copycat" update success
+[2026-04-16 23:17:10.172]	     | 来自 https://github.com/tmux-plugins/tmux-copycat
+[2026-04-16 23:17:10.172]	     |  * [新标签]          v0.0.1     -> v0.0.1
+[2026-04-16 23:17:10.172]	     |  * [新标签]          v0.0.2     -> v0.0.2
+[2026-04-16 23:17:10.172]	     |  * [新标签]          v0.0.3     -> v0.0.3
+[2026-04-16 23:17:10.172]	     |  * [新标签]          v0.0.4     -> v0.0.4
+[2026-04-16 23:17:10.172]	     |  * [新标签]          v0.0.5     -> v0.0.5
+[2026-04-16 23:17:10.172]	     |  * [新标签]          v0.0.6     -> v0.0.6
+[2026-04-16 23:17:10.173]	     |  * [新标签]          v0.0.7     -> v0.0.7
+[2026-04-16 23:17:10.173]	     |  * [新标签]          v0.1.0     -> v0.1.0
+[2026-04-16 23:17:10.173]	     |  * [新标签]          v1.0.0     -> v1.0.0
+[2026-04-16 23:17:10.173]	     |  * [新标签]          v1.1.0     -> v1.1.0
+[2026-04-16 23:17:10.173]	     |  * [新标签]          v2.0.0     -> v2.0.0
+[2026-04-16 23:17:10.173]	     |  * [新标签]          v2.1.0     -> v2.1.0
+[2026-04-16 23:17:10.173]	     |  * [新标签]          v3.0.0     -> v3.0.0
+[2026-04-16 23:17:10.173]	     | 已经是最新的。
+[2026-04-16 23:17:11.172]	   "tmux-resurrect" update success
+[2026-04-16 23:17:11.174]	     | 来自 https://github.com/tmux-plugins/tmux-resurrect
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.0.1     -> v0.0.1
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.0.2     -> v0.0.2
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.0.3     -> v0.0.3
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.0.4     -> v0.0.4
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.0.5     -> v0.0.5
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.1.0     -> v0.1.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.2.0     -> v0.2.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.3.0     -> v0.3.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v0.4.0     -> v0.4.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v1.0.0     -> v1.0.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v1.2.0     -> v1.2.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v1.2.1     -> v1.2.1
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v1.3.0     -> v1.3.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v1.4.0     -> v1.4.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v1.5.0     -> v1.5.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v2.0.0     -> v2.0.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v2.1.0     -> v2.1.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v2.2.0     -> v2.2.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v2.4.0     -> v2.4.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v3.0.0     -> v3.0.0
+[2026-04-16 23:17:11.174]	     |  * [新标签]          v4.0.0     -> v4.0.0
+[2026-04-16 23:17:11.174]	     | 已经是最新的。
+[2026-04-16 23:17:11.180]	 Done.
+
+[2026-04-16 23:17:11.189]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-16 23:17:11.216]	 Removing "tmux"
+[2026-04-16 23:17:11.219]	   "tmux" clean success
+[2026-04-16 23:17:11.221]	 Removing "tmux-continuum"
+[2026-04-16 23:17:11.223]	   "tmux-continuum" clean success
+[2026-04-16 23:17:11.225]	 Removing "tmux-copycat"
+[2026-04-16 23:17:11.228]	   "tmux-copycat" clean success
+[2026-04-16 23:17:11.230]	 Removing "tmux-cpu"
+[2026-04-16 23:17:11.233]	   "tmux-cpu" clean success
+[2026-04-16 23:17:11.234]	 Removing "tmux-open"
+[2026-04-16 23:17:11.236]	   "tmux-open" clean success
+[2026-04-16 23:17:11.238]	 Removing "tmux-prefix-highlight"
+[2026-04-16 23:17:11.240]	   "tmux-prefix-highlight" clean success
+[2026-04-16 23:17:11.241]	 Removing "tmux-resurrect"
+[2026-04-16 23:17:11.246]	   "tmux-resurrect" clean success
+[2026-04-16 23:17:11.248]	 Removing "tmux-sensible"
+[2026-04-16 23:17:11.250]	   "tmux-sensible" clean success
+[2026-04-16 23:17:11.265]	 Done.
+
