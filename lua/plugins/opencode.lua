@@ -59,10 +59,6 @@ return {
       vim.keymap.set("n", "<S-C-d>", function()
         require("opencode").command("session.half.page.down")
       end, { desc = "Scroll opencode down" })
-
-      -- You may want these if you use the opinionate `<leader>oa` and `<leader>ox` keymaps
-      vim.keymap.set("n", "goa", "<leader>oa", { desc = "Ask opencode", noremap = true })
-      vim.keymap.set("n", "gox", "<leader>ox", { desc = "Execute opencode", noremap = true })
     end,
   },
 }
