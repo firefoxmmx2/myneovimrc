@@ -1,4 +1,4 @@
 return {
-  "yogykwan/vim-fcitx5",
+  "KangLin/fcitx5.vim",
   event = "InsertEnter",
 }
