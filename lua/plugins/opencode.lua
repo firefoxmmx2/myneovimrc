@@ -36,7 +36,7 @@ return {
       vim.o.autoread = true -- Required for `opts.events.reload`
 
       -- Recommended/example keymaps
-      vim.keymap.set({ "n", "x" }, "<leader>oa", function()
+      vim.keymap.set("x", "<leader>oa", function()
         require("opencode").ask("@this: ", { submit = true })
       end, { desc = "Ask opencode…" })
       vim.keymap.set({ "n", "x" }, "<leader>ox", function()
