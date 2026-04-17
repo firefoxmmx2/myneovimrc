@@ -3108,3 +3108,39 @@ _stored_searches.md
 [2026-04-18 00:45:25.797]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
 [2026-04-18 00:45:25.858]	 Done.
 
+[2026-04-18 00:59:24.484]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-18 00:59:24.535]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-18 00:59:24.583]	 Installing "tmux-fzf"
+[2026-04-18 00:59:24.586]	 Already installed "tmux-copycat"
+[2026-04-18 00:59:24.587]	 Already installed "tmux-open"
+[2026-04-18 00:59:24.587]	 Already installed "tmux-continuum"
+[2026-04-18 00:59:24.587]	 Installing "tmux-quick-select"
+[2026-04-18 00:59:24.587]	 Already installed "tmux-prefix-highlight"
+[2026-04-18 00:59:24.588]	 Already installed "tmux-cpu"
+[2026-04-18 00:59:24.589]	 Already installed "tmux-resurrect"
+[2026-04-18 00:59:24.591]	 Already installed "tmux"
+[2026-04-18 00:59:24.592]	 Already installed "tmux-sensible"
+[2026-04-18 00:59:25.939]	   "tmux-fzf" download fail
+[2026-04-18 00:59:27.026]	   "tmux-quick-select" download fail
+[2026-04-18 00:59:27.040]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-18 00:59:27.053]	 Updating all plugins!
+[2026-04-18 00:59:27.053]	 
+[2026-04-18 00:59:31.140]	   "tmux-copycat" update fail
+[2026-04-18 00:59:31.147]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-04-18 00:59:31.701]	   "tmux-open" update success
+[2026-04-18 00:59:31.703]	     | 已经是最新的。
+[2026-04-18 00:59:31.714]	   "tmux-sensible" update success
+[2026-04-18 00:59:31.716]	     | 已经是最新的。
+[2026-04-18 00:59:31.820]	   "tmux-prefix-highlight" update success
+[2026-04-18 00:59:31.823]	     | 已经是最新的。
+[2026-04-18 00:59:31.952]	   "tmux-resurrect" update success
+[2026-04-18 00:59:31.954]	     | 已经是最新的。
+[2026-04-18 00:59:31.957]	   "tmux-cpu" update success
+[2026-04-18 00:59:31.958]	     | 已经是最新的。
+[2026-04-18 00:59:32.011]	   "tmux-continuum" update success
+[2026-04-18 00:59:32.013]	     | 已经是最新的。
+[2026-04-18 00:59:33.251]	   "tmux" update success
+[2026-04-18 00:59:33.254]	     | 已经是最新的。
+[2026-04-18 00:59:33.277]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-18 00:59:33.346]	 Done.
+
