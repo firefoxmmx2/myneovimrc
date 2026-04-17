@@ -43,6 +43,11 @@ return {
         require("opencode").ask("", { submit = true })
       end, { desc = "Ask opencode (no context)" })
 
+      vim.keymap.set("n", "<leader>oi", function()
+        require("opencode").command("session.interrupt")
+        require("opencode").command("session.interrupt")
+      end, { desc = "Interrupt opencode command" })
+
       vim.keymap.set({ "n", "x" }, "<leader>ox", function()
         require("opencode").select()
       end, { desc = "Execute opencode action…" })
