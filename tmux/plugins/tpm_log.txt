@@ -2363,3 +2363,132 @@
 [2026-04-17 09:54:29.296]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
 [2026-04-17 09:54:29.345]	 Done.
 
+_stored_searches.md
+[2026-04-17 09:53:37.110]	     | 	docs/installation_for_tmux_2.3.md
+[2026-04-17 09:53:37.110]	     | 	docs/limitations.md
+[2026-04-17 09:53:37.110]	     | 	run-tests
+[2026-04-17 09:53:37.110]	     | 	scripts/check_tmux_version.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/copycat_generate_results.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/copycat_git_special.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/copycat_jump.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/copycat_mode_bindings.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/copycat_mode_quit.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/copycat_mode_start.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/copycat_search.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/helpers.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/stored_search_helpers.sh
+[2026-04-17 09:53:37.110]	     | 	scripts/variables.sh
+[2026-04-17 09:53:37.111]	     | 	test/README.md
+[2026-04-17 09:53:37.111]	     | 	test/helpers/expect_copycat_assertions.exp
+[2026-04-17 09:53:37.111]	     | 	test/helpers/expect_copycat_helpers.exp
+[2026-04-17 09:53:37.111]	     | 	test/helpers/expect_helpers.exp
+[2026-04-17 09:53:37.111]	     | 	test/helpers/run_tmux.exp
+[2026-04-17 09:53:37.111]	     | 	test/helpers/setup.exp
+[2026-04-17 09:53:37.111]	     | 	test/helpers/setup_tmux_conf.sh
+[2026-04-17 09:53:37.111]	     | 	test/helpers/setup_tmux_conf_with_custom_searches.sh
+[2026-04-17 09:53:37.111]	     | 	test/helpers/setup_with_custom_searches.exp
+[2026-04-17 09:53:37.111]	     | 	test/helpers/test.exp
+[2026-04-17 09:53:37.111]	     | 	test/run-tests-within-vm
+[2026-04-17 09:53:37.111]	     | 	test/test_digit_search.exp
+[2026-04-17 09:53:37.111]	     | 	test/test_file_search.exp
+[2026-04-17 09:53:37.111]	     | 	test/test_free_search.exp
+[2026-04-17 09:53:37.111]	     | 	test/test_git_hash_search.exp
+[2026-04-17 09:53:37.111]	     | 	test/test_git_status_search.exp
+[2026-04-17 09:53:37.111]	     | 	test/test_url_search.exp
+[2026-04-17 09:53:37.111]	     | 	test/test_user_defined_search.exp
+[2026-04-17 09:53:37.111]	     | 	vagrant_ubuntu_provisioning_two_five.sh
+[2026-04-17 09:53:37.111]	     | 	video/README.md
+[2026-04-17 09:53:37.111]	     | 	video/screencast_img.png
+[2026-04-17 09:53:37.111]	     | 	video/script.md
+[2026-04-17 09:53:37.111]	     | 请在合并前移动或删除。
+[2026-04-17 09:53:37.111]	     | 正在终止
+[2026-04-17 09:53:43.847]	   "tmux-open" update fail
+[2026-04-17 09:53:43.852]	     | 来自 https://github.com/tmux-plugins/tmux-open
+[2026-04-17 09:53:43.852]	     |  * [新分支]          master     -> origin/master
+[2026-04-17 09:53:43.853]	     |  * [新标签]          v0.0.1     -> v0.0.1
+[2026-04-17 09:53:43.853]	     |  * [新标签]          v0.0.2     -> v0.0.2
+[2026-04-17 09:53:43.853]	     |  * [新标签]          v1.0.0     -> v1.0.0
+[2026-04-17 09:53:43.853]	     |  * [新标签]          v2.0.0     -> v2.0.0
+[2026-04-17 09:53:43.853]	     |  * [新标签]          v3.0.0     -> v3.0.0
+[2026-04-17 09:53:43.853]	     | 错误：工作区中下列未跟踪的文件将会因为合并操作而被覆盖：
+[2026-04-17 09:53:43.853]	     | 	.gitattributes
+[2026-04-17 09:53:43.853]	     | 	CHANGELOG.md
+[2026-04-17 09:53:43.853]	     | 	LICENSE.md
+[2026-04-17 09:53:43.853]	     | 	README.md
+[2026-04-17 09:53:43.853]	     | 	open.tmux
+[2026-04-17 09:53:43.853]	     | 	scripts/helpers.sh
+[2026-04-17 09:53:43.853]	     | 	scripts/tmux_open_error_message.sh
+[2026-04-17 09:53:43.853]	     | 	video/screencast_img.png
+[2026-04-17 09:53:43.853]	     | 	video/script.md
+[2026-04-17 09:53:43.853]	     | 请在合并前移动或删除。
+[2026-04-17 09:53:43.853]	     | 正在终止
+[2026-04-17 09:54:44.260]	   "tmux" update fail
+[2026-04-17 09:54:44.265]	     | 来自 https://github.com/catppuccin/tmux
+[2026-04-17 09:54:44.265]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-17 09:54:44.265]	     | 致命错误：无法将多个分支合并到空分支。
+[2026-04-17 09:55:11.491]	   "tmux-resurrect" update fail
+[2026-04-17 09:55:11.496]	     | 来自 https://github.com/tmux-plugins/tmux-resurrect
+[2026-04-17 09:55:11.496]	     |  * branch            HEAD       -> FETCH_HEAD
+[2026-04-17 09:55:11.496]	     | 致命错误：无法将多个分支合并到空分支。
+[2026-04-17 09:55:11.527]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-17 09:55:11.551]	 Removing "tmux"
+[2026-04-17 09:55:11.554]	   "tmux" clean success
+[2026-04-17 09:55:11.555]	 Removing "tmux-continuum"
+[2026-04-17 09:55:11.557]	   "tmux-continuum" clean success
+[2026-04-17 09:55:11.558]	 Removing "tmux-copycat"
+[2026-04-17 09:55:11.561]	   "tmux-copycat" clean success
+[2026-04-17 09:55:11.563]	 Removing "tmux-cpu"
+[2026-04-17 09:55:11.564]	   "tmux-cpu" clean success
+[2026-04-17 09:55:11.566]	 Removing "tmux-open"
+[2026-04-17 09:55:11.567]	   "tmux-open" clean success
+[2026-04-17 09:55:11.569]	 Removing "tmux-prefix-highlight"
+[2026-04-17 09:55:11.570]	   "tmux-prefix-highlight" clean success
+[2026-04-17 09:55:11.572]	 Removing "tmux-resurrect"
+[2026-04-17 09:55:11.574]	   "tmux-resurrect" clean success
+[2026-04-17 09:55:11.576]	 Removing "tmux-sensible"
+[2026-04-17 09:55:11.577]	   "tmux-sensible" clean success
+[2026-04-17 09:55:11.592]	 Done.
+
+[2026-04-17 09:53:46.425]	 Updating all plugins!
+[2026-04-17 09:53:46.425]	 
+[2026-04-17 09:53:49.205]	   "tmux-sensible" update success
+[2026-04-17 09:53:49.210]	     | 已经是最新的。
+[2026-04-17 09:53:49.314]	   "tmux-open" update success
+[2026-04-17 09:53:49.315]	     | 已经是最新的。
+[2026-04-17 09:53:49.320]	   "tmux-resurrect" update success
+[2026-04-17 09:53:49.322]	     | 已经是最新的。
+[2026-04-17 09:53:49.700]	   "tmux-cpu" update success
+[2026-04-17 09:53:49.704]	     | 已经是最新的。
+[2026-04-17 09:53:49.942]	   "tmux-prefix-highlight" update success
+[2026-04-17 09:53:49.947]	     | 已经是最新的。
+[2026-04-17 09:53:55.549]	   "tmux-continuum" update success
+[2026-04-17 09:53:55.554]	     | 来自 https://github.com/tmux-plugins/tmux-continuum
+[2026-04-17 09:53:55.554]	     |  * [新标签]          v1.0.0     -> v1.0.0
+[2026-04-17 09:53:55.554]	     |  * [新标签]          v2.0.0     -> v2.0.0
+[2026-04-17 09:53:55.554]	     |  * [新标签]          v2.1.0     -> v2.1.0
+[2026-04-17 09:53:55.554]	     |  * [新标签]          v2.2.0     -> v2.2.0
+[2026-04-17 09:53:55.554]	     |  * [新标签]          v3.0.0     -> v3.0.0
+[2026-04-17 09:53:55.554]	     |  * [新标签]          v3.1.0     -> v3.1.0
+[2026-04-17 09:53:55.554]	     | 已经是最新的。
+[2026-04-17 09:54:08.850]	   "tmux-copycat" update success
+[2026-04-17 09:54:08.854]	     | 来自 https://github.com/tmux-plugins/tmux-copycat
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.0.1     -> v0.0.1
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.0.2     -> v0.0.2
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.0.3     -> v0.0.3
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.0.4     -> v0.0.4
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.0.5     -> v0.0.5
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.0.6     -> v0.0.6
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.0.7     -> v0.0.7
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v0.1.0     -> v0.1.0
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v1.0.0     -> v1.0.0
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v1.1.0     -> v1.1.0
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v2.0.0     -> v2.0.0
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v2.1.0     -> v2.1.0
+[2026-04-17 09:54:08.854]	     |  * [新标签]          v3.0.0     -> v3.0.0
+[2026-04-17 09:54:08.854]	     | 已经是最新的。
+[2026-04-17 09:56:22.432]	   "tmux" update fail
+[2026-04-17 09:56:22.437]	     | 致命错误：无法打开 '.git/objects/pack/tmp_pack_GnvNpK' 进行读取: 没有那个文件或目录
+[2026-04-17 09:56:22.437]	     | 致命错误：fetch-pack：无效的 index-pack 输出
+[2026-04-17 09:56:22.477]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-17 09:56:22.518]	 Done.
+
