@@ -39,6 +39,7 @@ return {
       vim.keymap.set("x", "<leader>oa", function()
         require("opencode").ask("@this: ", { submit = true })
       end, { desc = "Ask opencode…" })
+
       vim.keymap.set({ "n", "x" }, "<leader>ox", function()
         require("opencode").select()
       end, { desc = "Execute opencode action…" })
@@ -49,9 +50,6 @@ return {
       vim.keymap.set({ "n", "x" }, "go", function()
         require("opencode").prompt("@this ")
       end, { desc = "Add range to opencode" })
-      vim.keymap.set("n", "goo", function()
-        require("opencode").prompt("@file ")
-      end, { desc = "Add line to opencode" })
 
       vim.keymap.set("n", "<S-C-u>", function()
         require("opencode").command("session.half.page.up")
