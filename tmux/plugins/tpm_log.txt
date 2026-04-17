@@ -2680,3 +2680,18 @@ _stored_searches.md
 [2026-04-17 17:20:47.910]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
 [2026-04-17 17:20:47.960]	 Done.
 
+[2026-04-17 23:29:56.489]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-17 23:29:56.511]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-17 23:29:56.554]	 Already installed "tmux-cpu"
+[2026-04-17 23:29:56.555]	 Already installed "tmux-resurrect"
+[2026-04-17 23:29:56.555]	 Installing "tmux-fzf"
+[2026-04-17 23:29:56.555]	 Already installed "tmux-continuum"
+[2026-04-17 23:29:56.557]	 Installing "tmux-quick-select"
+[2026-04-17 23:29:56.558]	 Already installed "tmux-copycat"
+[2026-04-17 23:29:56.559]	 Already installed "tmux-open"
+[2026-04-17 23:29:56.559]	 Already installed "tmux-prefix-highlight"
+[2026-04-17 23:29:56.561]	 Already installed "tmux"
+[2026-04-17 23:29:56.565]	 Already installed "tmux-sensible"
+[2026-04-17 23:29:57.894]	   "tmux-quick-select" download fail
+[2026-04-17 23:29:57.983]	   "tmux-fzf" download fail
+[2026-04-17 23:29:58.004]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
