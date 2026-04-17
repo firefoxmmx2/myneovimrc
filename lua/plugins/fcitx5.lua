@@ -1,4 +1,4 @@
 return {
-  "520Matches/fcitx5.vim",
+  "lilydjwg/fcitx.vim",
   event = "InsertEnter",
 }
