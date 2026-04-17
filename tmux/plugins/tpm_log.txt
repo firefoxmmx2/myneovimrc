@@ -1,0 +1,148 @@
+[2026-04-17 09:32:57.502]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-17 09:32:57.567]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-17 09:32:57.855]	 Installing "tmux-resurrect"
+[2026-04-17 09:32:57.857]	 Installing "tmux-fzf"
+[2026-04-17 09:32:57.880]	 Already installed "tmux-open"
+[2026-04-17 09:32:57.881]	 Installing "tmux-continuum"
+[2026-04-17 09:32:57.884]	 Installing "tmux-copycat"
+[2026-04-17 09:32:57.896]	 Already installed "tmux-prefix-highlight"
+[2026-04-17 09:32:57.910]	 Installing "tmux-cpu"
+[2026-04-17 09:32:57.915]	 Installing "tmux-quick-select"
+[2026-04-17 09:32:57.930]	 Already installed "tmux"
+[2026-04-17 09:32:57.948]	 Already installed "tmux-sensible"
+[2026-04-17 09:32:59.158]	   "tmux-fzf" download fail
+[2026-04-17 09:32:59.224]	   "tmux-quick-select" download fail
+[2026-04-17 09:33:00.270]	   "tmux-copycat" download success
+[2026-04-17 09:33:00.317]	   "tmux-cpu" download success
+[2026-04-17 09:33:00.465]	   "tmux-continuum" download success
+[2026-04-17 09:33:02.840]	   "tmux-resurrect" download success
+[2026-04-17 09:33:02.862]	 Done.
+
+[2026-04-17 09:42:17.042]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-17 09:42:17.056]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-17 09:42:17.176]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-17 09:42:17.188]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-17 09:42:17.217]	 Already installed "tmux-resurrect"
+[2026-04-17 09:42:17.218]	 Already installed "tmux-cpu"
+[2026-04-17 09:42:17.218]	 Already installed "tmux-open"
+[2026-04-17 09:42:17.218]	 Already installed "tmux-continuum"
+[2026-04-17 09:42:17.218]	 Already installed "tmux-copycat"
+[2026-04-17 09:42:17.218]	 Already installed "tmux-quick-select"
+[2026-04-17 09:42:17.219]	 Already installed "tmux-sensible"
+[2026-04-17 09:42:17.220]	 Already installed "tmux-fzf"
+[2026-04-17 09:42:17.221]	 Already installed "tmux-prefix-highlight"
+[2026-04-17 09:42:17.223]	 Already installed "tmux"
+[2026-04-17 09:42:17.237]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-17 09:42:17.086]	 Installing "tmux-fzf"
+[2026-04-17 09:42:17.088]	 Already installed "tmux-cpu"
+[2026-04-17 09:42:17.088]	 Already installed "tmux-resurrect"
+[2026-04-17 09:42:17.088]	 Already installed "tmux-copycat"
+[2026-04-17 09:42:17.089]	 Already installed "tmux-open"
+[2026-04-17 09:42:17.089]	 Already installed "tmux-prefix-highlight"
+[2026-04-17 09:42:17.089]	 Installing "tmux-quick-select"
+[2026-04-17 09:42:17.089]	 Already installed "tmux-sensible"
+[2026-04-17 09:42:17.090]	 Already installed "tmux-continuum"
+[2026-04-17 09:42:17.092]	 Already installed "tmux"
+[2026-04-17 09:42:18.128]	   "tmux-quick-select" download fail
+[2026-04-17 09:42:18.156]	   "tmux-fzf" download fail
+[2026-04-17 09:42:18.196]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-17 09:42:17.251]	 Updating all plugins!
+[2026-04-17 09:42:17.251]	 
+[2026-04-17 09:42:17.688]	   "tmux-resurrect" update fail
+[2026-04-17 09:42:17.693]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-resurrect/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-04-17 09:42:18.320]	   "tmux-quick-select" update fail
+[2026-04-17 09:42:18.322]	     | shell-init: 获取当前目录时出错: getcwd: 无法访问父目录: 没有那个文件或目录
+[2026-04-17 09:42:18.322]	     | remote: Invalid username or token. Password authentication is not supported for Git operations.
+[2026-04-17 09:42:18.322]	     | 致命错误：'https://github.com/tmux-plugins/tmux-quick-select/' 鉴权失败
+[2026-04-17 09:42:18.372]	   "tmux-fzf" update fail
+[2026-04-17 09:42:18.374]	     | shell-init: 获取当前目录时出错: getcwd: 无法访问父目录: 没有那个文件或目录
+[2026-04-17 09:42:18.374]	     | remote: Invalid username or token. Password authentication is not supported for Git operations.
+[2026-04-17 09:42:18.374]	     | 致命错误：'https://github.com/tmux-plugins/tmux-fzf/' 鉴权失败
+[2026-04-17 09:42:18.378]	   "tmux-copycat" update success
+[2026-04-17 09:42:18.381]	     | 已经是最新的。
+[2026-04-17 09:42:18.411]	   "tmux-continuum" update success
+[2026-04-17 09:42:18.413]	     | 已经是最新的。
+[2026-04-17 09:42:18.435]	   "tmux-cpu" update success
+[2026-04-17 09:42:18.437]	     | 已经是最新的。
+[2026-04-17 09:42:21.130]	   "tmux" update fail
+[2026-04-17 09:42:21.135]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:21.135]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:21.135]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:21.135]	     | 正在终止
+[2026-04-17 09:42:21.135]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:21.158]	   "tmux-sensible" update fail
+[2026-04-17 09:42:21.163]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:21.163]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:21.163]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:21.163]	     | 正在终止
+[2026-04-17 09:42:21.163]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:21.208]	   "tmux-prefix-highlight" update fail
+[2026-04-17 09:42:21.213]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:21.213]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:21.213]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:21.213]	     | 正在终止
+[2026-04-17 09:42:21.213]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:21.405]	   "tmux-open" update fail
+[2026-04-17 09:42:21.410]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:21.410]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:21.410]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:21.410]	     | 正在终止
+[2026-04-17 09:42:21.410]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:21.448]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-17 09:42:21.501]	 Done.
+
+[2026-04-17 09:42:18.213]	 Updating all plugins!
+[2026-04-17 09:42:18.213]	 
+[2026-04-17 09:42:19.330]	   "tmux-cpu" update success
+[2026-04-17 09:42:19.331]	     | 已经是最新的。
+[2026-04-17 09:42:19.337]	   "tmux-continuum" update success
+[2026-04-17 09:42:19.339]	     | 已经是最新的。
+[2026-04-17 09:42:19.351]	   "tmux-resurrect" update success
+[2026-04-17 09:42:19.353]	     | 已经是最新的。
+[2026-04-17 09:42:19.354]	   "tmux-copycat" update success
+[2026-04-17 09:42:19.356]	     | 已经是最新的。
+[2026-04-17 09:42:22.092]	   "tmux-open" update fail
+[2026-04-17 09:42:22.096]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:22.096]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:22.097]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:22.097]	     | 正在终止
+[2026-04-17 09:42:22.097]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:22.111]	   "tmux-sensible" update fail
+[2026-04-17 09:42:22.116]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:22.116]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:22.116]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:22.116]	     | 正在终止
+[2026-04-17 09:42:22.116]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:22.158]	   "tmux-prefix-highlight" update fail
+[2026-04-17 09:42:22.163]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:22.163]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:22.163]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:22.163]	     | 正在终止
+[2026-04-17 09:42:22.164]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:22.176]	   "tmux" update fail
+[2026-04-17 09:42:22.181]	     | 错误：您对下列文件的本地修改将被合并操作覆盖：
+[2026-04-17 09:42:22.181]	     | 	tmux/plugins/tpm_log.txt
+[2026-04-17 09:42:22.181]	     | 请在合并前提交或储藏您的修改。
+[2026-04-17 09:42:22.181]	     | 正在终止
+[2026-04-17 09:42:22.181]	     | 更新 a026245..6fd4215
+[2026-04-17 09:42:22.212]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-17 09:42:22.237]	 Removing "catppuccin"
+[2026-04-17 09:42:22.238]	   "catppuccin" clean success
+[2026-04-17 09:42:22.239]	 Removing "tmux"
+[2026-04-17 09:42:22.240]	   "tmux" clean success
+[2026-04-17 09:42:22.242]	 Removing "tmux-continuum"
+[2026-04-17 09:42:22.244]	   "tmux-continuum" clean success
+[2026-04-17 09:42:22.246]	 Removing "tmux-copycat"
+[2026-04-17 09:42:22.248]	   "tmux-copycat" clean success
+[2026-04-17 09:42:22.250]	 Removing "tmux-cpu"
+[2026-04-17 09:42:22.251]	   "tmux-cpu" clean success
+[2026-04-17 09:42:22.253]	 Removing "tmux-open"
+[2026-04-17 09:42:22.253]	   "tmux-open" clean success
+[2026-04-17 09:42:22.255]	 Removing "tmux-prefix-highlight"
+[2026-04-17 09:42:22.256]	   "tmux-prefix-highlight" clean success
+[2026-04-17 09:42:22.257]	 Removing "tmux-resurrect"
+[2026-04-17 09:42:22.259]	   "tmux-resurrect" clean success
+[2026-04-17 09:42:22.261]	 Removing "tmux-sensible"
+[2026-04-17 09:42:22.262]	   "tmux-sensible" clean success
+[2026-04-17 09:42:22.276]	 Done.
+
