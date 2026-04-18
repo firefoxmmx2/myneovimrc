@@ -67,23 +67,23 @@ return {
       end, { desc = "Scroll opencode down" })
 
       vim.keymap.set("n", "<leader>oc", function()
-        require("opencode").command("session.clear")
+        require("opencode").command("input_clear")
       end, { desc = "Clear opencode prompt" })
 
       vim.keymap.set("n", "<leader>on", function()
-        require("opencode").command("session.new")
+        require("opencode").command("/new")
       end, { desc = "New opencode session" })
 
       vim.keymap.set("n", "<leader>ou", function()
-        require("opencode").command("session.undo")
+        require("opencode").command("/undo")
       end, { desc = "Undo opencode session" })
 
       vim.keymap.set("n", "<leader>or", function()
-        require("opencode").command("session.redo")
+        require("opencode").command("/redo")
       end, { desc = "Redo opencode session" })
 
       vim.keymap.set("n", "<leader>o<Tab>", function()
-        require("opencode").command("agent.toggle")
+        require("opencode").command("tab")
       end, { desc = "Toggle opencode agent" })
     end,
   },
