@@ -236,6 +236,10 @@
       "path": "/usr/lib/jvm/java-8-jdk"
     },
     {
+      "name": "JavaSE-11",
+      "path": "/usr/lib/jvm/java-11-openjdk"
+    },
+    {
       "name": "JavaSE-17",
       "path": "/usr/lib/jvm/java-17-openjdk"
     },
@@ -268,6 +272,17 @@
       "overrideName": true,
       "env": {
         "JAVA_HOME": "/usr/lib/jvm/java-8-jdk"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/ffmmx/.config/Windsurf/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-11 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-11-openjdk"
       },
       "path": "bash",
       "args": [
@@ -329,4 +344,6 @@
     "stash-push:command",
     "pull:command"
   ],
+  "windsurf.autoContinue": 0,
+  "windsurf.allowCascadeAccessGitignoreFiles": true,
 }
