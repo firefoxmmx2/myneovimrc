@@ -55,14 +55,10 @@ return {
         require("opencode").toggle()
       end, { desc = "Toggle opencode" })
 
-      vim.keymap.set({ "n", "x" }, "go", function()
-        require("opencode").prompt("@this ")
-      end, { desc = "Add range to opencode" })
-
-      vim.keymap.set("n", "<S-C-u>", function()
+      vim.keymap.set("n", "gou", function()
         require("opencode").command("session.half.page.up")
       end, { desc = "Scroll opencode up" })
-      vim.keymap.set("n", "<S-C-d>", function()
+      vim.keymap.set("n", "god", function()
         require("opencode").command("session.half.page.down")
       end, { desc = "Scroll opencode down" })
 
