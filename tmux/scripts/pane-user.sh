@@ -15,21 +15,12 @@ thm_crust=$(get @thm_crust)
 thm_sky=$(get @thm_sky)
 thm_fg=$(get @thm_fg)
 
-get() { tmux show-options -gv "$1" 2>/dev/null; }
-thm_surface_0=$(get @thm_surface_0)
-thm_crust=$(get @thm_crust)
-thm_sky=$(get @thm_sky)
-thm_fg=$(get @thm_fg)
-
 if [ "$user" = "root" ]; then
     if [ $((10#$(date +%S) % 2)) -eq 0 ]; then
         echo "#[fg=red,bg=${thm_surface_0}]#[fg=${thm_crust},bg=red] #[fg=red,bold,bg=${thm_surface_0}] root! #[fg=${thm_fg}]"
     else
         echo "#[fg=red,bg=${thm_surface_0}]#[fg=${thm_crust},bg=red] #[fg=red,bold,bg=${thm_surface_0}] root  #[fg=${thm_fg}]"
     fi
-else
-    echo "#[fg=${thm_sky},bg=${thm_surface_0}]#[fg=${thm_crust},bg=${thm_sky}] #[fg=${thm_fg},bg=${thm_surface_0}] $user #[fg=${thm_fg}]"
-fi
 else
     echo "#[fg=${thm_sky},bg=${thm_surface_0}]#[fg=${thm_crust},bg=${thm_sky}] #[fg=${thm_fg},bg=${thm_surface_0}] $user #[fg=${thm_fg}]"
 fi
