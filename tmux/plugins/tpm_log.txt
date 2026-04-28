@@ -886,3 +886,75 @@
 [2026-04-28 12:17:41.594]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
 [2026-04-28 12:17:41.657]	 Done.
 
+[2026-04-28 12:20:24.932]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-28 12:20:24.947]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-28 12:20:24.984]	 Already installed "tmux-resurrect"
+[2026-04-28 12:20:24.985]	 Already installed "tmux-continuum"
+[2026-04-28 12:20:24.985]	 Installing "tmux-fzf"
+[2026-04-28 12:20:24.987]	 Already installed "tmux-copycat"
+[2026-04-28 12:20:24.987]	 Already installed "tmux-open"
+[2026-04-28 12:20:24.987]	 Already installed "tmux-cpu"
+[2026-04-28 12:20:24.989]	 Installing "tmux-quick-select"
+[2026-04-28 12:20:24.989]	 Already installed "tmux"
+[2026-04-28 12:20:24.990]	 Already installed "tmux-sensible"
+[2026-04-28 12:20:24.990]	 Already installed "tmux-prefix-highlight"
+[2026-04-28 12:20:25.983]	   "tmux-fzf" download fail
+[2026-04-28 12:20:26.018]	   "tmux-quick-select" download fail
+[2026-04-28 12:20:26.035]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-28 12:20:26.051]	 Updating all plugins!
+[2026-04-28 12:20:26.051]	 
+[2026-04-28 12:20:27.101]	   "tmux-resurrect" update success
+[2026-04-28 12:20:27.102]	     | 已经是最新的。
+[2026-04-28 12:20:27.138]	   "tmux-copycat" update success
+[2026-04-28 12:20:27.140]	     | 已经是最新的。
+[2026-04-28 12:20:27.143]	   "tmux-cpu" update success
+[2026-04-28 12:20:27.145]	     | 已经是最新的。
+[2026-04-28 12:20:27.189]	   "tmux-continuum" update success
+[2026-04-28 12:20:27.191]	     | 已经是最新的。
+[2026-04-28 12:20:27.198]	   "tmux-open" update success
+[2026-04-28 12:20:27.200]	     | 已经是最新的。
+[2026-04-28 12:20:27.211]	   "tmux-prefix-highlight" update success
+[2026-04-28 12:20:27.213]	     | 已经是最新的。
+[2026-04-28 12:20:27.225]	   "tmux-sensible" update success
+[2026-04-28 12:20:27.227]	     | 已经是最新的。
+[2026-04-28 12:20:27.256]	   "tmux" update success
+[2026-04-28 12:20:27.257]	     | 已经是最新的。
+[2026-04-28 12:20:27.275]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-28 12:20:27.338]	 Done.
+
+[2026-04-28 12:24:30.683]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-04-28 12:24:30.697]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-04-28 12:24:30.727]	 Already installed "tmux-cpu"
+[2026-04-28 12:24:30.730]	 Already installed "tmux-copycat"
+[2026-04-28 12:24:30.730]	 Installing "tmux-fzf"
+[2026-04-28 12:24:30.731]	 Already installed "tmux-prefix-highlight"
+[2026-04-28 12:24:30.731]	 Already installed "tmux-resurrect"
+[2026-04-28 12:24:30.732]	 Already installed "tmux-continuum"
+[2026-04-28 12:24:30.732]	 Already installed "tmux-open"
+[2026-04-28 12:24:30.732]	 Already installed "tmux-sensible"
+[2026-04-28 12:24:30.732]	 Installing "tmux-quick-select"
+[2026-04-28 12:24:30.733]	 Already installed "tmux"
+[2026-04-28 12:24:31.693]	   "tmux-quick-select" download fail
+[2026-04-28 12:24:31.705]	   "tmux-fzf" download fail
+[2026-04-28 12:24:31.719]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-04-28 12:24:31.733]	 Updating all plugins!
+[2026-04-28 12:24:31.733]	 
+[2026-04-28 12:24:32.768]	   "tmux-prefix-highlight" update success
+[2026-04-28 12:24:32.770]	     | 已经是最新的。
+[2026-04-28 12:24:32.772]	   "tmux-open" update success
+[2026-04-28 12:24:32.774]	     | 已经是最新的。
+[2026-04-28 12:24:32.775]	   "tmux-copycat" update success
+[2026-04-28 12:24:32.776]	     | 已经是最新的。
+[2026-04-28 12:24:32.777]	   "tmux-resurrect" update success
+[2026-04-28 12:24:32.779]	     | 已经是最新的。
+[2026-04-28 12:24:32.782]	   "tmux-cpu" update success
+[2026-04-28 12:24:32.784]	     | 已经是最新的。
+[2026-04-28 12:24:32.785]	   "tmux-continuum" update success
+[2026-04-28 12:24:32.786]	     | 已经是最新的。
+[2026-04-28 12:24:32.812]	   "tmux-sensible" update success
+[2026-04-28 12:24:32.813]	     | 已经是最新的。
+[2026-04-28 12:24:32.841]	   "tmux" update success
+[2026-04-28 12:24:32.842]	     | 已经是最新的。
+[2026-04-28 12:24:32.857]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-04-28 12:24:32.910]	 Done.
+
