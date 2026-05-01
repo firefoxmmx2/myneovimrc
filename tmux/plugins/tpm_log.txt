@@ -365,3 +365,24 @@
 [2026-05-01 22:04:59.474]	   "tmux-quick-select" download fail
 [2026-05-01 22:04:59.535]	   "tmux-fzf" download fail
 [2026-05-01 22:04:59.588]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-05-01 22:04:59.782]	 Updating all plugins!
+[2026-05-01 22:04:59.782]	 
+[2026-05-01 22:05:01.477]	   "tmux-resurrect" update success
+[2026-05-01 22:05:01.494]	     | 已经是最新的。
+[2026-05-01 22:05:01.494]	   "tmux-continuum" update success
+[2026-05-01 22:05:01.499]	     | 已经是最新的。
+[2026-05-01 22:05:01.720]	   "tmux" update success
+[2026-05-01 22:05:01.736]	     | 已经是最新的。
+[2026-05-01 22:05:01.779]	   "tmux-prefix-highlight" update success
+[2026-05-01 22:05:01.786]	     | 已经是最新的。
+[2026-05-01 22:05:01.930]	   "tmux-copycat" update success
+[2026-05-01 22:05:01.948]	     | 已经是最新的。
+[2026-05-01 22:05:02.118]	   "tmux-open" update success
+[2026-05-01 22:05:02.130]	     | 已经是最新的。
+[2026-05-01 22:05:02.359]	   "tmux-cpu" update success
+[2026-05-01 22:05:02.362]	     | 已经是最新的。
+[2026-05-01 22:05:07.970]	   "tmux-sensible" update success
+[2026-05-01 22:05:07.982]	     | 已经是最新的。
+[2026-05-01 22:05:08.093]	 Invoking /home/ffmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-05-01 22:05:08.603]	 Done.
+
