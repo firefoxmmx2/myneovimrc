@@ -32,26 +32,21 @@
 
 ### 关键 Maven Profiles
 
-**root pom.xml：**
-- `dev` — 开发环境（默认，PostgreSQL，redis db=2）
-- `prod` — 生产环境
+**必选 profiles（每组必须选一个）：**
 
-**socialcollect-core/pom.xml（容器/打包相关）：**
-- `jar` — JAR 包模式，排除内嵌 Tomcat
-- `tomcat-starter` — 补回 Tomcat（通过 `-Dcontainer=tomcat` 激活）
-- `tongweb-starter` — 东方通容器（`-Dcontainer=tongweb`）
-- `inforsuite-starter` — 中创容器（`-Dcontainer=inforsuite`）
-- `dev` — 引入 PostgreSQL JDBC 驱动
-- `war` — WAR 包模式
+- 环境：`dev` / `prod`
+- 打包：`jar` / `war`
+- 容器：`tomcat-starter`（`-Dcontainer=tomcat`）/ `tongweb-starter` / `inforsuite-starter`
 
-**socialcollect-launcher/pom.xml（业务模块）：**
+**功能性 profiles（可选，组合使用）：**
 - `socialcollect-hotel` — 旅馆公安端
 - `socialcollect-publicsystem` — 公共服务
 - `socialcollect-mobile-police` — 警务通
 - `socialcollect-hotel-ltd` — 旅馆企业端
 - `socialcollect-message` — 消息服务
 - `socialcollect-wechat` — 微信服务
-- `data-package-extractor` — 数据打包解包
+- `data-package-extractor` — 解包入库服务（含 extractor）
+- `packaging-data-to-zip` — 开启打包数据服务（含 zip）
 
 ### 启动方式
 
