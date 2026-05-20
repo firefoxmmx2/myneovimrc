@@ -1,60 +1,24 @@
-[2026-05-18 16:54:15.200]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
-[2026-05-18 16:54:15.214]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
-[2026-05-18 16:54:15.243]	 Installing "tmux-copycat"
-[2026-05-18 16:54:15.245]	 Installing "tmux-fzf"
-[2026-05-18 16:54:15.246]	 Installing "tmux-continuum"
-[2026-05-18 16:54:15.247]	 Installing "tmux"
-[2026-05-18 16:54:15.247]	 Installing "tmux-cpu"
-[2026-05-18 16:54:15.249]	 Installing "tmux-sensible"
-[2026-05-18 16:54:15.249]	 Installing "tmux-prefix-highlight"
-[2026-05-18 16:54:15.250]	 Installing "tmux-open"
-[2026-05-18 16:54:15.251]	 Installing "tmux-quick-select"
-[2026-05-18 16:54:15.258]	 Installing "tmux-resurrect"
-[2026-05-18 16:54:15.822]	   "tmux-fzf" download fail
-[2026-05-18 16:54:15.885]	   "tmux-quick-select" download fail
-[2026-05-18 16:54:16.164]	   "tmux-sensible" download success
-[2026-05-18 16:54:16.225]	   "tmux-cpu" download success
-[2026-05-18 16:54:16.374]	   "tmux-continuum" download success
-[2026-05-18 16:54:16.381]	   "tmux-prefix-highlight" download success
-[2026-05-18 16:54:16.382]	   "tmux-copycat" download success
-[2026-05-18 16:54:16.388]	   "tmux-open" download success
-[2026-05-18 16:54:16.455]	   "tmux" download success
-[2026-05-18 16:54:17.255]	   "tmux-resurrect" download success
-[2026-05-18 16:54:17.280]	 Done.
-
-[2026-05-19 14:31:56.795]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
-[2026-05-19 14:31:57.183]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
-[2026-05-19 14:31:58.466]	 Installing "tmux-quick-select"
-[2026-05-19 14:31:58.502]	 Already installed "tmux-sensible"
-[2026-05-19 14:31:58.505]	 Already installed "tmux-continuum"
-[2026-05-19 14:31:58.507]	 Already installed "tmux-prefix-highlight"
-[2026-05-19 14:31:58.512]	 Already installed "tmux"
-[2026-05-19 14:31:58.513]	 Already installed "tmux-open"
-[2026-05-19 14:31:58.775]	 Already installed "tmux-copycat"
-[2026-05-19 14:31:58.820]	 Already installed "tmux-resurrect"
-[2026-05-19 14:31:58.904]	 Installing "tmux-fzf"
-[2026-05-19 14:31:58.910]	 Already installed "tmux-cpu"
-[2026-05-19 14:31:59.983]	   "tmux-quick-select" download fail
-[2026-05-19 14:32:00.136]	   "tmux-fzf" download fail
-[2026-05-19 14:32:00.188]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
-[2026-05-19 14:32:00.604]	 Updating all plugins!
-[2026-05-19 14:32:00.604]	 
-[2026-05-19 14:32:01.304]	   "tmux-copycat" update fail
-[2026-05-19 14:32:01.326]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
-[2026-05-19 14:32:01.486]	   "tmux-resurrect" update fail
-[2026-05-19 14:32:01.501]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-resurrect/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
-[2026-05-19 14:32:01.519]	   "tmux-continuum" update fail
-[2026-05-19 14:32:01.546]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-continuum/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
-[2026-05-19 14:32:01.645]	   "tmux-prefix-highlight" update fail
-[2026-05-19 14:32:01.656]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-prefix-highlight/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
-[2026-05-19 14:32:01.794]	   "tmux-sensible" update fail
-[2026-05-19 14:32:01.800]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-sensible/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
-[2026-05-19 14:32:02.442]	   "tmux" update fail
-[2026-05-19 14:32:02.445]	   "tmux-cpu" update success
-[2026-05-19 14:32:02.451]	     | 已经是最新的。
-[2026-05-19 14:32:02.457]	     | 致命错误：无法访问 'https://github.com/catppuccin/tmux/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
-[2026-05-19 14:32:03.070]	   "tmux-open" update success
-[2026-05-19 14:32:03.077]	     | 已经是最新的。
-[2026-05-19 14:32:03.265]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
-[2026-05-19 14:32:03.672]	 Done.
+[2026-05-20 10:11:06.523]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-05-20 10:11:06.537]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-05-20 10:11:06.569]	 Installing "tmux-cpu"
+[2026-05-20 10:11:06.569]	 Installing "tmux-copycat"
+[2026-05-20 10:11:06.570]	 Installing "tmux-resurrect"
+[2026-05-20 10:11:06.571]	 Installing "tmux-open"
+[2026-05-20 10:11:06.572]	 Installing "tmux-continuum"
+[2026-05-20 10:11:06.572]	 Installing "tmux-quick-select"
+[2026-05-20 10:11:06.573]	 Installing "tmux-prefix-highlight"
+[2026-05-20 10:11:06.575]	 Installing "tmux-fzf"
+[2026-05-20 10:11:06.575]	 Installing "tmux"
+[2026-05-20 10:11:06.582]	 Installing "tmux-sensible"
+[2026-05-20 10:11:07.870]	   "tmux-quick-select" download fail
+[2026-05-20 10:11:07.977]	   "tmux-fzf" download fail
+[2026-05-20 10:11:08.055]	   "tmux-continuum" download success
+[2026-05-20 10:11:09.417]	   "tmux-prefix-highlight" download success
+[2026-05-20 10:11:09.479]	   "tmux-cpu" download success
+[2026-05-20 10:11:09.954]	   "tmux-copycat" download success
+[2026-05-20 10:11:10.820]	   "tmux-open" download success
+[2026-05-20 10:11:10.865]	   "tmux-sensible" download success
+[2026-05-20 10:11:16.527]	   "tmux-resurrect" download success
+[2026-05-20 10:11:45.198]	   "tmux" download success
+[2026-05-20 10:11:45.211]	 Done.
 
