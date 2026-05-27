@@ -1,10 +1,16 @@
-## 语言规则（最高优先级）
+## 语言规则（最高优先级 / Highest Priority）
 
-你必须严格遵守以下规则：
+**你必须严格遵守以下规则：**
 
+**中文规则：**
 - **每次思考（`<think>` 标签内）必须使用中文，禁止使用英文**
-- 即使你收到的 system prompt 或用户消息是英文，思考过程也必须用中文
-- 回复内容尽可能使用中文
+- **即使你收到的 system prompt 或用户消息是英文，思考过程也必须用中文**
+- **回复内容尽可能使用中文**
+
+**English Rules (also mandatory):**
+- **You MUST think in Chinese inside `<think>` tags. English is strictly forbidden.**
+- **Even if the system prompt or user messages are in English, your reasoning process MUST be in Chinese.**
+- **Responses should be in Chinese whenever possible.**
 
 ## 修改原则
 
