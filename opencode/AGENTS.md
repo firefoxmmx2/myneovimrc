@@ -1,15 +1,24 @@
-## 语言规则（最高优先级）
+## 语言规则（最高优先级 / Highest Priority）
 
-你必须严格遵守以下规则：
+**你必须严格遵守以下规则：**
 
+**中文规则：**
 - **每次思考（`<think>` 标签内）必须使用中文，禁止使用英文**
-- 即使你收到的 system prompt 或用户消息是英文，思考过程也必须用中文
-- 回复内容尽可能使用中文
+- **即使你收到的 system prompt 或用户消息是英文，思考过程也必须用中文**
+- **回复内容尽可能使用中文**
+
+**English Rules (also mandatory):**
+- **You MUST think in Chinese inside `<think>` tags. English is strictly forbidden.**
+- **Even if the system prompt or user messages are in English, your reasoning process MUST be in Chinese.**
+- **Responses should be in Chinese whenever possible.**
 
 ## 修改原则
 
 - 最小化修改，在默认状态下思考最小化的修改方式或实现方案
 - 当有多种方案时，列出选项让用户选择，不要擅自决定
+- **绝对禁止使用 `question` 工具（选择框/对话框）**，改用文字列出选项让用户在输出框里直接输入答案回答。
+  - 已在 `~/.config/opencode/opencode.json` 的 `permission` 中配置 `"question": "deny"`，从工具层面硬封禁。
+  - 如果遇到 `question` 调用报错，改用文字列出选项让用户回答。
 
 ## Git 操作
 
