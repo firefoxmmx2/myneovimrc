@@ -1,0 +1,190 @@
+#!/usr/bin/env bash
+# jenkins - Jenkins REST API 封装
+# 用法: jenkins <command> [args...]
+# 命令: list / get-config / update-config / create / trigger / delete / whoami / help
+
+set -eo pipefail
+
+JENKINS_URL="${JENKINS_URL:-http://36.133.39.139:50001}"
+
+# === 凭据解析（按优先级） ===
+JENKINS_USER="${JENKINS_USER:-}"
+JENKINS_TOKEN="${JENKINS_TOKEN:-}"
+
+# 1. 读专用配置文件
+CREDS_FILE="${XDG_CONFIG_HOME:-$HOME/.config}/jenkins/credentials"
+if [[ -z "$JENKINS_USER$JENKINS_TOKEN" && -f "$CREDS_FILE" ]]; then
+  # shellcheck source=/dev/null
+  source "$CREDS_FILE"
+fi
+
+# 2. 读 ~/.netrc（Jenkins CLI 标准方式）
+if [[ -z "$JENKINS_USER$JENKINS_TOKEN" && -f "$HOME/.netrc" ]]; then
+  host="${JENKINS_URL#*://}"
+  host="${host%%/*}"
+  port=""
+  if [[ "$host" == *:* ]]; then
+    port="${host#*:}"; host="${host%%:*}"
+  fi
+  while IFS= read -r line; do
+    case "$line" in
+      "machine "*)
+        m="${line#machine }"
+        case "$m" in
+          "$host") netrc_match=1 ;;
+          "$host:$port") netrc_match=1 ;;
+          *) netrc_match=0 ;;
+        esac
+        ;;
+      "login "*)
+        [[ "${netrc_match:-0}" == 1 && -z "$JENKINS_USER" ]] && JENKINS_USER="${line#login }"
+        ;;
+      "password "*)
+        [[ "${netrc_match:-0}" == 1 && -z "$JENKINS_TOKEN" ]] && JENKINS_TOKEN="${line#password }"
+        ;;
+    esac
+  done < "$HOME/.netrc"
+fi
+
+if [[ -z "$JENKINS_USER" || -z "$JENKINS_TOKEN" ]]; then
+  cat >&2 <<EOF
+❌ 缺少凭据。请用以下任一方式配置:
+
+  方式 A (推荐): 创建 $CREDS_FILE
+    export JENKINS_USER="your_user"
+    export JENKINS_TOKEN="your_token"
+    chmod 600 $CREDS_FILE
+
+  方式 B: 在 ~/.zshrc 加
+    export JENKINS_USER="your_user"
+    export JENKINS_TOKEN="your_token"
+
+  方式 C: 在 ~/.netrc 加
+    machine $host login your_user password your_token
+EOF
+  exit 1
+fi
+
+CURL_OPTS=(-sS -L -m 60 -u "$JENKINS_USER:$JENKINS_TOKEN")
+
+# 把 a/b/c 变成 /job/a/job/b/job/c（处理嵌套 job）
+job_path() {
+  local job="$1"
+  echo "/job/$(echo "$job" | sed 's|/|/job/|g')"
+}
+
+# === 子命令 ===
+# CLI jar 包装（走 Java 协议层，比裸 REST API 在 XML 写入场景更稳）
+cli() {
+  java -jar "${JENKINS_CLI_JAR:-$HOME/bin/jenkins-cli.jar}" \
+    -s "$JENKINS_URL" -auth "$JENKINS_USER:$JENKINS_TOKEN" "$@"
+}
+
+cmd="${1:-help}"
+shift || true
+
+case "$cmd" in
+  list|ls)
+    curl "${CURL_OPTS[@]}" "$JENKINS_URL/api/json?tree=jobs\[name,url,color,lastBuild\[number,result\]\]" \
+      | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+for j in data.get('jobs', []):
+    lb = j.get('lastBuild') or {}
+    print(f\"  {j['name']:45} {j['color']:10} #{lb.get('number','-')} {lb.get('result','')}\")
+"
+    ;;
+
+  get-config|get)
+    job="${1:?用法: jenkins get-config JOB-NAME > job.xml}"
+    cli get-job "$job"
+    ;;
+
+  update-config|update)
+    job="${1:?用法: jenkins update-config JOB-NAME FILE.xml}"
+    file="${2:?用法: jenkins update-config JOB-NAME FILE.xml}"
+    [[ -f "$file" ]] || { echo "❌ 文件不存在: $file" >&2; exit 1; }
+    cli update-job "$job" < "$file"
+    rc=$?
+    [[ $rc -eq 0 ]] && echo "✅ $job 配置已更新" || { echo "❌ update-job 失败,退出码 $rc" >&2; exit $rc; }
+    ;;
+
+  create)
+    name="${1:?用法: jenkins create NEW-NAME FILE.xml}"
+    file="${2:?用法: jenkins create NEW-NAME FILE.xml}"
+    [[ -f "$file" ]] || { echo "❌ 文件不存在: $file" >&2; exit 1; }
+    cli create-job "$name" < "$file"
+    rc=$?
+    [[ $rc -eq 0 ]] && echo "✅ $name 已创建" || { echo "❌ create-job 失败,退出码 $rc" >&2; exit $rc; }
+    ;;
+
+  trigger|build)
+    job="${1:?用法: jenkins trigger JOB-NAME [K=V ...]}"
+    shift || true
+    if [[ $# -gt 0 ]]; then
+      # 参数化构建
+      params=""
+      for kv in "$@"; do
+        k="${kv%%=*}"; v="${kv#*=}"
+        params+="<parameter><name>$(printf '%s' "$k" | python3 -c 'import sys,html;print(html.escape(sys.stdin.read()))')</name><value>$(printf '%s' "$v" | python3 -c 'import sys,html;print(html.escape(sys.stdin.read()))')</value></parameter>"
+      done
+      xml="<?xml version='1.0' encoding='UTF-8'?><flow-build><parameterValues>$params</parameterValues></flow-build>"
+      printf '%s' "$xml" | curl "${CURL_OPTS[@]}" -X POST -H "Content-Type: application/xml" \
+        --data-binary @- "$JENKINS_URL$(job_path "$job")/buildWithParameters"
+    else
+      curl "${CURL_OPTS[@]}" -X POST "$JENKINS_URL$(job_path "$job")/build"
+    fi
+    echo "✅ $job 已触发构建"
+    ;;
+
+  delete|rm)
+    job="${1:?用法: jenkins delete JOB-NAME}"
+    read -rp "确认删除 $job ? [y/N] " yn
+    [[ "$yn" =~ ^[Yy]$ ]] || { echo "已取消"; exit 0; }
+    cli delete-job "$job"
+    rc=$?
+    [[ $rc -eq 0 ]] && echo "✅ $job 已删除" || { echo "❌ delete-job 失败,退出码 $rc" >&2; exit $rc; }
+    ;;
+
+  whoami)
+    curl "${CURL_OPTS[@]}" "$JENKINS_URL/whoAmI/api/json" | python3 -m json.tool
+    ;;
+
+  status)
+    curl "${CURL_OPTS[@]}" "$JENKINS_URL/api/json" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+print(f\"  mode: {d.get('mode','?')}\")
+print(f\"  nodeName: {d.get('nodeName','?')}\")
+print(f\"  numExecutors: {d.get('numExecutors','?')}\")
+print(f\"  jobs: {len(d.get('jobs',[]))}\")
+"
+    ;;
+
+  help|--help|-h|*)
+    cat <<EOF
+jenkins - Jenkins REST API 封装（绕过 HTTP CLI 的 origin 限制）
+
+用法:
+  jenkins list                          列出所有 job
+  jenkins get-config JOB                导出 job 配置 (XML)
+  jenkins update-config JOB FILE.xml    更新 job 配置（覆盖式）
+  jenkins create NEW-NAME FILE.xml      创建新 job
+  jenkins trigger JOB [K=V ...]         触发构建（支持参数）
+  jenkins delete JOB                    删除 job（带确认）
+  jenkins whoami                        当前用户信息
+  jenkins status                        Jenkins 总体状态
+  jenkins help                          本帮助
+
+凭据（按优先级自动读取）:
+  1. 环境变量 JENKINS_USER + JENKINS_TOKEN
+  2. \$XDG_CONFIG_HOME/jenkins/credentials 或 ~/.config/jenkins/credentials
+  3. ~/.netrc（machine 匹配 JENKINS_URL）
+
+环境变量:
+  JENKINS_URL   默认: http://aisino-server:50001
+  JENKINS_USER  用户名
+  JENKINS_TOKEN API Token
+EOF
+    ;;
+esac

@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-05T15:11:24.775Z",
+      "updatedAt": "2026-03-05T15:11:24.775Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "installedAt": "2026-03-05T15:20:35.427Z",
+      "updatedAt": "2026-03-05T15:20:35.427Z"
+    },
+    "agent-skills-creator": {
+      "source": "mblode/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mblode/agent-skills.git",
+      "skillPath": "skills/agent-skills-creator/SKILL.md",
+      "skillFolderHash": "ea2170288e52ca24f0e7a387104e74d8fd723ad2",
+      "installedAt": "2026-03-23T14:57:45.481Z",
+      "updatedAt": "2026-03-23T14:57:45.481Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-23T14:59:43.331Z",
+      "updatedAt": "2026-03-23T14:59:43.331Z"
+    },
+    "ai-search-hub": {
+      "source": "minsight-ai-info/ai-search-hub",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minsight-ai-info/ai-search-hub.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "6f157c0c0da972c12bbbd300d56c6c2d15cd8f84",
+      "installedAt": "2026-03-23T15:00:45.889Z",
+      "updatedAt": "2026-03-23T15:00:45.889Z"
+    },
+    "cli-anything": {
+      "source": "hkuds/cli-anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hkuds/cli-anything.git",
+      "skillPath": "codex-skill/SKILL.md",
+      "skillFolderHash": "5044ab8f803009d470b32634ac31aad0c176ec3b",
+      "installedAt": "2026-03-31T15:25:31.971Z",
+      "updatedAt": "2026-03-31T15:25:31.971Z"
+    },
+    "tavily-search": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tavily-ai/skills.git",
+      "skillPath": "skills/tavily-search/SKILL.md",
+      "skillFolderHash": "74e6f8996fa49a3ebe8aa8f3dbddc4a2c2b5e5e4",
+      "installedAt": "2026-05-28T15:12:55.942Z",
+      "updatedAt": "2026-05-28T15:12:55.942Z"
+    },
+    "pdf-extraction": {
+      "source": "claude-office-skills/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/claude-office-skills/skills.git",
+      "skillPath": "pdf-extraction/SKILL.md",
+      "skillFolderHash": "a9e1372465393214557768f2ca1dccf2c8d2fa36",
+      "installedAt": "2026-06-13T09:26:04.439Z",
+      "updatedAt": "2026-06-13T09:26:04.439Z"
+    },
+    "word-document-processor": {
+      "source": "qodex-ai/ai-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/qodex-ai/ai-agent-skills.git",
+      "skillPath": "skills/word-document-processor/SKILL.md",
+      "skillFolderHash": "e6a12f43f49d5e3773b7bae1087f8c1a16a8b649",
+      "pluginName": "document-skills",
+      "installedAt": "2026-06-13T09:26:18.338Z",
+      "updatedAt": "2026-06-13T09:26:18.338Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp",
+    "windsurf"
+  ]
+}
