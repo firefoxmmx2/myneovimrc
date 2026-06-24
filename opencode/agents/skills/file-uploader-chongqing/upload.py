@@ -8,7 +8,7 @@ PASSWORD = "Cshlw_61608"
 
 async def upload_files(file_paths):
     async with async_playwright() as pw:
-        browser = await pw.chromium.launch(headless=True, args=["--ignore-certificate-errors"])
+        browser = await pw.chromium.launch(headless=True, executable_path="/usr/bin/chromium", args=["--ignore-certificate-errors"])
         page = await browser.new_page()
 
         print("1/5 打开页面...")
