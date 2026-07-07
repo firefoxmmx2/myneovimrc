@@ -8,7 +8,6 @@ api.map('gt', 'T');
 
 // an example to remove mapkey `Ctrl-i`
 api.unmap('<ctrl-i>');
-api.unmap("<ctrl-'>");
 
 
 api.map('co','cc')
