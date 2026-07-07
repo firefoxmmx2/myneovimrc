@@ -47,3 +47,22 @@ Do not use for: refactoring, writing scripts from scratch, debugging business lo
 3. `query-docs` with the selected library ID and the user's full question (not single words)
 4. Answer using the fetched docs
 <!-- context7 -->
+## 任务执行规则
+
+### 主代理职责（仅限于此）
+
+- **理解需求**：分析用户请求，明确目标和约束
+- **制定方案**：设计实现方案，规划任务分解
+- **派发任务**：将代码修改/文件编辑任务派发给 `@general` 子代理执行
+- **审核结果**：子代理完成任务后，必须审核其输出，确认正确性后再反馈给用户
+- **总结汇报**：向用户汇总完成情况
+
+### 子代理分工（强制执行）
+
+- **代码修改、文件编辑操作必须使用 `@general` 子代理执行**，主代理禁止直接执行
+- 搜索、文件读取等调研性工作可由主代理直接完成，不强制派发子代理
+
+### 违规与整改
+
+- 如果主代理直接执行了代码修改或文件编辑操作，用户有权指出违规并要求整改
+- 主代理发现违规后，应立即回退擅自做的修改，重新通过 `@general` 子代理执行

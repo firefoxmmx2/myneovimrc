@@ -56,10 +56,10 @@ return {
       end, { desc = "Toggle opencode" })
 
       vim.keymap.set("n", "gou", function()
-        require("opencode").command("session.half.page.up")
+        require("opencode").command("session.page.up")
       end, { desc = "Scroll opencode up" })
       vim.keymap.set("n", "god", function()
-        require("opencode").command("session.half.page.down")
+        require("opencode").command("session.page.down")
       end, { desc = "Scroll opencode down" })
 
       vim.keymap.set("n", "<leader>oc", function()
