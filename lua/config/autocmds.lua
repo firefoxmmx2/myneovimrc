@@ -14,21 +14,3 @@ vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
     vim.bo.filetype = "groovy"
   end,
 })
-
--- Transparent background
-vim.api.nvim_create_autocmd({ "ColorScheme", "VimEnter" }, {
-  group = vim.api.nvim_create_augroup("user_transparent_bg", { clear = true }),
-  callback = function()
-    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-    vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
-    vim.api.nvim_set_hl(0, "LineNr", { bg = "none" })
-    vim.api.nvim_set_hl(0, "CursorLine", { bg = "none" })
-    vim.api.nvim_set_hl(0, "CursorLineNr", { bg = "none" })
-    vim.api.nvim_set_hl(0, "VertSplit", { bg = "none" })
-    vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
-    vim.api.nvim_set_hl(0, "StatusLineNC", { bg = "none" })
-    vim.api.nvim_set_hl(0, "TabLine", { bg = "none" })
-    vim.api.nvim_set_hl(0, "TabLineFill", { bg = "none" })
-  end,
-})
