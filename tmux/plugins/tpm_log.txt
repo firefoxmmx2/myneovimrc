@@ -142,3 +142,143 @@
 [2026-07-22 08:18:03.354]	   "tmux-sensible" clean success
 [2026-07-22 08:18:03.386]	 Done.
 
+[2026-07-22 21:12:24.386]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-07-22 21:12:24.508]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-07-22 21:12:26.352]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-07-22 21:12:26.464]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-07-22 21:12:26.975]	 Already installed "tmux-continuum"
+[2026-07-22 21:12:26.975]	 Already installed "tmux-cpu"
+[2026-07-22 21:12:26.978]	 Installing "tmux-fzf"
+[2026-07-22 21:12:26.982]	 Already installed "tmux-prefix-highlight"
+[2026-07-22 21:12:26.989]	 Already installed "tmux-open"
+[2026-07-22 21:12:26.990]	 Already installed "tmux"
+[2026-07-22 21:12:26.991]	 Already installed "tmux-copycat"
+[2026-07-22 21:12:26.994]	 Installing "tmux-quick-select"
+[2026-07-22 21:12:27.000]	 Already installed "tmux-sensible"
+[2026-07-22 21:12:27.292]	 Already installed "tmux-resurrect"
+[2026-07-22 21:12:28.071]	   "tmux-quick-select" download fail
+[2026-07-22 21:12:28.079]	   "tmux-fzf" download fail
+[2026-07-22 21:12:28.175]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-07-22 21:12:24.754]	 Installing "tmux-fzf"
+[2026-07-22 21:12:24.754]	 Installing "tmux-open"
+[2026-07-22 21:12:24.754]	 Installing "tmux-copycat"
+[2026-07-22 21:12:24.754]	 Installing "tmux-continuum"
+[2026-07-22 21:12:24.754]	 Installing "tmux-cpu"
+[2026-07-22 21:12:24.769]	 Installing "tmux-quick-select"
+[2026-07-22 21:12:24.771]	 Installing "tmux"
+[2026-07-22 21:12:24.784]	 Installing "tmux-sensible"
+[2026-07-22 21:12:24.786]	 Installing "tmux-prefix-highlight"
+[2026-07-22 21:12:24.792]	 Installing "tmux-resurrect"
+[2026-07-22 21:12:26.092]	   "tmux-fzf" download fail
+[2026-07-22 21:12:26.506]	   "tmux-quick-select" download fail
+[2026-07-22 21:12:26.809]	   "tmux-copycat" download success
+[2026-07-22 21:12:26.824]	   "tmux-open" download success
+[2026-07-22 21:12:26.918]	   "tmux-sensible" download success
+[2026-07-22 21:12:26.946]	   "tmux-cpu" download success
+[2026-07-22 21:12:27.036]	   "tmux-prefix-highlight" download success
+[2026-07-22 21:12:27.323]	   "tmux" download success
+[2026-07-22 21:12:28.089]	   "tmux-continuum" download success
+[2026-07-22 21:12:30.040]	   "tmux-resurrect" download success
+[2026-07-22 21:12:30.167]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-07-22 21:12:28.315]	 Updating all plugins!
+[2026-07-22 21:12:28.315]	 
+[2026-07-22 21:12:30.172]	   "tmux-cpu" update success
+[2026-07-22 21:12:30.186]	     | 已经是最新的。
+[2026-07-22 21:12:33.729]	   "tmux-copycat" update fail
+[2026-07-22 21:12:33.742]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:33.985]	   "tmux-resurrect" update fail
+[2026-07-22 21:12:33.995]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-resurrect/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:34.067]	   "tmux-continuum" update fail
+[2026-07-22 21:12:34.074]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-continuum/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:34.161]	   "tmux-open" update fail
+[2026-07-22 21:12:34.165]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-open/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:34.240]	   "tmux-prefix-highlight" update fail
+[2026-07-22 21:12:34.250]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-prefix-highlight/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:34.303]	   "tmux-sensible" update fail
+[2026-07-22 21:12:34.309]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-sensible/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:34.338]	   "tmux" update fail
+[2026-07-22 21:12:34.340]	     | 致命错误：无法访问 'https://github.com/catppuccin/tmux/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:34.371]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-22 21:12:34.476]	 Done.
+
+[2026-07-22 21:12:30.243]	 Updating all plugins!
+[2026-07-22 21:12:30.243]	 
+[2026-07-22 21:12:35.438]	   "tmux-copycat" update fail
+[2026-07-22 21:12:35.441]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-copycat/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.529]	   "tmux-cpu" update fail
+[2026-07-22 21:12:35.534]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-cpu/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.574]	   "tmux-continuum" update fail
+[2026-07-22 21:12:35.579]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-continuum/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.586]	   "tmux-resurrect" update fail
+[2026-07-22 21:12:35.588]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-resurrect/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.639]	   "tmux-open" update fail
+[2026-07-22 21:12:35.642]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-open/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.682]	   "tmux-prefix-highlight" update fail
+[2026-07-22 21:12:35.685]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-prefix-highlight/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.706]	   "tmux-sensible" update fail
+[2026-07-22 21:12:35.708]	     | 致命错误：无法访问 'https://github.com/tmux-plugins/tmux-sensible/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.726]	   "tmux" update fail
+[2026-07-22 21:12:35.728]	     | 致命错误：无法访问 'https://github.com/catppuccin/tmux/'：TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+[2026-07-22 21:12:35.749]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-22 21:12:35.794]	 Removing "tmux"
+[2026-07-22 21:12:35.800]	   "tmux" clean success
+[2026-07-22 21:12:35.804]	 Removing "tmux-continuum"
+[2026-07-22 21:12:35.808]	   "tmux-continuum" clean success
+[2026-07-22 21:12:35.811]	 Removing "tmux-copycat"
+[2026-07-22 21:12:35.815]	   "tmux-copycat" clean success
+[2026-07-22 21:12:35.817]	 Removing "tmux-cpu"
+[2026-07-22 21:12:35.821]	   "tmux-cpu" clean success
+[2026-07-22 21:12:35.825]	 Removing "tmux-open"
+[2026-07-22 21:12:35.828]	   "tmux-open" clean success
+[2026-07-22 21:12:35.830]	 Removing "tmux-prefix-highlight"
+[2026-07-22 21:12:35.835]	   "tmux-prefix-highlight" clean success
+[2026-07-22 21:12:35.838]	 Removing "tmux-resurrect"
+[2026-07-22 21:12:35.845]	   "tmux-resurrect" clean success
+[2026-07-22 21:12:35.846]	 Removing "tmux-sensible"
+[2026-07-22 21:12:35.850]	   "tmux-sensible" clean success
+[2026-07-22 21:12:35.878]	 Done.
+
+[2026-07-22 21:15:50.486]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-07-22 21:15:50.533]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-07-22 21:15:50.674]	 Installing "tmux-resurrect"
+[2026-07-22 21:15:50.675]	 Installing "tmux-cpu"
+[2026-07-22 21:15:50.677]	 Installing "tmux-copycat"
+[2026-07-22 21:15:50.678]	 Installing "tmux-fzf"
+[2026-07-22 21:15:50.681]	 Installing "tmux-continuum"
+[2026-07-22 21:15:50.692]	 Installing "tmux-prefix-highlight"
+[2026-07-22 21:15:50.700]	 Installing "tmux"
+[2026-07-22 21:15:50.702]	 Installing "tmux-sensible"
+[2026-07-22 21:15:50.702]	 Installing "tmux-quick-select"
+[2026-07-22 21:15:50.753]	 Installing "tmux-open"
+[2026-07-22 21:15:51.708]	   "tmux-quick-select" download fail
+[2026-07-22 21:15:51.867]	   "tmux-fzf" download fail
+[2026-07-22 21:15:52.195]	   "tmux-sensible" download success
+[2026-07-22 21:15:52.242]	   "tmux-copycat" download success
+[2026-07-22 21:15:52.256]	   "tmux-continuum" download success
+[2026-07-22 21:15:52.294]	   "tmux-cpu" download success
+[2026-07-22 21:15:52.312]	   "tmux-open" download success
+[2026-07-22 21:15:52.585]	   "tmux" download success
+[2026-07-22 21:16:08.159]	   "tmux-prefix-highlight" download success
+[2026-07-22 21:16:09.936]	   "tmux-resurrect" download success
+[2026-07-22 21:16:09.991]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-07-22 21:16:10.037]	 Updating all plugins!
+[2026-07-22 21:16:10.038]	 
+[2026-07-22 21:16:11.205]	   "tmux-cpu" update success
+[2026-07-22 21:16:11.207]	     | 已经是最新的。
+[2026-07-22 21:16:11.259]	   "tmux-continuum" update success
+[2026-07-22 21:16:11.269]	     | 已经是最新的。
+[2026-07-22 21:16:11.280]	   "tmux-resurrect" update success
+[2026-07-22 21:16:11.287]	   "tmux-copycat" update success
+[2026-07-22 21:16:11.292]	     | 已经是最新的。
+[2026-07-22 21:16:11.296]	     | 已经是最新的。
+[2026-07-22 21:16:11.326]	   "tmux-prefix-highlight" update success
+[2026-07-22 21:16:11.330]	     | 已经是最新的。
+[2026-07-22 21:16:11.345]	   "tmux-sensible" update success
+[2026-07-22 21:16:11.357]	     | 已经是最新的。
+[2026-07-22 21:16:11.408]	   "tmux" update success
+[2026-07-22 21:16:11.420]	     | 已经是最新的。
+[2026-07-22 21:16:26.667]	   "tmux-open" update success
+[2026-07-22 21:16:26.672]	     | 已经是最新的。
+[2026-07-22 21:16:26.734]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-22 21:16:26.962]	 Done.
+
