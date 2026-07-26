@@ -58,3 +58,77 @@
 [2026-07-25 19:45:59.427]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
 [2026-07-25 19:45:59.560]	 Done.
 
+[2026-07-26 15:18:53.660]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-07-26 15:18:53.695]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-07-26 15:19:56.608]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-07-26 15:19:56.633]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-07-26 15:19:56.718]	 Already installed "tmux-copycat"
+[2026-07-26 15:19:56.718]	 Already installed "tmux-cpu"
+[2026-07-26 15:19:56.726]	 Already installed "tmux-open"
+[2026-07-26 15:19:56.732]	 Already installed "tmux-sensible"
+[2026-07-26 15:19:56.733]	 Already installed "tmux-resurrect"
+[2026-07-26 15:19:56.736]	 Already installed "tmux-continuum"
+[2026-07-26 15:19:56.737]	 Already installed "tmux-fzf"
+[2026-07-26 15:19:56.738]	 Already installed "tmux-quick-select"
+[2026-07-26 15:19:56.740]	 Already installed "tmux-prefix-highlight"
+[2026-07-26 15:19:56.740]	 Already installed "tmux"
+[2026-07-26 15:19:56.770]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-07-26 15:19:56.800]	 Updating all plugins!
+[2026-07-26 15:19:56.800]	 
+[2026-07-26 15:19:57.851]	   "tmux-fzf" update fail
+[2026-07-26 15:19:57.855]	     | remote: Invalid username or token. Password authentication is not supported for Git operations.
+[2026-07-26 15:19:57.855]	     | 致命错误：'https://github.com/tmux-plugins/tmux-fzf/' 鉴权失败
+[2026-07-26 15:19:57.929]	   "tmux-quick-select" update fail
+[2026-07-26 15:19:57.949]	     | remote: Invalid username or token. Password authentication is not supported for Git operations.
+[2026-07-26 15:19:57.949]	     | 致命错误：'https://github.com/tmux-plugins/tmux-quick-select/' 鉴权失败
+[2026-07-26 15:19:58.040]	   "tmux-copycat" update success
+[2026-07-26 15:19:58.048]	     | 已经是最新的。
+[2026-07-26 15:19:58.054]	   "tmux-cpu" update success
+[2026-07-26 15:19:58.061]	     | 已经是最新的。
+[2026-07-26 15:19:58.062]	   "tmux-continuum" update success
+[2026-07-26 15:19:58.069]	     | 已经是最新的。
+[2026-07-26 15:19:58.128]	   "tmux-open" update success
+[2026-07-26 15:19:58.135]	     | 已经是最新的。
+[2026-07-26 15:19:58.136]	   "tmux-resurrect" update success
+[2026-07-26 15:19:58.145]	   "tmux-sensible" update success
+[2026-07-26 15:19:58.147]	     | 已经是最新的。
+[2026-07-26 15:19:58.152]	     | 已经是最新的。
+[2026-07-26 15:19:58.166]	   "tmux" update success
+[2026-07-26 15:19:58.170]	     | 已经是最新的。
+[2026-07-26 15:19:58.515]	   "tmux-prefix-highlight" update success
+[2026-07-26 15:19:58.518]	     | 已经是最新的。
+[2026-07-26 15:19:58.557]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
+[2026-07-26 15:18:53.783]	 Installing "tmux-fzf"
+[2026-07-26 15:18:53.804]	 Installing "tmux-quick-select"
+[2026-07-26 15:18:53.806]	 Already installed "tmux-cpu"
+[2026-07-26 15:18:53.808]	 Already installed "tmux"
+[2026-07-26 15:18:53.813]	 Already installed "tmux-copycat"
+[2026-07-26 15:18:53.813]	 Already installed "tmux-prefix-highlight"
+[2026-07-26 15:18:53.813]	 Already installed "tmux-continuum"
+[2026-07-26 15:18:53.813]	 Already installed "tmux-open"
+[2026-07-26 15:18:53.824]	 Already installed "tmux-sensible"
+[2026-07-26 15:18:53.825]	 Already installed "tmux-resurrect"
+[2026-07-26 15:19:58.585]	   "tmux-quick-select" download fail
+[2026-07-26 15:19:58.600]	   "tmux-fzf" download fail
+[2026-07-26 15:19:58.665]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/update_plugins all
+[2026-07-26 15:19:58.806]	 Done.
+
+[2026-07-26 15:19:58.710]	 Updating all plugins!
+[2026-07-26 15:19:58.710]	 
+[2026-07-26 15:20:00.071]	   "tmux-copycat" update success
+[2026-07-26 15:20:00.079]	     | 已经是最新的。
+[2026-07-26 15:20:00.085]	   "tmux-cpu" update success
+[2026-07-26 15:20:00.087]	     | 已经是最新的。
+[2026-07-26 15:20:00.121]	   "tmux-resurrect" update success
+[2026-07-26 15:20:00.132]	     | 已经是最新的。
+[2026-07-26 15:20:00.151]	   "tmux-continuum" update success
+[2026-07-26 15:20:00.159]	     | 已经是最新的。
+[2026-07-26 15:20:00.208]	   "tmux-prefix-highlight" update success
+[2026-07-26 15:20:00.212]	     | 已经是最新的。
+[2026-07-26 15:20:00.230]	   "tmux-sensible" update success
+[2026-07-26 15:20:00.232]	   "tmux-open" update success
+[2026-07-26 15:20:00.235]	     | 已经是最新的。
+[2026-07-26 15:20:00.242]	     | 已经是最新的。
+[2026-07-26 15:20:00.257]	   "tmux" update success
+[2026-07-26 15:20:00.261]	     | 已经是最新的。
+[2026-07-26 15:20:00.290]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/clean_plugins all
