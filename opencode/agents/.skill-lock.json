@@ -84,6 +84,15 @@
       "pluginName": "document-skills",
       "installedAt": "2026-06-13T09:26:18.338Z",
       "updatedAt": "2026-06-13T09:26:18.338Z"
+    },
+    "browser-control": {
+      "source": "anomalyco/browser-control",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anomalyco/browser-control.git",
+      "skillPath": "skills/browser-control/SKILL.md",
+      "skillFolderHash": "585f9be899e09368f4e4da04a05cee9e7fc1b3c9",
+      "installedAt": "2026-07-31T04:04:59.653Z",
+      "updatedAt": "2026-07-31T04:04:59.653Z"
     }
   },
   "dismissed": {
