@@ -1,24 +1,24 @@
-[2026-08-31 21:22:27.303]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
-[2026-08-31 21:22:27.321]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
-[2026-08-31 21:22:27.361]	 Installing "tmux-open"
-[2026-08-31 21:22:27.362]	 Installing "tmux-copycat"
-[2026-08-31 21:22:27.363]	 Installing "tmux-cpu"
-[2026-08-31 21:22:27.364]	 Installing "tmux-resurrect"
-[2026-08-31 21:22:27.366]	 Installing "tmux"
-[2026-08-31 21:22:27.368]	 Installing "tmux-fzf"
-[2026-08-31 21:22:27.368]	 Installing "tmux-quick-select"
-[2026-08-31 21:22:27.371]	 Installing "tmux-continuum"
-[2026-08-31 21:22:27.374]	 Installing "tmux-prefix-highlight"
-[2026-08-31 21:22:27.375]	 Installing "tmux-sensible"
-[2026-08-31 21:22:30.077]	   "tmux-fzf" download fail
-[2026-08-31 21:22:30.077]	   "tmux-quick-select" download fail
-[2026-08-31 21:22:31.758]	   "tmux-cpu" download success
-[2026-08-31 21:22:31.983]	   "tmux-prefix-highlight" download success
-[2026-08-31 21:22:31.985]	   "tmux-sensible" download success
-[2026-08-31 21:22:31.986]	   "tmux-open" download success
-[2026-08-31 21:22:31.986]	   "tmux-continuum" download success
-[2026-08-31 21:22:32.546]	   "tmux-copycat" download success
-[2026-08-31 21:22:32.556]	   "tmux" download success
-[2026-08-31 21:22:35.707]	   "tmux-resurrect" download success
-[2026-08-31 21:22:35.722]	 Done.
+[2026-09-01 22:11:52.471]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-09-01 22:11:52.498]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-09-01 22:11:52.585]	 Installing "tmux-fzf"
+[2026-09-01 22:11:52.593]	 Installing "tmux-copycat"
+[2026-09-01 22:11:52.594]	 Installing "tmux"
+[2026-09-01 22:11:52.595]	 Installing "tmux-cpu"
+[2026-09-01 22:11:52.606]	 Installing "tmux-quick-select"
+[2026-09-01 22:11:52.607]	 Installing "tmux-sensible"
+[2026-09-01 22:11:52.614]	 Installing "tmux-resurrect"
+[2026-09-01 22:11:52.615]	 Installing "tmux-prefix-highlight"
+[2026-09-01 22:11:52.625]	 Installing "tmux-open"
+[2026-09-01 22:11:52.625]	 Installing "tmux-continuum"
+[2026-09-01 22:11:55.247]	   "tmux-fzf" download fail
+[2026-09-01 22:11:55.766]	   "tmux-quick-select" download fail
+[2026-09-01 22:11:56.342]	   "tmux-open" download success
+[2026-09-01 22:11:56.638]	   "tmux-prefix-highlight" download success
+[2026-09-01 22:11:56.649]	   "tmux" download success
+[2026-09-01 22:11:56.670]	   "tmux-sensible" download success
+[2026-09-01 22:11:56.693]	   "tmux-continuum" download success
+[2026-09-01 22:11:56.997]	   "tmux-cpu" download success
+[2026-09-01 22:11:57.943]	   "tmux-copycat" download success
+[2026-09-01 22:12:01.295]	   "tmux-resurrect" download success
+[2026-09-01 22:12:01.318]	 Done.
 
