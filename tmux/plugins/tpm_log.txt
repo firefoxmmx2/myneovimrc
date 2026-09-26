@@ -1,0 +1,24 @@
+[2026-09-26 21:55:40.054]	 List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum tmux-plugins/tmux-fzf tmux-plugins/tmux-open tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-quick-select tmux-plugins/tmux-sensible catppuccin/tmux
+[2026-09-26 21:55:40.069]	 Invoking /home/firefoxmmx/.tmux/plugins/tpm/bin/install_plugins
+[2026-09-26 21:55:40.107]	 Installing "tmux-cpu"
+[2026-09-26 21:55:40.111]	 Installing "tmux-quick-select"
+[2026-09-26 21:55:40.114]	 Installing "tmux-open"
+[2026-09-26 21:55:40.115]	 Installing "tmux-continuum"
+[2026-09-26 21:55:40.117]	 Installing "tmux-resurrect"
+[2026-09-26 21:55:40.117]	 Installing "tmux-fzf"
+[2026-09-26 21:55:40.117]	 Installing "tmux-copycat"
+[2026-09-26 21:55:40.123]	 Installing "tmux-sensible"
+[2026-09-26 21:55:40.127]	 Installing "tmux-prefix-highlight"
+[2026-09-26 21:55:40.127]	 Installing "tmux"
+[2026-09-26 21:55:42.060]	   "tmux-quick-select" download fail
+[2026-09-26 21:55:42.245]	   "tmux-fzf" download fail
+[2026-09-26 21:55:44.965]	   "tmux-continuum" download success
+[2026-09-26 21:55:45.151]	   "tmux-cpu" download fail
+[2026-09-26 21:55:45.156]	   "tmux-open" download fail
+[2026-09-26 21:55:45.161]	   "tmux-resurrect" download fail
+[2026-09-26 21:55:45.164]	   "tmux" download fail
+[2026-09-26 21:55:45.166]	   "tmux-sensible" download fail
+[2026-09-26 21:55:45.988]	   "tmux-prefix-highlight" download success
+[2026-09-26 21:55:48.304]	   "tmux-copycat" download success
+[2026-09-26 21:55:48.317]	 Done.
+
