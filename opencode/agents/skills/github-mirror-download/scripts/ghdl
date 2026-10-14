@@ -1,0 +1,409 @@
+#!/usr/bin/env bash
+#===============================================================================
+# ghdl — GitHub 加速下载脚本（Bash + curl，无 python/node 依赖）
+#
+# 节点来源：对 65 个公开第三方 GitHub 加速节点逐个实测（每节点 3 次下载），
+#           只保留「3/3 全部成功」且「下载内容 sha256 与 GitHub 官方完全一致
+#           （未被篡改）」的节点。所有节点均为第三方公益转发服务，仅做 HTTP 转发。
+#           用法为前缀拼接：https://<节点>/<完整 GitHub 原始 URL>
+#
+# ⚠️ 安全提示：
+#   1) 第三方节点可以看到并可能记录你的请求 URL、出口 IP、User-Agent。
+#      私有仓库 token、API 凭据、机密/内部文件【禁止】走加速节点。
+#   2) 重要文件务必用 --sha256 <官方哈希> 校验，或自行 sha256sum 复核。
+#   3) 公益节点随时可能失效或变慢，失效后请按 SKILL.md 的方法自查更新。
+#   4) 本脚本不保存、不上传任何凭据，也不硬编码任何个人信息。
+#===============================================================================
+set -euo pipefail
+
+VERSION="1.0.0"
+
+# 实测可用节点（按性能优先级排序）
+# 格式：域名|支持类型|实测速度
+NODE_ENTRIES=(
+  "gh.acmsz.top|Release ✅ Raw ✅ Archive ✅ API ⚠️|≈11.7 MB/s"
+  "github.ednovas.xyz|Release ✅ Raw ✅ Archive ❌ API -|≈2.1 MB/s"
+  "gh.meali.top|Release ✅ Raw ✅ Archive ✅ API ✅|≈1.9 MB/s"
+  "github.ikgy.top|Release ✅ Raw ✅ Archive - API -|≈0.46 MB/s"
+)
+
+NODES=()
+_node_entry=""
+for _node_entry in "${NODE_ENTRIES[@]}"; do
+  NODES+=("${_node_entry%%|*}")
+done
+unset _node_entry 2>/dev/null || true
+
+CURL_COMMON=(--retry 3 --retry-delay 2 --retry-all-errors --connect-timeout 15)
+
+#-------------------------------------------------------------------------------
+# 参数默认值
+#-------------------------------------------------------------------------------
+URL=""
+OUT=""
+OUT_SET=0
+RESUME=0
+SHA256_EXPECT=""
+USE_BEST=0
+QUIET=0
+LIST_ONLY=0
+
+#-------------------------------------------------------------------------------
+# 输出工具
+#-------------------------------------------------------------------------------
+log() { if [[ "$QUIET" -eq 1 ]]; then return 0; fi; printf '[ghdl] %s\n' "$*" >&2; }
+err() { printf '[ghdl] 错误: %s\n' "$*" >&2; }
+
+usage() {
+  cat <<'EOF'
+ghdl — GitHub 加速下载脚本（第三方公益节点，自动 fallback + 可选 sha256 校验）
+
+用法:
+  ghdl [选项] <github-url>
+
+支持下载的 URL 类型:
+  https://github.com/...                    （Release 资产 / 仓库文件页）
+  https://raw.githubusercontent.com/...     （raw 原始文件）
+  https://api.github.com/...                （GitHub API 响应）
+  https://codeload.github.com/...           （源码压缩包）
+  https://gist.github.com/...               （Gist）
+
+选项:
+  -o <file>              指定输出文件名/路径（默认取 URL 最后一段作为文件名）
+  -O                     显式使用「URL 最后一段」作为输出文件名（默认行为）
+  -C                     断点续传（curl -C -），适合大文件中断后续传
+  --sha256 <hash>        下载完成后强制校验 sha256；不匹配则报错退出（非 0）并删除坏文件
+  --best                 并发探测各节点速度，选最快的节点再下载（默认按优先级顺序 fallback）
+  --list                 列出内置的可用加速节点清单
+  -q, --quiet            安静模式（不打印进度日志，只保留错误信息）
+  -h, --help             显示本帮助
+  -V, --version          显示版本
+
+示例:
+  ghdl -O https://github.com/owner/repo/releases/download/v1.0.0/app-linux-x86_64
+  ghdl -o /tmp/app.bin --sha256 493304fbefb0ed0ea0455f373b47f48d24e8774bc7974f4c916ad2e937675b23 \
+       https://github.com/owner/repo/releases/download/v1.0.0/app-linux-x86_64
+  ghdl -C -o big.tar.gz https://codeload.github.com/owner/repo/tar.gz/refs/tags/v1.0.0
+  ghdl --best -o out.bin https://github.com/owner/repo/releases/download/v1.0.0/out.bin
+
+退出码: 0 成功 / 1 所有节点与直连均失败 / 2 参数或 URL 错误 / 3 sha256 校验失败
+EOF
+}
+
+print_list() {
+  printf 'GitHub 加速节点清单（实测 3/3 成功且 sha256 与官方一致）\n'
+  printf '用法：https://<节点>/<完整 GitHub 原始 URL>\n\n'
+  local i=0 entry name types speed
+  for entry in "${NODE_ENTRIES[@]}"; do
+    i=$((i + 1))
+    name="${entry%%|*}"
+    types="${entry#*|}"
+    speed="${types#*|}"
+    types="${types%%|*}"
+    printf '  %d. %-20s %s\n' "$i" "$name" "$speed"
+    printf '     %s\n' "$types"
+  done
+  printf '\n说明：节点为第三方公益转发，随时可能失效；失效后见 SKILL.md「节点失效自查」一节。\n'
+}
+
+human_size() {
+  awk -v b="${1:-0}" 'BEGIN{split("B KB MB GB TB", u, " "); i = 1; while (b >= 1024 && i < 5) { b /= 1024; i++ } if (i == 1) printf "%d %s", b, u[i]; else printf "%.2f %s", b, u[i]}'
+}
+
+calc_elapsed() { awk -v a="$1" -v b="$2" 'BEGIN{printf "%.2f", b - a}'; }
+calc_speed_mbps() {
+  awk -v s="$1" -v a="$2" -v b="$3" 'BEGIN{d = b - a; if (d <= 0) d = 0.001; printf "%.2f", s / d / 1048576}'
+}
+
+now() { date +%s.%N; }
+
+#-------------------------------------------------------------------------------
+# URL 校验与文件名推导
+#-------------------------------------------------------------------------------
+valid_url() {
+  [[ "$1" =~ ^https://(github\.com|raw\.githubusercontent\.com|api\.github\.com|codeload\.github\.com|gist\.github\.com)/.+ ]]
+}
+
+derive_filename() {
+  local u="${1%%\?*}"
+  u="${u%%#*}"
+  local base="${u##*/}"
+  if [[ -z "$base" ]]; then base="download"; fi
+  # 简单 URL 解码，处理 %20 之类的文件名
+  base="${base//%20/ }"
+  printf '%s' "$base"
+}
+
+#-------------------------------------------------------------------------------
+# 下载与校验
+#-------------------------------------------------------------------------------
+attempt_download() {
+  # $1=目标 URL  $2=输出文件
+  local target="$1" out="$2"
+  local -a args=(-fL "${CURL_COMMON[@]}")
+  if [[ "$QUIET" -eq 1 ]]; then
+    args+=(-sS)
+  else
+    args+=(--progress-bar)
+  fi
+  if [[ "$RESUME" -eq 1 ]]; then
+    if curl "${args[@]}" -C - -o "$out" "$target"; then
+      return 0
+    fi
+    # 续传失败（例如服务端不支持 Range）：从头重试一次
+    log '  · 续传失败，改为从头下载重试…'
+  fi
+  curl "${args[@]}" -o "$out" "$target"
+}
+
+looks_like_html() {
+  local f="$1" u="$2"
+  [[ -s "$f" ]] || return 1
+  # 目标本身是 .html/.htm 时不误判
+  case "${u%%\?*}" in
+    *.html|*.htm|*.HTML|*.HTM) return 1 ;;
+  esac
+  local head_chunk
+  head_chunk="$(head -c 1024 -- "$f" 2>/dev/null | tr -d '\000' | tr '[:upper:]' '[:lower:]')" || true
+  [[ "$head_chunk" == *"<!doctype html"* || "$head_chunk" == *"<html"* ]]
+}
+
+download_via() {
+  # $1=节点名（仅用于展示） $2=实际 URL $3=输出文件
+  local name="$1" target="$2" out="$3"
+  local t0 t1 size elapsed speed
+
+  log "→ 正在使用节点: $name"
+  log "  地址: $target"
+
+  t0="$(now)"
+  if ! attempt_download "$target" "$out"; then
+    log "  ✗ 节点 $name 下载失败（curl 返回非 0）"
+    return 1
+  fi
+  t1="$(now)"
+
+  if [[ ! -s "$out" ]]; then
+    log "  ✗ 节点 $name 返回 0 字节文件"
+    return 1
+  fi
+  if looks_like_html "$out" "$target"; then
+    log "  ✗ 节点 $name 返回疑似 HTML 错误页，判定失败"
+    return 1
+  fi
+
+  size="$(stat -c %s -- "$out")"
+  elapsed="$(calc_elapsed "$t0" "$t1")"
+  speed="$(calc_speed_mbps "$size" "$t0" "$t1")"
+  log "  ✓ 下载成功: $(human_size "$size") / ${elapsed}s / 平均 ${speed} MB/s"
+  return 0
+}
+
+verify_sha256() {
+  # $1=文件 $2=期望哈希（小写）
+  local f="$1" expect="$2" actual
+  actual="$(sha256sum -- "$f" | awk '{print $1}')"
+  if [[ "$actual" == "$expect" ]]; then
+    log "  ✓ sha256 校验通过: $actual"
+    return 0
+  fi
+  err 'sha256 校验失败！'
+  err "  期望: $expect"
+  err "  实际: $actual"
+  err "  已删除损坏文件: $f"
+  rm -f -- "$f"
+  return 1
+}
+
+#-------------------------------------------------------------------------------
+# --best：并发探测各节点速度，返回按速度降序排列的节点列表（stdout）
+#-------------------------------------------------------------------------------
+probe_best() {
+  local url="$1"
+  shift
+  local nodes=("$@")
+  local tmpd
+  tmpd="$(mktemp -d)"
+  local pids=() i=0 n
+  local spd tt
+
+  log "并发探测 ${#nodes[@]} 个节点速度（拉取前 1MB 采样，最多 12s）…"
+  for n in "${nodes[@]}"; do
+    i=$((i + 1))
+    (
+      local r
+      r="$(curl -fsSL --max-time 12 --connect-timeout 8 -r 0-1048575 \
+              -o /dev/null -w '%{speed_download} %{time_total}' \
+              "https://$n/$url" 2>/dev/null)" || r="0 99"
+      printf '%s\n' "$r" > "$tmpd/$i"
+    ) &
+    pids+=("$!")
+  done
+  wait "${pids[@]}" 2>/dev/null || true
+
+  local k
+  : > "$tmpd/score"
+  for ((k = 1; k <= ${#nodes[@]}; k++)); do
+    spd=0
+    tt=99
+    if [[ -s "$tmpd/$k" ]]; then
+      read -r spd tt < "$tmpd/$k" || { spd=0; tt=99; }
+    fi
+    [[ "$spd" =~ ^[0-9]+([.][0-9]+)?$ ]] || spd=0
+    [[ "$tt" =~ ^[0-9]+([.][0-9]+)?$ ]] || tt=99
+    printf '%s %s %s\n' "$spd" "${nodes[k - 1]}" "$tt" >> "$tmpd/score"
+  done
+
+  local line bps node secs
+  while read -r bps node secs; do
+    log "  · $(printf '%-20s' "$node") $(awk -v b="$bps" 'BEGIN{printf "%.2f", b/1048576}') MB/s (${secs}s)"
+  done < <(sort -k1,1nr "$tmpd/score")
+
+  sort -k1,1nr "$tmpd/score" | awk '{print $2}'
+
+  rm -rf -- "$tmpd"
+}
+
+#-------------------------------------------------------------------------------
+# 参数解析
+#-------------------------------------------------------------------------------
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -o)
+      [[ $# -ge 2 ]] || { err '-o 需要一个参数'; exit 2; }
+      OUT="$2"
+      OUT_SET=1
+      shift 2
+      ;;
+    -o=*) OUT="${1#-o=}"; OUT_SET=1; shift ;;
+    -O) OUT_SET=1; OUT=""; shift ;;
+    -C|--continue) RESUME=1; shift ;;
+    --sha256)
+      [[ $# -ge 2 ]] || { err '--sha256 需要一个参数'; exit 2; }
+      SHA256_EXPECT="$2"
+      shift 2
+      ;;
+    --sha256=*) SHA256_EXPECT="${1#--sha256=}"; shift ;;
+    --best) USE_BEST=1; shift ;;
+    --list) LIST_ONLY=1; shift ;;
+    -q|--quiet) QUIET=1; shift ;;
+    -h|--help) usage; exit 0 ;;
+    -V|--version) printf 'ghdl %s\n' "$VERSION"; exit 0 ;;
+    --)
+      shift
+      while [[ $# -gt 0 ]]; do
+        if [[ -z "$URL" ]]; then URL="$1"; else err '只支持一个 URL 参数'; exit 2; fi
+        shift
+      done
+      ;;
+    -*) err "未知选项: $1"; usage >&2; exit 2 ;;
+    *)
+      if [[ -z "$URL" ]]; then URL="$1"; else err '只支持一个 URL 参数'; exit 2; fi
+      shift
+      ;;
+  esac
+done
+
+if [[ "$LIST_ONLY" -eq 1 ]]; then
+  print_list
+  exit 0
+fi
+
+[[ -n "$URL" ]] || { err '缺少 <github-url> 参数'; usage >&2; exit 2; }
+if ! valid_url "$URL"; then
+  err "不支持的 URL: $URL"
+  err '只支持 github.com / raw.githubusercontent.com / api.github.com / codeload.github.com / gist.github.com 的 https 链接'
+  exit 2
+fi
+
+if [[ "$OUT_SET" -eq 0 || -z "$OUT" ]]; then
+  OUT="$(derive_filename "$URL")"
+fi
+[[ -n "$OUT" ]] || OUT="download"
+
+if [[ -n "$SHA256_EXPECT" ]]; then
+  SHA256_EXPECT="${SHA256_EXPECT,,}"
+  if [[ ! "$SHA256_EXPECT" =~ ^[0-9a-f]{64}$ ]]; then
+    err "--sha256 参数不是合法的 64 位十六进制哈希: $SHA256_EXPECT"
+    exit 2
+  fi
+fi
+
+# 目标文件已存在且哈希一致 → 直接跳过下载
+if [[ -s "$OUT" && -n "$SHA256_EXPECT" ]]; then
+  existing="$(sha256sum -- "$OUT" | awk '{print $1}')"
+  if [[ "$existing" == "$SHA256_EXPECT" ]]; then
+    log "目标文件已存在且 sha256 一致，跳过下载: $OUT"
+    log "完成（已跳过）：$OUT"
+    exit 0
+  fi
+fi
+
+#-------------------------------------------------------------------------------
+# 主流程
+#-------------------------------------------------------------------------------
+log "ghdl v$VERSION — 源: $URL"
+log "输出文件: $OUT"
+
+declare -a order=()
+if [[ "$USE_BEST" -eq 1 ]]; then
+  mapfile -t order < <(probe_best "$URL" "${NODES[@]}")
+  if [[ "${#order[@]}" -eq 0 ]]; then
+    order=("${NODES[@]}")
+    log '测速未取得有效结果，回退到默认优先级顺序。'
+  else
+    log "测速最快节点: ${order[0]}"
+  fi
+else
+  order=("${NODES[@]}")
+fi
+
+USED_NODE=""
+OK=0
+IDX=0
+TOTAL="${#order[@]}"
+T0_ALL="$(now)"
+
+for node in "${order[@]}"; do
+  IDX=$((IDX + 1))
+  log "[$IDX/$TOTAL] 尝试节点 $node"
+  if [[ "$RESUME" -eq 0 && -e "$OUT" ]]; then
+    rm -f -- "$OUT"
+  fi
+  if download_via "$node" "https://$node/$URL" "$OUT"; then
+    OK=1
+    USED_NODE="$node"
+    break
+  fi
+  log "  ↷ 切换下一个节点…"
+done
+
+if [[ "$OK" -eq 0 ]]; then
+  log '全部加速节点均失败，回退直连原始 URL…'
+  [[ "$RESUME" -eq 0 && -e "$OUT" ]] && rm -f -- "$OUT" || true
+  if download_via '直连（github.com 原始地址）' "$URL" "$OUT"; then
+    OK=1
+    USED_NODE='直连'
+  fi
+fi
+
+if [[ "$OK" -eq 0 ]]; then
+  err "全部加速节点与直连均下载失败: $URL"
+  exit 1
+fi
+
+T1_ALL="$(now)"
+SIZE="$(stat -c %s -- "$OUT")"
+ELAPSED_ALL="$(calc_elapsed "$T0_ALL" "$T1_ALL")"
+SPEED_ALL="$(calc_speed_mbps "$SIZE" "$T0_ALL" "$T1_ALL")"
+
+if [[ -n "$SHA256_EXPECT" ]]; then
+  if ! verify_sha256 "$OUT" "$SHA256_EXPECT"; then
+    err '下载完成但哈希校验失败，已终止。'
+    exit 3
+  fi
+fi
+
+log "完成：$OUT"
+log "  大小: $(human_size "$SIZE")  节点: $USED_NODE  总耗时: ${ELAPSED_ALL}s  平均速度: ${SPEED_ALL} MB/s"
+exit 0
