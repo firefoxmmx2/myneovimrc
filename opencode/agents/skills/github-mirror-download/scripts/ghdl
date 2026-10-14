@@ -111,8 +111,17 @@ human_size() {
 }
 
 calc_elapsed() { awk -v a="$1" -v b="$2" 'BEGIN{printf "%.2f", b - a}'; }
-calc_speed_mbps() {
-  awk -v s="$1" -v a="$2" -v b="$3" 'BEGIN{d = b - a; if (d <= 0) d = 0.001; printf "%.2f", s / d / 1048576}'
+
+human_speed() {
+  # $1=字节数  $2=耗时（秒）→ 自适应单位
+  awk -v s="$1" -v d="$2" 'BEGIN{
+    if (d <= 0) d = 0.001
+    v = s / d
+    split("B/s KB/s MB/s GB/s", u, " ")
+    i = 1
+    while (v >= 1024 && i < 4) { v /= 1024; i++ }
+    if (i == 1) printf "%.0f %s", v, u[i]; else printf "%.2f %s", v, u[i]
+  }'
 }
 
 now() { date +%s.%N; }
@@ -194,8 +203,8 @@ download_via() {
 
   size="$(stat -c %s -- "$out")"
   elapsed="$(calc_elapsed "$t0" "$t1")"
-  speed="$(calc_speed_mbps "$size" "$t0" "$t1")"
-  log "  ✓ 下载成功: $(human_size "$size") / ${elapsed}s / 平均 ${speed} MB/s"
+  speed="$(human_speed "$size" "$elapsed")"
+  log "  ✓ 下载成功: $(human_size "$size") / ${elapsed}s / 平均 ${speed}"
   return 0
 }
 
@@ -254,9 +263,13 @@ probe_best() {
     printf '%s %s %s\n' "$spd" "${nodes[k - 1]}" "$tt" >> "$tmpd/score"
   done
 
-  local line bps node secs
+  local bps node secs
   while read -r bps node secs; do
-    log "  · $(printf '%-20s' "$node") $(awk -v b="$bps" 'BEGIN{printf "%.2f", b/1048576}') MB/s (${secs}s)"
+    if [[ "$(awk -v t="$secs" 'BEGIN{print (t >= 90) ? "1" : "0"}')" == "1" ]]; then
+      log "  · $(printf '%-20s' "$node") 探测失败或超时（排到最后）"
+    else
+      log "  · $(printf '%-20s' "$node") $(human_speed "$bps" 1)  采样 ${secs}s"
+    fi
   done < <(sort -k1,1nr "$tmpd/score")
 
   sort -k1,1nr "$tmpd/score" | awk '{print $2}'
@@ -395,7 +408,7 @@ fi
 T1_ALL="$(now)"
 SIZE="$(stat -c %s -- "$OUT")"
 ELAPSED_ALL="$(calc_elapsed "$T0_ALL" "$T1_ALL")"
-SPEED_ALL="$(calc_speed_mbps "$SIZE" "$T0_ALL" "$T1_ALL")"
+SPEED_ALL="$(human_speed "$SIZE" "$ELAPSED_ALL")"
 
 if [[ -n "$SHA256_EXPECT" ]]; then
   if ! verify_sha256 "$OUT" "$SHA256_EXPECT"; then
@@ -405,5 +418,5 @@ if [[ -n "$SHA256_EXPECT" ]]; then
 fi
 
 log "完成：$OUT"
-log "  大小: $(human_size "$SIZE")  节点: $USED_NODE  总耗时: ${ELAPSED_ALL}s  平均速度: ${SPEED_ALL} MB/s"
+log "  大小: $(human_size "$SIZE")  节点: $USED_NODE  总耗时: ${ELAPSED_ALL}s  平均速度: ${SPEED_ALL}"
 exit 0
