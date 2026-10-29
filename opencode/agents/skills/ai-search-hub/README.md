@@ -22,6 +22,9 @@
   <img src="https://img.shields.io/badge/🌐_Multi--Language-blue?style=flat-square" alt="Multi-Language">
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License">
 </p>
+欢迎大家试用我们的商业调研产品 https://www.notyet.chat/
+
+**输入一个想法，NotYet 帮你从社交平台用户反馈里判断：有没有需求、痛点在哪、用户为什么买。**
 
 **一个聚合多平台 AI 原生搜索能力的开源 Skill。**
 **免费获取微信公众号、抖音、微博、B站等数据，通过大厂 AI 平台帮你搜集、清洗、整理，为你的 OpenClaw 装上更强的搜索、抽取与数据借力能力。**
@@ -113,7 +116,7 @@ AI Search Hub 是一个开源 Skill，用来把分散在不同 AI 平台里的�
 
 这些平台不是附属补充，而是 AI Search Hub 当前编排的核心搜索入口。
 
-**当前已接入：`Gemini` / `Grok` / `豆包` / `元宝` / `LongCat` / `通义千问` / `MiniMax`**
+**当前已接入：`Gemini` / `Grok` / `豆包` / `元宝` / `LongCat` / `通义千问` / `MiniMax` / `Kimi`**
 
 <table width="100%">
   <thead>
@@ -171,7 +174,7 @@ AI Search Hub 是一个开源 Skill，用来把分散在不同 AI 平台里的�
       <td><strong>Kimi</strong><br><sub>Long-context exploration</sub></td>
       <td><code>长上下文</code> <code>文档阅读</code> <code>信息整理</code></td>
       <td><code>长文内容</code> <code>研究资料</code> <code>公开网页</code></td>
-      <td><img src="https://img.shields.io/badge/Future-6b7280?style=flat-square" alt="Future"></td>
+      <td><img src="https://img.shields.io/badge/Good-16a34a?style=flat-square" alt="Good"></td>
     </tr>
     <tr>
       <td><strong>Perplexity</strong><br><sub>Web-native answer engine</sub></td>
@@ -222,6 +225,7 @@ AI Search Hub 是一个开源 Skill，用来把分散在不同 AI 平台里的�
 | **元宝** | 腾讯 | 微信公众号检索 | 微信生态、公众号文章 |
 | **LongCat** | 美团 | 中文知识、本地生活 | 大众点评、行业报告 |
 | **通义千问** | 阿里巴巴 | 通用中文搜索 | 淘宝、公开网页 |
+| **Kimi** | 月之暗面 | 长文档理解、信息整理 | 公开网页、研究资料 |
 
 Agent 根据问题类型智能路由到最合适的平台，详见 [`ROUTING.md`](ROUTING.md)。
 
@@ -403,11 +407,11 @@ MiniMax 输出片段：
 ## Star History
 
 <a href="https://www.star-history.com/?repos=minsight-ai-info%2FAI-Search-Hub&type=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=Date&legend=top-left&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=Date&legend=top-left" />
-    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=Date&legend=top-left" />
-  </picture>
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=date&legend=top-left" />
+ </picture>
 </a>
 
 ---
@@ -415,3 +419,4 @@ MiniMax 输出片段：
 如果这个项目对你有帮助，欢迎点一个 [Star](https://github.com/minsight-ai-info/AI-Search-Hub)。
 
 有想法、反馈或想接入新的平台，欢迎提 [Issue](https://github.com/minsight-ai-info/AI-Search-Hub/issues) 或直接发 [PR](https://github.com/minsight-ai-info/AI-Search-Hub/pulls)。
+感谢Linux.do社区推动:https://linux.do/

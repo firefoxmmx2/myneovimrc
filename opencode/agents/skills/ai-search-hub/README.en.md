@@ -118,7 +118,7 @@ Give this repository to any skill-capable agent or tool such as `OpenClaw`, `Cla
 
 These platforms are not side notes. They are the search surfaces AI Search Hub orchestrates first.
 
-**Currently integrated: `Gemini` / `Grok` / `Doubao` / `Yuanbao` / `LongCat` / `Qwen` / `MiniMax`**
+**Currently integrated: `Gemini` / `Grok` / `Doubao` / `Yuanbao` / `LongCat` / `Qwen` / `MiniMax` / `Kimi`**
 
 <table width="100%">
   <thead>
@@ -176,7 +176,7 @@ These platforms are not side notes. They are the search surfaces AI Search Hub o
       <td><strong>Kimi</strong><br><sub>Long-context exploration</sub></td>
       <td><code>long context</code> <code>document reading</code> <code>information structuring</code></td>
       <td><code>long-form content</code> <code>research material</code> <code>public web</code></td>
-      <td><img src="https://img.shields.io/badge/Future-6b7280?style=flat-square" alt="Future"></td>
+      <td><img src="https://img.shields.io/badge/Good-16a34a?style=flat-square" alt="Good"></td>
     </tr>
     <tr>
       <td><strong>Perplexity</strong><br><sub>Web-native answer engine</sub></td>
@@ -398,11 +398,11 @@ but **one smarter way to use all existing AI search surfaces together**, feel fr
 ## Star History
 
 <a href="https://www.star-history.com/?repos=minsight-ai-info%2FAI-Search-Hub&type=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=Date&legend=top-left&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=Date&legend=top-left" />
-    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=Date&legend=top-left" />
-  </picture>
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=minsight-ai-info/AI-Search-Hub&type=date&legend=top-left" />
+ </picture>
 </a>
 
 ---
