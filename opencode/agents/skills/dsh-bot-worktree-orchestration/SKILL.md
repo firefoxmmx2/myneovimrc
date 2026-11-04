@@ -38,24 +38,34 @@ description: 在 DSH / ds-bot 多 Bot 团队里用 git worktree 隔离任务、�
    ```
    规范做法是用 worktree-space 插件的 `suggest-root` → `create`，它会顺带登记任务。
 
-2. **建临时群并指定目录**
-   - `create_group`，`work_dir` 填任务目录的绝对路径，成员放需要的 Bot。
-   - `work_dir` 必须是真实存在的路径，建群时就写对；改目录会让成员会话重开。
+2. **建临时群，再单独设工作目录**
+   - 先 `create_group` 建群（`members` 放需要的 Bot）。注意 `create_group` **没有 `work_dir` 参数**，建群时给不了目录。
+   - 建完立刻用 `update_group` 补上：
+     `update_group(group="<群名>", work_dir="/home/<用户>/Work/worktree-space/<项目>/<任务>")`
+   - `work_dir` 必须是真实存在的绝对路径；改目录会让成员会话重开，所以尽量一次写对。
+   - 目录生效后，群里 Bot 写文件才落在任务目录；它们各自的私聊窗口仍在自己 workspace，别在私聊里派改文件的活。
 
-3. **派活**
+3. **统一权限（只能由用户设置）**
+   - 群可以指定成员在该群里的 sandbox 权限：`read-only` / `workspace-write` / `danger-full-access`。
+   - **Bot 自己设不了**：`update_group` 带 `permission` 会被 roster 拒绝，原话是 `Only the user can set the permissions of "<群名>"`（见 `ds-bot/src/host/roster.js:557-559`）。
+   - 所以这一步是**请用户在界面里设**：群设置里把权限调到 `workspace-write`——够改任务目录，又碰不到系统。
+   - 用户设完再派活。没设就派，Bot 写文件会弹审批或被直接拒，白跑一轮。
+   - 这一步和 `work_dir` 是两件事：`work_dir` 决定写在哪，`permission` 决定能不能写。
+
+4. **派活**
    - 在群里 `@Bot` 派，写清目标、范围、验收标准、交付物路径。
    - 明确要求对方完成后回一句结论。
 
-4. **审查**
+5. **审查**
    - 代码审查 Bot 或主 Bot 复核；测试在任务目录里跑。
    - 验证要给出实际命令和结果，不接受「应该没问题」。
 
-5. **待确认（硬停）**
+6. **待确认（硬停）**
    - 不合并、不删 worktree、不删分支。
    - 汇报：改动文件、验证命令与结果、剩余风险。
    - 问用户是否还有要补的。
 
-6. **合并与回收（仅在用户明确要求后）**
+7. **合并与回收（仅在用户明确要求后）**
    ```bash
    git -C <任务目录> add <文件> && git -C <任务目录> commit -m "<说明>"
    git -C <源仓库> merge task/<任务名>
@@ -72,6 +82,7 @@ description: 在 DSH / ds-bot 多 Bot 团队里用 git worktree 隔离任务、�
 - 临时群干完要 `delete_group` 归档，worktree 要 `git worktree remove`，分支要删，否则越积越多。
 - 合并冲突时会留下 `MERGE_HEAD`，必须人工解，不能硬来。
 - 有会话正在该任务空间里跑时，`done` 会被拒绝，先让相关会话结束。
+- `create_group` 没有 `work_dir` 参数，建完群必须再 `update_group` 补，漏了这一步群里 Bot 会写到自己 workspace 里去。
 
 ## 交付
 
