@@ -9,11 +9,6 @@ Browser Control is a **driver**, not an agent. The calling agent decides what to
 do; Browser Control runs deterministic Playwright code in the user's visible
 browser.
 
-When Browser Control is installed as an OpenCode plugin, the plugin already
-registers this MCP server and exposes the packaged workflow as the `@browser`
-skill. Do not ask the user to install this skill separately or add an MCP
-configuration. Browser extension approval remains a separate user step.
-
 Use one loop throughout: **inspect, act, verify**. Inspect the real page before
 choosing locators, act through the narrowest stable control, then verify the
 result through a URL or fresh page read. Never treat a successful click or human
@@ -57,25 +52,23 @@ Completion: one execute returns a page result and a readable session id, or
 
 ### 2. Choose The Page Deliberately
 
-The bundled shim 0.0.26 preserves tab ownership during reconnection. Reload
+The bundled shim 0.0.25 verifies debugger ownership during reconnection. Reload
 the unpacked extension after installing this shim update. DevTools-attached tabs
 are excluded from Browser Control's inventory. `page.title()` reads time out
 after five seconds if the page execution context remains unavailable; the read
 timeout does not close or replace the tab.
 
-A bare CLI execute inside OpenCode reuses `oc-$OPENCODE_SESSION_ID` (lowercased), so calls
-from the same agent share one default tab. `--session` or
-`BROWSER_CONTROL_SESSION` takes precedence. Outside OpenCode, bare execute
-creates a fresh readable session and prints its continuation command.
-Use `execute --rm` for one-shot scripts: the relay closes all tabs that session
-opened after success or failure, even if the calling CLI disconnects. It cannot
-be combined with an explicit session.
+A bare CLI execute creates a fresh session-owned page and prints the exact
+`--session <id>` continuation command, or you can pass a descriptive session
+name (including an optional emoji, which appears directly on the browser tab
+group and in-page status pill). Every later CLI call must pass that id or set
+`BROWSER_CONTROL_SESSION`; bare execute never guesses from human-shell current
+state.
 
 ```bash
 browser-control session new "🎙️ elevenlabs"
 browser-control execute --session "🎙️ elevenlabs" 'return page.url()'
 browser-control execute 'return page.url()'
-browser-control execute --rm 'await page.goto("https://example.com"); return page.title()'
 ```
 
 MCP keeps one implicit process session. Omit `session` for that normal path, or
@@ -205,12 +198,6 @@ browser-control session delete github
 
 Deletion is idempotent for an explicit session id, so cleanup can be safely
 retried when that session is already absent.
-
-Reset, delete, and idle cleanup close every tab the session opened, including
-popups. After 15 idle minutes, all session names release their tabs, JavaScript
-state, and CDP connection; explicit names remain available for the next execute.
-User-owned tabs stay open and their debugger detaches after 15 idle minutes.
-Reattach through the toolbar before adopting them again.
 
 Every execute is journaled under
 `~/.browser-control/sessions/<id>/journal.jsonl`. The journal records code,
@@ -394,18 +381,10 @@ when another command needs to branch on `ok`, `value`, `error`, `warnings`, or
 browser-control execute --json --session github '({ url: page.url() })' | jq .value.url
 ```
 
-`page.waitForEvent("download")` intercepts both `Content-Disposition: attachment`
-responses (via CDP `Fetch`) and `<a download>` / `blob:` / `data:` links without
-opening Chrome's native Save confirmation dialog, returning a `Download` with
-`suggestedFilename()`, `await dl.path()`, and `await dl.saveAs(targetPath)`:
-
-```ts
-const dl = page.waitForEvent("download", { timeout: 30_000 })
-await page.getByRole("button", { name: /Generate a private key/i }).click()
-const download = await dl
-await download.saveAs("/tmp/private-key.pem")
-return { filename: download.suggestedFilename(), savedPath: await download.path() }
-```
+Playwright downloads are unavailable through extension-backed tabs because
+Chromium blocks download artifact control through `chrome.debugger`. If the
+page exposes the payload through fetch or an API response, read the bytes in the
+page and write them with `fs`. Do not retry `page.waitForEvent("download")`.
 
 Pages with WebMCP enabled can expose structured page tools. Discover and call
 them through the execute helper; names, descriptions, schemas, and results come
@@ -577,11 +556,6 @@ values fail instead of silently clamping. The start result reports the chosen ra
 Tab capture can include audio; CDP requires `ffmpeg` and has no audio. Use the
 command's `--help` for format and cursor options.
 
-Chrome allows tab capture only after the user clicks the Browser Control icon
-on that tab; no extension permission removes this. For agent-run recordings
-with no click, use CDP: it records any debugger-attached tab, and the encode is
-light (about a quarter of one core for a 15 fps 1440x900 MP4).
-
 Playwright mouse actions automatically reveal the on-page Ghost Cursor
 (`distance-glide` motion + `tactile-bloom` click shockwave). When recording a
 user-facing proof or PR walkthrough video, opt into the `ghostCursor` helpers
@@ -658,11 +632,6 @@ Common diagnoses:
   safe shutdown protocol 2. Legacy relays need a one-time coordinated manual
   stop; foreground/source or newer relays are never force-killed or downgraded.
   MCP observational tools remain available on a mismatch.
-- `Relay is draining…` or `Relay is shutting down…`: `status` and `doctor`
-  show the phase, how long it has lasted, and what holds it. A shutting-down
-  relay forces teardown after `BROWSER_CONTROL_SHUTDOWN_TIMEOUT_MS` (default
-  10s) and the next command starts a fresh relay; named sessions reattach. A
-  restart drain that cannot finish is cancelled and the old relay keeps running.
 - Unexpected restart: inspect private endpoint-scoped
   `~/.browser-control/relays/<port>/lifecycle.jsonl` for requester/build/instance
   metadata. Preparing or selecting a development candidate must not restart the
