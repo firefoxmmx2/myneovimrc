@@ -44,7 +44,7 @@ return {
             "workspace"
           )
           -- 每次回调构造全新的 cmd 表，避免共享表被反复追加导致无限增长
-          local cmd = { jdtls_bin }
+          local cmd = { jdtls_bin, "--java-executable=/usr/lib/jvm/java-21-openjdk/bin/java" }
           vim.list_extend(cmd, vim.tbl_map(function(arg)
             return "--jvm-arg=" .. arg
           end, vmargs))
@@ -53,7 +53,16 @@ return {
           local config = {
             cmd = cmd,
             root_dir = root_dir,
-            settings = { java = {} },
+            settings = {
+              java = {
+                configuration = {
+                  runtimes = {
+                    { name = "JavaSE-17", path = "/usr/lib/jvm/java-17-openjdk" },
+                    { name = "JavaSE-21", path = "/usr/lib/jvm/java-21-openjdk", default = true },
+                  },
+                },
+              },
+            },
           }
           if opts.on_attach then
             config.on_attach = opts.on_attach
