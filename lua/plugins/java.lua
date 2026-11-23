@@ -48,8 +48,8 @@ return {
           vim.list_extend(cmd, vim.tbl_map(function(arg)
             return "--jvm-arg=" .. arg
           end, vmargs))
-          -- 追加 --data 参数，指定 jdtls 工作区数据目录
-          vim.list_extend(cmd, { "--data", data_dir })
+          -- 追加 -data 参数（mason 的 jdtls.py 只认单横线 -data），指定 jdtls 工作区数据目录
+          vim.list_extend(cmd, { "-data", data_dir })
           local config = {
             cmd = cmd,
             root_dir = root_dir,
