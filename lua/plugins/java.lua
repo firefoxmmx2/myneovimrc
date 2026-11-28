@@ -29,7 +29,7 @@ return {
       -- Lombok：把 lombok.jar 作为 javaagent 挂到 jdtls 自己的 JVM 上
       -- 否则 @Data/@Getter/@Slf4j 生成的 getXxx/setXxx/log 在 JDT 编译器里不可见（报 undefined）
       -- jar 版本与项目依赖对齐：spring-boot-starter-parent 2.7.16 -> lombok 1.18.30
-      local lombok_jar = vim.fs.joinpath(vim.fn.stdpath("data"), "lombok", "lombok-1.18.30.jar")
+      local lombok_jar = vim.fs.joinpath(vim.fn.stdpath("data"), "lombok", "lombok-1.18.46.jar")
       if (vim.uv or vim.loop).fs_stat(lombok_jar) then
         table.insert(vmargs, "-javaagent:" .. lombok_jar)
       end
